@@ -1,0 +1,426 @@
+2021-09-06 15:40:56.756 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-06 15:40:56.793 +08:00 [INF] Hosting environment: Development
+2021-09-06 15:40:56.795 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-09-06 15:40:56.801 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-09-06 15:40:56.946 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-09-06 15:40:56.948 +08:00 [INF] post数据:
+2021-09-06 15:40:56.949 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-09-06 15:40:57.032 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 233.3302ms
+2021-09-06 15:40:57.055 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-09-06 15:40:57.056 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-09-06 15:40:57.058 +08:00 [INF] post数据:
+2021-09-06 15:40:57.059 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-09-06 15:40:57.094 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 39.3462ms
+2021-09-06 15:41:50.621 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/UserProfile/GetUserProfile application/json 346
+2021-09-06 15:41:50.635 +08:00 [INF] 请求地址:http://localhost:10294/api/UserProfile/GetUserProfile
+2021-09-06 15:41:50.636 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"","ID":"10112121201121111001","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"111231111112212121342134134","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-09-06 15:41:50.637 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-09-06 15:41:50.686 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp)'
+2021-09-06 15:41:50.728 +08:00 [INF] Route matched with {action = "GetUserProfile", controller = "UserProfile"}. Executing controller action with signature ydb.Domain.ResponseModel GetUserProfile(ydb.Domain.Models.UserProfile) on controller YRBApp.Controllers.UserProfileController (YRBApp).
+2021-09-06 15:41:50.889 +08:00 [INF] Executing action method YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp) - Validation state: "Valid"
+2021-09-06 15:41:51.279 +08:00 [INF] Executed action method YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 384.0441ms.
+2021-09-06 15:41:51.285 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-09-06 15:41:51.312 +08:00 [INF] Executed action YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp) in 580.3015ms
+2021-09-06 15:41:51.314 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp)'
+2021-09-06 15:41:51.316 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/UserProfile/GetUserProfile application/json 346 - 200 58 application/json;+charset=utf-8 695.1347ms
+2021-09-06 15:43:53.797 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-06 15:43:53.819 +08:00 [INF] Hosting environment: Development
+2021-09-06 15:43:53.822 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-09-06 15:43:53.820 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-09-06 15:43:53.956 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-09-06 15:43:53.957 +08:00 [INF] post数据:
+2021-09-06 15:43:53.958 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-09-06 15:43:54.050 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 233.3368ms
+2021-09-06 15:43:54.076 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-09-06 15:43:54.077 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-09-06 15:43:54.079 +08:00 [INF] post数据:
+2021-09-06 15:43:54.080 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-09-06 15:43:54.103 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 27.1938ms
+2021-09-06 15:43:59.237 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/UserProfile/GetUserProfile application/json 346
+2021-09-06 15:43:59.240 +08:00 [INF] 请求地址:http://localhost:10294/api/UserProfile/GetUserProfile
+2021-09-06 15:43:59.241 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"","ID":"10112121201121111001","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"111231111112212121342134134","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-09-06 15:43:59.242 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-09-06 15:43:59.285 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp)'
+2021-09-06 15:43:59.330 +08:00 [INF] Route matched with {action = "GetUserProfile", controller = "UserProfile"}. Executing controller action with signature ydb.Domain.ResponseModel GetUserProfile(ydb.Domain.Models.UserProfile) on controller YRBApp.Controllers.UserProfileController (YRBApp).
+2021-09-06 15:43:59.460 +08:00 [INF] Executing action method YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp) - Validation state: "Valid"
+2021-09-06 15:43:59.692 +08:00 [INF] Executed action method YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 225.3881ms.
+2021-09-06 15:43:59.697 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-09-06 15:43:59.724 +08:00 [INF] Executed action YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp) in 390.4357ms
+2021-09-06 15:43:59.726 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp)'
+2021-09-06 15:43:59.728 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/UserProfile/GetUserProfile application/json 346 - 200 45 application/json;+charset=utf-8 490.4040ms
+2021-09-06 15:47:14.890 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-06 15:47:14.911 +08:00 [INF] Hosting environment: Development
+2021-09-06 15:47:14.913 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-09-06 15:47:14.912 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-09-06 15:47:15.055 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-09-06 15:47:15.057 +08:00 [INF] post数据:
+2021-09-06 15:47:15.058 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-09-06 15:47:15.139 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 230.2080ms
+2021-09-06 15:47:15.162 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-09-06 15:47:15.164 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-09-06 15:47:15.166 +08:00 [INF] post数据:
+2021-09-06 15:47:15.168 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-09-06 15:47:15.190 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 27.3369ms
+2021-09-06 15:47:51.811 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-06 15:47:51.837 +08:00 [INF] Hosting environment: Development
+2021-09-06 15:47:51.837 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-09-06 15:47:51.840 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-09-06 15:47:51.989 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-09-06 15:47:51.990 +08:00 [INF] post数据:
+2021-09-06 15:47:51.991 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-09-06 15:47:52.067 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 232.4395ms
+2021-09-06 15:47:52.085 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-09-06 15:47:52.087 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-09-06 15:47:52.088 +08:00 [INF] post数据:
+2021-09-06 15:47:52.089 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-09-06 15:47:52.113 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 27.7077ms
+2021-09-06 15:48:36.931 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/UserProfile/SaveUserProfile application/json 373
+2021-09-06 15:48:36.932 +08:00 [INF] 请求地址:http://localhost:10294/api/UserProfile/SaveUserProfile
+2021-09-06 15:48:36.934 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"1234","FRouteStatus":"False","ID":"10112121201121111001","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"111231111112212121342134134","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-09-06 15:48:36.935 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-09-06 15:48:36.980 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.UserProfileController.SaveUserProfile (YRBApp)'
+2021-09-06 15:48:37.012 +08:00 [INF] Route matched with {action = "SaveUserProfile", controller = "UserProfile"}. Executing controller action with signature ydb.Domain.ResponseModel SaveUserProfile(ydb.Domain.Models.UserProfile) on controller YRBApp.Controllers.UserProfileController (YRBApp).
+2021-09-06 15:48:37.140 +08:00 [INF] Executing action method YRBApp.Controllers.UserProfileController.SaveUserProfile (YRBApp) - Validation state: "Valid"
+2021-09-06 15:48:54.764 +08:00 [INF] Executed action method YRBApp.Controllers.UserProfileController.SaveUserProfile (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 17617.2944ms.
+2021-09-06 15:48:54.770 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-09-06 15:48:54.798 +08:00 [INF] Executed action YRBApp.Controllers.UserProfileController.SaveUserProfile (YRBApp) in 17780.8841ms
+2021-09-06 15:48:54.801 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.UserProfileController.SaveUserProfile (YRBApp)'
+2021-09-06 15:48:54.803 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/UserProfile/SaveUserProfile application/json 373 - 200 62 application/json;+charset=utf-8 17876.9733ms
+2021-09-06 15:49:05.786 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/UserProfile/SaveUserProfile application/json 372
+2021-09-06 15:49:05.788 +08:00 [INF] 请求地址:http://localhost:10294/api/UserProfile/SaveUserProfile
+2021-09-06 15:49:05.789 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"1234","FRouteStatus":"True","ID":"10112121201121111001","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"111231111112212121342134134","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-09-06 15:49:05.791 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-09-06 15:49:05.797 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.UserProfileController.SaveUserProfile (YRBApp)'
+2021-09-06 15:49:05.799 +08:00 [INF] Route matched with {action = "SaveUserProfile", controller = "UserProfile"}. Executing controller action with signature ydb.Domain.ResponseModel SaveUserProfile(ydb.Domain.Models.UserProfile) on controller YRBApp.Controllers.UserProfileController (YRBApp).
+2021-09-06 15:49:05.832 +08:00 [INF] Executing action method YRBApp.Controllers.UserProfileController.SaveUserProfile (YRBApp) - Validation state: "Valid"
+2021-09-06 15:49:33.253 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-06 15:49:33.275 +08:00 [INF] Hosting environment: Development
+2021-09-06 15:49:33.277 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-09-06 15:49:33.276 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-09-06 15:49:33.416 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-09-06 15:49:33.418 +08:00 [INF] post数据:
+2021-09-06 15:49:33.419 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-09-06 15:49:33.501 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 227.4746ms
+2021-09-06 15:49:33.521 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-09-06 15:49:33.523 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-09-06 15:49:33.524 +08:00 [INF] post数据:
+2021-09-06 15:49:33.525 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-09-06 15:49:33.551 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 29.7551ms
+2021-09-06 15:49:37.384 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/UserProfile/SaveUserProfile application/json 372
+2021-09-06 15:49:37.386 +08:00 [INF] 请求地址:http://localhost:10294/api/UserProfile/SaveUserProfile
+2021-09-06 15:49:37.387 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"1234","FRouteStatus":"True","ID":"10112121201121111001","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"111231111112212121342134134","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-09-06 15:49:37.388 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-09-06 15:49:37.430 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.UserProfileController.SaveUserProfile (YRBApp)'
+2021-09-06 15:49:37.462 +08:00 [INF] Route matched with {action = "SaveUserProfile", controller = "UserProfile"}. Executing controller action with signature ydb.Domain.ResponseModel SaveUserProfile(ydb.Domain.Models.UserProfile) on controller YRBApp.Controllers.UserProfileController (YRBApp).
+2021-09-06 15:49:37.592 +08:00 [INF] Executing action method YRBApp.Controllers.UserProfileController.SaveUserProfile (YRBApp) - Validation state: "Valid"
+2021-09-06 15:49:37.819 +08:00 [INF] Executed action method YRBApp.Controllers.UserProfileController.SaveUserProfile (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 221.3091ms.
+2021-09-06 15:49:37.824 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-09-06 15:49:37.855 +08:00 [INF] Executed action YRBApp.Controllers.UserProfileController.SaveUserProfile (YRBApp) in 388.4726ms
+2021-09-06 15:49:37.856 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.UserProfileController.SaveUserProfile (YRBApp)'
+2021-09-06 15:49:37.858 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/UserProfile/SaveUserProfile application/json 372 - 200 62 application/json;+charset=utf-8 474.1760ms
+2021-09-06 15:49:54.751 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-06 15:49:54.773 +08:00 [INF] Hosting environment: Development
+2021-09-06 15:49:54.775 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-09-06 15:49:54.774 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-09-06 15:49:54.909 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-09-06 15:49:54.910 +08:00 [INF] post数据:
+2021-09-06 15:49:54.912 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-09-06 15:49:54.994 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 223.1517ms
+2021-09-06 15:49:55.015 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-09-06 15:49:55.017 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-09-06 15:49:55.018 +08:00 [INF] post数据:
+2021-09-06 15:49:55.019 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-09-06 15:49:55.042 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 27.0319ms
+2021-09-06 15:50:24.329 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-06 15:50:24.356 +08:00 [INF] Hosting environment: Development
+2021-09-06 15:50:24.357 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-09-06 15:50:24.360 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-09-06 15:50:24.493 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-09-06 15:50:24.495 +08:00 [INF] post数据:
+2021-09-06 15:50:24.496 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-09-06 15:50:24.578 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 223.9975ms
+2021-09-06 15:50:24.599 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-09-06 15:50:24.600 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-09-06 15:50:24.601 +08:00 [INF] post数据:
+2021-09-06 15:50:24.602 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-09-06 15:50:24.624 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 25.5224ms
+2021-09-06 15:50:24.934 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/UserProfile/SaveUserProfile application/json 372
+2021-09-06 15:50:24.936 +08:00 [INF] 请求地址:http://localhost:10294/api/UserProfile/SaveUserProfile
+2021-09-06 15:50:24.937 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"1234","FRouteStatus":"True","ID":"10112121201121111001","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"111231111112212121342134134","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-09-06 15:50:24.938 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-09-06 15:50:24.982 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.UserProfileController.SaveUserProfile (YRBApp)'
+2021-09-06 15:50:25.016 +08:00 [INF] Route matched with {action = "SaveUserProfile", controller = "UserProfile"}. Executing controller action with signature ydb.Domain.ResponseModel SaveUserProfile(ydb.Domain.Models.UserProfile) on controller YRBApp.Controllers.UserProfileController (YRBApp).
+2021-09-06 15:50:25.141 +08:00 [INF] Executing action method YRBApp.Controllers.UserProfileController.SaveUserProfile (YRBApp) - Validation state: "Valid"
+2021-09-06 16:40:45.506 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-06 16:40:45.526 +08:00 [INF] Hosting environment: Development
+2021-09-06 16:40:45.528 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-09-06 16:40:45.527 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-09-06 16:40:45.663 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-09-06 16:40:45.664 +08:00 [INF] post数据:
+2021-09-06 16:40:45.665 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-09-06 16:40:45.746 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 221.9192ms
+2021-09-06 16:40:45.772 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-09-06 16:40:45.774 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-09-06 16:40:45.775 +08:00 [INF] post数据:
+2021-09-06 16:40:45.776 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-09-06 16:40:45.807 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 35.1176ms
+2021-09-06 16:40:49.097 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/UserProfile/SaveUserProfile application/json 369
+2021-09-06 16:40:49.099 +08:00 [INF] 请求地址:http://localhost:10294/api/UserProfile/SaveUserProfile
+2021-09-06 16:40:49.101 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"1234","AutoState":"True","ID":"10112121201121111001","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"111231111112212121342134134","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-09-06 16:40:49.102 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-09-06 16:40:49.145 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.UserProfileController.SaveUserProfile (YRBApp)'
+2021-09-06 16:40:49.183 +08:00 [INF] Route matched with {action = "SaveUserProfile", controller = "UserProfile"}. Executing controller action with signature ydb.Domain.ResponseModel SaveUserProfile(ydb.Domain.Models.UserProfile) on controller YRBApp.Controllers.UserProfileController (YRBApp).
+2021-09-06 16:40:49.309 +08:00 [INF] Executing action method YRBApp.Controllers.UserProfileController.SaveUserProfile (YRBApp) - Validation state: "Valid"
+2021-09-06 16:40:49.528 +08:00 [INF] Executed action method YRBApp.Controllers.UserProfileController.SaveUserProfile (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 213.6863ms.
+2021-09-06 16:40:49.535 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-09-06 16:40:49.564 +08:00 [INF] Executed action YRBApp.Controllers.UserProfileController.SaveUserProfile (YRBApp) in 376.4808ms
+2021-09-06 16:40:49.567 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.UserProfileController.SaveUserProfile (YRBApp)'
+2021-09-06 16:40:49.569 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/UserProfile/SaveUserProfile application/json 369 - 200 62 application/json;+charset=utf-8 472.2292ms
+2021-09-06 16:41:22.371 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-06 16:41:22.398 +08:00 [INF] Hosting environment: Development
+2021-09-06 16:41:22.400 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-09-06 16:41:22.401 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-09-06 16:41:22.538 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-09-06 16:41:22.539 +08:00 [INF] post数据:
+2021-09-06 16:41:22.540 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-09-06 16:41:22.618 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 222.6255ms
+2021-09-06 16:41:22.640 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-09-06 16:41:22.642 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-09-06 16:41:22.644 +08:00 [INF] post数据:
+2021-09-06 16:41:22.645 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-09-06 16:41:22.668 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 27.8113ms
+2021-09-06 16:41:30.894 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/UserProfile/SaveUserProfile application/json 369
+2021-09-06 16:41:30.896 +08:00 [INF] 请求地址:http://localhost:10294/api/UserProfile/SaveUserProfile
+2021-09-06 16:41:30.897 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"1234","AutoState":"True","ID":"10112121201121111001","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"111231111112212121342134134","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-09-06 16:41:30.899 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-09-06 16:41:30.944 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.UserProfileController.SaveUserProfile (YRBApp)'
+2021-09-06 16:41:30.982 +08:00 [INF] Route matched with {action = "SaveUserProfile", controller = "UserProfile"}. Executing controller action with signature ydb.Domain.ResponseModel SaveUserProfile(ydb.Domain.Models.UserProfile) on controller YRBApp.Controllers.UserProfileController (YRBApp).
+2021-09-06 16:41:31.111 +08:00 [INF] Executing action method YRBApp.Controllers.UserProfileController.SaveUserProfile (YRBApp) - Validation state: "Valid"
+2021-09-06 16:42:52.183 +08:00 [INF] Executed action method YRBApp.Controllers.UserProfileController.SaveUserProfile (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 81064.2736ms.
+2021-09-06 16:42:52.188 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-09-06 16:42:52.216 +08:00 [INF] Executed action YRBApp.Controllers.UserProfileController.SaveUserProfile (YRBApp) in 81229.4461ms
+2021-09-06 16:42:52.218 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.UserProfileController.SaveUserProfile (YRBApp)'
+2021-09-06 16:42:52.220 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/UserProfile/SaveUserProfile application/json 369 - 200 62 application/json;+charset=utf-8 81325.7995ms
+2021-09-06 16:42:55.419 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/UserProfile/SaveUserProfile application/json 369
+2021-09-06 16:42:55.421 +08:00 [INF] 请求地址:http://localhost:10294/api/UserProfile/SaveUserProfile
+2021-09-06 16:42:55.422 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"1234","AutoState":"True","ID":"10112121201121111001","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"111231111112212121342134134","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-09-06 16:42:55.423 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-09-06 16:42:55.427 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.UserProfileController.SaveUserProfile (YRBApp)'
+2021-09-06 16:42:55.429 +08:00 [INF] Route matched with {action = "SaveUserProfile", controller = "UserProfile"}. Executing controller action with signature ydb.Domain.ResponseModel SaveUserProfile(ydb.Domain.Models.UserProfile) on controller YRBApp.Controllers.UserProfileController (YRBApp).
+2021-09-06 16:42:55.441 +08:00 [INF] Executing action method YRBApp.Controllers.UserProfileController.SaveUserProfile (YRBApp) - Validation state: "Valid"
+2021-09-06 16:45:57.976 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-06 16:45:57.997 +08:00 [INF] Hosting environment: Development
+2021-09-06 16:45:57.999 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-09-06 16:45:57.998 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-09-06 16:45:58.136 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-09-06 16:45:58.138 +08:00 [INF] post数据:
+2021-09-06 16:45:58.139 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-09-06 16:45:58.216 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 221.0524ms
+2021-09-06 16:45:58.238 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-09-06 16:45:58.240 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-09-06 16:45:58.242 +08:00 [INF] post数据:
+2021-09-06 16:45:58.243 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-09-06 16:45:58.269 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 30.7170ms
+2021-09-06 16:46:03.527 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/UserProfile/SaveUserProfile application/json 369
+2021-09-06 16:46:03.529 +08:00 [INF] 请求地址:http://localhost:10294/api/UserProfile/SaveUserProfile
+2021-09-06 16:46:03.530 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"1234","AutoState":"True","ID":"10112121201121111001","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"111231111112212121342134134","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-09-06 16:46:03.531 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-09-06 16:46:03.568 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.UserProfileController.SaveUserProfile (YRBApp)'
+2021-09-06 16:46:03.600 +08:00 [INF] Route matched with {action = "SaveUserProfile", controller = "UserProfile"}. Executing controller action with signature ydb.Domain.ResponseModel SaveUserProfile(ydb.Domain.Models.UserProfile) on controller YRBApp.Controllers.UserProfileController (YRBApp).
+2021-09-06 16:46:03.734 +08:00 [INF] Executing action method YRBApp.Controllers.UserProfileController.SaveUserProfile (YRBApp) - Validation state: "Valid"
+2021-09-06 16:46:03.980 +08:00 [INF] Executed action method YRBApp.Controllers.UserProfileController.SaveUserProfile (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 239.6648ms.
+2021-09-06 16:46:03.985 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-09-06 16:46:04.012 +08:00 [INF] Executed action YRBApp.Controllers.UserProfileController.SaveUserProfile (YRBApp) in 408.275ms
+2021-09-06 16:46:04.014 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.UserProfileController.SaveUserProfile (YRBApp)'
+2021-09-06 16:46:04.016 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/UserProfile/SaveUserProfile application/json 369 - 200 62 application/json;+charset=utf-8 488.7935ms
+2021-09-06 16:46:13.052 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/UserProfile/GetUserProfile application/json 369
+2021-09-06 16:46:13.053 +08:00 [INF] 请求地址:http://localhost:10294/api/UserProfile/GetUserProfile
+2021-09-06 16:46:13.054 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"1234","AutoState":"True","ID":"10112121201121111001","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"111231111112212121342134134","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-09-06 16:46:13.055 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-09-06 16:46:13.061 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp)'
+2021-09-06 16:46:13.064 +08:00 [INF] Route matched with {action = "GetUserProfile", controller = "UserProfile"}. Executing controller action with signature ydb.Domain.ResponseModel GetUserProfile(ydb.Domain.Models.UserProfile) on controller YRBApp.Controllers.UserProfileController (YRBApp).
+2021-09-06 16:46:13.077 +08:00 [INF] Executing action method YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp) - Validation state: "Valid"
+2021-09-06 16:46:13.107 +08:00 [INF] Executed action method YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 28.8959ms.
+2021-09-06 16:46:13.109 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-09-06 16:46:13.111 +08:00 [INF] Executed action YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp) in 45.595ms
+2021-09-06 16:46:13.113 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp)'
+2021-09-06 16:46:13.114 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/UserProfile/GetUserProfile application/json 369 - 200 49 application/json;+charset=utf-8 62.7660ms
+2021-09-06 16:46:23.424 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/UserProfile/GetUserProfile application/json 370
+2021-09-06 16:46:23.426 +08:00 [INF] 请求地址:http://localhost:10294/api/UserProfile/GetUserProfile
+2021-09-06 16:46:23.427 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"1234","AutoState":"False","ID":"10112121201121111001","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"111231111112212121342134134","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-09-06 16:46:23.428 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-09-06 16:46:23.429 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp)'
+2021-09-06 16:46:23.430 +08:00 [INF] Route matched with {action = "GetUserProfile", controller = "UserProfile"}. Executing controller action with signature ydb.Domain.ResponseModel GetUserProfile(ydb.Domain.Models.UserProfile) on controller YRBApp.Controllers.UserProfileController (YRBApp).
+2021-09-06 16:46:23.442 +08:00 [INF] Executing action method YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp) - Validation state: "Valid"
+2021-09-06 16:46:23.465 +08:00 [INF] Executed action method YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 22.7329ms.
+2021-09-06 16:46:23.467 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-09-06 16:46:23.469 +08:00 [INF] Executed action YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp) in 37.254ms
+2021-09-06 16:46:23.470 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp)'
+2021-09-06 16:46:23.472 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/UserProfile/GetUserProfile application/json 370 - 200 50 application/json;+charset=utf-8 47.8558ms
+2021-09-06 16:46:40.875 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/UserProfile/GetUserProfile application/json 369
+2021-09-06 16:46:40.877 +08:00 [INF] 请求地址:http://localhost:10294/api/UserProfile/GetUserProfile
+2021-09-06 16:46:40.879 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"1234","AutoState":"True","ID":"10112121201121111001","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"111231111112212121342134134","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-09-06 16:46:40.880 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-09-06 16:46:40.882 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp)'
+2021-09-06 16:46:40.883 +08:00 [INF] Route matched with {action = "GetUserProfile", controller = "UserProfile"}. Executing controller action with signature ydb.Domain.ResponseModel GetUserProfile(ydb.Domain.Models.UserProfile) on controller YRBApp.Controllers.UserProfileController (YRBApp).
+2021-09-06 16:46:40.894 +08:00 [INF] Executing action method YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp) - Validation state: "Valid"
+2021-09-06 16:46:40.922 +08:00 [INF] Executed action method YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 26.9319ms.
+2021-09-06 16:46:40.925 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-09-06 16:46:40.927 +08:00 [INF] Executed action YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp) in 43.0549ms
+2021-09-06 16:46:40.929 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp)'
+2021-09-06 16:46:40.930 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/UserProfile/GetUserProfile application/json 369 - 200 49 application/json;+charset=utf-8 54.9638ms
+2021-09-06 16:50:17.538 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-06 16:50:17.561 +08:00 [INF] Hosting environment: Development
+2021-09-06 16:50:17.562 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-09-06 16:50:17.561 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-09-06 16:50:17.698 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-09-06 16:50:17.699 +08:00 [INF] post数据:
+2021-09-06 16:50:17.700 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-09-06 16:50:17.783 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 223.9659ms
+2021-09-06 16:50:17.811 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-09-06 16:50:17.812 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-09-06 16:50:17.814 +08:00 [INF] post数据:
+2021-09-06 16:50:17.815 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-09-06 16:50:17.839 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 28.4398ms
+2021-09-06 16:50:20.226 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/UserProfile/GetUserProfile application/json 369
+2021-09-06 16:50:20.227 +08:00 [INF] 请求地址:http://localhost:10294/api/UserProfile/GetUserProfile
+2021-09-06 16:50:20.228 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"1234","AutoState":"True","ID":"10112121201121111001","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"111231111112212121342134134","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-09-06 16:50:20.229 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-09-06 16:50:20.275 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp)'
+2021-09-06 16:50:20.313 +08:00 [INF] Route matched with {action = "GetUserProfile", controller = "UserProfile"}. Executing controller action with signature ydb.Domain.ResponseModel GetUserProfile(ydb.Domain.Models.UserProfile) on controller YRBApp.Controllers.UserProfileController (YRBApp).
+2021-09-06 16:50:20.444 +08:00 [INF] Executing action method YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp) - Validation state: "Valid"
+2021-09-06 16:50:20.672 +08:00 [INF] Executed action method YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 221.2512ms.
+2021-09-06 16:50:20.678 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-09-06 16:50:20.705 +08:00 [INF] Executed action YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp) in 387.7498ms
+2021-09-06 16:50:20.707 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp)'
+2021-09-06 16:50:20.709 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/UserProfile/GetUserProfile application/json 369 - 200 48 application/json;+charset=utf-8 482.9604ms
+2021-09-06 16:50:25.143 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/UserProfile/GetUserProfile application/json 369
+2021-09-06 16:50:25.145 +08:00 [INF] 请求地址:http://localhost:10294/api/UserProfile/GetUserProfile
+2021-09-06 16:50:25.146 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"1234","AutoState":"True","ID":"10112121201121111001","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"111231111112212121342134134","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-09-06 16:50:25.147 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-09-06 16:50:25.151 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp)'
+2021-09-06 16:50:25.153 +08:00 [INF] Route matched with {action = "GetUserProfile", controller = "UserProfile"}. Executing controller action with signature ydb.Domain.ResponseModel GetUserProfile(ydb.Domain.Models.UserProfile) on controller YRBApp.Controllers.UserProfileController (YRBApp).
+2021-09-06 16:50:25.164 +08:00 [INF] Executing action method YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp) - Validation state: "Valid"
+2021-09-06 16:50:25.191 +08:00 [INF] Executed action method YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 25.5498ms.
+2021-09-06 16:50:25.192 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-09-06 16:50:25.194 +08:00 [INF] Executed action YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp) in 39.5596ms
+2021-09-06 16:50:25.195 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp)'
+2021-09-06 16:50:25.196 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/UserProfile/GetUserProfile application/json 369 - 200 48 application/json;+charset=utf-8 52.8873ms
+2021-09-06 16:50:26.287 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/UserProfile/GetUserProfile application/json 369
+2021-09-06 16:50:26.289 +08:00 [INF] 请求地址:http://localhost:10294/api/UserProfile/GetUserProfile
+2021-09-06 16:50:26.291 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"1234","AutoState":"True","ID":"10112121201121111001","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"111231111112212121342134134","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-09-06 16:50:26.292 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-09-06 16:50:26.294 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp)'
+2021-09-06 16:50:26.295 +08:00 [INF] Route matched with {action = "GetUserProfile", controller = "UserProfile"}. Executing controller action with signature ydb.Domain.ResponseModel GetUserProfile(ydb.Domain.Models.UserProfile) on controller YRBApp.Controllers.UserProfileController (YRBApp).
+2021-09-06 16:50:26.309 +08:00 [INF] Executing action method YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp) - Validation state: "Valid"
+2021-09-06 16:50:26.328 +08:00 [INF] Executed action method YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 18.4233ms.
+2021-09-06 16:50:26.330 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-09-06 16:50:26.332 +08:00 [INF] Executed action YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp) in 34.9005ms
+2021-09-06 16:50:26.333 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp)'
+2021-09-06 16:50:26.335 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/UserProfile/GetUserProfile application/json 369 - 200 48 application/json;+charset=utf-8 47.6717ms
+2021-09-06 16:50:50.021 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-06 16:50:50.043 +08:00 [INF] Hosting environment: Development
+2021-09-06 16:50:50.045 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-09-06 16:50:50.043 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-09-06 16:50:50.178 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-09-06 16:50:50.180 +08:00 [INF] post数据:
+2021-09-06 16:50:50.181 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-09-06 16:50:50.260 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 219.2798ms
+2021-09-06 16:50:50.278 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-09-06 16:50:50.279 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-09-06 16:50:50.280 +08:00 [INF] post数据:
+2021-09-06 16:50:50.281 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-09-06 16:50:50.305 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 27.4032ms
+2021-09-06 16:50:54.630 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/UserProfile/SaveUserProfile application/json 369
+2021-09-06 16:50:54.631 +08:00 [INF] 请求地址:http://localhost:10294/api/UserProfile/SaveUserProfile
+2021-09-06 16:50:54.633 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"1234","AutoState":"True","ID":"10112121201121111001","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"111231111112212121342134134","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-09-06 16:50:54.634 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-09-06 16:50:54.677 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.UserProfileController.SaveUserProfile (YRBApp)'
+2021-09-06 16:50:54.714 +08:00 [INF] Route matched with {action = "SaveUserProfile", controller = "UserProfile"}. Executing controller action with signature ydb.Domain.ResponseModel SaveUserProfile(ydb.Domain.Models.UserProfile) on controller YRBApp.Controllers.UserProfileController (YRBApp).
+2021-09-06 16:50:54.848 +08:00 [INF] Executing action method YRBApp.Controllers.UserProfileController.SaveUserProfile (YRBApp) - Validation state: "Valid"
+2021-09-06 16:50:55.093 +08:00 [INF] Executed action method YRBApp.Controllers.UserProfileController.SaveUserProfile (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 238.9621ms.
+2021-09-06 16:50:55.098 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-09-06 16:50:55.126 +08:00 [INF] Executed action YRBApp.Controllers.UserProfileController.SaveUserProfile (YRBApp) in 408.1073ms
+2021-09-06 16:50:55.128 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.UserProfileController.SaveUserProfile (YRBApp)'
+2021-09-06 16:50:55.130 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/UserProfile/SaveUserProfile application/json 369 - 200 62 application/json;+charset=utf-8 500.0585ms
+2021-09-06 16:51:02.770 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/UserProfile/GetUserProfile application/json 369
+2021-09-06 16:51:02.772 +08:00 [INF] 请求地址:http://localhost:10294/api/UserProfile/GetUserProfile
+2021-09-06 16:51:02.773 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"1234","AutoState":"True","ID":"10112121201121111001","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"111231111112212121342134134","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-09-06 16:51:02.774 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-09-06 16:51:02.778 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp)'
+2021-09-06 16:51:02.781 +08:00 [INF] Route matched with {action = "GetUserProfile", controller = "UserProfile"}. Executing controller action with signature ydb.Domain.ResponseModel GetUserProfile(ydb.Domain.Models.UserProfile) on controller YRBApp.Controllers.UserProfileController (YRBApp).
+2021-09-06 16:51:02.793 +08:00 [INF] Executing action method YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp) - Validation state: "Valid"
+2021-09-06 16:51:02.815 +08:00 [INF] Executed action method YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 21.3084ms.
+2021-09-06 16:51:02.817 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-09-06 16:51:02.819 +08:00 [INF] Executed action YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp) in 37.3827ms
+2021-09-06 16:51:02.821 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp)'
+2021-09-06 16:51:02.822 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/UserProfile/GetUserProfile application/json 369 - 200 48 application/json;+charset=utf-8 51.5680ms
+2021-09-06 16:51:04.224 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/UserProfile/GetUserProfile application/json 369
+2021-09-06 16:51:04.226 +08:00 [INF] 请求地址:http://localhost:10294/api/UserProfile/GetUserProfile
+2021-09-06 16:51:04.227 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"1234","AutoState":"True","ID":"10112121201121111001","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"111231111112212121342134134","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-09-06 16:51:04.229 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-09-06 16:51:04.230 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp)'
+2021-09-06 16:51:04.232 +08:00 [INF] Route matched with {action = "GetUserProfile", controller = "UserProfile"}. Executing controller action with signature ydb.Domain.ResponseModel GetUserProfile(ydb.Domain.Models.UserProfile) on controller YRBApp.Controllers.UserProfileController (YRBApp).
+2021-09-06 16:51:04.244 +08:00 [INF] Executing action method YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp) - Validation state: "Valid"
+2021-09-06 16:51:04.264 +08:00 [INF] Executed action method YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 18.7374ms.
+2021-09-06 16:51:04.266 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-09-06 16:51:04.268 +08:00 [INF] Executed action YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp) in 33.8541ms
+2021-09-06 16:51:04.270 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp)'
+2021-09-06 16:51:04.271 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/UserProfile/GetUserProfile application/json 369 - 200 48 application/json;+charset=utf-8 46.9763ms
+2021-09-06 16:51:04.837 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/UserProfile/GetUserProfile application/json 369
+2021-09-06 16:51:04.839 +08:00 [INF] 请求地址:http://localhost:10294/api/UserProfile/GetUserProfile
+2021-09-06 16:51:04.840 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"1234","AutoState":"True","ID":"10112121201121111001","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"111231111112212121342134134","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-09-06 16:51:04.841 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-09-06 16:51:04.843 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp)'
+2021-09-06 16:51:04.844 +08:00 [INF] Route matched with {action = "GetUserProfile", controller = "UserProfile"}. Executing controller action with signature ydb.Domain.ResponseModel GetUserProfile(ydb.Domain.Models.UserProfile) on controller YRBApp.Controllers.UserProfileController (YRBApp).
+2021-09-06 16:51:04.857 +08:00 [INF] Executing action method YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp) - Validation state: "Valid"
+2021-09-06 16:51:04.882 +08:00 [INF] Executed action method YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 23.6642ms.
+2021-09-06 16:51:04.883 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-09-06 16:51:04.885 +08:00 [INF] Executed action YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp) in 39.5079ms
+2021-09-06 16:51:04.887 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp)'
+2021-09-06 16:51:04.888 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/UserProfile/GetUserProfile application/json 369 - 200 48 application/json;+charset=utf-8 51.0664ms
+2021-09-06 16:51:29.368 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-06 16:51:29.391 +08:00 [INF] Hosting environment: Development
+2021-09-06 16:51:29.393 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-09-06 16:51:29.391 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-09-06 16:51:29.529 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-09-06 16:51:29.530 +08:00 [INF] post数据:
+2021-09-06 16:51:29.531 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-09-06 16:51:29.610 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 221.7142ms
+2021-09-06 16:51:29.634 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-09-06 16:51:29.636 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-09-06 16:51:29.638 +08:00 [INF] post数据:
+2021-09-06 16:51:29.640 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-09-06 16:51:29.662 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 27.8058ms
+2021-09-06 16:51:45.339 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/UserProfile/GetUserProfile application/json 369
+2021-09-06 16:51:45.341 +08:00 [INF] 请求地址:http://localhost:10294/api/UserProfile/GetUserProfile
+2021-09-06 16:51:45.342 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"1234","AutoState":"True","ID":"10112121201121111001","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"111231111112212121342134134","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-09-06 16:51:45.343 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-09-06 16:51:45.393 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp)'
+2021-09-06 16:51:45.438 +08:00 [INF] Route matched with {action = "GetUserProfile", controller = "UserProfile"}. Executing controller action with signature ydb.Domain.ResponseModel GetUserProfile(ydb.Domain.Models.UserProfile) on controller YRBApp.Controllers.UserProfileController (YRBApp).
+2021-09-06 16:51:45.563 +08:00 [INF] Executing action method YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp) - Validation state: "Valid"
+2021-09-06 16:52:10.462 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-06 16:52:10.483 +08:00 [INF] Hosting environment: Development
+2021-09-06 16:52:10.485 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-09-06 16:52:10.484 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-09-06 16:52:10.622 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-09-06 16:52:10.624 +08:00 [INF] post数据:
+2021-09-06 16:52:10.625 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-09-06 16:52:10.706 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 225.3815ms
+2021-09-06 16:52:10.725 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-09-06 16:52:10.727 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-09-06 16:52:10.727 +08:00 [INF] post数据:
+2021-09-06 16:52:10.728 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-09-06 16:52:10.752 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 26.7101ms
+2021-09-06 16:52:11.352 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/UserProfile/GetUserProfile application/json 369
+2021-09-06 16:52:11.354 +08:00 [INF] 请求地址:http://localhost:10294/api/UserProfile/GetUserProfile
+2021-09-06 16:52:11.355 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"1234","AutoState":"True","ID":"10112121201121111001","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"111231111112212121342134134","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-09-06 16:52:11.356 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-09-06 16:52:11.401 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp)'
+2021-09-06 16:52:11.433 +08:00 [INF] Route matched with {action = "GetUserProfile", controller = "UserProfile"}. Executing controller action with signature ydb.Domain.ResponseModel GetUserProfile(ydb.Domain.Models.UserProfile) on controller YRBApp.Controllers.UserProfileController (YRBApp).
+2021-09-06 16:52:11.562 +08:00 [INF] Executing action method YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp) - Validation state: "Valid"
+2021-09-06 16:52:11.782 +08:00 [INF] Executed action method YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 213.6265ms.
+2021-09-06 16:52:11.788 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-09-06 16:52:11.818 +08:00 [INF] Executed action YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp) in 381.1794ms
+2021-09-06 16:52:11.820 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.UserProfileController.GetUserProfile (YRBApp)'
+2021-09-06 16:52:11.822 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/UserProfile/GetUserProfile application/json 369 - 200 49 application/json;+charset=utf-8 470.5959ms

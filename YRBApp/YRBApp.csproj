@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>57fe51e1-ed34-4575-97d4-3ee3a1ff502b</UserSecretsId>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>release\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Confluent.Kafka" Version="1.7.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.6" />
+    <PackageReference Include="Microsoft.DotNet.Watcher.Tools" Version="2.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="StackExchange.Redis" Version="2.2.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\iTR.LibCore\iTR.LibCore.csproj" />
+    <ProjectReference Include="..\ydb.BLL.Works\ydb.BLL.Works.csproj" />
+    <ProjectReference Include="..\ydb.BLL\ydb.BLL.csproj" />
+    <ProjectReference Include="..\ydb.Common\ydb.Common.BLL.csproj" />
+    <ProjectReference Include="..\ydb.Domain\ydb.Domain.csproj" />
+    <ProjectReference Include="..\ydb.Report\ydb.Report.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Connected Services\" />
+    <Folder Include="Logs\" />
+    <Folder Include="ServicesExtention\" />
+  </ItemGroup>
+
+</Project>

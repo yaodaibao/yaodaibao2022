@@ -1,0 +1,19 @@
+2021-08-02 09:58:10.459 +08:00 [INF] User profile is available. Using 'C:\Users\TR-Employee\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-02 09:58:10.963 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-02 09:58:10.964 +08:00 [INF] Hosting environment: Development
+2021-08-02 09:58:10.966 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-08-02 09:58:11.024 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-08-02 09:58:11.062 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-08-02 09:58:11.064 +08:00 [INF] post数据:
+2021-08-02 09:58:11.065 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.62
+2021-08-02 09:58:11.281 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 258.6184ms
+2021-08-02 09:58:11.404 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-02 09:58:11.407 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-02 09:58:11.409 +08:00 [INF] post数据:
+2021-08-02 09:58:11.411 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.62
+2021-08-02 09:58:11.501 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 96.2602ms
+2021-08-02 09:58:11.503 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-02 09:58:11.505 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-02 09:58:11.507 +08:00 [INF] post数据:
+2021-08-02 09:58:11.508 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.62
+2021-08-02 09:58:11.544 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 41.0026ms

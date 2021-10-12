@@ -1,0 +1,536 @@
+2021-08-26 11:18:07.269 +08:00 [INF] User profile is available. Using 'C:\Users\TR-Employee\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-26 11:18:32.005 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-26 11:18:32.007 +08:00 [INF] Hosting environment: Development
+2021-08-26 11:18:32.008 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-08-26 11:18:34.725 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-08-26 11:18:37.043 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-08-26 11:18:37.045 +08:00 [INF] post数据:
+2021-08-26 11:18:37.046 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 11:18:38.165 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 3440.1625ms
+2021-08-26 11:18:39.114 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 11:18:39.115 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 11:18:39.116 +08:00 [INF] post数据:
+2021-08-26 11:18:39.117 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 11:18:40.266 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 1152.6982ms
+2021-08-26 11:20:07.818 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/routeinvoke/saveautoroutedata - 0
+2021-08-26 11:20:07.819 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/saveautoroutedata
+2021-08-26 11:20:07.820 +08:00 [INF] post数据:
+2021-08-26 11:20:07.821 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-08-26 11:20:07.843 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/routeinvoke/saveautoroutedata - 0 - 200 - - 29.0851ms
+2021-08-26 11:21:29.380 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/routeinvoke/saveautoroutedata - 0
+2021-08-26 11:21:29.386 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/saveautoroutedata
+2021-08-26 11:21:29.387 +08:00 [INF] post数据:
+2021-08-26 11:21:29.388 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-08-26 11:21:29.418 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/routeinvoke/saveautoroutedata - 0 - 200 - - 38.3567ms
+2021-08-26 11:21:34.972 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/routeinvoke/saveautoroutedata - 0
+2021-08-26 11:21:34.974 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/saveautoroutedata
+2021-08-26 11:21:34.975 +08:00 [INF] post数据:
+2021-08-26 11:21:34.976 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-08-26 11:21:35.002 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/routeinvoke/saveautoroutedata - 0 - 200 - - 29.6105ms
+2021-08-26 11:21:37.496 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/routeinvoke/saveautoroutedata - 0
+2021-08-26 11:21:37.498 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/saveautoroutedata
+2021-08-26 11:21:37.499 +08:00 [INF] post数据:
+2021-08-26 11:21:37.500 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-08-26 11:21:37.523 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/routeinvoke/saveautoroutedata - 0 - 200 - - 26.7537ms
+2021-08-26 11:22:28.416 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/routeinvoke/saveautoroutedata - 0
+2021-08-26 11:22:28.420 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/saveautoroutedata
+2021-08-26 11:22:28.422 +08:00 [INF] post数据:
+2021-08-26 11:22:28.423 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-08-26 11:22:28.482 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/routeinvoke/saveautoroutedata - 0 - 200 - - 66.3752ms
+2021-08-26 11:22:41.285 +08:00 [INF] User profile is available. Using 'C:\Users\TR-Employee\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-26 11:22:41.534 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-26 11:22:41.536 +08:00 [INF] Hosting environment: Development
+2021-08-26 11:22:41.537 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-08-26 11:22:41.575 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-08-26 11:22:41.605 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-08-26 11:22:41.607 +08:00 [INF] post数据:
+2021-08-26 11:22:41.608 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 11:22:41.699 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 125.0494ms
+2021-08-26 11:22:41.737 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 11:22:41.739 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 11:22:41.741 +08:00 [INF] post数据:
+2021-08-26 11:22:41.742 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 11:22:41.765 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 27.4895ms
+2021-08-26 11:22:41.766 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 11:22:41.767 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 11:22:41.768 +08:00 [INF] post数据:
+2021-08-26 11:22:41.769 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 11:22:41.790 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 24.1224ms
+2021-08-26 11:22:45.673 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/routeinvoke/saveautoroutedata - 0
+2021-08-26 11:22:45.676 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/saveautoroutedata
+2021-08-26 11:22:45.677 +08:00 [INF] post数据:
+2021-08-26 11:22:45.678 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-08-26 11:22:45.702 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/routeinvoke/saveautoroutedata - 0 - 200 - - 29.0468ms
+2021-08-26 11:22:46.485 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/routeinvoke/saveautoroutedata - 0
+2021-08-26 11:22:46.487 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/saveautoroutedata
+2021-08-26 11:22:46.488 +08:00 [INF] post数据:
+2021-08-26 11:22:46.489 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-08-26 11:22:46.512 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/routeinvoke/saveautoroutedata - 0 - 200 - - 26.4020ms
+2021-08-26 11:22:47.015 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/routeinvoke/saveautoroutedata - 0
+2021-08-26 11:22:47.021 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/saveautoroutedata
+2021-08-26 11:22:47.022 +08:00 [INF] post数据:
+2021-08-26 11:22:47.023 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-08-26 11:22:47.049 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/routeinvoke/saveautoroutedata - 0 - 200 - - 34.0290ms
+2021-08-26 11:22:55.506 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/routeinvoke/saveautoroutedata - 0
+2021-08-26 11:22:55.509 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/saveautoroutedata
+2021-08-26 11:22:55.511 +08:00 [INF] post数据:
+2021-08-26 11:22:55.512 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-08-26 11:22:55.538 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/routeinvoke/saveautoroutedata - 0 - 200 - - 31.1796ms
+2021-08-26 11:23:56.625 +08:00 [INF] User profile is available. Using 'C:\Users\TR-Employee\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-26 11:23:56.831 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-26 11:23:56.832 +08:00 [INF] Hosting environment: Development
+2021-08-26 11:23:56.833 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-08-26 11:23:56.877 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-08-26 11:23:56.877 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 11:23:56.901 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 11:23:56.902 +08:00 [INF] post数据:
+2021-08-26 11:23:56.901 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-08-26 11:23:56.904 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 11:23:56.904 +08:00 [INF] post数据:
+2021-08-26 11:23:56.907 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 11:23:57.026 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 150.5032ms
+2021-08-26 11:23:57.026 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 150.4754ms
+2021-08-26 11:23:57.058 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 11:23:57.060 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 11:23:57.061 +08:00 [INF] post数据:
+2021-08-26 11:23:57.062 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 11:23:57.087 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 29.3773ms
+2021-08-26 11:23:57.581 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 11:23:57.582 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 11:23:57.583 +08:00 [INF] post数据:
+2021-08-26 11:23:57.584 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 11:23:57.608 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 27.5573ms
+2021-08-26 11:24:10.494 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/api/routeinvoke/get - -
+2021-08-26 11:24:10.495 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/get
+2021-08-26 11:24:10.496 +08:00 [INF] post数据:
+2021-08-26 11:24:10.497 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-08-26 11:24:10.521 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/api/routeinvoke/get - - - 200 - - 26.7158ms
+2021-08-26 11:24:11.390 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/api/routeinvoke/get - -
+2021-08-26 11:24:11.392 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/get
+2021-08-26 11:24:11.394 +08:00 [INF] post数据:
+2021-08-26 11:24:11.395 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-08-26 11:24:11.422 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/api/routeinvoke/get - - - 200 - - 32.1847ms
+2021-08-26 11:24:38.326 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/api/routeinvoke/test - -
+2021-08-26 11:24:38.328 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/test
+2021-08-26 11:24:38.333 +08:00 [INF] post数据:
+2021-08-26 11:24:38.335 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-08-26 11:24:38.359 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/api/routeinvoke/test - - - 200 - - 33.2532ms
+2021-08-26 11:24:45.034 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/api/routeinvoke/test - -
+2021-08-26 11:24:45.035 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/test
+2021-08-26 11:24:45.036 +08:00 [INF] post数据:
+2021-08-26 11:24:45.037 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 11:24:45.068 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/api/routeinvoke/test - - - 200 - - 33.9204ms
+2021-08-26 11:24:45.079 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 11:24:45.080 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 11:24:45.082 +08:00 [INF] post数据:
+2021-08-26 11:24:45.083 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 11:24:45.109 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 29.4551ms
+2021-08-26 11:25:18.421 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/api/routeinvoke/SaveAutoRouteData - -
+2021-08-26 11:25:18.423 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/SaveAutoRouteData
+2021-08-26 11:25:18.428 +08:00 [INF] post数据:
+2021-08-26 11:25:18.430 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 11:25:18.489 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/api/routeinvoke/SaveAutoRouteData - - - 200 - - 67.5708ms
+2021-08-26 11:25:18.519 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 11:25:18.540 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 11:25:18.542 +08:00 [INF] post数据:
+2021-08-26 11:25:18.543 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 11:25:18.567 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 48.3053ms
+2021-08-26 13:05:55.890 +08:00 [INF] User profile is available. Using 'C:\Users\TR-Employee\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-26 13:05:56.169 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-26 13:05:56.171 +08:00 [INF] Hosting environment: Development
+2021-08-26 13:05:56.172 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-08-26 13:05:56.220 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-08-26 13:05:56.220 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 13:05:56.244 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 13:05:56.244 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-08-26 13:05:56.245 +08:00 [INF] post数据:
+2021-08-26 13:05:56.246 +08:00 [INF] post数据:
+2021-08-26 13:05:56.248 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 13:05:56.249 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 13:05:56.408 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 189.4464ms
+2021-08-26 13:05:56.408 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 189.4468ms
+2021-08-26 13:05:56.452 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 13:05:56.454 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 13:05:56.455 +08:00 [INF] post数据:
+2021-08-26 13:05:56.457 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 13:05:56.485 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 32.4579ms
+2021-08-26 13:05:56.790 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 13:05:56.792 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 13:05:56.794 +08:00 [INF] post数据:
+2021-08-26 13:05:56.795 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 13:05:56.823 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 32.9382ms
+2021-08-26 13:05:56.825 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 13:05:56.827 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 13:05:56.828 +08:00 [INF] post数据:
+2021-08-26 13:05:56.830 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 13:05:56.862 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 36.7691ms
+2021-08-26 13:06:22.888 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/api/auth/queryitem - -
+2021-08-26 13:06:22.890 +08:00 [INF] 请求地址:http://localhost:10294/api/auth/queryitem
+2021-08-26 13:06:22.894 +08:00 [INF] post数据:
+2021-08-26 13:06:22.895 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 13:06:22.922 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/api/auth/queryitem - - - 200 - - 33.8953ms
+2021-08-26 13:06:22.948 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 13:06:22.956 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 13:06:22.957 +08:00 [INF] post数据:
+2021-08-26 13:06:22.958 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 13:06:22.984 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 36.5061ms
+2021-08-26 13:08:56.799 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SaveAutoRouteData application/json 93
+2021-08-26 13:08:56.801 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/SaveAutoRouteData
+2021-08-26 13:08:56.802 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"123413"}
+2021-08-26 13:08:56.803 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-08-26 13:08:56.852 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp)'
+2021-08-26 13:08:56.923 +08:00 [INF] Route matched with {action = "SaveAutoRouteData", controller = "RouteInvoke"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] SaveAutoRouteData(ydb.Domain.Models.MiniLocationPoint) on controller YRBApp.Controllers.RouteInvokeController (YRBApp).
+2021-08-26 13:08:57.060 +08:00 [INF] Executed action YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp) in 131.6637ms
+2021-08-26 13:08:57.083 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp)'
+2021-08-26 13:08:57.125 +08:00 [ERR] Unable to resolve service for type 'ydb.Domain.Interface.IAutoRouteService' while attempting to activate 'YRBApp.Controllers.RouteInvokeController'.
+2021-08-26 13:09:07.543 +08:00 [INF] 服务消息:{"Result":"false","Description":"Unable to resolve service for type 'ydb.Domain.Interface.IAutoRouteService' while attempting to activate 'YRBApp.Controllers.RouteInvokeController'.","DataRows":{"DataRow":[]} }
+2021-08-26 13:09:07.547 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SaveAutoRouteData application/json 93 - 200 - text/json 10751.5048ms
+2021-08-26 13:10:57.814 +08:00 [INF] User profile is available. Using 'C:\Users\TR-Employee\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-26 13:10:58.023 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-26 13:10:58.024 +08:00 [INF] Hosting environment: Development
+2021-08-26 13:10:58.025 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-08-26 13:10:58.069 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 13:10:58.069 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-08-26 13:10:58.093 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 13:10:58.093 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-08-26 13:10:58.094 +08:00 [INF] post数据:
+2021-08-26 13:10:58.095 +08:00 [INF] post数据:
+2021-08-26 13:10:58.097 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 13:10:58.097 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 13:10:58.261 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 193.1559ms
+2021-08-26 13:10:58.261 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 193.1579ms
+2021-08-26 13:10:58.292 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 13:10:58.294 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 13:10:58.295 +08:00 [INF] post数据:
+2021-08-26 13:10:58.296 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 13:10:58.323 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 31.1532ms
+2021-08-26 13:11:00.612 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SaveAutoRouteData application/json 93
+2021-08-26 13:11:00.615 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/SaveAutoRouteData
+2021-08-26 13:11:00.617 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"123413"}
+2021-08-26 13:11:00.619 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-08-26 13:11:00.658 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp)'
+2021-08-26 13:11:00.695 +08:00 [INF] Route matched with {action = "SaveAutoRouteData", controller = "RouteInvoke"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] SaveAutoRouteData(ydb.Domain.Models.MiniLocationPoint) on controller YRBApp.Controllers.RouteInvokeController (YRBApp).
+2021-08-26 13:11:03.139 +08:00 [INF] Executing action method YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp) - Validation state: "Valid"
+2021-08-26 13:16:22.846 +08:00 [INF] User profile is available. Using 'C:\Users\TR-Employee\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-26 13:16:23.063 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-26 13:16:23.065 +08:00 [INF] Hosting environment: Development
+2021-08-26 13:16:23.066 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-08-26 13:16:23.111 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 13:16:23.111 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-08-26 13:16:23.135 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-08-26 13:16:23.135 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 13:16:23.136 +08:00 [INF] post数据:
+2021-08-26 13:16:23.137 +08:00 [INF] post数据:
+2021-08-26 13:16:23.139 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 13:16:23.139 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 13:16:23.301 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 190.6195ms
+2021-08-26 13:16:23.301 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 190.6198ms
+2021-08-26 13:16:23.335 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 13:16:23.337 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 13:16:23.338 +08:00 [INF] post数据:
+2021-08-26 13:16:23.339 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 13:16:23.363 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 28.0883ms
+2021-08-26 13:16:23.831 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 13:16:23.833 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 13:16:23.834 +08:00 [INF] post数据:
+2021-08-26 13:16:23.836 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 13:16:23.870 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 38.8782ms
+2021-08-26 13:17:28.753 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SaveAutoRouteData application/json 141
+2021-08-26 13:17:28.754 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/SaveAutoRouteData
+2021-08-26 13:17:28.756 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"123413","MiniSurrAddress":[{"ID":"235434"},{"ID":5555}]}
+2021-08-26 13:17:28.757 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-08-26 13:17:28.802 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp)'
+2021-08-26 13:17:28.850 +08:00 [INF] Route matched with {action = "SaveAutoRouteData", controller = "RouteInvoke"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] SaveAutoRouteData(ydb.Domain.Models.MiniLocationPoint) on controller YRBApp.Controllers.RouteInvokeController (YRBApp).
+2021-08-26 13:17:28.972 +08:00 [INF] Executing action method YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp) - Validation state: "Valid"
+2021-08-26 13:51:37.940 +08:00 [INF] User profile is available. Using 'C:\Users\TR-Employee\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-26 13:51:38.148 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-26 13:51:38.150 +08:00 [INF] Hosting environment: Development
+2021-08-26 13:51:38.151 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-08-26 13:51:38.195 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-08-26 13:51:38.195 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 13:51:38.218 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 13:51:38.218 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-08-26 13:51:38.219 +08:00 [INF] post数据:
+2021-08-26 13:51:38.221 +08:00 [INF] post数据:
+2021-08-26 13:51:38.222 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 13:51:38.222 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 13:51:38.390 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 195.7982ms
+2021-08-26 13:51:38.390 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 195.7983ms
+2021-08-26 13:51:38.421 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 13:51:38.423 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 13:51:38.424 +08:00 [INF] post数据:
+2021-08-26 13:51:38.425 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 13:51:38.450 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 28.7925ms
+2021-08-26 13:51:38.944 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 13:51:38.946 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 13:51:38.947 +08:00 [INF] post数据:
+2021-08-26 13:51:38.949 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 13:51:38.974 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 30.6298ms
+2021-08-26 13:51:38.976 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 13:51:38.978 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 13:51:38.979 +08:00 [INF] post数据:
+2021-08-26 13:51:38.980 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 13:51:39.006 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 29.5956ms
+2021-08-26 13:53:18.789 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SaveAutoRouteData application/json 141
+2021-08-26 13:53:18.790 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/SaveAutoRouteData
+2021-08-26 13:53:18.791 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"123413","MiniSurrAddress":[{"ID":"235434"},{"ID":5555}]}
+2021-08-26 13:53:18.792 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-08-26 13:53:18.834 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp)'
+2021-08-26 13:53:18.880 +08:00 [INF] Route matched with {action = "SaveAutoRouteData", controller = "RouteInvoke"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] SaveAutoRouteData(ydb.Domain.Models.MiniLocationPoint) on controller YRBApp.Controllers.RouteInvokeController (YRBApp).
+2021-08-26 13:53:19.004 +08:00 [INF] Executing action method YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp) - Validation state: "Valid"
+2021-08-26 13:57:39.920 +08:00 [INF] User profile is available. Using 'C:\Users\TR-Employee\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-26 13:57:42.511 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-26 13:57:42.513 +08:00 [INF] Hosting environment: Development
+2021-08-26 13:57:42.514 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-08-26 13:57:42.548 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-08-26 13:57:42.569 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-08-26 13:57:42.571 +08:00 [INF] post数据:
+2021-08-26 13:57:42.572 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 13:57:42.703 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 155.8192ms
+2021-08-26 13:57:42.739 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 13:57:42.741 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 13:57:42.743 +08:00 [INF] post数据:
+2021-08-26 13:57:42.744 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 13:57:42.768 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 29.5441ms
+2021-08-26 13:58:03.365 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SaveAutoRouteData application/json 141
+2021-08-26 13:58:03.366 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/SaveAutoRouteData
+2021-08-26 13:58:03.367 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"123413","MiniSurrAddress":[{"ID":"235434"},{"ID":5555}]}
+2021-08-26 13:58:03.368 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-08-26 13:58:03.409 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp)'
+2021-08-26 13:58:03.455 +08:00 [INF] Route matched with {action = "SaveAutoRouteData", controller = "RouteInvoke"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] SaveAutoRouteData(ydb.Domain.Models.MiniLocationPoint) on controller YRBApp.Controllers.RouteInvokeController (YRBApp).
+2021-08-26 13:58:03.574 +08:00 [INF] Executing action method YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp) - Validation state: "Valid"
+2021-08-26 13:58:48.484 +08:00 [INF] Executed action YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp) in 45024.6804ms
+2021-08-26 13:58:48.534 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp)'
+2021-08-26 13:58:48.665 +08:00 [ERR] 关键字 'set' 附近有语法错误。关键字 'set' 附近有语法错误。关键字 'set' 附近有语法错误。
+2021-08-26 13:58:48.779 +08:00 [INF] 服务消息:{"Result":"false","Description":"关键字 'set' 附近有语法错误。
+关键字 'set' 附近有语法错误。
+关键字 'set' 附近有语法错误。","DataRows":{"DataRow":[]} }
+2021-08-26 13:58:48.782 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SaveAutoRouteData application/json 141 - 200 - text/json 45422.5014ms
+2021-08-26 14:13:23.998 +08:00 [INF] User profile is available. Using 'C:\Users\TR-Employee\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-26 14:14:10.855 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-26 14:14:10.856 +08:00 [INF] Hosting environment: Development
+2021-08-26 14:14:10.858 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-08-26 14:14:10.939 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 14:14:10.939 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-08-26 14:14:10.939 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-08-26 14:14:10.939 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 14:14:10.939 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-08-26 14:14:10.964 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-08-26 14:14:10.964 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-08-26 14:14:10.964 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-08-26 14:14:10.966 +08:00 [INF] post数据:
+2021-08-26 14:14:10.967 +08:00 [INF] post数据:
+2021-08-26 14:14:10.964 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 14:14:10.968 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 14:14:10.968 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 14:14:10.969 +08:00 [INF] post数据:
+2021-08-26 14:14:10.965 +08:00 [INF] post数据:
+2021-08-26 14:14:10.971 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 14:14:10.972 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 14:14:10.964 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 14:14:10.974 +08:00 [INF] post数据:
+2021-08-26 14:14:10.975 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 14:14:11.194 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 256.8725ms
+2021-08-26 14:14:11.194 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 256.8741ms
+2021-08-26 14:14:11.194 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 256.8738ms
+2021-08-26 14:14:11.194 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 256.8735ms
+2021-08-26 14:14:11.194 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 256.8742ms
+2021-08-26 14:14:11.235 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 14:14:11.237 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 14:14:11.239 +08:00 [INF] post数据:
+2021-08-26 14:14:11.240 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 14:14:11.266 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 30.5730ms
+2021-08-26 14:14:11.267 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 14:14:11.268 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 14:14:11.269 +08:00 [INF] post数据:
+2021-08-26 14:14:11.270 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 14:14:11.294 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 26.5173ms
+2021-08-26 14:14:11.295 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 14:14:11.297 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 14:14:11.298 +08:00 [INF] post数据:
+2021-08-26 14:14:11.299 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 14:14:11.321 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 25.5911ms
+2021-08-26 14:14:36.683 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SaveAutoRouteData application/json 315
+2021-08-26 14:14:36.685 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/SaveAutoRouteData
+2021-08-26 14:14:36.686 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"123413","ID":"0000","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"235434","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-08-26 14:14:36.686 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-08-26 14:14:36.729 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp)'
+2021-08-26 14:14:36.778 +08:00 [INF] Route matched with {action = "SaveAutoRouteData", controller = "RouteInvoke"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] SaveAutoRouteData(ydb.Domain.Models.MiniLocationPoint) on controller YRBApp.Controllers.RouteInvokeController (YRBApp).
+2021-08-26 14:14:36.895 +08:00 [INF] Executing action method YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp) - Validation state: "Valid"
+2021-08-26 14:24:58.644 +08:00 [INF] User profile is available. Using 'C:\Users\TR-Employee\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-26 14:24:58.907 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-26 14:24:58.909 +08:00 [INF] Hosting environment: Development
+2021-08-26 14:24:58.910 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-08-26 14:24:58.959 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 14:24:58.959 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-08-26 14:24:58.984 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 14:24:58.984 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-08-26 14:24:58.985 +08:00 [INF] post数据:
+2021-08-26 14:24:58.986 +08:00 [INF] post数据:
+2021-08-26 14:24:58.989 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 14:24:58.989 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 14:24:59.110 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 151.4823ms
+2021-08-26 14:24:59.110 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 151.4822ms
+2021-08-26 14:24:59.184 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 14:24:59.187 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 14:24:59.189 +08:00 [INF] post数据:
+2021-08-26 14:24:59.191 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 14:24:59.232 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 48.6323ms
+2021-08-26 14:24:59.265 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 14:24:59.267 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 14:24:59.269 +08:00 [INF] post数据:
+2021-08-26 14:24:59.270 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 14:24:59.298 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 32.7944ms
+2021-08-26 14:24:59.300 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 14:24:59.301 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 14:24:59.302 +08:00 [INF] post数据:
+2021-08-26 14:24:59.303 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 14:24:59.325 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 25.3342ms
+2021-08-26 14:24:59.326 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 14:24:59.328 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 14:24:59.329 +08:00 [INF] post数据:
+2021-08-26 14:24:59.330 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 14:24:59.352 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 25.9095ms
+2021-08-26 14:25:00.741 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 14:25:00.743 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 14:25:00.744 +08:00 [INF] post数据:
+2021-08-26 14:25:00.745 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 14:25:00.770 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 28.0884ms
+2021-08-26 14:25:01.454 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SaveAutoRouteData application/json 315
+2021-08-26 14:25:01.455 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/SaveAutoRouteData
+2021-08-26 14:25:01.456 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"123413","ID":"0000","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"235434","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-08-26 14:25:01.457 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-08-26 14:25:01.497 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp)'
+2021-08-26 14:25:01.538 +08:00 [INF] Route matched with {action = "SaveAutoRouteData", controller = "RouteInvoke"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] SaveAutoRouteData(ydb.Domain.Models.MiniLocationPoint) on controller YRBApp.Controllers.RouteInvokeController (YRBApp).
+2021-08-26 14:25:01.655 +08:00 [INF] Executing action method YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp) - Validation state: "Valid"
+2021-08-26 14:25:21.747 +08:00 [INF] User profile is available. Using 'C:\Users\TR-Employee\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-26 14:25:21.984 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-26 14:25:21.986 +08:00 [INF] Hosting environment: Development
+2021-08-26 14:25:21.987 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-08-26 14:25:22.027 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 14:25:22.027 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-08-26 14:25:22.050 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-08-26 14:25:22.050 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 14:25:22.051 +08:00 [INF] post数据:
+2021-08-26 14:25:22.052 +08:00 [INF] post数据:
+2021-08-26 14:25:22.054 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 14:25:22.054 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 14:25:22.222 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 195.7494ms
+2021-08-26 14:25:22.222 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 195.7493ms
+2021-08-26 14:25:22.250 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 14:25:22.252 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 14:25:22.253 +08:00 [INF] post数据:
+2021-08-26 14:25:22.254 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 14:25:22.279 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 28.6968ms
+2021-08-26 14:25:22.728 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 14:25:22.730 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 14:25:22.731 +08:00 [INF] post数据:
+2021-08-26 14:25:22.732 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 14:25:22.757 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 29.2683ms
+2021-08-26 14:25:22.759 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 14:25:22.761 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 14:25:22.762 +08:00 [INF] post数据:
+2021-08-26 14:25:22.763 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 14:25:22.787 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 28.4668ms
+2021-08-26 14:25:22.790 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 14:25:22.791 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 14:25:22.793 +08:00 [INF] post数据:
+2021-08-26 14:25:22.794 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 14:25:22.817 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 27.9370ms
+2021-08-26 14:25:23.906 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 14:25:23.908 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 14:25:23.909 +08:00 [INF] post数据:
+2021-08-26 14:25:23.910 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 14:25:23.934 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 27.1595ms
+2021-08-26 14:25:24.240 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 14:25:24.242 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 14:25:24.243 +08:00 [INF] post数据:
+2021-08-26 14:25:24.245 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 14:25:24.270 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 30.6600ms
+2021-08-26 14:25:25.350 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SaveAutoRouteData application/json 315
+2021-08-26 14:25:25.352 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/SaveAutoRouteData
+2021-08-26 14:25:25.354 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"123413","ID":"0000","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"235434","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-08-26 14:25:25.355 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-08-26 14:25:25.393 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp)'
+2021-08-26 14:25:25.432 +08:00 [INF] Route matched with {action = "SaveAutoRouteData", controller = "RouteInvoke"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] SaveAutoRouteData(ydb.Domain.Models.MiniLocationPoint) on controller YRBApp.Controllers.RouteInvokeController (YRBApp).
+2021-08-26 14:25:25.556 +08:00 [INF] Executing action method YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp) - Validation state: "Valid"
+2021-08-26 14:25:31.095 +08:00 [INF] Executed action YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp) in 5658.5578ms
+2021-08-26 14:25:31.146 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp)'
+2021-08-26 14:25:31.273 +08:00 [ERR] “=”附近有语法错误。
+2021-08-26 14:25:31.385 +08:00 [INF] 服务消息:{"Result":"false","Description":"“=”附近有语法错误。","DataRows":{"DataRow":[]} }
+2021-08-26 14:25:31.388 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SaveAutoRouteData application/json 315 - 200 - text/json 6037.7870ms
+2021-08-26 14:26:00.349 +08:00 [INF] User profile is available. Using 'C:\Users\TR-Employee\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-26 14:26:00.589 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-26 14:26:00.591 +08:00 [INF] Hosting environment: Development
+2021-08-26 14:26:00.592 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-08-26 14:26:00.635 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-08-26 14:26:00.635 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 14:26:00.657 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 14:26:00.657 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-08-26 14:26:00.659 +08:00 [INF] post数据:
+2021-08-26 14:26:00.659 +08:00 [INF] post数据:
+2021-08-26 14:26:00.660 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 14:26:00.661 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 14:26:00.831 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 196.2790ms
+2021-08-26 14:26:00.831 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 196.2845ms
+2021-08-26 14:26:00.865 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 14:26:00.867 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 14:26:00.868 +08:00 [INF] post数据:
+2021-08-26 14:26:00.869 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 14:26:00.892 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 27.1384ms
+2021-08-26 14:26:01.291 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 14:26:01.293 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 14:26:01.295 +08:00 [INF] post数据:
+2021-08-26 14:26:01.296 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 14:26:01.321 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 30.1042ms
+2021-08-26 14:26:01.323 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 14:26:01.324 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 14:26:01.325 +08:00 [INF] post数据:
+2021-08-26 14:26:01.326 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 14:26:01.349 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 26.3812ms
+2021-08-26 14:26:01.350 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 14:26:01.351 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 14:26:01.352 +08:00 [INF] post数据:
+2021-08-26 14:26:01.353 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 14:26:01.376 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 25.2055ms
+2021-08-26 14:26:01.931 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SaveAutoRouteData application/json 315
+2021-08-26 14:26:01.933 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/SaveAutoRouteData
+2021-08-26 14:26:01.934 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"123413","ID":"0000","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"235434","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-08-26 14:26:01.935 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-08-26 14:26:01.974 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp)'
+2021-08-26 14:26:02.011 +08:00 [INF] Route matched with {action = "SaveAutoRouteData", controller = "RouteInvoke"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] SaveAutoRouteData(ydb.Domain.Models.MiniLocationPoint) on controller YRBApp.Controllers.RouteInvokeController (YRBApp).
+2021-08-26 14:26:02.131 +08:00 [INF] Executing action method YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp) - Validation state: "Valid"
+2021-08-26 14:26:10.035 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 14:26:10.037 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 14:26:10.038 +08:00 [INF] post数据:
+2021-08-26 14:26:10.039 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 14:26:10.105 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 69.0186ms
+2021-08-26 14:26:10.106 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 14:26:10.108 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 14:26:10.111 +08:00 [INF] post数据:
+2021-08-26 14:26:10.117 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 14:26:10.149 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 42.3929ms
+2021-08-26 14:26:10.150 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-26 14:26:10.152 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-26 14:26:10.154 +08:00 [INF] post数据:
+2021-08-26 14:26:10.158 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78
+2021-08-26 14:26:10.185 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 34.1172ms
+2021-08-26 14:26:21.645 +08:00 [INF] Executed action YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp) in 19628.7808ms
+2021-08-26 14:26:21.696 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp)'
+2021-08-26 14:26:21.823 +08:00 [ERR] 违反了 PRIMARY KEY 约束“PK_MiniPositionRecord”。不能在对象“dbo.MiniLocationPoint”中插入重复键。重复键值为 (0000)。语句已终止。
+2021-08-26 14:26:21.948 +08:00 [INF] 服务消息:{"Result":"false","Description":"违反了 PRIMARY KEY 约束“PK_MiniPositionRecord”。不能在对象“dbo.MiniLocationPoint”中插入重复键。重复键值为 (0000)。
+语句已终止。","DataRows":{"DataRow":[]} }
+2021-08-26 14:26:21.951 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SaveAutoRouteData application/json 315 - 200 - text/json 20019.4697ms
+2021-08-26 14:26:37.013 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SaveAutoRouteData application/json 317
+2021-08-26 14:26:37.015 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/SaveAutoRouteData
+2021-08-26 14:26:37.016 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"123413","ID":"00001","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"2354341","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-08-26 14:26:37.018 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-08-26 14:26:37.022 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp)'
+2021-08-26 14:26:37.024 +08:00 [INF] Route matched with {action = "SaveAutoRouteData", controller = "RouteInvoke"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] SaveAutoRouteData(ydb.Domain.Models.MiniLocationPoint) on controller YRBApp.Controllers.RouteInvokeController (YRBApp).
+2021-08-26 14:26:37.041 +08:00 [INF] Executing action method YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp) - Validation state: "Valid"
+2021-08-26 14:26:41.944 +08:00 [INF] Executed action method YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4897.7067ms.
+2021-08-26 14:26:41.950 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-08-26 14:26:41.976 +08:00 [INF] Executed action YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp) in 4951.1979ms
+2021-08-26 14:26:41.978 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp)'
+2021-08-26 14:26:41.980 +08:00 [INF] 服务消息:{"Result":"true","Description":"保存成功！","DataRows":{"DataRow":[]} }
+2021-08-26 14:26:41.982 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SaveAutoRouteData application/json 317 - 200 62 text/json 4968.5968ms

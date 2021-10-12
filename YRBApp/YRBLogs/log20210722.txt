@@ -1,0 +1,66 @@
+2021-07-22 09:48:13.853 +08:00 [INF] User profile is available. Using 'C:\Users\TR-Employee\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-07-22 09:48:14.250 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-22 09:48:14.252 +08:00 [INF] Hosting environment: Development
+2021-07-22 09:48:14.253 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-07-22 09:48:14.299 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-22 09:48:14.337 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-07-22 09:48:14.339 +08:00 [INF] post数据:
+2021-07-22 09:48:14.341 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36
+2021-07-22 09:48:14.447 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 148.9441ms
+2021-07-22 09:48:14.491 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-22 09:48:14.492 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-22 09:48:14.493 +08:00 [INF] post数据:
+2021-07-22 09:48:14.495 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36
+2021-07-22 09:48:14.518 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 26.8425ms
+2021-07-22 09:49:24.269 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/SaveAuthData application/json 465
+2021-07-22 09:49:24.271 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/SaveAuthData
+2021-07-22 09:49:24.272 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"4255873149499886263","savetype":0,"formid":"","hospitalid":"-2698249428350251920","hospitalname":"北京环球中医院","productname":"丙戊酸钠20*200","productid":"AZd33d13-4f8b-4ee4-84c5-49ff7c8691c28","salemode":"1000","salemodename":"招商","autherid":"4255873149499886263","authername":"白婉鑫","applyerid":"","applyername":"","grid":"1000","gridname":"华中大区"}
+2021-07-22 09:49:24.273 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-22 09:49:24.321 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.SaveAuthData (YRBApp)'
+2021-07-22 09:49:24.376 +08:00 [INF] Route matched with {action = "SaveAuthData", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] SaveAuthData() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-22 09:49:24.419 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.SaveAuthData (YRBApp) - Validation state: "Valid"
+2021-07-22 09:49:25.186 +08:00 [INF] Executed action method YRBApp.Controllers.AuthController.SaveAuthData (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 760.2731ms.
+2021-07-22 09:49:25.193 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-07-22 09:49:25.264 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.SaveAuthData (YRBApp) in 883.171ms
+2021-07-22 09:49:25.266 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.SaveAuthData (YRBApp)'
+2021-07-22 09:49:25.279 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[]} }
+2021-07-22 09:49:25.282 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/SaveAuthData application/json 465 - 200 47 text/json 1017.1056ms
+2021-07-22 09:49:52.462 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/SaveAuthData application/json 465
+2021-07-22 09:49:52.464 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/SaveAuthData
+2021-07-22 09:49:52.470 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"4255873149499886263","savetype":0,"formid":"","hospitalid":"-2698249428350251920","hospitalname":"北京环球中医院","productname":"丙戊酸钠20*200","productid":"AZd33d13-4f8b-4ee4-84c5-49ff7c8691c28","salemode":"1000","salemodename":"招商","autherid":"4255873149499886263","authername":"白婉鑫","applyerid":"","applyername":"","grid":"1000","gridname":"华中大区"}
+2021-07-22 09:49:52.472 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-22 09:49:52.475 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.SaveAuthData (YRBApp)'
+2021-07-22 09:49:52.477 +08:00 [INF] Route matched with {action = "SaveAuthData", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] SaveAuthData() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-22 09:49:52.500 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.SaveAuthData (YRBApp) - Validation state: "Valid"
+2021-07-22 09:50:33.166 +08:00 [INF] Executed action method YRBApp.Controllers.AuthController.SaveAuthData (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 40665.1497ms.
+2021-07-22 09:50:33.228 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-07-22 09:50:33.254 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.SaveAuthData (YRBApp) in 40776.2529ms
+2021-07-22 09:50:33.280 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.SaveAuthData (YRBApp)'
+2021-07-22 09:50:38.921 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[]} }
+2021-07-22 09:50:38.928 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/SaveAuthData application/json 465 - 200 47 text/json 46466.4649ms
+2021-07-22 09:50:47.595 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/SaveAuthData application/json 465
+2021-07-22 09:50:47.596 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/SaveAuthData
+2021-07-22 09:50:47.597 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"4255873149499886263","savetype":0,"formid":"","hospitalid":"-2698249428350251920","hospitalname":"北京环球中医院","productname":"丙戊酸钠20*200","productid":"AZd33d13-4f8b-4ee4-84c5-49ff7c8691c28","salemode":"1000","salemodename":"招商","autherid":"4255873149499886263","authername":"白婉鑫","applyerid":"","applyername":"","grid":"1000","gridname":"华中大区"}
+2021-07-22 09:50:47.599 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-22 09:50:47.600 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.SaveAuthData (YRBApp)'
+2021-07-22 09:50:47.602 +08:00 [INF] Route matched with {action = "SaveAuthData", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] SaveAuthData() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-22 09:50:47.614 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.SaveAuthData (YRBApp) - Validation state: "Valid"
+2021-07-22 09:50:54.514 +08:00 [INF] Executed action method YRBApp.Controllers.AuthController.SaveAuthData (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 6898.85ms.
+2021-07-22 09:50:54.516 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-07-22 09:50:54.518 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.SaveAuthData (YRBApp) in 6914.1054ms
+2021-07-22 09:50:54.519 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.SaveAuthData (YRBApp)'
+2021-07-22 09:50:54.520 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[]} }
+2021-07-22 09:50:54.522 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/SaveAuthData application/json 465 - 200 47 text/json 6927.2611ms
+2021-07-22 09:50:57.943 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/SaveAuthData application/json 465
+2021-07-22 09:50:57.944 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/SaveAuthData
+2021-07-22 09:50:57.945 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"4255873149499886263","savetype":0,"formid":"","hospitalid":"-2698249428350251920","hospitalname":"北京环球中医院","productname":"丙戊酸钠20*200","productid":"AZd33d13-4f8b-4ee4-84c5-49ff7c8691c28","salemode":"1000","salemodename":"招商","autherid":"4255873149499886263","authername":"白婉鑫","applyerid":"","applyername":"","grid":"1000","gridname":"华中大区"}
+2021-07-22 09:50:57.946 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-22 09:50:57.948 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.SaveAuthData (YRBApp)'
+2021-07-22 09:50:57.970 +08:00 [INF] Route matched with {action = "SaveAuthData", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] SaveAuthData() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-22 09:50:57.980 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.SaveAuthData (YRBApp) - Validation state: "Valid"
+2021-07-22 09:50:59.631 +08:00 [INF] Executed action method YRBApp.Controllers.AuthController.SaveAuthData (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1649.6277ms.
+2021-07-22 09:50:59.632 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-07-22 09:50:59.634 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.SaveAuthData (YRBApp) in 1663.2978ms
+2021-07-22 09:50:59.635 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.SaveAuthData (YRBApp)'
+2021-07-22 09:50:59.636 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[]} }
+2021-07-22 09:50:59.638 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/SaveAuthData application/json 465 - 200 47 text/json 1695.0592ms

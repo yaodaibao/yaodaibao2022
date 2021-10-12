@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormCofiguration>
+	<UpdateMarketingActivity>
+		<FieldList>
+			<Subject NotNull="T" ErrMassage="活动主题不能为空" ></Subject>
+			<ActivityTypeID NotNull="T" ErrMassage="活动类型ID不能为空" ></ActivityTypeID>
+			<BeginDate NotNull="T" ErrMassage="开始日期不能为空" ></BeginDate>
+			<EndDate NotNull="T" ErrMassage="结束日期不能为空" ></EndDate>
+			<Participant NotNull="T" ErrMassage="参与者不能为空" ></Participant>
+			<Scale NotNull="T" ErrMassage="会议规模不能为空" ></Scale>
+			<Speaker NotNull="T" ErrMassage="主讲者不能为空" ></Speaker>
+			<Budget NotNull="T" ErrMassage="活动预算不能为空" ></Budget>
+			<FeeDetail NotNull="T" ErrMassage="费用明细不能为空" ></FeeDetail>
+			<Agenda NotNull="T" ErrMassage="活动议程不能为空" ></Agenda>
+			<Address NotNull="T" ErrMassage="活动地点不能为空" ></Address>
+		</FieldList>
+	</UpdateMarketingActivity>
+	<UpdateFeeData>	
+		<FieldList>
+		 <CompanyID NotNull="T"  ErrMassage="公司ID不能为空"  ></CompanyID>
+		 <EmployeeID NotNull="T"  ErrMassage="申请人ID不能为空"  ></EmployeeID>
+		 <Type NotNull="T"  ErrMassage="Type不能为空"  ></Type>
+		 <Amount NotNull="T"  ErrMassage="金额不能为空" ></Amount>
+		 <CostCenter NotNull=" T"  ErrMassage="成本中心不能为空"  ></CostCenter>
+		</FieldList>
+	</UpdateFeeData>	
+	<UpdateExpendData>	
+		<FieldList>
+		 <AccoutID1 NotNull="T"  ErrMassage="一级科目不能为空"></AccoutID1>
+		 <AccoutID2 NotNull="T"  ErrMassage="二级科目不能为空"></AccoutID2>
+		 <Amount NotNull="T"  ErrMassage="金额不能为空" ></Amount>
+		</FieldList>
+	</UpdateExpendData>
+	<UpdateTripData>
+		<FieldList>
+			 <StartDate NotNull="T"  ErrMassage="出发日期不能为空"></StartDate>
+			 <DepartDate NotNull="T"  ErrMassage="离开日期不能为空"></DepartDate>
+			 <StartCity NotNull="T"  ErrMassage="出发城市不能为空"></StartCity>
+			 <DepartCity NotNull="T"  ErrMassage="离开城市不能为空"></DepartCity>
+		</FieldList>
+	</UpdateTripData>
+	<CompassConfig>
+	<!-- <Route UI="{ &quotcolors&quot: &quot[processColor('ColorPre3366CC'),processColor('ColorPreF7FBFF')]&quot, &quotvalueTextSize&quot: &quot15&quot, &quotvalueTextColor&quot: &quotprocessColor('white')&quot, &quotselectionShift&quot: &quot0&quot, &quotvalueFormatter&quot: &quot'ColorPre.ColorPre'&quot}"></Route> -->
+	<Route UI="{QuotcolorsQuot:[-13408564, -525313], QuotvalueTextSizeQuot: Quot0Quot, QuotselectionShiftQuot: Quot0Quot }"></Route>
+	<Call UI="{ colors: [processColor('ColorPre3366CC'), processColor('ColorPreF7FBFF')], valueTextSize: 15, valueTextColor: processColor('white'), selectionShift: 0}"></Call>
+	<SignIn UI="{ colors: [processColor('ColorPre3366CC'), processColor('ColorPreF7FBFF')], valueTextSize: 15, valueTextColor: processColor('white'), selectionShift: 0, valueFormatter: 'ColorPre.ColorPre' }"></SignIn>
+	<Stock UI="{ colors: [processColor('ColorPre3366CC'), processColor('ColorPreF7FBFF')], valueTextSize: 15, valueTextColor: processColor('white'), selectionShift: 0, valueFormatter: 'ColorPre.ColorPre' }"></Stock>
+	</CompassConfig>
+</FormCofiguration>

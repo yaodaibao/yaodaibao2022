@@ -1,0 +1,362 @@
+2021-07-05 14:14:06.348 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-05 14:14:06.395 +08:00 [INF] Hosting environment: Development
+2021-07-05 14:14:06.397 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-07-05 14:14:06.405 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-05 14:14:06.469 +08:00 [INF] post数据:
+2021-07-05 14:14:06.470 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2021-07-05 14:14:06.674 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 271.1471ms
+2021-07-05 14:14:06.754 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-05 14:14:06.755 +08:00 [INF] post数据:
+2021-07-05 14:14:06.757 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2021-07-05 14:14:06.782 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 28.3342ms
+2021-07-05 14:15:29.008 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/Auth/SaveAuthData application/json 146
+2021-07-05 14:15:29.011 +08:00 [INF] post数据: {    "AuthCode": "0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",    "EmployeeID": "8536148497677042350",    "queryType": "6"}
+2021-07-05 14:15:29.013 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-05 14:15:38.241 +08:00 [ERR] Connection ID "18302628904424177665", Request ID "80000002-0004-fe00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YRBApp.Middleware.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in D:\Source\yrb2021Net5\YRBApp\Middleware\RequestResponseLoggingMiddleware.cs:line 71
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-07-05 14:15:43.965 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/Auth/SaveAuthData application/json 146 - 500 - - 14956.5987ms
+2021-07-05 14:15:50.714 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/Auth/SaveAuthData application/json 146
+2021-07-05 14:15:50.716 +08:00 [INF] post数据: {    "AuthCode": "0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",    "EmployeeID": "8536148497677042350",    "queryType": "6"}
+2021-07-05 14:15:50.717 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-05 14:16:02.179 +08:00 [ERR] Connection ID "18302628904424177665", Request ID "80000003-0004-fe00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YRBApp.Middleware.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in D:\Source\yrb2021Net5\YRBApp\Middleware\RequestResponseLoggingMiddleware.cs:line 71
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-07-05 14:16:02.182 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/Auth/SaveAuthData application/json 146 - 500 - - 11467.7088ms
+2021-07-05 14:16:11.920 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/Auth/SaveAuthData application/json 146
+2021-07-05 14:16:11.922 +08:00 [INF] post数据: {    "AuthCode": "0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",    "EmployeeID": "8536148497677042350",    "queryType": "6"}
+2021-07-05 14:16:11.923 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-05 14:17:12.072 +08:00 [ERR] Connection ID "18302628904424177665", Request ID "80000004-0004-fe00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YRBApp.Middleware.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in D:\Source\yrb2021Net5\YRBApp\Middleware\RequestResponseLoggingMiddleware.cs:line 71
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-07-05 14:17:12.083 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/Auth/SaveAuthData application/json 146 - 500 - - 60155.8989ms
+2021-07-05 14:17:15.155 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/SaveAuthData application/json 146
+2021-07-05 14:17:15.157 +08:00 [INF] post数据: {    "AuthCode": "0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",    "EmployeeID": "8536148497677042350",    "queryType": "6"}
+2021-07-05 14:17:15.159 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-05 14:17:15.166 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.SaveAuthData (YRBApp)'
+2021-07-05 14:17:15.198 +08:00 [INF] Route matched with {action = "SaveAuthData", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] SaveAuthData() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-05 14:17:15.255 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.SaveAuthData (YRBApp) - Validation state: "Valid"
+2021-07-05 14:17:17.023 +08:00 [INF] Executed action method YRBApp.Controllers.AuthController.SaveAuthData (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1762.112ms.
+2021-07-05 14:17:17.028 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-07-05 14:17:17.052 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.SaveAuthData (YRBApp) in 1849.2959ms
+2021-07-05 14:17:17.054 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.SaveAuthData (YRBApp)'
+2021-07-05 14:17:17.193 +08:00 [INF] 服务消息:{"Result":"false","Description":"未指定提交状态","DataRows":{"DataRow":[]} }
+2021-07-05 14:17:17.196 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/SaveAuthData application/json 146 - 200 - text/json 2041.0913ms
+2021-07-05 14:18:40.048 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-05 14:18:40.071 +08:00 [INF] Hosting environment: Development
+2021-07-05 14:18:40.073 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-07-05 14:18:40.076 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-05 14:18:40.106 +08:00 [INF] post数据:
+2021-07-05 14:18:40.107 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2021-07-05 14:18:40.234 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 161.7080ms
+2021-07-05 14:18:40.281 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-05 14:18:40.282 +08:00 [INF] post数据:
+2021-07-05 14:18:40.283 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2021-07-05 14:18:40.308 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 26.5716ms
+2021-07-05 14:19:46.989 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/SaveAuthData application/json 146
+2021-07-05 14:19:46.996 +08:00 [INF] post数据: {    "AuthCode": "0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",    "EmployeeID": "8536148497677042350",    "queryType": "6"}
+2021-07-05 14:19:46.997 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-05 14:19:47.047 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.SaveAuthData (YRBApp)'
+2021-07-05 14:19:47.080 +08:00 [INF] Route matched with {action = "SaveAuthData", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] SaveAuthData(System.String, System.String, System.String) on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-05 14:19:47.222 +08:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-07-05 14:19:47.241 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.SaveAuthData (YRBApp) in 156.9866ms
+2021-07-05 14:19:47.245 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.SaveAuthData (YRBApp)'
+2021-07-05 14:19:47.441 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[]} }
+2021-07-05 14:19:47.444 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/SaveAuthData application/json 146 - 400 - text/json 458.8129ms
+2021-07-05 14:19:59.932 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/SaveAuthData application/json 146
+2021-07-05 14:19:59.934 +08:00 [INF] post数据: {    "AuthCode": "0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",    "EmployeeID": "8536148497677042350",    "queryType": "6"}
+2021-07-05 14:19:59.935 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-05 14:19:59.939 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.SaveAuthData (YRBApp)'
+2021-07-05 14:19:59.941 +08:00 [INF] Route matched with {action = "SaveAuthData", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] SaveAuthData(System.String, System.String, System.String) on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-05 14:20:00.022 +08:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-07-05 14:20:00.024 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.SaveAuthData (YRBApp) in 81.0082ms
+2021-07-05 14:20:00.025 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.SaveAuthData (YRBApp)'
+2021-07-05 14:20:00.026 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[]} }
+2021-07-05 14:20:00.027 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/SaveAuthData application/json 146 - 400 - text/json 95.1892ms
+2021-07-05 14:20:17.396 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-05 14:20:17.415 +08:00 [INF] Hosting environment: Development
+2021-07-05 14:20:17.417 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-07-05 14:20:17.416 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-05 14:20:17.449 +08:00 [INF] post数据:
+2021-07-05 14:20:17.451 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2021-07-05 14:20:17.567 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 153.6979ms
+2021-07-05 14:20:17.594 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-05 14:20:17.596 +08:00 [INF] post数据:
+2021-07-05 14:20:17.597 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2021-07-05 14:20:17.621 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 26.6633ms
+2021-07-05 14:20:26.668 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/SaveAuthData application/json 146
+2021-07-05 14:20:26.670 +08:00 [INF] post数据: {    "AuthCode": "0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",    "EmployeeID": "8536148497677042350",    "queryType": "6"}
+2021-07-05 14:20:26.671 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-05 14:20:26.711 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.SaveAuthData (YRBApp)'
+2021-07-05 14:20:26.750 +08:00 [INF] Route matched with {action = "SaveAuthData", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] SaveAuthData(System.String, System.String, System.String) on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-05 14:20:26.886 +08:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-07-05 14:20:26.906 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.SaveAuthData (YRBApp) in 150.8509ms
+2021-07-05 14:20:26.909 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.SaveAuthData (YRBApp)'
+2021-07-05 14:20:27.106 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[]} }
+2021-07-05 14:20:27.110 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/SaveAuthData application/json 146 - 400 - text/json 442.6420ms
+2021-07-05 14:21:18.153 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-05 14:21:18.172 +08:00 [INF] Hosting environment: Development
+2021-07-05 14:21:18.174 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-07-05 14:21:18.173 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-05 14:21:18.203 +08:00 [INF] post数据:
+2021-07-05 14:21:18.205 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2021-07-05 14:21:18.284 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 113.8095ms
+2021-07-05 14:21:18.325 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-05 14:21:18.327 +08:00 [INF] post数据:
+2021-07-05 14:21:18.328 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2021-07-05 14:21:18.351 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 25.5523ms
+2021-07-05 14:21:27.166 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/SaveAuthData application/json 146
+2021-07-05 14:21:27.168 +08:00 [INF] post数据: {    "AuthCode": "0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",    "EmployeeID": "8536148497677042350",    "queryType": "6"}
+2021-07-05 14:21:27.170 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-05 14:21:27.210 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.SaveAuthData (YRBApp)'
+2021-07-05 14:21:27.247 +08:00 [INF] Route matched with {action = "SaveAuthData", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] SaveAuthData(System.String, System.String, System.String) on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-05 14:21:27.390 +08:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-07-05 14:21:27.410 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.SaveAuthData (YRBApp) in 157.9046ms
+2021-07-05 14:21:27.413 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.SaveAuthData (YRBApp)'
+2021-07-05 14:21:27.617 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[]} }
+2021-07-05 14:21:27.621 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/SaveAuthData application/json 146 - 400 - text/json 454.9789ms
+2021-07-05 14:21:56.815 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/SaveAuthData application/json 146
+2021-07-05 14:21:56.817 +08:00 [INF] post数据: {    "AuthCode": "0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",    "EmployeeID": "8536148497677042350",    "queryType": "6"}
+2021-07-05 14:21:56.818 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-05 14:21:56.822 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.SaveAuthData (YRBApp)'
+2021-07-05 14:21:56.824 +08:00 [INF] Route matched with {action = "SaveAuthData", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] SaveAuthData(System.String, System.String, System.String) on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-05 14:21:56.913 +08:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-07-05 14:21:56.914 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.SaveAuthData (YRBApp) in 89.7271ms
+2021-07-05 14:21:56.916 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.SaveAuthData (YRBApp)'
+2021-07-05 14:21:56.918 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[]} }
+2021-07-05 14:21:56.920 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/SaveAuthData application/json 146 - 400 - text/json 105.2969ms
+2021-07-05 14:22:19.158 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-05 14:22:19.180 +08:00 [INF] Hosting environment: Development
+2021-07-05 14:22:19.182 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-07-05 14:22:19.180 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-05 14:22:19.214 +08:00 [INF] post数据:
+2021-07-05 14:22:19.215 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2021-07-05 14:22:19.356 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 179.2970ms
+2021-07-05 14:22:19.406 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-05 14:22:19.407 +08:00 [INF] post数据:
+2021-07-05 14:22:19.408 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2021-07-05 14:22:19.435 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 28.9313ms
+2021-07-05 14:22:22.437 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/SaveAuthData application/json 146
+2021-07-05 14:22:22.439 +08:00 [INF] post数据: {    "AuthCode": "0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",    "EmployeeID": "8536148497677042350",    "queryType": "6"}
+2021-07-05 14:22:22.440 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-05 14:22:22.479 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.SaveAuthData (YRBApp)'
+2021-07-05 14:22:22.515 +08:00 [INF] Route matched with {action = "SaveAuthData", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] SaveAuthData(System.String, System.String, System.String) on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-05 14:22:22.560 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.SaveAuthData (YRBApp) - Validation state: "Valid"
+2021-07-05 14:23:06.229 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-05 14:23:06.257 +08:00 [INF] Hosting environment: Development
+2021-07-05 14:23:06.259 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-07-05 14:23:06.261 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-05 14:23:06.297 +08:00 [INF] post数据:
+2021-07-05 14:23:06.298 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2021-07-05 14:23:06.432 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 176.0208ms
+2021-07-05 14:23:06.460 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-05 14:23:06.461 +08:00 [INF] post数据:
+2021-07-05 14:23:06.463 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2021-07-05 14:23:06.486 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 26.1455ms
+2021-07-05 14:23:11.272 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/SaveAuthData application/json 146
+2021-07-05 14:23:11.274 +08:00 [INF] post数据: {    "AuthCode": "0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",    "EmployeeID": "8536148497677042350",    "queryType": "6"}
+2021-07-05 14:23:11.275 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-05 14:23:11.315 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.SaveAuthData (YRBApp)'
+2021-07-05 14:23:11.359 +08:00 [INF] Route matched with {action = "SaveAuthData", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] SaveAuthData(System.String, System.String, System.String) on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-05 14:23:11.502 +08:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-07-05 14:23:11.522 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.SaveAuthData (YRBApp) in 158.2204ms
+2021-07-05 14:23:11.525 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.SaveAuthData (YRBApp)'
+2021-07-05 14:23:11.721 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[]} }
+2021-07-05 14:23:11.724 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/SaveAuthData application/json 146 - 400 - text/json 451.8105ms
+2021-07-05 14:23:28.243 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-05 14:23:28.265 +08:00 [INF] Hosting environment: Development
+2021-07-05 14:23:28.268 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-07-05 14:23:28.266 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-05 14:23:28.299 +08:00 [INF] post数据:
+2021-07-05 14:23:28.300 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2021-07-05 14:23:28.383 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 120.7597ms
+2021-07-05 14:23:28.426 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-05 14:23:28.428 +08:00 [INF] post数据:
+2021-07-05 14:23:28.430 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2021-07-05 14:23:28.453 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 26.5760ms
+2021-07-05 14:23:31.354 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/SaveAuthData application/json 146
+2021-07-05 14:23:31.356 +08:00 [INF] post数据: {    "AuthCode": "0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",    "EmployeeID": "8536148497677042350",    "queryType": "6"}
+2021-07-05 14:23:31.357 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-05 14:23:31.397 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.SaveAuthData (YRBApp)'
+2021-07-05 14:23:31.434 +08:00 [INF] Route matched with {action = "SaveAuthData", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] SaveAuthData(System.String, System.String, System.String) on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-05 14:23:31.479 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.SaveAuthData (YRBApp) - Validation state: "Valid"
+2021-07-05 14:27:56.585 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-05 14:27:56.636 +08:00 [INF] Hosting environment: Development
+2021-07-05 14:27:56.638 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-07-05 14:27:56.637 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-05 14:27:56.674 +08:00 [INF] post数据:
+2021-07-05 14:27:56.675 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2021-07-05 14:27:56.811 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 176.5702ms
+2021-07-05 14:27:56.853 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-05 14:27:56.854 +08:00 [INF] post数据:
+2021-07-05 14:27:56.855 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2021-07-05 14:27:56.881 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 27.8588ms
+2021-07-05 14:28:00.887 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/SaveAuthData application/json 146
+2021-07-05 14:28:00.889 +08:00 [INF] post数据: {    "AuthCode": "0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",    "EmployeeID": "8536148497677042350",    "queryType": "6"}
+2021-07-05 14:28:00.891 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-05 14:28:00.927 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.SaveAuthData (YRBApp)'
+2021-07-05 14:28:00.964 +08:00 [INF] Route matched with {action = "SaveAuthData", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] SaveAuthData(YRBApp.Controllers.TestModle) on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-05 14:28:01.017 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.SaveAuthData (YRBApp) - Validation state: "Valid"
+2021-07-05 14:28:27.535 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-05 14:28:27.564 +08:00 [INF] Hosting environment: Development
+2021-07-05 14:28:27.566 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-07-05 14:28:27.564 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-05 14:28:27.598 +08:00 [INF] post数据:
+2021-07-05 14:28:27.600 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2021-07-05 14:28:27.684 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 122.3840ms
+2021-07-05 14:28:27.708 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-05 14:28:27.709 +08:00 [INF] post数据:
+2021-07-05 14:28:27.710 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2021-07-05 14:28:27.733 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 25.0939ms
+2021-07-05 14:28:35.043 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/SaveAuthData application/json 146
+2021-07-05 14:28:35.045 +08:00 [INF] post数据: {    "AuthCode": "0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",    "EmployeeID": "8536148497677042350",    "queryType": "6"}
+2021-07-05 14:28:35.047 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-05 14:28:35.086 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.SaveAuthData (YRBApp)'
+2021-07-05 14:28:35.129 +08:00 [INF] Route matched with {action = "SaveAuthData", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] SaveAuthData(YRBApp.Controllers.TestModle) on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-05 14:28:35.181 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.SaveAuthData (YRBApp) - Validation state: "Valid"
+2021-07-05 14:29:04.169 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-05 14:29:04.190 +08:00 [INF] Hosting environment: Development
+2021-07-05 14:29:04.192 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-07-05 14:29:04.190 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-05 14:29:04.223 +08:00 [INF] post数据:
+2021-07-05 14:29:04.224 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2021-07-05 14:29:04.326 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 139.1062ms
+2021-07-05 14:29:04.373 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-05 14:29:04.374 +08:00 [INF] post数据:
+2021-07-05 14:29:04.375 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2021-07-05 14:29:04.397 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 24.2077ms
+2021-07-05 14:29:08.171 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/SaveAuthData application/json 146
+2021-07-05 14:29:08.173 +08:00 [INF] post数据: {    "AuthCode": "0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",    "EmployeeID": "8536148497677042350",    "queryType": "6"}
+2021-07-05 14:29:08.174 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-05 14:29:08.214 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.SaveAuthData (YRBApp)'
+2021-07-05 14:29:08.251 +08:00 [INF] Route matched with {action = "SaveAuthData", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] SaveAuthData(YRBApp.Controllers.TestModle) on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-05 14:29:08.304 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.SaveAuthData (YRBApp) - Validation state: "Valid"
+2021-07-05 16:18:36.338 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-05 16:18:36.373 +08:00 [INF] Hosting environment: Development
+2021-07-05 16:18:36.375 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-07-05 16:18:36.373 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-05 16:18:36.411 +08:00 [INF] post数据:
+2021-07-05 16:18:36.413 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2021-07-05 16:18:36.563 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 192.2177ms
+2021-07-05 16:18:36.610 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-05 16:18:36.611 +08:00 [INF] post数据:
+2021-07-05 16:18:36.613 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2021-07-05 16:18:36.641 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 31.1829ms
+2021-07-05 16:19:04.267 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/SaveAuthData application/json 653
+2021-07-05 16:19:04.268 +08:00 [INF] post数据:{    "AuthCode": "0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",    "EmployeeID": "8536148497677042350",    "savetype": 0,    "formid": "",        "hospitalid": "-2101276336484825008|7851986522400843449",    "productname": "rhAFGF5*24、丙戊酸钠0.2克/片|rhAFGF5*24、丙戊酸钠0.2克/片",    "productid": "69d55ff7-d9d6-4f20-bcbc-b5244894f36e、6e927e6d-b03a-4601-b4dd-2ec583a46768|69d55ff7-d9d6-4f20-bcbc-b5244894f36e、6e927e6d-b03a-4601-b4dd-2ec583a46768",    "salemode": "1000|2000",    "autherid": "8536148497677042350|8536148497677042350",    "applyerid": "undefined|undefined",    "grid": "2000|2000"}
+2021-07-05 16:19:04.270 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-05 16:19:04.316 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.SaveAuthData (YRBApp)'
+2021-07-05 16:19:04.353 +08:00 [INF] Route matched with {action = "SaveAuthData", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] SaveAuthData() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-05 16:19:04.392 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.SaveAuthData (YRBApp) - Validation state: "Valid"
+2021-07-05 16:20:09.081 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.SaveAuthData (YRBApp) in 64723.1478ms
+2021-07-05 16:20:09.102 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.SaveAuthData (YRBApp)'
+2021-07-05 16:20:09.142 +08:00 [ERR] ExecuteReader requires the command to have a transaction when the connection assigned to the command is in a pending local transaction.  The Transaction property of the command has not been initialized.
+2021-07-05 16:21:45.251 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-05 16:21:45.275 +08:00 [INF] Hosting environment: Development
+2021-07-05 16:21:45.277 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-07-05 16:21:45.275 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-05 16:21:45.315 +08:00 [INF] post数据:
+2021-07-05 16:21:45.317 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2021-07-05 16:21:45.481 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 209.6281ms
+2021-07-05 16:21:45.549 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-05 16:21:45.551 +08:00 [INF] post数据:
+2021-07-05 16:21:45.553 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2021-07-05 16:21:45.581 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 31.8327ms
+2021-07-05 16:21:48.740 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/SaveAuthData application/json 653
+2021-07-05 16:21:48.742 +08:00 [INF] post数据:{    "AuthCode": "0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",    "EmployeeID": "8536148497677042350",    "savetype": 0,    "formid": "",        "hospitalid": "-2101276336484825008|7851986522400843449",    "productname": "rhAFGF5*24、丙戊酸钠0.2克/片|rhAFGF5*24、丙戊酸钠0.2克/片",    "productid": "69d55ff7-d9d6-4f20-bcbc-b5244894f36e、6e927e6d-b03a-4601-b4dd-2ec583a46768|69d55ff7-d9d6-4f20-bcbc-b5244894f36e、6e927e6d-b03a-4601-b4dd-2ec583a46768",    "salemode": "1000|2000",    "autherid": "8536148497677042350|8536148497677042350",    "applyerid": "undefined|undefined",    "grid": "2000|2000"}
+2021-07-05 16:21:48.744 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-05 16:21:48.786 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.SaveAuthData (YRBApp)'
+2021-07-05 16:21:48.822 +08:00 [INF] Route matched with {action = "SaveAuthData", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] SaveAuthData() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-05 16:21:48.862 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.SaveAuthData (YRBApp) - Validation state: "Valid"
+2021-07-05 16:22:01.551 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.SaveAuthData (YRBApp) in 12724.0001ms
+2021-07-05 16:22:01.572 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.SaveAuthData (YRBApp)'
+2021-07-05 16:22:01.615 +08:00 [ERR] 对象名 't_Departments' 无效。
+2021-07-05 16:22:51.610 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-05 16:22:51.632 +08:00 [INF] Hosting environment: Development
+2021-07-05 16:22:51.634 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-07-05 16:22:51.633 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-05 16:22:51.667 +08:00 [INF] post数据:
+2021-07-05 16:22:51.668 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2021-07-05 16:22:51.808 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 177.8997ms
+2021-07-05 16:22:51.862 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-05 16:22:51.863 +08:00 [INF] post数据:
+2021-07-05 16:22:51.864 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2021-07-05 16:22:51.891 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 29.3147ms
+2021-07-05 16:22:52.597 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/SaveAuthData application/json 653
+2021-07-05 16:22:52.599 +08:00 [INF] post数据:{    "AuthCode": "0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",    "EmployeeID": "8536148497677042350",    "savetype": 0,    "formid": "",        "hospitalid": "-2101276336484825008|7851986522400843449",    "productname": "rhAFGF5*24、丙戊酸钠0.2克/片|rhAFGF5*24、丙戊酸钠0.2克/片",    "productid": "69d55ff7-d9d6-4f20-bcbc-b5244894f36e、6e927e6d-b03a-4601-b4dd-2ec583a46768|69d55ff7-d9d6-4f20-bcbc-b5244894f36e、6e927e6d-b03a-4601-b4dd-2ec583a46768",    "salemode": "1000|2000",    "autherid": "8536148497677042350|8536148497677042350",    "applyerid": "undefined|undefined",    "grid": "2000|2000"}
+2021-07-05 16:22:52.601 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-05 16:22:52.643 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.SaveAuthData (YRBApp)'
+2021-07-05 16:22:52.675 +08:00 [INF] Route matched with {action = "SaveAuthData", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] SaveAuthData() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-05 16:22:52.716 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.SaveAuthData (YRBApp) - Validation state: "Valid"
+2021-07-05 16:22:56.947 +08:00 [INF] Executed action method YRBApp.Controllers.AuthController.SaveAuthData (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4224.5085ms.
+2021-07-05 16:22:56.954 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-07-05 16:22:56.972 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.SaveAuthData (YRBApp) in 4292.5037ms
+2021-07-05 16:22:56.974 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.SaveAuthData (YRBApp)'
+2021-07-05 16:22:57.048 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[]} }
+2021-07-05 16:22:57.051 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/SaveAuthData application/json 653 - 200 - text/json 4453.5039ms
+2021-07-05 16:23:04.966 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/SaveAuthData application/json 653
+2021-07-05 16:23:04.968 +08:00 [INF] post数据:{    "AuthCode": "0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",    "EmployeeID": "8536148497677042350",    "savetype": 0,    "formid": "",        "hospitalid": "-2101276336484825008|7851986522400843449",    "productname": "rhAFGF5*24、丙戊酸钠0.2克/片|rhAFGF5*24、丙戊酸钠0.2克/片",    "productid": "69d55ff7-d9d6-4f20-bcbc-b5244894f36e、6e927e6d-b03a-4601-b4dd-2ec583a46768|69d55ff7-d9d6-4f20-bcbc-b5244894f36e、6e927e6d-b03a-4601-b4dd-2ec583a46768",    "salemode": "1000|2000",    "autherid": "8536148497677042350|8536148497677042350",    "applyerid": "undefined|undefined",    "grid": "2000|2000"}
+2021-07-05 16:23:04.969 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-05 16:23:04.973 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.SaveAuthData (YRBApp)'
+2021-07-05 16:23:04.974 +08:00 [INF] Route matched with {action = "SaveAuthData", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] SaveAuthData() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-05 16:23:04.984 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.SaveAuthData (YRBApp) - Validation state: "Valid"
+2021-07-05 16:23:59.452 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-05 16:23:59.476 +08:00 [INF] Hosting environment: Development
+2021-07-05 16:23:59.478 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-07-05 16:23:59.479 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-05 16:23:59.509 +08:00 [INF] post数据:
+2021-07-05 16:23:59.510 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2021-07-05 16:23:59.635 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 160.4735ms
+2021-07-05 16:23:59.681 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-05 16:23:59.683 +08:00 [INF] post数据:
+2021-07-05 16:23:59.684 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2021-07-05 16:23:59.709 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 27.9496ms
+2021-07-05 16:24:04.153 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/SaveAuthData application/json 653
+2021-07-05 16:24:04.155 +08:00 [INF] post数据:{    "AuthCode": "0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",    "EmployeeID": "8536148497677042350",    "savetype": 0,    "formid": "",        "hospitalid": "-2101276336484825008|7851986522400843449",    "productname": "rhAFGF5*24、丙戊酸钠0.2克/片|rhAFGF5*24、丙戊酸钠0.2克/片",    "productid": "69d55ff7-d9d6-4f20-bcbc-b5244894f36e、6e927e6d-b03a-4601-b4dd-2ec583a46768|69d55ff7-d9d6-4f20-bcbc-b5244894f36e、6e927e6d-b03a-4601-b4dd-2ec583a46768",    "salemode": "1000|2000",    "autherid": "8536148497677042350|8536148497677042350",    "applyerid": "undefined|undefined",    "grid": "2000|2000"}
+2021-07-05 16:24:04.156 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-05 16:24:04.198 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.SaveAuthData (YRBApp)'
+2021-07-05 16:24:04.230 +08:00 [INF] Route matched with {action = "SaveAuthData", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] SaveAuthData() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-05 16:24:04.270 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.SaveAuthData (YRBApp) - Validation state: "Valid"
+2021-07-05 16:24:32.141 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-05 16:24:32.163 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-05 16:24:32.162 +08:00 [INF] Hosting environment: Development
+2021-07-05 16:24:32.166 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-07-05 16:24:32.200 +08:00 [INF] post数据:
+2021-07-05 16:24:32.201 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2021-07-05 16:24:32.339 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 179.1366ms
+2021-07-05 16:24:32.390 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-05 16:24:32.404 +08:00 [INF] post数据:
+2021-07-05 16:24:32.416 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2021-07-05 16:24:32.479 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 89.0719ms
+2021-07-05 16:24:38.923 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/SaveAuthData application/json 653
+2021-07-05 16:24:38.925 +08:00 [INF] post数据:{    "AuthCode": "0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",    "EmployeeID": "8536148497677042350",    "savetype": 0,    "formid": "",        "hospitalid": "-2101276336484825008|7851986522400843449",    "productname": "rhAFGF5*24、丙戊酸钠0.2克/片|rhAFGF5*24、丙戊酸钠0.2克/片",    "productid": "69d55ff7-d9d6-4f20-bcbc-b5244894f36e、6e927e6d-b03a-4601-b4dd-2ec583a46768|69d55ff7-d9d6-4f20-bcbc-b5244894f36e、6e927e6d-b03a-4601-b4dd-2ec583a46768",    "salemode": "1000|2000",    "autherid": "8536148497677042350|8536148497677042350",    "applyerid": "undefined|undefined",    "grid": "2000|2000"}
+2021-07-05 16:24:38.927 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-05 16:24:38.972 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.SaveAuthData (YRBApp)'
+2021-07-05 16:24:38.998 +08:00 [INF] Route matched with {action = "SaveAuthData", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] SaveAuthData() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-05 16:24:39.038 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.SaveAuthData (YRBApp) - Validation state: "Valid"
+2021-07-05 16:26:47.702 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-05 16:26:47.722 +08:00 [INF] Hosting environment: Development
+2021-07-05 16:26:47.722 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-05 16:26:47.725 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-07-05 16:26:47.752 +08:00 [INF] post数据:
+2021-07-05 16:26:47.753 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2021-07-05 16:26:47.837 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 117.9063ms
+2021-07-05 16:26:47.862 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-05 16:26:47.864 +08:00 [INF] post数据:
+2021-07-05 16:26:47.865 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2021-07-05 16:26:47.888 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 25.4918ms
+2021-07-05 16:26:50.772 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/SaveAuthData application/json 653
+2021-07-05 16:26:50.774 +08:00 [INF] post数据:{    "AuthCode": "0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",    "EmployeeID": "8536148497677042350",    "savetype": 0,    "formid": "",        "hospitalid": "-2101276336484825008|7851986522400843449",    "productname": "rhAFGF5*24、丙戊酸钠0.2克/片|rhAFGF5*24、丙戊酸钠0.2克/片",    "productid": "69d55ff7-d9d6-4f20-bcbc-b5244894f36e、6e927e6d-b03a-4601-b4dd-2ec583a46768|69d55ff7-d9d6-4f20-bcbc-b5244894f36e、6e927e6d-b03a-4601-b4dd-2ec583a46768",    "salemode": "1000|2000",    "autherid": "8536148497677042350|8536148497677042350",    "applyerid": "undefined|undefined",    "grid": "2000|2000"}
+2021-07-05 16:26:50.775 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-05 16:26:50.817 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.SaveAuthData (YRBApp)'
+2021-07-05 16:26:50.849 +08:00 [INF] Route matched with {action = "SaveAuthData", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] SaveAuthData() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-05 16:26:50.888 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.SaveAuthData (YRBApp) - Validation state: "Valid"
+2021-07-05 16:27:13.173 +08:00 [INF] Executed action method YRBApp.Controllers.AuthController.SaveAuthData (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 22277.3119ms.
+2021-07-05 16:27:13.179 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-07-05 16:27:13.198 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.SaveAuthData (YRBApp) in 22344.8214ms
+2021-07-05 16:27:13.200 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.SaveAuthData (YRBApp)'
+2021-07-05 16:27:13.272 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[]} }
+2021-07-05 16:27:13.276 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/SaveAuthData application/json 653 - 200 - text/json 22503.2785ms

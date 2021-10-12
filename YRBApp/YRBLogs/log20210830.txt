@@ -1,0 +1,70 @@
+2021-08-30 09:21:07.321 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-30 09:21:07.346 +08:00 [INF] Hosting environment: Development
+2021-08-30 09:21:07.349 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-08-30 09:21:07.355 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-08-30 09:21:07.401 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-08-30 09:21:07.402 +08:00 [INF] post数据:
+2021-08-30 09:21:07.403 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-08-30 09:21:07.456 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 107.3835ms
+2021-08-30 09:21:07.478 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-30 09:21:07.479 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-30 09:21:07.480 +08:00 [INF] post数据:
+2021-08-30 09:21:07.481 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-08-30 09:21:07.505 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 26.9503ms
+2021-08-30 16:00:01.415 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-08-30 16:00:01.392 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-30 16:00:01.420 +08:00 [INF] Hosting environment: Development
+2021-08-30 16:00:01.422 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-08-30 16:00:01.471 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-08-30 16:00:01.473 +08:00 [INF] post数据:
+2021-08-30 16:00:01.475 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-08-30 16:00:01.565 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 152.2366ms
+2021-08-30 16:00:01.604 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-30 16:00:01.606 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-30 16:00:01.609 +08:00 [INF] post数据:
+2021-08-30 16:00:01.610 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-08-30 16:00:01.638 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 34.2374ms
+2021-08-30 16:00:30.010 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-30 16:00:30.031 +08:00 [INF] Hosting environment: Development
+2021-08-30 16:00:30.031 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-08-30 16:00:30.035 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-08-30 16:00:30.104 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-08-30 16:00:30.105 +08:00 [INF] post数据:
+2021-08-30 16:00:30.106 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-08-30 16:00:30.189 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 161.4865ms
+2021-08-30 16:00:30.208 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-30 16:00:30.209 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-30 16:00:30.210 +08:00 [INF] post数据:
+2021-08-30 16:00:30.212 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-08-30 16:00:30.235 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 26.9376ms
+2021-08-30 16:11:13.108 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-30 16:11:13.136 +08:00 [INF] Hosting environment: Development
+2021-08-30 16:11:13.139 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-08-30 16:11:13.136 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-08-30 16:11:26.698 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-08-30 16:11:26.699 +08:00 [INF] post数据:
+2021-08-30 16:11:26.701 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-08-30 16:11:26.765 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 13632.3117ms
+2021-08-30 16:11:26.786 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-30 16:11:26.788 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-30 16:11:26.789 +08:00 [INF] post数据:
+2021-08-30 16:11:26.791 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-08-30 16:11:26.816 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 30.4863ms
+2021-08-30 16:14:13.527 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/login/login application/json 46
+2021-08-30 16:14:15.596 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.LoginController.Login (YRBApp)'
+2021-08-30 16:14:15.627 +08:00 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature ydb.Domain.ResponseModel Login(ydb.Domain.Models.Login) on controller YRBApp.Controllers.LoginController (YRBApp).
+2021-08-30 16:14:15.760 +08:00 [INF] Executing action method YRBApp.Controllers.LoginController.Login (YRBApp) - Validation state: "Valid"
+2021-08-30 16:14:16.398 +08:00 [INF] Executed action method YRBApp.Controllers.LoginController.Login (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 632.1763ms.
+2021-08-30 16:14:16.404 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-08-30 16:14:16.433 +08:00 [INF] Executed action YRBApp.Controllers.LoginController.Login (YRBApp) in 801.7751ms
+2021-08-30 16:14:16.434 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.LoginController.Login (YRBApp)'
+2021-08-30 16:14:17.402 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/login/login application/json 46 - 200 103 application/json;+charset=utf-8 3874.6555ms
+2021-08-30 16:14:23.272 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/login/login application/json 47
+2021-08-30 16:14:24.708 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.LoginController.Login (YRBApp)'
+2021-08-30 16:14:24.709 +08:00 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature ydb.Domain.ResponseModel Login(ydb.Domain.Models.Login) on controller YRBApp.Controllers.LoginController (YRBApp).
+2021-08-30 16:14:24.720 +08:00 [INF] Executing action method YRBApp.Controllers.LoginController.Login (YRBApp) - Validation state: "Valid"
+2021-08-30 16:14:24.743 +08:00 [INF] Executed action method YRBApp.Controllers.LoginController.Login (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 22.1795ms.
+2021-08-30 16:14:24.745 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-08-30 16:14:24.746 +08:00 [INF] Executed action YRBApp.Controllers.LoginController.Login (YRBApp) in 35.9485ms
+2021-08-30 16:14:24.747 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.LoginController.Login (YRBApp)'
+2021-08-30 16:14:25.510 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/login/login application/json 47 - 200 72 application/json;+charset=utf-8 2238.7454ms

@@ -1,0 +1,427 @@
+2021-08-29 21:40:16.290 +08:00 [INF] User profile is available. Using 'C:\Users\TR-Employee\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-29 21:40:16.755 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-29 21:40:16.758 +08:00 [INF] Hosting environment: Development
+2021-08-29 21:40:16.759 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-08-29 21:40:16.813 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-08-29 21:40:16.864 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-08-29 21:40:16.866 +08:00 [INF] post数据:
+2021-08-29 21:40:16.867 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-08-29 21:40:16.967 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 155.0782ms
+2021-08-29 21:40:17.030 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-29 21:40:17.032 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-29 21:40:17.033 +08:00 [INF] post数据:
+2021-08-29 21:40:17.035 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-08-29 21:40:17.055 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 25.4106ms
+2021-08-29 21:43:09.187 +08:00 [INF] User profile is available. Using 'C:\Users\TR-Employee\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-29 21:43:27.878 +08:00 [INF] User profile is available. Using 'C:\Users\TR-Employee\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-29 21:43:28.141 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-29 21:43:28.144 +08:00 [INF] Hosting environment: Development
+2021-08-29 21:43:28.146 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-08-29 21:43:28.184 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-08-29 21:43:28.208 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-08-29 21:43:28.209 +08:00 [INF] post数据:
+2021-08-29 21:43:28.210 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-08-29 21:43:28.291 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 109.0081ms
+2021-08-29 21:43:28.334 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-29 21:43:28.336 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-29 21:43:28.338 +08:00 [INF] post数据:
+2021-08-29 21:43:28.339 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-08-29 21:43:28.359 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 25.2921ms
+2021-08-29 21:55:31.900 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-29 21:55:31.927 +08:00 [INF] Hosting environment: Development
+2021-08-29 21:55:31.929 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-08-29 21:55:31.927 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-08-29 21:55:31.958 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-08-29 21:55:31.959 +08:00 [INF] post数据:
+2021-08-29 21:55:31.960 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-08-29 21:55:32.032 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 106.9398ms
+2021-08-29 21:55:32.075 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-29 21:55:32.076 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-29 21:55:32.077 +08:00 [INF] post数据:
+2021-08-29 21:55:32.079 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-08-29 21:55:32.098 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 23.7906ms
+2021-08-29 22:01:23.802 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-29 22:01:23.828 +08:00 [INF] Hosting environment: Development
+2021-08-29 22:01:23.831 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-08-29 22:01:23.831 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-08-29 22:01:23.888 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-08-29 22:01:23.891 +08:00 [INF] post数据:
+2021-08-29 22:01:23.893 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-08-29 22:01:23.967 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 141.7235ms
+2021-08-29 22:01:24.004 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-29 22:01:24.005 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-29 22:01:24.006 +08:00 [INF] post数据:
+2021-08-29 22:01:24.007 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-08-29 22:01:24.027 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 23.1761ms
+2021-08-29 22:04:19.631 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-29 22:04:19.656 +08:00 [INF] Hosting environment: Development
+2021-08-29 22:04:19.659 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-08-29 22:04:19.657 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-08-29 22:04:19.687 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-08-29 22:04:19.689 +08:00 [INF] post数据:
+2021-08-29 22:04:19.690 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-08-29 22:04:19.764 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 109.8513ms
+2021-08-29 22:04:19.783 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-29 22:04:19.785 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-29 22:04:19.785 +08:00 [INF] post数据:
+2021-08-29 22:04:19.786 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-08-29 22:04:19.804 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 20.1873ms
+2021-08-29 22:05:12.185 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-29 22:05:12.222 +08:00 [INF] Hosting environment: Development
+2021-08-29 22:05:12.224 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-08-29 22:05:12.226 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-08-29 22:05:12.256 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-08-29 22:05:12.257 +08:00 [INF] post数据:
+2021-08-29 22:05:12.258 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-08-29 22:05:12.327 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 106.0950ms
+2021-08-29 22:05:12.345 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-29 22:05:12.346 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-29 22:05:12.347 +08:00 [INF] post数据:
+2021-08-29 22:05:12.348 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-08-29 22:05:12.367 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 21.8312ms
+2021-08-29 22:05:28.862 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SaveAutoRouteData application/json 334
+2021-08-29 22:05:28.864 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/SaveAutoRouteData
+2021-08-29 22:05:28.867 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"123421231234413","ID":"00001","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"113412342134134","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-08-29 22:05:28.867 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-08-29 22:05:28.919 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp)'
+2021-08-29 22:05:28.977 +08:00 [INF] Route matched with {action = "SaveAutoRouteData", controller = "RouteInvoke"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] SaveAutoRouteData(ydb.Domain.Models.MiniLocationPoint) on controller YRBApp.Controllers.RouteInvokeController (YRBApp).
+2021-08-29 22:05:29.160 +08:00 [INF] Executing action method YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp) - Validation state: "Valid"
+2021-08-29 22:05:30.239 +08:00 [INF] Executed action YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp) in 1256.9929ms
+2021-08-29 22:05:30.289 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp)'
+2021-08-29 22:05:30.395 +08:00 [ERR] 违反了 PRIMARY KEY 约束“PK_MiniPositionRecord”。不能在对象“dbo.MiniLocationPoint”中插入重复键。重复键值为 (00001)。语句已终止。
+2021-08-29 22:05:36.021 +08:00 [ERR] Connection ID "18230571310386249733", Request ID "80000006-0004-fd00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.InvalidOperationException: The response headers cannot be modified because the response has already started.
+   at Microsoft.AspNetCore.HttpSys.Internal.HeaderCollection.ThrowIfReadOnly()
+   at Microsoft.AspNetCore.HttpSys.Internal.HeaderCollection.set_Item(String key, StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at YRBApp.Middleware.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in D:\Source\yrb2021Net5\YRBApp\Middleware\RequestResponseLoggingMiddleware.cs:line 62
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-08-29 22:05:36.123 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SaveAutoRouteData application/json 334 - 200 - text/json 7260.4195ms
+2021-08-29 22:05:48.614 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SaveAutoRouteData application/json 334
+2021-08-29 22:05:48.616 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/SaveAutoRouteData
+2021-08-29 22:05:48.617 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"123421231234413","ID":"00001","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"113412342134134","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-08-29 22:05:48.618 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-08-29 22:05:48.622 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp)'
+2021-08-29 22:05:48.623 +08:00 [INF] Route matched with {action = "SaveAutoRouteData", controller = "RouteInvoke"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] SaveAutoRouteData(ydb.Domain.Models.MiniLocationPoint) on controller YRBApp.Controllers.RouteInvokeController (YRBApp).
+2021-08-29 22:05:48.635 +08:00 [INF] Executing action method YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp) - Validation state: "Valid"
+2021-08-29 22:05:48.983 +08:00 [INF] Executed action YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp) in 358.2508ms
+2021-08-29 22:05:49.030 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp)'
+2021-08-29 22:05:49.141 +08:00 [ERR] 违反了 PRIMARY KEY 约束“PK_MiniPositionRecord”。不能在对象“dbo.MiniLocationPoint”中插入重复键。重复键值为 (00001)。语句已终止。
+2021-08-29 22:06:00.525 +08:00 [ERR] Connection ID "18374686507052040194", Request ID "80000003-0006-ff00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.InvalidOperationException: The response headers cannot be modified because the response has already started.
+   at Microsoft.AspNetCore.HttpSys.Internal.HeaderCollection.ThrowIfReadOnly()
+   at Microsoft.AspNetCore.HttpSys.Internal.HeaderCollection.set_Item(String key, StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at YRBApp.Middleware.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in D:\Source\yrb2021Net5\YRBApp\Middleware\RequestResponseLoggingMiddleware.cs:line 62
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-08-29 22:06:00.543 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SaveAutoRouteData application/json 334 - 200 - text/json 11928.3097ms
+2021-08-29 22:06:27.000 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SaveAutoRouteData application/json 337
+2021-08-29 22:06:27.002 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/SaveAutoRouteData
+2021-08-29 22:06:27.007 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"123421231234413","ID":"0110001","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"1131112342134134","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-08-29 22:06:27.008 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-08-29 22:06:27.009 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp)'
+2021-08-29 22:06:27.010 +08:00 [INF] Route matched with {action = "SaveAutoRouteData", controller = "RouteInvoke"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] SaveAutoRouteData(ydb.Domain.Models.MiniLocationPoint) on controller YRBApp.Controllers.RouteInvokeController (YRBApp).
+2021-08-29 22:06:27.021 +08:00 [INF] Executing action method YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp) - Validation state: "Valid"
+2021-08-29 22:06:27.055 +08:00 [INF] Executed action method YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 29.4262ms.
+2021-08-29 22:06:27.059 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-08-29 22:06:27.065 +08:00 [INF] Executed action YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp) in 53.7286ms
+2021-08-29 22:06:27.066 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp)'
+2021-08-29 22:06:27.159 +08:00 [ERR] Connection ID "18374686507052040196", Request ID "80000005-0006-ff00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.InvalidOperationException: The response headers cannot be modified because the response has already started.
+   at Microsoft.AspNetCore.HttpSys.Internal.HeaderCollection.ThrowIfReadOnly()
+   at Microsoft.AspNetCore.HttpSys.Internal.HeaderCollection.set_Item(String key, StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at YRBApp.Middleware.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in D:\Source\yrb2021Net5\YRBApp\Middleware\RequestResponseLoggingMiddleware.cs:line 62
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-08-29 22:06:27.176 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SaveAutoRouteData application/json 337 - 200 - text/plain;+charset=utf-8 175.4267ms
+2021-08-29 22:06:46.562 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SaveAutoRouteData application/json 341
+2021-08-29 22:06:46.563 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/SaveAutoRouteData
+2021-08-29 22:06:46.565 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"123421231234413","ID":"011011001","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"113111122342134134","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-08-29 22:06:46.565 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-08-29 22:06:46.566 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp)'
+2021-08-29 22:06:46.589 +08:00 [INF] Route matched with {action = "SaveAutoRouteData", controller = "RouteInvoke"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] SaveAutoRouteData(ydb.Domain.Models.MiniLocationPoint) on controller YRBApp.Controllers.RouteInvokeController (YRBApp).
+2021-08-29 22:06:46.621 +08:00 [INF] Executing action method YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp) - Validation state: "Valid"
+2021-08-29 22:06:46.662 +08:00 [INF] Executed action method YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 39.4443ms.
+2021-08-29 22:06:46.664 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-08-29 22:06:46.665 +08:00 [INF] Executed action YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp) in 71.8577ms
+2021-08-29 22:06:46.666 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp)'
+2021-08-29 22:06:46.753 +08:00 [ERR] Connection ID "18374686515641974785", Request ID "80000002-0008-ff00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.InvalidOperationException: The response headers cannot be modified because the response has already started.
+   at Microsoft.AspNetCore.HttpSys.Internal.HeaderCollection.ThrowIfReadOnly()
+   at Microsoft.AspNetCore.HttpSys.Internal.HeaderCollection.set_Item(String key, StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at YRBApp.Middleware.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in D:\Source\yrb2021Net5\YRBApp\Middleware\RequestResponseLoggingMiddleware.cs:line 62
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-08-29 22:06:46.767 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SaveAutoRouteData application/json 341 - 200 - text/plain;+charset=utf-8 205.1268ms
+2021-08-29 22:10:37.360 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SaveAutoRouteData application/json 341
+2021-08-29 22:10:37.362 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/SaveAutoRouteData
+2021-08-29 22:10:37.367 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"123421231234413","ID":"011011001","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"113111122342134134","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-08-29 22:10:37.368 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-08-29 22:10:37.369 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp)'
+2021-08-29 22:10:37.370 +08:00 [INF] Route matched with {action = "SaveAutoRouteData", controller = "RouteInvoke"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] SaveAutoRouteData(ydb.Domain.Models.MiniLocationPoint) on controller YRBApp.Controllers.RouteInvokeController (YRBApp).
+2021-08-29 22:10:37.380 +08:00 [INF] Executing action method YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp) - Validation state: "Valid"
+2021-08-29 22:10:37.709 +08:00 [INF] Executed action YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp) in 337.812ms
+2021-08-29 22:10:37.753 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp)'
+2021-08-29 22:10:37.847 +08:00 [ERR] 违反了 PRIMARY KEY 约束“PK_MiniPositionRecord”。不能在对象“dbo.MiniLocationPoint”中插入重复键。重复键值为 (011011001)。语句已终止。
+2021-08-29 22:10:46.788 +08:00 [ERR] Connection ID "18230571310386249735", Request ID "80000008-0004-fd00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.InvalidOperationException: The response headers cannot be modified because the response has already started.
+   at Microsoft.AspNetCore.HttpSys.Internal.HeaderCollection.ThrowIfReadOnly()
+   at Microsoft.AspNetCore.HttpSys.Internal.HeaderCollection.set_Item(String key, StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at YRBApp.Middleware.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in D:\Source\yrb2021Net5\YRBApp\Middleware\RequestResponseLoggingMiddleware.cs:line 62
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-08-29 22:10:46.804 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SaveAutoRouteData application/json 341 - 200 - text/json 9443.7982ms
+2021-08-29 22:11:07.406 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-29 22:11:07.432 +08:00 [INF] Hosting environment: Development
+2021-08-29 22:11:07.434 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-08-29 22:11:07.432 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-08-29 22:11:07.463 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-08-29 22:11:07.464 +08:00 [INF] post数据:
+2021-08-29 22:11:07.465 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-08-29 22:11:07.504 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 74.0243ms
+2021-08-29 22:11:07.522 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-29 22:11:07.523 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-29 22:11:07.524 +08:00 [INF] post数据:
+2021-08-29 22:11:07.524 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-08-29 22:11:07.542 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 20.4974ms
+2021-08-29 22:11:23.632 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SaveAutoRouteData application/json 343
+2021-08-29 22:11:23.634 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/SaveAutoRouteData
+2021-08-29 22:11:23.636 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"123421231234413","ID":"1011011001","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"1113111122342134134","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-08-29 22:11:23.637 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-08-29 22:11:23.680 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp)'
+2021-08-29 22:11:23.717 +08:00 [INF] Route matched with {action = "SaveAutoRouteData", controller = "RouteInvoke"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] SaveAutoRouteData(ydb.Domain.Models.MiniLocationPoint) on controller YRBApp.Controllers.RouteInvokeController (YRBApp).
+2021-08-29 22:11:23.860 +08:00 [INF] Executing action method YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp) - Validation state: "Valid"
+2021-08-29 22:11:24.081 +08:00 [INF] Executed action method YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 214.7455ms.
+2021-08-29 22:11:24.088 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-08-29 22:11:24.093 +08:00 [INF] Executed action YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp) in 371.4022ms
+2021-08-29 22:11:24.096 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp)'
+2021-08-29 22:11:24.206 +08:00 [ERR] Connection ID "18302628895834243073", Request ID "80000002-0002-fe00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.InvalidOperationException: The response headers cannot be modified because the response has already started.
+   at Microsoft.AspNetCore.HttpSys.Internal.HeaderCollection.ThrowIfReadOnly()
+   at Microsoft.AspNetCore.HttpSys.Internal.HeaderCollection.set_Item(String key, StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at YRBApp.Middleware.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in D:\Source\yrb2021Net5\YRBApp\Middleware\RequestResponseLoggingMiddleware.cs:line 62
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-08-29 22:11:24.262 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SaveAutoRouteData application/json 343 - 200 - text/plain;+charset=utf-8 630.3943ms
+2021-08-29 22:11:50.311 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-29 22:11:50.342 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-08-29 22:11:50.346 +08:00 [INF] Hosting environment: Development
+2021-08-29 22:11:50.348 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-08-29 22:11:50.374 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-08-29 22:11:50.375 +08:00 [INF] post数据:
+2021-08-29 22:11:50.376 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-08-29 22:11:50.447 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 106.5225ms
+2021-08-29 22:11:50.469 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-29 22:11:50.471 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-29 22:11:50.472 +08:00 [INF] post数据:
+2021-08-29 22:11:50.473 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-08-29 22:11:50.492 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 23.4381ms
+2021-08-29 22:12:29.413 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-29 22:12:29.434 +08:00 [INF] Hosting environment: Development
+2021-08-29 22:12:29.436 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-08-29 22:12:29.435 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-08-29 22:12:29.463 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-08-29 22:12:29.465 +08:00 [INF] post数据:
+2021-08-29 22:12:29.467 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-08-29 22:12:29.550 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 118.2917ms
+2021-08-29 22:12:29.568 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-29 22:12:29.570 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-29 22:12:29.571 +08:00 [INF] post数据:
+2021-08-29 22:12:29.572 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-08-29 22:12:29.596 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 27.1384ms
+2021-08-29 22:12:35.091 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SaveAutoRouteData application/json 343
+2021-08-29 22:12:35.093 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/SaveAutoRouteData
+2021-08-29 22:12:35.094 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"123421231234413","ID":"1011011001","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"1113111122342134134","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-08-29 22:12:35.096 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-08-29 22:12:35.138 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp)'
+2021-08-29 22:12:35.336 +08:00 [INF] Route matched with {action = "SaveAutoRouteData", controller = "RouteInvoke"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] SaveAutoRouteData(ydb.Domain.Models.MiniLocationPoint) on controller YRBApp.Controllers.RouteInvokeController (YRBApp).
+2021-08-29 22:12:35.481 +08:00 [INF] Executing action method YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp) - Validation state: "Valid"
+2021-08-29 22:12:39.071 +08:00 [INF] Executed action YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp) in 3729.4741ms
+2021-08-29 22:12:39.118 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp)'
+2021-08-29 22:12:39.234 +08:00 [ERR] 违反了 PRIMARY KEY 约束“PK_MiniPositionRecord”。不能在对象“dbo.MiniLocationPoint”中插入重复键。重复键值为 (1011011001)。语句已终止。
+2021-08-29 22:12:41.613 +08:00 [ERR] Connection ID "18230571336156053505", Request ID "80000002-000a-fd00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.InvalidOperationException: The response headers cannot be modified because the response has already started.
+   at Microsoft.AspNetCore.HttpSys.Internal.HeaderCollection.ThrowIfReadOnly()
+   at Microsoft.AspNetCore.HttpSys.Internal.HeaderCollection.set_Item(String key, StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at YRBApp.Middleware.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in D:\Source\yrb2021Net5\YRBApp\Middleware\RequestResponseLoggingMiddleware.cs:line 62
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-08-29 22:12:41.668 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SaveAutoRouteData application/json 343 - 200 - text/json 6577.0817ms
+2021-08-29 22:12:53.528 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SaveAutoRouteData application/json 345
+2021-08-29 22:12:53.530 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/SaveAutoRouteData
+2021-08-29 22:12:53.532 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"123421231234413","ID":"10110111001","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"11131111122342134134","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-08-29 22:12:53.533 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-08-29 22:12:53.537 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp)'
+2021-08-29 22:12:53.539 +08:00 [INF] Route matched with {action = "SaveAutoRouteData", controller = "RouteInvoke"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] SaveAutoRouteData(ydb.Domain.Models.MiniLocationPoint) on controller YRBApp.Controllers.RouteInvokeController (YRBApp).
+2021-08-29 22:12:53.557 +08:00 [INF] Executing action method YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp) - Validation state: "Valid"
+2021-08-29 22:13:05.643 +08:00 [INF] Executed action method YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 12081.1911ms.
+2021-08-29 22:13:05.647 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-08-29 22:13:05.649 +08:00 [INF] Executed action YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp) in 12109.1538ms
+2021-08-29 22:13:05.650 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp)'
+2021-08-29 22:13:05.760 +08:00 [ERR] Connection ID "18374686498462105603", Request ID "80000004-0004-ff00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.InvalidOperationException: The response headers cannot be modified because the response has already started.
+   at Microsoft.AspNetCore.HttpSys.Internal.HeaderCollection.ThrowIfReadOnly()
+   at Microsoft.AspNetCore.HttpSys.Internal.HeaderCollection.set_Item(String key, StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at YRBApp.Middleware.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in D:\Source\yrb2021Net5\YRBApp\Middleware\RequestResponseLoggingMiddleware.cs:line 62
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-08-29 22:13:05.777 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SaveAutoRouteData application/json 345 - 200 - text/plain;+charset=utf-8 12249.7524ms
+2021-08-29 22:13:27.029 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SaveAutoRouteData application/json 347
+2021-08-29 22:13:27.030 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/SaveAutoRouteData
+2021-08-29 22:13:27.036 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"123421231234413","ID":"101120111001","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"111231111122342134134","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-08-29 22:13:27.037 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-08-29 22:13:27.038 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp)'
+2021-08-29 22:13:27.039 +08:00 [INF] Route matched with {action = "SaveAutoRouteData", controller = "RouteInvoke"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] SaveAutoRouteData(ydb.Domain.Models.MiniLocationPoint) on controller YRBApp.Controllers.RouteInvokeController (YRBApp).
+2021-08-29 22:13:27.053 +08:00 [INF] Executing action method YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp) - Validation state: "Valid"
+2021-08-29 22:13:32.989 +08:00 [INF] Executed action method YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5934.6142ms.
+2021-08-29 22:13:32.991 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-08-29 22:13:32.992 +08:00 [INF] Executed action YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp) in 5952.006ms
+2021-08-29 22:13:32.998 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp)'
+2021-08-29 22:13:33.095 +08:00 [ERR] Connection ID "18374686515641974787", Request ID "80000004-0008-ff00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.InvalidOperationException: The response headers cannot be modified because the response has already started.
+   at Microsoft.AspNetCore.HttpSys.Internal.HeaderCollection.ThrowIfReadOnly()
+   at Microsoft.AspNetCore.HttpSys.Internal.HeaderCollection.set_Item(String key, StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at YRBApp.Middleware.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in D:\Source\yrb2021Net5\YRBApp\Middleware\RequestResponseLoggingMiddleware.cs:line 62
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-08-29 22:13:33.156 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SaveAutoRouteData application/json 347 - 200 - text/plain;+charset=utf-8 6126.7928ms
+2021-08-29 22:14:39.423 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-29 22:14:39.450 +08:00 [INF] Hosting environment: Development
+2021-08-29 22:14:39.450 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-08-29 22:14:39.453 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-08-29 22:14:39.479 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-08-29 22:14:39.481 +08:00 [INF] post数据:
+2021-08-29 22:14:39.482 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-08-29 22:14:39.558 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 110.6444ms
+2021-08-29 22:14:39.582 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-29 22:14:39.583 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-29 22:14:39.585 +08:00 [INF] post数据:
+2021-08-29 22:14:39.586 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-08-29 22:14:39.609 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 27.3805ms
+2021-08-29 22:15:50.964 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-29 22:15:50.985 +08:00 [INF] Hosting environment: Development
+2021-08-29 22:15:50.985 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-08-29 22:15:50.989 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-08-29 22:15:51.017 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-08-29 22:15:51.018 +08:00 [INF] post数据:
+2021-08-29 22:15:51.020 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-08-29 22:15:51.101 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 119.4671ms
+2021-08-29 22:15:51.125 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-29 22:15:51.126 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-29 22:15:51.127 +08:00 [INF] post数据:
+2021-08-29 22:15:51.129 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-08-29 22:15:51.155 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 30.1779ms
+2021-08-29 22:16:21.810 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-29 22:16:21.833 +08:00 [INF] Hosting environment: Development
+2021-08-29 22:16:21.835 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-08-29 22:16:21.834 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-08-29 22:16:21.866 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-08-29 22:16:21.867 +08:00 [INF] post数据:
+2021-08-29 22:16:21.868 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-08-29 22:16:21.945 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 115.1644ms
+2021-08-29 22:16:21.962 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-29 22:16:21.964 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-29 22:16:21.965 +08:00 [INF] post数据:
+2021-08-29 22:16:21.966 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-08-29 22:16:21.990 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 27.3144ms
+2021-08-29 22:16:29.831 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SaveAutoRouteData application/json 349
+2021-08-29 22:16:29.833 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/SaveAutoRouteData
+2021-08-29 22:16:29.834 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"123421231234413","ID":"1011201111001","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"1112311111221342134134","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-08-29 22:16:29.835 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-08-29 22:16:32.045 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp)'
+2021-08-29 22:16:32.082 +08:00 [INF] Route matched with {action = "SaveAutoRouteData", controller = "RouteInvoke"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] SaveAutoRouteData(ydb.Domain.Models.MiniLocationPoint) on controller YRBApp.Controllers.RouteInvokeController (YRBApp).
+2021-08-29 22:16:32.241 +08:00 [INF] Executing action method YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp) - Validation state: "Valid"
+2021-08-29 22:16:37.185 +08:00 [INF] Executed action method YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4937.4109ms.
+2021-08-29 22:16:37.191 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-08-29 22:16:37.196 +08:00 [INF] Executed action YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp) in 5109.0956ms
+2021-08-29 22:16:37.198 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp)'
+2021-08-29 22:16:38.699 +08:00 [ERR] Connection ID "18374686519936942089", Request ID "8000000a-0009-ff00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.InvalidOperationException: The response headers cannot be modified because the response has already started.
+   at Microsoft.AspNetCore.HttpSys.Internal.HeaderCollection.ThrowIfReadOnly()
+   at Microsoft.AspNetCore.HttpSys.Internal.HeaderCollection.set_Item(String key, StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at YRBApp.Middleware.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in D:\Source\yrb2021Net5\YRBApp\Middleware\RequestResponseLoggingMiddleware.cs:line 62
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-08-29 22:16:38.766 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SaveAutoRouteData application/json 349 - 200 - text/plain;+charset=utf-8 8935.2424ms
+2021-08-29 22:18:15.559 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-29 22:18:15.580 +08:00 [INF] Hosting environment: Development
+2021-08-29 22:18:15.582 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-08-29 22:18:15.582 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-08-29 22:18:15.611 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-08-29 22:18:15.612 +08:00 [INF] post数据:
+2021-08-29 22:18:15.613 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-08-29 22:18:15.702 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 124.1112ms
+2021-08-29 22:18:15.721 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-29 22:18:15.722 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-29 22:18:15.724 +08:00 [INF] post数据:
+2021-08-29 22:18:15.724 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-08-29 22:18:15.748 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 27.1374ms
+2021-08-29 22:18:22.960 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SaveAutoRouteData application/json 351
+2021-08-29 22:18:22.962 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/SaveAutoRouteData
+2021-08-29 22:18:22.964 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"123421231234413","ID":"10112011111001","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"11123111112121342134134","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-08-29 22:18:22.965 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-08-29 22:18:24.808 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp)'
+2021-08-29 22:18:24.843 +08:00 [INF] Route matched with {action = "SaveAutoRouteData", controller = "RouteInvoke"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] SaveAutoRouteData(ydb.Domain.Models.MiniLocationPoint) on controller YRBApp.Controllers.RouteInvokeController (YRBApp).
+2021-08-29 22:18:24.982 +08:00 [INF] Executing action method YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp) - Validation state: "Valid"
+2021-08-29 22:18:28.342 +08:00 [INF] Executed action method YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3354.4179ms.
+2021-08-29 22:18:28.349 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-08-29 22:18:28.359 +08:00 [INF] Executed action YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp) in 3511.7264ms
+2021-08-29 22:18:28.361 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp)'
+2021-08-29 22:18:29.494 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SaveAutoRouteData application/json 351 - 200 - text/plain;+charset=utf-8 6534.7519ms
+2021-08-29 22:19:56.611 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-29 22:19:56.632 +08:00 [INF] Hosting environment: Development
+2021-08-29 22:19:56.634 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-08-29 22:19:56.633 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-08-29 22:19:56.661 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-08-29 22:19:56.663 +08:00 [INF] post数据:
+2021-08-29 22:19:56.664 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-08-29 22:19:56.742 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 112.9070ms
+2021-08-29 22:19:56.760 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-29 22:19:56.761 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-29 22:19:56.762 +08:00 [INF] post数据:
+2021-08-29 22:19:56.763 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-08-29 22:19:56.786 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 25.9024ms
+2021-08-29 22:20:02.201 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SaveAutoRouteData application/json 355
+2021-08-29 22:20:02.203 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/SaveAutoRouteData
+2021-08-29 22:20:02.204 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"123421231234413","ID":"1011201121111001","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"1112311111122121342134134","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-08-29 22:20:02.206 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-08-29 22:20:03.940 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp)'
+2021-08-29 22:20:03.975 +08:00 [INF] Route matched with {action = "SaveAutoRouteData", controller = "RouteInvoke"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] SaveAutoRouteData(ydb.Domain.Models.MiniLocationPoint) on controller YRBApp.Controllers.RouteInvokeController (YRBApp).
+2021-08-29 22:20:04.115 +08:00 [INF] Executing action method YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp) - Validation state: "Valid"
+2021-08-29 22:20:07.594 +08:00 [INF] Executed action method YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3472.7225ms.
+2021-08-29 22:20:07.601 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-08-29 22:20:07.607 +08:00 [INF] Executed action YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp) in 3627.4191ms
+2021-08-29 22:20:07.608 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp)'
+2021-08-29 22:20:07.725 +08:00 [ERR] Connection ID "18230571336156053507", Request ID "80000004-000a-fd00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.InvalidOperationException: The response headers cannot be modified because the response has already started.
+   at Microsoft.AspNetCore.HttpSys.Internal.HeaderCollection.ThrowIfReadOnly()
+   at Microsoft.AspNetCore.HttpSys.Internal.HeaderCollection.set_Item(String key, StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at YRBApp.Middleware.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in D:\Source\yrb2021Net5\YRBApp\Middleware\RequestResponseLoggingMiddleware.cs:line 62
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-08-29 22:20:07.781 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SaveAutoRouteData application/json 355 - 200 - text/plain;+charset=utf-8 5580.1187ms
+2021-08-29 22:20:33.067 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-29 22:20:33.090 +08:00 [INF] Hosting environment: Development
+2021-08-29 22:20:33.092 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-08-29 22:20:33.093 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-08-29 22:20:33.122 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-08-29 22:20:33.123 +08:00 [INF] post数据:
+2021-08-29 22:20:33.124 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-08-29 22:20:33.171 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 83.7573ms
+2021-08-29 22:20:33.191 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-08-29 22:20:33.192 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-08-29 22:20:33.193 +08:00 [INF] post数据:
+2021-08-29 22:20:33.194 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-08-29 22:20:33.216 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 25.2713ms
+2021-08-29 22:20:41.600 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SaveAutoRouteData application/json 361
+2021-08-29 22:20:41.602 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/SaveAutoRouteData
+2021-08-29 22:20:41.604 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"123421231234413","ID":"10112121201121111001","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"111231111112212121342134134","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-08-29 22:20:41.605 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-08-29 22:20:43.345 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp)'
+2021-08-29 22:20:43.381 +08:00 [INF] Route matched with {action = "SaveAutoRouteData", controller = "RouteInvoke"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] SaveAutoRouteData(ydb.Domain.Models.MiniLocationPoint) on controller YRBApp.Controllers.RouteInvokeController (YRBApp).
+2021-08-29 22:20:43.519 +08:00 [INF] Executing action method YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp) - Validation state: "Valid"
+2021-08-29 22:20:46.780 +08:00 [INF] Executed action method YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3254.7006ms.
+2021-08-29 22:20:46.787 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-08-29 22:20:46.792 +08:00 [INF] Executed action YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp) in 3406.3837ms
+2021-08-29 22:20:46.794 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RouteInvokeController.SaveAutoRouteData (YRBApp)'
+2021-08-29 22:20:48.315 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SaveAutoRouteData application/json 361 - 200 - text/plain;+charset=utf-8 6715.2269ms

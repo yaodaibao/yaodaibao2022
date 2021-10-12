@@ -1,0 +1,125 @@
+2021-09-02 15:54:03.550 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-02 15:54:03.587 +08:00 [INF] Hosting environment: Development
+2021-09-02 15:54:03.589 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-09-02 15:54:03.595 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-09-02 15:54:03.777 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-09-02 15:54:03.778 +08:00 [INF] post数据:
+2021-09-02 15:54:03.779 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-09-02 15:54:03.878 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 284.5754ms
+2021-09-02 15:54:03.894 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-09-02 15:54:03.896 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-09-02 15:54:03.897 +08:00 [INF] post数据:
+2021-09-02 15:54:03.898 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-09-02 15:54:03.928 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 34.0206ms
+2021-09-02 15:54:46.216 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SignOut application/json 361
+2021-09-02 15:54:46.218 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/SignOut
+2021-09-02 15:54:46.220 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"123421231234413","ID":"10112121201121111001","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"111231111112212121342134134","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-09-02 15:54:46.221 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-09-02 15:54:46.276 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RouteInvokeController.SignOut (YRBApp)'
+2021-09-02 15:54:46.334 +08:00 [INF] Route matched with {action = "SignOut", controller = "RouteInvoke"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] SignOut(ydb.Domain.Models.RouteDetails) on controller YRBApp.Controllers.RouteInvokeController (YRBApp).
+2021-09-02 15:54:46.523 +08:00 [INF] Executing action method YRBApp.Controllers.RouteInvokeController.SignOut (YRBApp) - Validation state: "Valid"
+2021-09-02 16:24:04.823 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-02 16:24:04.848 +08:00 [INF] Hosting environment: Development
+2021-09-02 16:24:04.850 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-09-02 16:24:04.849 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-09-02 16:24:04.985 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-09-02 16:24:04.987 +08:00 [INF] post数据:
+2021-09-02 16:24:04.988 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-09-02 16:24:05.065 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 219.6799ms
+2021-09-02 16:24:05.093 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-09-02 16:24:05.095 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-09-02 16:24:05.097 +08:00 [INF] post数据:
+2021-09-02 16:24:05.098 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-09-02 16:24:05.120 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 27.1873ms
+2021-09-02 16:24:09.481 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SignOut application/json 361
+2021-09-02 16:24:09.483 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/SignOut
+2021-09-02 16:24:09.484 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"123421231234413","ID":"10112121201121111001","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"111231111112212121342134134","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-09-02 16:24:09.485 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-09-02 16:24:09.533 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RouteInvokeController.SignOut (YRBApp)'
+2021-09-02 16:24:09.571 +08:00 [INF] Route matched with {action = "SignOut", controller = "RouteInvoke"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] SignOut(ydb.Domain.Models.RouteDetails) on controller YRBApp.Controllers.RouteInvokeController (YRBApp).
+2021-09-02 16:24:09.699 +08:00 [INF] Executing action method YRBApp.Controllers.RouteInvokeController.SignOut (YRBApp) - Validation state: "Valid"
+2021-09-02 16:24:25.336 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-02 16:24:25.359 +08:00 [INF] Hosting environment: Development
+2021-09-02 16:24:25.361 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-09-02 16:24:25.359 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-09-02 16:24:25.499 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-09-02 16:24:25.500 +08:00 [INF] post数据:
+2021-09-02 16:24:25.501 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-09-02 16:24:25.582 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 225.2240ms
+2021-09-02 16:24:25.600 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-09-02 16:24:25.601 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-09-02 16:24:25.602 +08:00 [INF] post数据:
+2021-09-02 16:24:25.603 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-09-02 16:24:25.625 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 25.2611ms
+2021-09-02 16:24:27.490 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SignOut application/json 361
+2021-09-02 16:24:27.492 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/SignOut
+2021-09-02 16:24:27.494 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"123421231234413","ID":"10112121201121111001","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"111231111112212121342134134","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-09-02 16:24:27.495 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-09-02 16:24:27.537 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RouteInvokeController.SignOut (YRBApp)'
+2021-09-02 16:24:27.579 +08:00 [INF] Route matched with {action = "SignOut", controller = "RouteInvoke"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] SignOut(ydb.Domain.Models.RouteDetails) on controller YRBApp.Controllers.RouteInvokeController (YRBApp).
+2021-09-02 16:24:27.705 +08:00 [INF] Executing action method YRBApp.Controllers.RouteInvokeController.SignOut (YRBApp) - Validation state: "Valid"
+2021-09-02 16:24:43.509 +08:00 [INF] Executed action YRBApp.Controllers.RouteInvokeController.SignOut (YRBApp) in 15925.1421ms
+2021-09-02 16:24:43.539 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RouteInvokeController.SignOut (YRBApp)'
+2021-09-02 16:24:43.579 +08:00 [ERR] Data at the root level is invalid. Line 1, position 1.
+2021-09-02 16:24:51.437 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-02 16:24:51.461 +08:00 [INF] Hosting environment: Development
+2021-09-02 16:24:51.461 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-09-02 16:24:51.465 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-09-02 16:24:51.647 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-09-02 16:24:51.648 +08:00 [INF] post数据:
+2021-09-02 16:24:51.649 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-09-02 16:24:51.696 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 238.8080ms
+2021-09-02 16:24:51.713 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-09-02 16:24:51.714 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-09-02 16:24:51.715 +08:00 [INF] post数据:
+2021-09-02 16:24:51.716 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-09-02 16:24:51.738 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 24.5837ms
+2021-09-02 16:24:54.542 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SignOut application/json 361
+2021-09-02 16:24:54.544 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/SignOut
+2021-09-02 16:24:54.545 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"123421231234413","ID":"10112121201121111001","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"111231111112212121342134134","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-09-02 16:24:54.546 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-09-02 16:24:54.588 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RouteInvokeController.SignOut (YRBApp)'
+2021-09-02 16:24:54.626 +08:00 [INF] Route matched with {action = "SignOut", controller = "RouteInvoke"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] SignOut(ydb.Domain.Models.RouteDetails) on controller YRBApp.Controllers.RouteInvokeController (YRBApp).
+2021-09-02 16:24:54.756 +08:00 [INF] Executing action method YRBApp.Controllers.RouteInvokeController.SignOut (YRBApp) - Validation state: "Valid"
+2021-09-02 16:25:05.596 +08:00 [INF] Executed action YRBApp.Controllers.RouteInvokeController.SignOut (YRBApp) in 10964.8851ms
+2021-09-02 16:25:05.617 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RouteInvokeController.SignOut (YRBApp)'
+2021-09-02 16:25:05.655 +08:00 [ERR] Data at the root level is invalid. Line 1, position 1.
+2021-09-02 16:25:08.460 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SignOut application/json 361 - 200 - text/json 13918.7953ms
+2021-09-02 16:25:10.567 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SignOut application/json 361
+2021-09-02 16:25:10.569 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/SignOut
+2021-09-02 16:25:10.570 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"123421231234413","ID":"10112121201121111001","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"111231111112212121342134134","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-09-02 16:25:10.571 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-09-02 16:25:10.576 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RouteInvokeController.SignOut (YRBApp)'
+2021-09-02 16:25:10.578 +08:00 [INF] Route matched with {action = "SignOut", controller = "RouteInvoke"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] SignOut(ydb.Domain.Models.RouteDetails) on controller YRBApp.Controllers.RouteInvokeController (YRBApp).
+2021-09-02 16:25:10.590 +08:00 [INF] Executing action method YRBApp.Controllers.RouteInvokeController.SignOut (YRBApp) - Validation state: "Valid"
+2021-09-02 16:28:04.140 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-02 16:28:04.161 +08:00 [INF] Hosting environment: Development
+2021-09-02 16:28:04.163 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-09-02 16:28:04.162 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-09-02 16:28:04.303 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-09-02 16:28:04.304 +08:00 [INF] post数据:
+2021-09-02 16:28:04.305 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-09-02 16:28:04.386 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 226.4613ms
+2021-09-02 16:28:04.402 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-09-02 16:28:04.404 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-09-02 16:28:04.406 +08:00 [INF] post数据:
+2021-09-02 16:28:04.407 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+2021-09-02 16:28:04.430 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 27.7987ms
+2021-09-02 16:28:06.446 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SignOut application/json 361
+2021-09-02 16:28:06.448 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/SignOut
+2021-09-02 16:28:06.449 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"123421231234413","ID":"10112121201121111001","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"111231111112212121342134134","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-09-02 16:28:06.450 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-09-02 16:28:06.492 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RouteInvokeController.SignOut (YRBApp)'
+2021-09-02 16:28:06.538 +08:00 [INF] Route matched with {action = "SignOut", controller = "RouteInvoke"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] SignOut(ydb.Domain.Models.RouteDetails) on controller YRBApp.Controllers.RouteInvokeController (YRBApp).
+2021-09-02 16:28:06.666 +08:00 [INF] Executing action method YRBApp.Controllers.RouteInvokeController.SignOut (YRBApp) - Validation state: "Valid"
+2021-09-02 16:28:44.947 +08:00 [INF] Executed action YRBApp.Controllers.RouteInvokeController.SignOut (YRBApp) in 38404.6728ms
+2021-09-02 16:28:44.968 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RouteInvokeController.SignOut (YRBApp)'
+2021-09-02 16:28:45.007 +08:00 [ERR] Data at the root level is invalid. Line 1, position 1.
+2021-09-02 16:28:47.422 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SignOut application/json 361 - 200 - text/json 40976.1361ms
+2021-09-02 16:28:53.500 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/routeinvoke/SignOut application/json 346
+2021-09-02 16:28:53.502 +08:00 [INF] 请求地址:http://localhost:10294/api/routeinvoke/SignOut
+2021-09-02 16:28:53.504 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"","ID":"10112121201121111001","Locatioin":"122,13","Name":"测试地址", "MiniSurrAddress":[{"ID":"111231111112212121342134134","Distance":123,"Name":"测试地址","Location":"122.159","TypeCode":10000,"LocationType":"商业","Address":"宏汇国际广场"}]}
+2021-09-02 16:28:53.506 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-09-02 16:28:53.511 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RouteInvokeController.SignOut (YRBApp)'
+2021-09-02 16:28:53.513 +08:00 [INF] Route matched with {action = "SignOut", controller = "RouteInvoke"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] SignOut(ydb.Domain.Models.RouteDetails) on controller YRBApp.Controllers.RouteInvokeController (YRBApp).
+2021-09-02 16:28:53.525 +08:00 [INF] Executing action method YRBApp.Controllers.RouteInvokeController.SignOut (YRBApp) - Validation state: "Valid"

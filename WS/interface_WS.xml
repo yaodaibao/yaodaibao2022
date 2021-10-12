@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InterFace>
+<WS Class="ydb.ScheduleService.CallInvoke" Http="http://ydb.tenrypharm.com:6060/CallInvoke.asmx" Description="">
+   <Method Name="GetCallList">
+    <Return Type="Xml" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+   <Method Name="GetCallDetail">
+    <Return Type="Xml" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+   <Method Name="DeleteCall">
+    <Return Type="Xml" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+   <Method Name="UpdateCallData">
+    <Return Type="Xml" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetMyCallList">
+    <Return Type="Xml" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+   <Method Name="GetTeamCallList">
+    <Return Type="Xml" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+</WS>
+<WS Class="ydb.ScheduleService.ScheduleInvoke" Http="http://ydb.tenrypharm.com:6060/ScheduleInvoke.asmx" Description=""  >
+  <Method Name="GetScheduleList">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetScheduleDetail">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="UpdateScheduleData">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="DeleteSchedule">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetMyScheduleList">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetTeamScheduleList">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+</WS>
+
+<WS Class="ydb.ScheduleService.RouteInvoke" Http="http://ydb.tenrypharm.com:6060/RouteInvoke.asmx" Description=""  >
+  <Method Name="AutoRoute">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+ 
+    <Method Name="SignIn">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="SignOut">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetRouteDetail">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="DeleteRoute">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetRouteList">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+</WS>
+
+<WS Class="ydb.CommonService.ItemInvoke" Http="http://ydb.tenrypharm.com:6060/ItemInvoke.asmx" Description=""  >
+  <Method Name="UpdateClassData">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="UpdateItemData">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="DeleteClass">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetClassDetail">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="DeleteClass">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetItemListByClass">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetItemListByParent">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetAllItemsByParent">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetAllDetailItemsByParent">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetItemDetail">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="DeleteItem">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetClassList">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetProductList">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetProductDetail">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="DeleteProduct">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="UpdateProduct">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+    <Method Name="GetAccountList">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetCostCenterList">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetCompanyList">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetConceptList">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetSKUList">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+</WS>
+<WS Class="ydb.CommonService.OrganizationInvoke" Http="http://192.168.20.149:6060/OrganizationInvoke.asmx" Description=""  >
+  <Method Name="UpdateDepartment">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="DeleteDepartment">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetDepartmentList">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetDepartmentDetail">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="UpdateEmployee">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="UpdateDepartment">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="DeleteEmployee">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetEmployeeList">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetEmployeeDetail">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetAllSubItemList">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetEmployeeListByDepartment">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+	<Method Name="GetTeamMemberList">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+</WS>
+<WS Class="ydb.CommonService.ClientInvoke" Http="http://ydb.tenrypharm.com:6060/ClientInvoke.asmx" Description=""  >
+   <Method Name="GetMyDoctorList">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="UpdateHospital">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="DeleteHospital">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetHospitalList">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetHospitalDetail">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+    <Method Name="UpdateHospitalDept">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="DeleteHospitalDept">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetHospitalDeptList">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetHospitalDeptDetail">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetDoctorList">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetDoctorDetail">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="UpdateDoctor">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+    <Method Name="UpdateDoctorJson">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="String" Desription=""></Parameter>
+  </Method>
+  <Method Name="DeleteDoctor">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetAgencyList">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+    <Method Name="GetAgencyDetail">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="UpdateAgency">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="DeleteAgency">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+</WS>
+<WS Class="ydb.CommonService.AuthInvoke" Http="http://ydb.tenrypharm.com:6060/AuthInvoke.asmx" Description=""  >
+  <Method Name="GetAuthHospitalList">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetDetailByRegionID">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetDetailByAgencyID">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetDetailByHospitalID">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetMyClientList">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetList">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetProductListByHospitalID">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="UpdateHospitalProducts">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="UpdateHospitalOwners">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="UpdateRegionOwners">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="UpdateAgencyOwners">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetAuthRegionList">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetAuthAgencyList">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetDetailByAgencyID">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetMyProductList">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+</WS>
+<WS Class="ydb.WebService.RegistrationInvoke" Http="http://ydb.tenrypharm.com:6060/RegistrationInvoke.asmx" Description=""  >
+   <Method Name="Login">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="LoginJson">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="JsonMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetRegStatusByMobile">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetRegStatusByMobileJson">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="CheckInvitationCode">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="SaveRegType">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetRegType">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="SaveRegApplicant">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetRegApplicant">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="SaveRegProduct">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetRegProduct">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="SaveRegAuthData">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetRegAuthData">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="SaveRegRelationship">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetRegRelationShip">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="ChangePassword">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="CheckRegistration">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetInvitationCode">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="SendVCode">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+<Method Name="CreateInvitationCode">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="SaveRegPerformance">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+    </Method> 
+  <Method Name="GetRegPerformance">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method> 
+  <Method Name="SetPassword">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method> 
+  <Method Name="SendVCode">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method> 
+  <Method Name="CheckVCode">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method> 
+  <Method Name="UploadRegImage">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method> 
+  <Method Name="GetRegImage">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method> 
+</WS>
+<WS Class="ydb.WebService.WorkReportInvoke" Http="http://ydb.tenrypharm.com:6060/WorkReportInvoke.asmx" Description=""  >
+  <Method Name="UpdateDailyReport">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="UpdateWeekReport">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="UpdateMonthReport">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetMonthReportList">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetWeekReportList">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetWeekReportListByIndex">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetDailyReportList">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="UpdateMarketingActivity">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="DeleteMarketingActivity">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetMarketingActivityList">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetMarketingActivityDetail">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetFeeList">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="DeleteFeeData">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="DeleteExpendData">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="DeleteTripData">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="UpdateFeeData">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetTripList">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetExpendList">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetPerformanceList">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetPerformanceDetail">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="SubmitFeeData">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+   <Method Name="GetFeeDetail">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetMonthReportListByIndex">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+</WS>
+<WS Class="iTR.WebService.UserInvoke" Http="ydb.tenrypharm.com:6060/UserInvoke.asmx" Description=""  >
+  <Method Name="GetPageAuthData">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="Login">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+</WS>
+<WS Class="ydb.WebService.MessageInvoke" Http="http://ydb.tenrypharm.com:6060/MessageInvoke.asmx" Description=""  >
+   <Method Name="GetLogList">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  <Method Name="GetMessageList">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+</WS>
+<WS Class="ydb.WebService.ReportDataInvoke" Http="http://ydb.tenrypharm.com:6060/ReportDataInvoke.asmx" Description="">
+   <Method Name="GetCallReport1">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+     <Method Name="GetCallReport2">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+     <Method Name="ExportCallReport">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+   <Method Name="GetPersonSummaryReport">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="JsonMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+  
+</WS>
+<WS Class="Pecker.WebService.CapacityInvoker" Http="http://lib.tenrypharm.com:5050/CapacityInvoker.asmx" Description="">
+   <Method Name="GetCapacityBalance">
+    <Return Type="XmlString" Desription="" ></Return>
+    <Parameter Name="callType" Type="String" Desription=""></Parameter>
+    <Parameter Name="xmlMessage" Type="XmlString" Desription=""></Parameter>
+  </Method>
+</WS>
+</InterFace>
+       

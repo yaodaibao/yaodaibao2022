@@ -1,0 +1,1061 @@
+2021-07-14 14:40:10.368 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-14 14:40:10.464 +08:00 [INF] Hosting environment: Development
+2021-07-14 14:40:10.466 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-07-14 14:40:10.473 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-14 14:40:10.473 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-14 14:40:10.473 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 14:40:10.473 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 175
+2021-07-14 14:40:10.473 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-14 14:40:10.473 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-14 14:40:11.944 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/QueryItem
+2021-07-14 14:40:11.944 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-07-14 14:40:11.944 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 14:40:11.945 +08:00 [INF] post数据:{   "AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",   "EmployeeID":"3855445455166195066",   "queryValue":"医院",   "queryType":"hospital"}
+2021-07-14 14:40:11.947 +08:00 [INF] post数据:
+2021-07-14 14:40:11.948 +08:00 [INF] post数据:
+2021-07-14 14:40:11.950 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 14:40:11.951 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 14:40:11.950 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 14:40:11.944 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-07-14 14:40:11.944 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-07-14 14:40:11.944 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-07-14 14:40:11.957 +08:00 [INF] post数据:
+2021-07-14 14:40:11.957 +08:00 [INF] post数据:
+2021-07-14 14:40:11.960 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 14:40:11.961 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 14:40:11.958 +08:00 [INF] post数据:
+2021-07-14 14:40:11.964 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 14:40:12.224 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 1754.1601ms
+2021-07-14 14:40:12.224 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 1754.1680ms
+2021-07-14 14:40:12.224 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 1754.1607ms
+2021-07-14 14:40:12.224 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 1754.1599ms
+2021-07-14 14:40:12.224 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 1754.1604ms
+2021-07-14 14:40:12.286 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 14:40:12.289 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 14:40:12.290 +08:00 [INF] post数据:
+2021-07-14 14:40:12.292 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 14:40:12.327 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 41.2015ms
+2021-07-14 14:40:12.329 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 14:40:12.331 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 14:40:12.333 +08:00 [INF] post数据:
+2021-07-14 14:40:12.334 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 14:40:12.361 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 32.0610ms
+2021-07-14 14:40:12.372 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 14:40:12.374 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 14:40:12.376 +08:00 [INF] post数据:
+2021-07-14 14:40:12.377 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 14:40:12.378 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 14:40:12.419 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 46.5565ms
+2021-07-14 14:40:12.421 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 14:40:12.424 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 14:40:12.426 +08:00 [INF] post数据:
+2021-07-14 14:40:12.428 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 14:40:12.460 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 38.6375ms
+2021-07-14 14:40:12.503 +08:00 [INF] Route matched with {action = "QueryAuthItem", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] QueryAuthItem() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-14 14:40:12.553 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) - Validation state: "Valid"
+2021-07-14 14:41:08.090 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) in 55582.333ms
+2021-07-14 14:41:08.860 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 14:41:11.955 +08:00 [ERR] Object reference not set to an instance of an object.
+2021-07-14 14:41:12.207 +08:00 [INF] 服务消息:{"Result":"false","Description":"Object reference not set to an instance of an object.","DataRows":{"DataRow":[]} }
+2021-07-14 14:41:12.211 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 175 - 200 - text/json 61741.3349ms
+2021-07-14 14:41:16.076 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 214
+2021-07-14 14:41:16.078 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/QueryItem
+2021-07-14 14:41:16.079 +08:00 [INF] post数据:{   "AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",   "EmployeeID":"3855445455166195066",   "queryValue":"医院",   "queryType":"hospital",   "pageindex":1,   "pagesize":100}
+2021-07-14 14:41:16.080 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 14:41:16.087 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 14:41:16.089 +08:00 [INF] Route matched with {action = "QueryAuthItem", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] QueryAuthItem() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-14 14:41:16.100 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) - Validation state: "Valid"
+2021-07-14 14:41:16.700 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) in 608.722ms
+2021-07-14 14:41:16.722 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 14:41:16.807 +08:00 [ERR] ExecuteReader: CommandText property has not been initialized
+2021-07-14 14:41:16.809 +08:00 [INF] 服务消息:{"Result":"false","Description":"ExecuteReader: CommandText property has not been initialized","DataRows":{"DataRow":[]} }
+2021-07-14 14:41:16.811 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 214 - 200 - text/json 735.0969ms
+2021-07-14 14:41:35.412 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 214
+2021-07-14 14:41:35.414 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/QueryItem
+2021-07-14 14:41:35.415 +08:00 [INF] post数据:{   "AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",   "EmployeeID":"3855445455166195066",   "queryValue":"医院",   "queryType":"hospital",   "pageindex":1,   "pagesize":100}
+2021-07-14 14:41:35.416 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 14:41:35.417 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 14:41:35.419 +08:00 [INF] Route matched with {action = "QueryAuthItem", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] QueryAuthItem() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-14 14:41:35.430 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) - Validation state: "Valid"
+2021-07-14 14:42:04.987 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) in 29567.0477ms
+2021-07-14 14:42:05.006 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 14:42:05.046 +08:00 [ERR] ExecuteReader: CommandText property has not been initialized
+2021-07-14 14:42:05.048 +08:00 [INF] 服务消息:{"Result":"false","Description":"ExecuteReader: CommandText property has not been initialized","DataRows":{"DataRow":[]} }
+2021-07-14 14:42:05.057 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 214 - 200 - text/json 29638.0514ms
+2021-07-14 14:42:27.583 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 215
+2021-07-14 14:42:27.589 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/QueryItem
+2021-07-14 14:42:27.590 +08:00 [INF] post数据:{   "AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",   "EmployeeID":"3855445455166195066",   "queryValue":"医院",   "queryType":"hostpital",   "pageindex":1,   "pagesize":100}
+2021-07-14 14:42:27.591 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 14:42:27.592 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 14:42:27.615 +08:00 [INF] Route matched with {action = "QueryAuthItem", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] QueryAuthItem() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-14 14:42:27.646 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) - Validation state: "Valid"
+2021-07-14 14:42:31.144 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) in 3523.2313ms
+2021-07-14 14:42:31.163 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 14:42:31.223 +08:00 [ERR] “offset”附近有语法错误。在 FETCH 语句中选项 next 的用法无效。
+2021-07-14 14:42:31.225 +08:00 [INF] 服务消息:{"Result":"false","Description":"“offset”附近有语法错误。
+在 FETCH 语句中选项 next 的用法无效。","DataRows":{"DataRow":[]} }
+2021-07-14 14:42:31.227 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 215 - 200 - text/json 3644.0553ms
+2021-07-14 14:42:38.795 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 215
+2021-07-14 14:42:38.801 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/QueryItem
+2021-07-14 14:42:38.802 +08:00 [INF] post数据:{   "AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",   "EmployeeID":"3855445455166195066",   "queryValue":"医院",   "queryType":"hostpital",   "pageindex":1,   "pagesize":100}
+2021-07-14 14:42:38.803 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 14:42:38.804 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 14:42:38.806 +08:00 [INF] Route matched with {action = "QueryAuthItem", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] QueryAuthItem() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-14 14:42:38.815 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) - Validation state: "Valid"
+2021-07-14 14:47:18.765 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-14 14:47:18.805 +08:00 [INF] Hosting environment: Development
+2021-07-14 14:47:18.807 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-07-14 14:47:18.809 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 14:47:18.809 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-14 14:47:18.851 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 14:47:18.851 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-07-14 14:47:18.852 +08:00 [INF] post数据:
+2021-07-14 14:47:18.854 +08:00 [INF] post数据:
+2021-07-14 14:47:18.855 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 14:47:18.855 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 14:47:19.008 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 203.7416ms
+2021-07-14 14:47:19.008 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 203.7418ms
+2021-07-14 14:47:19.046 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 14:47:19.049 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 14:47:19.050 +08:00 [INF] post数据:
+2021-07-14 14:47:19.052 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 14:47:19.085 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 38.5646ms
+2021-07-14 14:47:19.497 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 14:47:19.499 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 14:47:19.500 +08:00 [INF] post数据:
+2021-07-14 14:47:19.501 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 14:47:19.526 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 29.4412ms
+2021-07-14 14:47:19.528 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 14:47:19.529 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 14:47:19.530 +08:00 [INF] post数据:
+2021-07-14 14:47:19.531 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 14:47:19.553 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 24.6604ms
+2021-07-14 14:47:20.690 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 14:47:20.692 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 14:47:20.693 +08:00 [INF] post数据:
+2021-07-14 14:47:20.694 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 14:47:20.717 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 27.0326ms
+2021-07-14 14:47:20.979 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 14:47:20.980 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 14:47:20.981 +08:00 [INF] post数据:
+2021-07-14 14:47:20.982 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 14:47:21.004 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 24.9548ms
+2021-07-14 14:47:23.576 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 215
+2021-07-14 14:47:23.578 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/QueryItem
+2021-07-14 14:47:23.579 +08:00 [INF] post数据:{   "AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",   "EmployeeID":"3855445455166195066",   "queryValue":"医院",   "queryType":"hostpital",   "pageindex":1,   "pagesize":100}
+2021-07-14 14:47:23.580 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 14:47:23.617 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 14:47:23.645 +08:00 [INF] Route matched with {action = "QueryAuthItem", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] QueryAuthItem() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-14 14:47:23.686 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) - Validation state: "Valid"
+2021-07-14 14:47:31.599 +08:00 [INF] Executed action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 7907.0032ms.
+2021-07-14 14:47:31.606 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-07-14 14:47:31.632 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) in 7982.3104ms
+2021-07-14 14:47:31.634 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 14:47:31.706 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[{"name":"临沂正和医院","id":"-100000005325828122","pageindex":"1","pagetotal":"490"},{"name":"临汾市心脑血管病专科医院","id":"-1000301567495355217","pageindex":"1","pagetotal":"490"},{"name":"青山区自由路办事处都兰社区卫生服务站(内蒙古一机医院)","id":"-1000473902552036495","pageindex":"1","pagetotal":"490"},{"name":"深圳市宝安区公明医院根竹园社区健康服务中心","id":"-1001121664656193403","pageindex":"1","pagetotal":"490"},{"name":"霍城县第一人民医院","id":"100151915220518692","pageindex":"1","pagetotal":"490"},{"name":"特克斯县中医医院","id":"1001876738532459972","pageindex":"1","pagetotal":"490"},{"name":"祥云县博爱医院","id":"-1001921949248830179","pageindex":"1","pagetotal":"490"},{"name":"福州福兴女子医院","id":"1002012368261828365","pageindex":"1","pagetotal":"490"},{"name":"荔湾区第三人民医院鹤洞街社区卫生服务中心","id":"-1003485316382703405","pageindex":"1","pagetotal":"490"},{"name":"重庆长安医院","id":"1003520793943360077","pageindex":"1","pagetotal":"490"},{"name":"曲靖皮肤病专科医院","id":"1003648271347303360","pageindex":"1","pagetotal":"490"},{"name":"望都县优抚医院","id":"-1004396993277771126","pageindex":"1","pagetotal":"490"},{"name":"怀仁县仁爱医院","id":"-1004602678456398507","pageindex":"1","pagetotal":"490"},{"name":"中国北车集团西安车辆厂职工医院","id":"-1004702208449360402","pageindex":"1","pagetotal":"490"},{"name":"高明杨和仁爱医院","id":"-1004731881548920482","pageindex":"1","pagetotal":"490"},{"name":"南昌大学萍乡医院新余分院","id":"-1005016232206252256","pageindex":"1","pagetotal":"490"},{"name":"沈阳市东陵区红十字会医院","id":"-1005084486135231446","pageindex":"1","pagetotal":"490"},{"name":"株洲田心医院","id":"1005185680644327029","pageindex":"1","pagetotal":"490"},{"name":"安阳市相州肛肠病医院","id":"-1005539718682230526","pageindex":"1","pagetotal":"490"},{"name":"鄄城县人民医院","id":"1005794376261190910","pageindex":"1","pagetotal":"490"},{"name":"呼兰区第一人民医院","id":"-1005800922468236126","pageindex":"1","pagetotal":"490"},{"name":"景谷傣族彝族自治县中医医院","id":"1006147292232043408","pageindex":"1","pagetotal":"490"},{"name":"巴州蒙医院库尔勒分院","id":"1006452859197341985","pageindex":"1","pagetotal":"490"},{"name":"昆明市儿童医院","id":"1006622522001080835","pageindex":"1","pagetotal":"490"},{"name":"武汉东南医院","id":"-1006969172187592314","pageindex":"1","pagetotal":"490"},{"name":"天津河东君康医院","id":"-1006984883112165129","pageindex":"1","pagetotal":"490"},{"name":"龙岗区大鹏人民医院布新社区健康服务中心","id":"-1007307314256982507","pageindex":"1","pagetotal":"490"},{"name":"吉水县人民医院","id":"-1007405272055395335","pageindex":"1","pagetotal":"490"},{"name":"柳州五菱医院","id":"-1007467356702358169","pageindex":"1","pagetotal":"490"},{"name":"定陶县永康医院","id":"-100770498154183054","pageindex":"1","pagetotal":"490"},{"name":"电白曙光农场医院","id":"-1007977645661009529","pageindex":"1","pagetotal":"490"},{"name":"古交市中医院","id":"-1008349797083690502","pageindex":"1","pagetotal":"490"},{"name":"石家庄霍文发中医骨伤医院","id":"100931817038235500","pageindex":"1","pagetotal":"490"},{"name":"明光市潘村湖农场医院","id":"1010006768148826601","pageindex":"1","pagetotal":"490"},{"name":"北京世华针刀中医医院","id":"-1010111160397574352","pageindex":"1","pagetotal":"490"},{"name":"内蒙古包钢医院","id":"1010334288365764789","pageindex":"1","pagetotal":"490"},{"name":"无锡东方肛肠医院","id":"-101034582776657929","pageindex":"1","pagetotal":"490"},{"name":"中国建筑第七工程局第二建筑公司职工医院","id":"1010463565822510817","pageindex":"1","pagetotal":"490"},{"name":"南票矿务局三家子煤矿职工医院","id":"-1010800908483217","pageindex":"1","pagetotal":"490"},{"name":"宜章县中医院","id":"1011157454076920614","pageindex":"1","pagetotal":"490"},{"name":"陕西省汉中监狱医院","id":"-1012199553359591820","pageindex":"1","pagetotal":"490"},{"name":"西安市周至县中医医院","id":"1012382380611748936","pageindex":"1","pagetotal":"490"},{"name":"肇源县人民医院","id":"1013306576166079975","pageindex":"1","pagetotal":"490"},{"name":"江苏省丁山监狱医院","id":"1013581576504887400","pageindex":"1","pagetotal":"490"},{"name":"天津市南开区汶水医院","id":"-1013708485317475740","pageindex":"1","pagetotal":"490"},{"name":"青阳康平医院","id":"-1013954112793131770","pageindex":"1","pagetotal":"490"},{"name":"宿城区中扬医院","id":"-1014365174847485356","pageindex":"1","pagetotal":"490"},{"name":"中国科技集团公司第二十研究所职工医院","id":"1014826110207608883","pageindex":"1","pagetotal":"490"},{"name":"黑龙江省梧桐河农场职工医院","id":"1014981171106955997","pageindex":"1","pagetotal":"490"},{"name":"兴国县中医院","id":"-1015704725497163841","pageindex":"1","pagetotal":"490"},{"name":"普陀山佛教协会普济医院","id":"1015840013330432649","pageindex":"1","pagetotal":"490"},{"name":"兰州兰石医院","id":"-1016465322830707793","pageindex":"1","pagetotal":"490"},{"name":"大连市中山区人民医院","id":"-1016681913865649794","pageindex":"1","pagetotal":"490"},{"name":"华北电网有限公司北京电力医院","id":"1017216015998535959","pageindex":"1","pagetotal":"490"},{"name":"西安华珍医院","id":"1017248971997661431","pageindex":"1","pagetotal":"490"},{"name":"深圳市宝安区西乡人民医院鹤洲村社区健康服务中心","id":"-101737128442247770","pageindex":"1","pagetotal":"490"},{"name":"菏泽友谊医院","id":"1018627142026543535","pageindex":"1","pagetotal":"490"},{"name":"喀什地区伽师县维吾尔医医院","id":"1018935326477077225","pageindex":"1","pagetotal":"490"},{"name":"山东曹县华润医院","id":"-101979612400628817","pageindex":"1","pagetotal":"490"},{"name":"绥化市北林区第三医院","id":"-1019844095328434454","pageindex":"1","pagetotal":"490"},{"name":"汤原县中医院","id":"1020180335563392904","pageindex":"1","pagetotal":"490"},{"name":"洛阳男科医院","id":"102087063634135327","pageindex":"1","pagetotal":"490"},{"name":"武钢集团公司程潮铁矿职工医院","id":"-1020989633950825452","pageindex":"1","pagetotal":"490"},{"name":"首都经济贸易大学医院","id":"-1021077936221959095","pageindex":"1","pagetotal":"490"},{"name":"济南二机床集团有限公司职工医院","id":"1021971392175489631","pageindex":"1","pagetotal":"490"},{"name":"南京明基医院","id":"-102205745703530876","pageindex":"1","pagetotal":"490"},{"name":"吉林市龙潭中医院","id":"1022190937493753223","pageindex":"1","pagetotal":"490"},{"name":"深圳市宝安区西乡医院上围园社区健康服务中心","id":"-1022580059095677384","pageindex":"1","pagetotal":"490"},{"name":"会宁县人民医院","id":"1022959679819501460","pageindex":"1","pagetotal":"490"},{"name":"北京市天堂河医院","id":"1022984018363498966","pageindex":"1","pagetotal":"490"},{"name":"辽源市中医院社区卫生服务站","id":"-1024784884919481943","pageindex":"1","pagetotal":"490"},{"name":"天津泰达普华医院有限责任公司","id":"-1024935811676287637","pageindex":"1","pagetotal":"490"},{"name":"邯郸东方中医皮肤病医院","id":"1025008651557358605","pageindex":"1","pagetotal":"490"},{"name":"重庆第三棉纺织厂职工医院","id":"-1025434028520290314","pageindex":"1","pagetotal":"490"},{"name":"七台河市骨伤医院(茄子河区)","id":"1025467983637005858","pageindex":"1","pagetotal":"490"},{"name":"永善县中医院","id":"-1025516597847833386","pageindex":"1","pagetotal":"490"},{"name":"濮阳市台前县人民医院","id":"1025931564633115043","pageindex":"1","pagetotal":"490"},{"name":"满城县富康医院","id":"1026034385796222390","pageindex":"1","pagetotal":"490"},{"name":"杭州市第一人民医院分院","id":"-1026913017631388470","pageindex":"1","pagetotal":"490"},{"name":"北满特殊钢集团有限责任公司职工医院","id":"-1028184474361379396","pageindex":"1","pagetotal":"490"},{"name":"东莞市东城医院","id":"1028197220223107082","pageindex":"1","pagetotal":"490"},{"name":"杭州市安康医院","id":"1028402203781843611","pageindex":"1","pagetotal":"490"},{"name":"桂林灵川县龙头岭医院","id":"1028477829364466483","pageindex":"1","pagetotal":"490"},{"name":"深圳市福田区人民医院肛肠专科分院","id":"1028657236808388293","pageindex":"1","pagetotal":"490"},{"name":"淮北矿业集团公司医疗卫生管理处九一0厂医院","id":"-1028852332445938654","pageindex":"1","pagetotal":"490"},{"name":"青山区科学路办事处社区卫生服务中心(纺织医院)","id":"-1029130269552717849","pageindex":"1","pagetotal":"490"},{"name":"兰州金港城医院","id":"102996049570843550","pageindex":"1","pagetotal":"490"},{"name":"山东省临沂监狱医院","id":"-1030514491818423689","pageindex":"1","pagetotal":"490"},{"name":"吉林市哈达湾医院","id":"1031027188888782242","pageindex":"1","pagetotal":"490"},{"name":"平顶山神马化纤纺织有限责任公司职工医院","id":"1031465650384292742","pageindex":"1","pagetotal":"490"},{"name":"江西师大医院","id":"1031620867076146019","pageindex":"1","pagetotal":"490"},{"name":"深圳市罗湖区人民医院广岭社区健康服务中心","id":"-1031695006827328837","pageindex":"1","pagetotal":"490"},{"name":"永泰县中医院","id":"1032132650181216518","pageindex":"1","pagetotal":"490"},{"name":"深圳市福田区梅林医院","id":"1032265531774682053","pageindex":"1","pagetotal":"490"},{"name":"濮阳市清丰县第三人民医院","id":"1032561568171706444","pageindex":"1","pagetotal":"490"},{"name":"天津市民族医院","id":"-103278832598169767","pageindex":"1","pagetotal":"490"},{"name":"南通长城医院","id":"1032792224524682461","pageindex":"1","pagetotal":"490"},{"name":"国家体育总局运动医学研究所体育医院","id":"103281521695410071","pageindex":"1","pagetotal":"490"},{"name":"宁海县城关医院范家社区卫生服务站","id":"-1032945435855470536","pageindex":"1","pagetotal":"490"},{"name":"伊春市第四人民医院","id":"1033439999974588948","pageindex":"1","pagetotal":"490"}]} }
+2021-07-14 14:47:31.712 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 215 - 200 - text/json 8136.6685ms
+2021-07-14 14:47:43.797 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 215
+2021-07-14 14:47:43.801 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/QueryItem
+2021-07-14 14:47:43.804 +08:00 [INF] post数据:{   "AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",   "EmployeeID":"3855445455166195066",   "queryValue":"医院",   "queryType":"hostpital",   "pageindex":2,   "pagesize":100}
+2021-07-14 14:47:43.806 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 14:47:43.811 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 14:47:43.813 +08:00 [INF] Route matched with {action = "QueryAuthItem", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] QueryAuthItem() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-14 14:47:43.823 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) - Validation state: "Valid"
+2021-07-14 14:47:46.596 +08:00 [INF] Executed action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2771.4708ms.
+2021-07-14 14:47:46.599 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-07-14 14:47:46.600 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) in 2785.7976ms
+2021-07-14 14:47:46.601 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 14:47:46.602 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[{"name":"鹤岗矿业集团公司肿瘤医院","id":"42283723295508133","pageindex":"2","pagetotal":"490"},{"name":"徐州矿务集团有限公司新河煤矿医院","id":"-5186421358231272210","pageindex":"2","pagetotal":"490"},{"name":"大厂回族自治县人民医院","id":"4705632229467177358","pageindex":"2","pagetotal":"490"},{"name":"贵港市丹特口腔医院","id":"-1896488655994730178","pageindex":"2","pagetotal":"490"},{"name":"中国北车集团西安车辆厂职工医院","id":"-1004702208449360402","pageindex":"2","pagetotal":"490"},{"name":"西安安定医院","id":"-2362137151997655466","pageindex":"2","pagetotal":"490"},{"name":"南通市东方医院","id":"-2833054397888052171","pageindex":"2","pagetotal":"490"},{"name":"北京电力医院","id":"6161926292611484992","pageindex":"2","pagetotal":"490"},{"name":"天津河北区永昌医院","id":"-4228447588666422089","pageindex":"2","pagetotal":"490"},{"name":"北京市昌平区中医医院郝庄社区卫生服务站","id":"3295652428046878041","pageindex":"2","pagetotal":"490"},{"name":"大连蛇岛医院","id":"-4705739568034855707","pageindex":"2","pagetotal":"490"},{"name":"深泽县医院","id":"3760310975458594332","pageindex":"2","pagetotal":"490"},{"name":"高明杨和仁爱医院","id":"-1004731881548920482","pageindex":"2","pagetotal":"490"},{"name":"西藏山南地区错那县人民医院","id":"5658782180948069025","pageindex":"2","pagetotal":"490"},{"name":"大连市甘井子区人民医院","id":"2833243884477303560","pageindex":"2","pagetotal":"490"},{"name":"华宁县人民医院","id":"-145076921566084072","pageindex":"2","pagetotal":"490"},{"name":"晴隆县人民医院","id":"4228728473987466629","pageindex":"2","pagetotal":"490"},{"name":"漳州市芗城中医院","id":"5186575057878665361","pageindex":"2","pagetotal":"490"},{"name":"广东省司法警察医院","id":"-470580879955243512","pageindex":"2","pagetotal":"490"},{"name":"广州市白云区第一人民医院","id":"-1896789331194264534","pageindex":"2","pagetotal":"490"},{"name":"南昌大学萍乡医院新余分院","id":"-1005016232206252256","pageindex":"2","pagetotal":"490"},{"name":"湖州市中医院朝阳街道社区卫生服务中心","id":"2362210476617711713","pageindex":"2","pagetotal":"490"},{"name":"浑源县中医医院","id":"-2833346445078869416","pageindex":"2","pagetotal":"490"},{"name":"贵港市港北区人民医院","id":"6162489667076836767","pageindex":"2","pagetotal":"490"},{"name":"广州钢铁集团医院","id":"-4228819908154407581","pageindex":"2","pagetotal":"490"},{"name":"广州祈福医院","id":"-3296403374229795581","pageindex":"2","pagetotal":"490"},{"name":"北京燕化医院","id":"4705882853712347267","pageindex":"2","pagetotal":"490"},{"name":"芜湖市恒鑫铜业集团有限公司职工医院","id":"-3760320437176480526","pageindex":"2","pagetotal":"490"},{"name":"沈阳市东陵区红十字会医院","id":"-1005084486135231446","pageindex":"2","pagetotal":"490"},{"name":"重庆协和医院(高新区)","id":"-5658792235404475361","pageindex":"2","pagetotal":"490"},{"name":"郑州市第五人民医院","id":"2833663333598314805","pageindex":"2","pagetotal":"490"},{"name":"天津市河西监狱医院","id":"1451369348649533747","pageindex":"2","pagetotal":"490"},{"name":"海南省中医院","id":"422889946141836654","pageindex":"2","pagetotal":"490"},{"name":"岳阳县人民医院","id":"-5186820423265334022","pageindex":"2","pagetotal":"490"},{"name":"湖南省双牌县人民医院","id":"-4706567702353131301","pageindex":"2","pagetotal":"490"},{"name":"杭州萧山萧然女子医院","id":"1897071568438248882","pageindex":"2","pagetotal":"490"},{"name":"株洲田心医院","id":"1005185680644327029","pageindex":"2","pagetotal":"490"},{"name":"锦州市第二医院","id":"-2362282635061212704","pageindex":"2","pagetotal":"490"},{"name":"焦作市马村区人民医院","id":"-2834350824506569707","pageindex":"2","pagetotal":"490"},{"name":"泸州市纳溪区中医医院","id":"-6162546692483823344","pageindex":"2","pagetotal":"490"},{"name":"铅山县鹅湖镇广慈医院","id":"4229174812687223884","pageindex":"2","pagetotal":"490"},{"name":"大海林林业局职工医院","id":"-3296957809648644360","pageindex":"2","pagetotal":"490"},{"name":"资兴市市立医院","id":"470659525289725215","pageindex":"2","pagetotal":"490"},{"name":"华蓥山广能(集团)总医院","id":"3760360328237370961","pageindex":"2","pagetotal":"490"},{"name":"安阳市相州肛肠病医院","id":"-1005539718682230526","pageindex":"2","pagetotal":"490"},{"name":"南安市盐务局医院","id":"-565904114121816337","pageindex":"2","pagetotal":"490"},{"name":"烟台经济技术开发区医院","id":"-2834694549552674975","pageindex":"2","pagetotal":"490"},{"name":"内江铁路医院自贡分院","id":"-1451490015900185731","pageindex":"2","pagetotal":"490"},{"name":"山西医科大学口腔医院","id":"4229387892275757491","pageindex":"2","pagetotal":"490"},{"name":"广西壮族自治区人民医院","id":"-5187117370978448384","pageindex":"2","pagetotal":"490"},{"name":"乌鲁木齐宝仙堂中医医院","id":"4706825755733347784","pageindex":"2","pagetotal":"490"},{"name":"武汉市汉南区人民医院","id":"1898288098178973935","pageindex":"2","pagetotal":"490"},{"name":"鄄城县人民医院","id":"1005794376261190910","pageindex":"2","pagetotal":"490"},{"name":"东海石埠医院","id":"2362393149038609545","pageindex":"2","pagetotal":"490"},{"name":"泗洪县中医院","id":"-2835112457118661970","pageindex":"2","pagetotal":"490"},{"name":"奎屯市惠民济困医院","id":"6162585576351547814","pageindex":"2","pagetotal":"490"},{"name":"宁德市医院","id":"4229532722950914203","pageindex":"2","pagetotal":"490"},{"name":"石家庄现代中医血液肾病医院","id":"3297133392493889637","pageindex":"2","pagetotal":"490"},{"name":"山东莲宝矿业集团职工医院","id":"-4707090195849983271","pageindex":"2","pagetotal":"490"},{"name":"乐清市人民医院","id":"3760367135812437971","pageindex":"2","pagetotal":"490"},{"name":"呼兰区第一人民医院","id":"-1005800922468236126","pageindex":"2","pagetotal":"490"},{"name":"宣城市友好医院","id":"5659682393104337656","pageindex":"2","pagetotal":"490"},{"name":"惠安县惠兴医院","id":"2835820195018129820","pageindex":"2","pagetotal":"490"},{"name":"郑州大学第一附属医院","id":"-1451793721490717188","pageindex":"2","pagetotal":"490"},{"name":"武平县医院","id":"4229711275878991275","pageindex":"2","pagetotal":"490"},{"name":"四川省峨边彝族自治县中医院","id":"-5187350299265118575","pageindex":"2","pagetotal":"490"},{"name":"将乐县中医院","id":"4707191494546902228","pageindex":"2","pagetotal":"490"},{"name":"西乌珠穆沁旗蒙医医院","id":"1898598448500657316","pageindex":"2","pagetotal":"490"},{"name":"景谷傣族彝族自治县中医医院","id":"1006147292232043408","pageindex":"2","pagetotal":"490"},{"name":"淄博市博山区中医院城东社区卫生服务站","id":"-2362845831894120081","pageindex":"2","pagetotal":"490"},{"name":"乌鲁木齐环鹏公司后峡医院","id":"2835864881901880539","pageindex":"2","pagetotal":"490"},{"name":"秦山核电医院","id":"-6162665671841266899","pageindex":"2","pagetotal":"490"},{"name":"上海市长宁区仙霞地段医院","id":"-423041798021100987","pageindex":"2","pagetotal":"490"},{"name":"横岗人民医院安良社区健康服务中心","id":"-3297296105134470772","pageindex":"2","pagetotal":"490"},{"name":"鞍钢集团矿业公司弓长岭矿业公司医院","id":"4707192187851588816","pageindex":"2","pagetotal":"490"},{"name":"苍山县红十字会医院","id":"3760688262879199699","pageindex":"2","pagetotal":"490"},{"name":"巴州蒙医院库尔勒分院","id":"1006452859197341985","pageindex":"2","pagetotal":"490"},{"name":"郑州市中牟县人民医院","id":"-5660322055744044591","pageindex":"2","pagetotal":"490"},{"name":"深圳万丰医院","id":"-2836047674025883045","pageindex":"2","pagetotal":"490"},{"name":"泗洪县双北医院","id":"-1452831630127313108","pageindex":"2","pagetotal":"490"},{"name":"天津市杨柳青监狱医院","id":"4230649281483329109","pageindex":"2","pagetotal":"490"},{"name":"山东省鲁西监狱医院","id":"5187425037489423791","pageindex":"2","pagetotal":"490"},{"name":"潍坊巨龙纺织有限公司职工医院","id":"-4707431283656078396","pageindex":"2","pagetotal":"490"},{"name":"灵璧县人民医院","id":"-1898983677245961577","pageindex":"2","pagetotal":"490"},{"name":"昆明市儿童医院","id":"1006622522001080835","pageindex":"2","pagetotal":"490"},{"name":"泗阳县瑞鑫医院","id":"2363067887635417859","pageindex":"2","pagetotal":"490"},{"name":"广灵县人民医院","id":"-2836422847536740960","pageindex":"2","pagetotal":"490"},{"name":"南宁市第二人民医院沙井分院","id":"-6162876336345297706","pageindex":"2","pagetotal":"490"},{"name":"黑龙江省五九七农场职工医院","id":"-4230669378491170427","pageindex":"2","pagetotal":"490"},{"name":"来宾市人民医院","id":"3299079357745545874","pageindex":"2","pagetotal":"490"},{"name":"枣庄矿业集团东郊医院","id":"-4707495833526647597","pageindex":"2","pagetotal":"490"},{"name":"瓮安监狱医院","id":"3760877173238677835","pageindex":"2","pagetotal":"490"},{"name":"武汉东南医院","id":"-1006969172187592314","pageindex":"2","pagetotal":"490"},{"name":"国营七一一一厂职工医院","id":"5660367133352283470","pageindex":"2","pagetotal":"490"},{"name":"昆明市经开人民医院","id":"2836781416194590905","pageindex":"2","pagetotal":"490"},{"name":"邵阳市第一人民医院","id":"-1453903614557796911","pageindex":"2","pagetotal":"490"},{"name":"攀枝花第五人民医院","id":"-4230768227059937329","pageindex":"2","pagetotal":"490"},{"name":"宝鸡有色金属加工厂职工医院","id":"5188162167757291520","pageindex":"2","pagetotal":"490"},{"name":"上虞市人民医院","id":"-4707993997391216027","pageindex":"2","pagetotal":"490"},{"name":"阳光惠民医院","id":"1899195410505875490","pageindex":"2","pagetotal":"490"}]} }
+2021-07-14 14:47:46.628 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 215 - 200 - text/json 2830.4351ms
+2021-07-14 14:48:33.494 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-14 14:48:33.536 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 14:48:33.536 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-14 14:48:33.541 +08:00 [INF] Hosting environment: Development
+2021-07-14 14:48:33.542 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-07-14 14:48:33.590 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 14:48:33.590 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-07-14 14:48:33.591 +08:00 [INF] post数据:
+2021-07-14 14:48:33.592 +08:00 [INF] post数据:
+2021-07-14 14:48:33.594 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 14:48:33.594 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 14:48:33.712 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 178.1183ms
+2021-07-14 14:48:33.712 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 178.1187ms
+2021-07-14 14:48:33.748 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 14:48:33.750 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 14:48:33.752 +08:00 [INF] post数据:
+2021-07-14 14:48:33.753 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 14:48:33.785 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 37.3093ms
+2021-07-14 14:48:34.630 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 14:48:34.633 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 14:48:34.634 +08:00 [INF] post数据:
+2021-07-14 14:48:34.636 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 14:48:34.661 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 30.4457ms
+2021-07-14 14:48:34.662 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 14:48:34.663 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 14:48:34.664 +08:00 [INF] post数据:
+2021-07-14 14:48:34.665 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 14:48:34.687 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 25.1022ms
+2021-07-14 14:48:34.689 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 14:48:34.690 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 14:48:34.692 +08:00 [INF] post数据:
+2021-07-14 14:48:34.693 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 14:48:34.718 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 29.6101ms
+2021-07-14 14:48:35.452 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 14:48:35.453 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 14:48:35.455 +08:00 [INF] post数据:
+2021-07-14 14:48:35.456 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 14:48:35.484 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 32.4258ms
+2021-07-14 14:48:36.214 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 14:48:36.215 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 14:48:36.216 +08:00 [INF] post数据:
+2021-07-14 14:48:36.217 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 14:48:36.241 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 27.2041ms
+2021-07-14 14:48:44.973 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 215
+2021-07-14 14:48:44.975 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/QueryItem
+2021-07-14 14:48:44.976 +08:00 [INF] post数据:{   "AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",   "EmployeeID":"3855445455166195066",   "queryValue":"医院",   "queryType":"hostpital",   "pageindex":2,   "pagesize":100}
+2021-07-14 14:48:44.978 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 14:48:45.015 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 14:48:45.041 +08:00 [INF] Route matched with {action = "QueryAuthItem", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] QueryAuthItem() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-14 14:48:45.081 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) - Validation state: "Valid"
+2021-07-14 14:48:48.091 +08:00 [INF] Executed action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3003.6031ms.
+2021-07-14 14:48:48.097 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-07-14 14:48:48.119 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) in 3073.164ms
+2021-07-14 14:48:48.120 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 14:48:48.197 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[{"name":"龙岗区坪山人民医院和平社区健康服务中心","id":"2832828265101938548","pageindex":"2","pagetotal":"490"},{"name":"河南银行医院","id":"-5658749399044829770","pageindex":"2","pagetotal":"490"},{"name":"怀仁县仁爱医院","id":"-1004602678456398507","pageindex":"2","pagetotal":"490"},{"name":"贵港市丹特口腔医院","id":"-1896488655994730178","pageindex":"2","pagetotal":"490"},{"name":"合肥市瑶海区仁和中医院","id":"-1453933285952370912","pageindex":"2","pagetotal":"490"},{"name":"北京电力医院","id":"6161926292611484992","pageindex":"2","pagetotal":"490"},{"name":"应城市人民医院","id":"-329912583426784089","pageindex":"2","pagetotal":"490"},{"name":"龙口市中医医院第一社区服务站","id":"-4704344479168051347","pageindex":"2","pagetotal":"490"},{"name":"南通市东方医院","id":"-2833054397888052171","pageindex":"2","pagetotal":"490"},{"name":"西安安定医院","id":"-2362137151997655466","pageindex":"2","pagetotal":"490"},{"name":"中国北车集团西安车辆厂职工医院","id":"-1004702208449360402","pageindex":"2","pagetotal":"490"},{"name":"资中县第二人民医院","id":"4226130730144124446","pageindex":"2","pagetotal":"490"},{"name":"轮台县阳光医院","id":"1454249367251798968","pageindex":"2","pagetotal":"490"},{"name":"芜湖市恒鑫铜业集团有限公司职工医院","id":"-3760320437176480526","pageindex":"2","pagetotal":"490"},{"name":"德江县人民医院","id":"-3299267545695236408","pageindex":"2","pagetotal":"490"},{"name":"漳州市芗城中医院","id":"5186575057878665361","pageindex":"2","pagetotal":"490"},{"name":"大连市甘井子区人民医院","id":"2833243884477303560","pageindex":"2","pagetotal":"490"},{"name":"西藏山南地区错那县人民医院","id":"5658782180948069025","pageindex":"2","pagetotal":"490"},{"name":"高明杨和仁爱医院","id":"-1004731881548920482","pageindex":"2","pagetotal":"490"},{"name":"广州市白云区第一人民医院","id":"-1896789331194264534","pageindex":"2","pagetotal":"490"},{"name":"康桥医院","id":"1454935802540608251","pageindex":"2","pagetotal":"490"},{"name":"贵港市港北区人民医院","id":"6162489667076836767","pageindex":"2","pagetotal":"490"},{"name":"濮阳市中原油田第三社区管理中心第一医院","id":"-3299354469779879378","pageindex":"2","pagetotal":"490"},{"name":"黄岩区红十字医院桔乡社区卫生服务站","id":"4704661923590130497","pageindex":"2","pagetotal":"490"},{"name":"浑源县中医医院","id":"-2833346445078869416","pageindex":"2","pagetotal":"490"},{"name":"湖州市中医院朝阳街道社区卫生服务中心","id":"2362210476617711713","pageindex":"2","pagetotal":"490"},{"name":"南昌大学萍乡医院新余分院","id":"-1005016232206252256","pageindex":"2","pagetotal":"490"},{"name":"西平红山医院","id":"-4227024855560400982","pageindex":"2","pagetotal":"490"},{"name":"荆州石油四机医院","id":"-1455270756867423449","pageindex":"2","pagetotal":"490"},{"name":"华蓥山广能(集团)总医院","id":"3760360328237370961","pageindex":"2","pagetotal":"490"},{"name":"密云县第二人民医院","id":"3299394874083854787","pageindex":"2","pagetotal":"490"},{"name":"岳阳县人民医院","id":"-5186820423265334022","pageindex":"2","pagetotal":"490"},{"name":"郑州市第五人民医院","id":"2833663333598314805","pageindex":"2","pagetotal":"490"},{"name":"重庆协和医院(高新区)","id":"-5658792235404475361","pageindex":"2","pagetotal":"490"},{"name":"沈阳市东陵区红十字会医院","id":"-1005084486135231446","pageindex":"2","pagetotal":"490"},{"name":"杭州萧山萧然女子医院","id":"1897071568438248882","pageindex":"2","pagetotal":"490"},{"name":"龙岩人民医院","id":"-1455587106474540398","pageindex":"2","pagetotal":"490"},{"name":"泸州市纳溪区中医医院","id":"-6162546692483823344","pageindex":"2","pagetotal":"490"},{"name":"海南省国营八一总场医院","id":"-329961516248970975","pageindex":"2","pagetotal":"490"},{"name":"蚌埠医学院附属医院","id":"-4704736042376934174","pageindex":"2","pagetotal":"490"},{"name":"焦作市马村区人民医院","id":"-2834350824506569707","pageindex":"2","pagetotal":"490"},{"name":"锦州市第二医院","id":"-2362282635061212704","pageindex":"2","pagetotal":"490"},{"name":"株洲田心医院","id":"1005185680644327029","pageindex":"2","pagetotal":"490"},{"name":"神木县大柳塔公安医院","id":"-4227115993433160974","pageindex":"2","pagetotal":"490"},{"name":"武冈市人民医院","id":"-1456008990841025907","pageindex":"2","pagetotal":"490"},{"name":"乐清市人民医院","id":"3760367135812437971","pageindex":"2","pagetotal":"490"},{"name":"滨海仁慈医院","id":"-3300456216664059982","pageindex":"2","pagetotal":"490"},{"name":"广西壮族自治区人民医院","id":"-5187117370978448384","pageindex":"2","pagetotal":"490"},{"name":"烟台经济技术开发区医院","id":"-2834694549552674975","pageindex":"2","pagetotal":"490"},{"name":"南安市盐务局医院","id":"-565904114121816337","pageindex":"2","pagetotal":"490"},{"name":"安阳市相州肛肠病医院","id":"-1005539718682230526","pageindex":"2","pagetotal":"490"},{"name":"武汉市汉南区人民医院","id":"1898288098178973935","pageindex":"2","pagetotal":"490"},{"name":"合肥市第二人民医院新站实验区长淮街道社区卫生服务中心","id":"145618615232055583","pageindex":"2","pagetotal":"490"},{"name":"奎屯市惠民济困医院","id":"6162585576351547814","pageindex":"2","pagetotal":"490"},{"name":"圣和医院","id":"-3300945769442685529","pageindex":"2","pagetotal":"490"},{"name":"什邡烧伤医院","id":"-4704944625103977338","pageindex":"2","pagetotal":"490"},{"name":"泗洪县中医院","id":"-2835112457118661970","pageindex":"2","pagetotal":"490"},{"name":"东海石埠医院","id":"2362393149038609545","pageindex":"2","pagetotal":"490"},{"name":"鄄城县人民医院","id":"1005794376261190910","pageindex":"2","pagetotal":"490"},{"name":"芘丽芙整形美容医院","id":"4227188317548595680","pageindex":"2","pagetotal":"490"},{"name":"黄冈市第二人民医院","id":"-1456659544674187223","pageindex":"2","pagetotal":"490"},{"name":"苍山县红十字会医院","id":"3760688262879199699","pageindex":"2","pagetotal":"490"},{"name":"陆川县中医院","id":"3301077572731685682","pageindex":"2","pagetotal":"490"},{"name":"四川省峨边彝族自治县中医院","id":"-5187350299265118575","pageindex":"2","pagetotal":"490"},{"name":"惠安县惠兴医院","id":"2835820195018129820","pageindex":"2","pagetotal":"490"},{"name":"宣城市友好医院","id":"5659682393104337656","pageindex":"2","pagetotal":"490"},{"name":"呼兰区第一人民医院","id":"-1005800922468236126","pageindex":"2","pagetotal":"490"},{"name":"西乌珠穆沁旗蒙医医院","id":"1898598448500657316","pageindex":"2","pagetotal":"490"},{"name":"长岭机器厂职工医院","id":"1456845714041684808","pageindex":"2","pagetotal":"490"},{"name":"秦山核电医院","id":"-6162665671841266899","pageindex":"2","pagetotal":"490"},{"name":"榄核医院九比社区卫生服务站","id":"-3301307394663428289","pageindex":"2","pagetotal":"490"},{"name":"青海省湟中县第一人民医院","id":"-4704975877416792727","pageindex":"2","pagetotal":"490"},{"name":"乌鲁木齐环鹏公司后峡医院","id":"2835864881901880539","pageindex":"2","pagetotal":"490"},{"name":"淄博市博山区中医院城东社区卫生服务站","id":"-2362845831894120081","pageindex":"2","pagetotal":"490"},{"name":"景谷傣族彝族自治县中医医院","id":"1006147292232043408","pageindex":"2","pagetotal":"490"},{"name":"青冈县中医院","id":"-422772472566231452","pageindex":"2","pagetotal":"490"},{"name":"丹江口市卫生学校附属医院","id":"145769669051303386","pageindex":"2","pagetotal":"490"},{"name":"瓮安监狱医院","id":"3760877173238677835","pageindex":"2","pagetotal":"490"},{"name":"芜湖县中医院","id":"-3301576575933725413","pageindex":"2","pagetotal":"490"},{"name":"山东省鲁西监狱医院","id":"5187425037489423791","pageindex":"2","pagetotal":"490"},{"name":"深圳万丰医院","id":"-2836047674025883045","pageindex":"2","pagetotal":"490"},{"name":"郑州市中牟县人民医院","id":"-5660322055744044591","pageindex":"2","pagetotal":"490"},{"name":"巴州蒙医院库尔勒分院","id":"1006452859197341985","pageindex":"2","pagetotal":"490"},{"name":"灵璧县人民医院","id":"-1898983677245961577","pageindex":"2","pagetotal":"490"},{"name":"临汾长良医院","id":"-1457774968714279300","pageindex":"2","pagetotal":"490"},{"name":"南宁市第二人民医院沙井分院","id":"-6162876336345297706","pageindex":"2","pagetotal":"490"},{"name":"呼市石化医院","id":"3301830371252323142","pageindex":"2","pagetotal":"490"},{"name":"淇县同济肾病专科医院","id":"4705490078224828315","pageindex":"2","pagetotal":"490"},{"name":"广灵县人民医院","id":"-2836422847536740960","pageindex":"2","pagetotal":"490"},{"name":"泗阳县瑞鑫医院","id":"2363067887635417859","pageindex":"2","pagetotal":"490"},{"name":"昆明市儿童医院","id":"1006622522001080835","pageindex":"2","pagetotal":"490"},{"name":"华蓥市鸿阳医院","id":"-4227750966861411782","pageindex":"2","pagetotal":"490"},{"name":"邯郸市第三医院","id":"-1459399513549748517","pageindex":"2","pagetotal":"490"},{"name":"抚顺市顺城区人民医院","id":"3760885630576118509","pageindex":"2","pagetotal":"490"},{"name":"深圳景田医院景田社区健康服务中心","id":"3301947582398612694","pageindex":"2","pagetotal":"490"},{"name":"宝鸡有色金属加工厂职工医院","id":"5188162167757291520","pageindex":"2","pagetotal":"490"},{"name":"昆明市经开人民医院","id":"2836781416194590905","pageindex":"2","pagetotal":"490"},{"name":"国营七一一一厂职工医院","id":"5660367133352283470","pageindex":"2","pagetotal":"490"},{"name":"武汉东南医院","id":"-1006969172187592314","pageindex":"2","pagetotal":"490"},{"name":"阳光惠民医院","id":"1899195410505875490","pageindex":"2","pagetotal":"490"}]} }
+2021-07-14 14:48:48.204 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 215 - 200 - text/json 3230.3932ms
+2021-07-14 14:48:53.179 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 196
+2021-07-14 14:48:53.181 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/QueryItem
+2021-07-14 14:48:53.182 +08:00 [INF] post数据:{   "AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",   "EmployeeID":"3855445455166195066",   "queryValue":"医院",   "queryType":"hostpital",   "pagesize":100}
+2021-07-14 14:48:53.183 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 14:48:53.186 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 14:48:53.188 +08:00 [INF] Route matched with {action = "QueryAuthItem", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] QueryAuthItem() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-14 14:48:53.198 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) - Validation state: "Valid"
+2021-07-14 14:48:55.846 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) in 2656.3561ms
+2021-07-14 14:48:55.866 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 14:48:55.908 +08:00 [ERR] 在 OFFSET 子句中指定的偏移量不得为负。
+2021-07-14 14:48:55.911 +08:00 [INF] 服务消息:{"Result":"false","Description":"在 OFFSET 子句中指定的偏移量不得为负。","DataRows":{"DataRow":[]} }
+2021-07-14 14:48:55.912 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 196 - 200 - text/json 2733.5271ms
+2021-07-14 14:49:12.568 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 196
+2021-07-14 14:49:12.570 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/QueryItem
+2021-07-14 14:49:12.571 +08:00 [INF] post数据:{   "AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",   "EmployeeID":"3855445455166195066",   "queryValue":"医院",   "queryType":"hostpital",   "pagesize":100}
+2021-07-14 14:49:12.573 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 14:49:12.574 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 14:49:12.575 +08:00 [INF] Route matched with {action = "QueryAuthItem", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] QueryAuthItem() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-14 14:49:12.588 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) - Validation state: "Valid"
+2021-07-14 14:49:30.337 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-14 14:49:30.378 +08:00 [INF] Hosting environment: Development
+2021-07-14 14:49:30.380 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-07-14 14:49:30.381 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-14 14:49:30.381 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 14:49:30.425 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 14:49:30.425 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-07-14 14:49:30.427 +08:00 [INF] post数据:
+2021-07-14 14:49:30.429 +08:00 [INF] post数据:
+2021-07-14 14:49:30.431 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 14:49:30.431 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 14:49:30.623 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 246.1439ms
+2021-07-14 14:49:30.623 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 246.1435ms
+2021-07-14 14:49:30.671 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 14:49:30.674 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 14:49:30.675 +08:00 [INF] post数据:
+2021-07-14 14:49:30.676 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 14:49:30.708 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 36.9856ms
+2021-07-14 14:49:30.992 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 14:49:30.994 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 14:49:30.996 +08:00 [INF] post数据:
+2021-07-14 14:49:30.997 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 14:49:31.029 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 36.9369ms
+2021-07-14 14:49:31.031 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 14:49:31.032 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 14:49:31.033 +08:00 [INF] post数据:
+2021-07-14 14:49:31.035 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 14:49:31.062 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 30.7968ms
+2021-07-14 14:49:31.064 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 14:49:31.065 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 14:49:31.066 +08:00 [INF] post数据:
+2021-07-14 14:49:31.068 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 14:49:31.100 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 36.1797ms
+2021-07-14 14:49:32.328 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 14:49:32.330 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 14:49:32.331 +08:00 [INF] post数据:
+2021-07-14 14:49:32.332 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 14:49:32.354 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 25.7407ms
+2021-07-14 14:49:32.478 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 14:49:32.479 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 14:49:32.480 +08:00 [INF] post数据:
+2021-07-14 14:49:32.481 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 14:49:32.502 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 24.5685ms
+2021-07-14 14:49:32.877 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 196
+2021-07-14 14:49:32.879 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/QueryItem
+2021-07-14 14:49:32.880 +08:00 [INF] post数据:{   "AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",   "EmployeeID":"3855445455166195066",   "queryValue":"医院",   "queryType":"hostpital",   "pagesize":100}
+2021-07-14 14:49:32.881 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 14:49:32.918 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 14:49:32.944 +08:00 [INF] Route matched with {action = "QueryAuthItem", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] QueryAuthItem() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-14 14:49:32.984 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) - Validation state: "Valid"
+2021-07-14 14:49:34.467 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 14:49:34.469 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 14:49:34.470 +08:00 [INF] post数据:
+2021-07-14 14:49:34.471 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 14:49:34.544 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 76.0698ms
+2021-07-14 14:49:41.592 +08:00 [INF] Executed action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 8601.3027ms.
+2021-07-14 14:49:41.598 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-07-14 14:49:41.619 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) in 8670.4886ms
+2021-07-14 14:49:41.621 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 14:49:41.699 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[{"name":"临沂正和医院","id":"-100000005325828122","pageindex":"1","pagetotal":"490"},{"name":"临汾市心脑血管病专科医院","id":"-1000301567495355217","pageindex":"1","pagetotal":"490"},{"name":"青山区自由路办事处都兰社区卫生服务站(内蒙古一机医院)","id":"-1000473902552036495","pageindex":"1","pagetotal":"490"},{"name":"深圳市宝安区公明医院根竹园社区健康服务中心","id":"-1001121664656193403","pageindex":"1","pagetotal":"490"},{"name":"霍城县第一人民医院","id":"100151915220518692","pageindex":"1","pagetotal":"490"},{"name":"特克斯县中医医院","id":"1001876738532459972","pageindex":"1","pagetotal":"490"},{"name":"祥云县博爱医院","id":"-1001921949248830179","pageindex":"1","pagetotal":"490"},{"name":"福州福兴女子医院","id":"1002012368261828365","pageindex":"1","pagetotal":"490"},{"name":"荔湾区第三人民医院鹤洞街社区卫生服务中心","id":"-1003485316382703405","pageindex":"1","pagetotal":"490"},{"name":"重庆长安医院","id":"1003520793943360077","pageindex":"1","pagetotal":"490"},{"name":"曲靖皮肤病专科医院","id":"1003648271347303360","pageindex":"1","pagetotal":"490"},{"name":"望都县优抚医院","id":"-1004396993277771126","pageindex":"1","pagetotal":"490"},{"name":"怀仁县仁爱医院","id":"-1004602678456398507","pageindex":"1","pagetotal":"490"},{"name":"中国北车集团西安车辆厂职工医院","id":"-1004702208449360402","pageindex":"1","pagetotal":"490"},{"name":"高明杨和仁爱医院","id":"-1004731881548920482","pageindex":"1","pagetotal":"490"},{"name":"南昌大学萍乡医院新余分院","id":"-1005016232206252256","pageindex":"1","pagetotal":"490"},{"name":"沈阳市东陵区红十字会医院","id":"-1005084486135231446","pageindex":"1","pagetotal":"490"},{"name":"株洲田心医院","id":"1005185680644327029","pageindex":"1","pagetotal":"490"},{"name":"安阳市相州肛肠病医院","id":"-1005539718682230526","pageindex":"1","pagetotal":"490"},{"name":"鄄城县人民医院","id":"1005794376261190910","pageindex":"1","pagetotal":"490"},{"name":"呼兰区第一人民医院","id":"-1005800922468236126","pageindex":"1","pagetotal":"490"},{"name":"景谷傣族彝族自治县中医医院","id":"1006147292232043408","pageindex":"1","pagetotal":"490"},{"name":"巴州蒙医院库尔勒分院","id":"1006452859197341985","pageindex":"1","pagetotal":"490"},{"name":"昆明市儿童医院","id":"1006622522001080835","pageindex":"1","pagetotal":"490"},{"name":"武汉东南医院","id":"-1006969172187592314","pageindex":"1","pagetotal":"490"},{"name":"天津河东君康医院","id":"-1006984883112165129","pageindex":"1","pagetotal":"490"},{"name":"龙岗区大鹏人民医院布新社区健康服务中心","id":"-1007307314256982507","pageindex":"1","pagetotal":"490"},{"name":"吉水县人民医院","id":"-1007405272055395335","pageindex":"1","pagetotal":"490"},{"name":"柳州五菱医院","id":"-1007467356702358169","pageindex":"1","pagetotal":"490"},{"name":"定陶县永康医院","id":"-100770498154183054","pageindex":"1","pagetotal":"490"},{"name":"电白曙光农场医院","id":"-1007977645661009529","pageindex":"1","pagetotal":"490"},{"name":"古交市中医院","id":"-1008349797083690502","pageindex":"1","pagetotal":"490"},{"name":"石家庄霍文发中医骨伤医院","id":"100931817038235500","pageindex":"1","pagetotal":"490"},{"name":"明光市潘村湖农场医院","id":"1010006768148826601","pageindex":"1","pagetotal":"490"},{"name":"北京世华针刀中医医院","id":"-1010111160397574352","pageindex":"1","pagetotal":"490"},{"name":"内蒙古包钢医院","id":"1010334288365764789","pageindex":"1","pagetotal":"490"},{"name":"无锡东方肛肠医院","id":"-101034582776657929","pageindex":"1","pagetotal":"490"},{"name":"中国建筑第七工程局第二建筑公司职工医院","id":"1010463565822510817","pageindex":"1","pagetotal":"490"},{"name":"南票矿务局三家子煤矿职工医院","id":"-1010800908483217","pageindex":"1","pagetotal":"490"},{"name":"宜章县中医院","id":"1011157454076920614","pageindex":"1","pagetotal":"490"},{"name":"陕西省汉中监狱医院","id":"-1012199553359591820","pageindex":"1","pagetotal":"490"},{"name":"西安市周至县中医医院","id":"1012382380611748936","pageindex":"1","pagetotal":"490"},{"name":"肇源县人民医院","id":"1013306576166079975","pageindex":"1","pagetotal":"490"},{"name":"江苏省丁山监狱医院","id":"1013581576504887400","pageindex":"1","pagetotal":"490"},{"name":"天津市南开区汶水医院","id":"-1013708485317475740","pageindex":"1","pagetotal":"490"},{"name":"青阳康平医院","id":"-1013954112793131770","pageindex":"1","pagetotal":"490"},{"name":"宿城区中扬医院","id":"-1014365174847485356","pageindex":"1","pagetotal":"490"},{"name":"中国科技集团公司第二十研究所职工医院","id":"1014826110207608883","pageindex":"1","pagetotal":"490"},{"name":"黑龙江省梧桐河农场职工医院","id":"1014981171106955997","pageindex":"1","pagetotal":"490"},{"name":"兴国县中医院","id":"-1015704725497163841","pageindex":"1","pagetotal":"490"},{"name":"普陀山佛教协会普济医院","id":"1015840013330432649","pageindex":"1","pagetotal":"490"},{"name":"兰州兰石医院","id":"-1016465322830707793","pageindex":"1","pagetotal":"490"},{"name":"大连市中山区人民医院","id":"-1016681913865649794","pageindex":"1","pagetotal":"490"},{"name":"华北电网有限公司北京电力医院","id":"1017216015998535959","pageindex":"1","pagetotal":"490"},{"name":"西安华珍医院","id":"1017248971997661431","pageindex":"1","pagetotal":"490"},{"name":"深圳市宝安区西乡人民医院鹤洲村社区健康服务中心","id":"-101737128442247770","pageindex":"1","pagetotal":"490"},{"name":"菏泽友谊医院","id":"1018627142026543535","pageindex":"1","pagetotal":"490"},{"name":"喀什地区伽师县维吾尔医医院","id":"1018935326477077225","pageindex":"1","pagetotal":"490"},{"name":"山东曹县华润医院","id":"-101979612400628817","pageindex":"1","pagetotal":"490"},{"name":"绥化市北林区第三医院","id":"-1019844095328434454","pageindex":"1","pagetotal":"490"},{"name":"汤原县中医院","id":"1020180335563392904","pageindex":"1","pagetotal":"490"},{"name":"洛阳男科医院","id":"102087063634135327","pageindex":"1","pagetotal":"490"},{"name":"武钢集团公司程潮铁矿职工医院","id":"-1020989633950825452","pageindex":"1","pagetotal":"490"},{"name":"首都经济贸易大学医院","id":"-1021077936221959095","pageindex":"1","pagetotal":"490"},{"name":"济南二机床集团有限公司职工医院","id":"1021971392175489631","pageindex":"1","pagetotal":"490"},{"name":"南京明基医院","id":"-102205745703530876","pageindex":"1","pagetotal":"490"},{"name":"吉林市龙潭中医院","id":"1022190937493753223","pageindex":"1","pagetotal":"490"},{"name":"深圳市宝安区西乡医院上围园社区健康服务中心","id":"-1022580059095677384","pageindex":"1","pagetotal":"490"},{"name":"会宁县人民医院","id":"1022959679819501460","pageindex":"1","pagetotal":"490"},{"name":"北京市天堂河医院","id":"1022984018363498966","pageindex":"1","pagetotal":"490"},{"name":"辽源市中医院社区卫生服务站","id":"-1024784884919481943","pageindex":"1","pagetotal":"490"},{"name":"天津泰达普华医院有限责任公司","id":"-1024935811676287637","pageindex":"1","pagetotal":"490"},{"name":"邯郸东方中医皮肤病医院","id":"1025008651557358605","pageindex":"1","pagetotal":"490"},{"name":"重庆第三棉纺织厂职工医院","id":"-1025434028520290314","pageindex":"1","pagetotal":"490"},{"name":"七台河市骨伤医院(茄子河区)","id":"1025467983637005858","pageindex":"1","pagetotal":"490"},{"name":"永善县中医院","id":"-1025516597847833386","pageindex":"1","pagetotal":"490"},{"name":"濮阳市台前县人民医院","id":"1025931564633115043","pageindex":"1","pagetotal":"490"},{"name":"满城县富康医院","id":"1026034385796222390","pageindex":"1","pagetotal":"490"},{"name":"杭州市第一人民医院分院","id":"-1026913017631388470","pageindex":"1","pagetotal":"490"},{"name":"北满特殊钢集团有限责任公司职工医院","id":"-1028184474361379396","pageindex":"1","pagetotal":"490"},{"name":"东莞市东城医院","id":"1028197220223107082","pageindex":"1","pagetotal":"490"},{"name":"杭州市安康医院","id":"1028402203781843611","pageindex":"1","pagetotal":"490"},{"name":"桂林灵川县龙头岭医院","id":"1028477829364466483","pageindex":"1","pagetotal":"490"},{"name":"深圳市福田区人民医院肛肠专科分院","id":"1028657236808388293","pageindex":"1","pagetotal":"490"},{"name":"淮北矿业集团公司医疗卫生管理处九一0厂医院","id":"-1028852332445938654","pageindex":"1","pagetotal":"490"},{"name":"青山区科学路办事处社区卫生服务中心(纺织医院)","id":"-1029130269552717849","pageindex":"1","pagetotal":"490"},{"name":"兰州金港城医院","id":"102996049570843550","pageindex":"1","pagetotal":"490"},{"name":"山东省临沂监狱医院","id":"-1030514491818423689","pageindex":"1","pagetotal":"490"},{"name":"吉林市哈达湾医院","id":"1031027188888782242","pageindex":"1","pagetotal":"490"},{"name":"平顶山神马化纤纺织有限责任公司职工医院","id":"1031465650384292742","pageindex":"1","pagetotal":"490"},{"name":"江西师大医院","id":"1031620867076146019","pageindex":"1","pagetotal":"490"},{"name":"深圳市罗湖区人民医院广岭社区健康服务中心","id":"-1031695006827328837","pageindex":"1","pagetotal":"490"},{"name":"永泰县中医院","id":"1032132650181216518","pageindex":"1","pagetotal":"490"},{"name":"深圳市福田区梅林医院","id":"1032265531774682053","pageindex":"1","pagetotal":"490"},{"name":"濮阳市清丰县第三人民医院","id":"1032561568171706444","pageindex":"1","pagetotal":"490"},{"name":"天津市民族医院","id":"-103278832598169767","pageindex":"1","pagetotal":"490"},{"name":"南通长城医院","id":"1032792224524682461","pageindex":"1","pagetotal":"490"},{"name":"国家体育总局运动医学研究所体育医院","id":"103281521695410071","pageindex":"1","pagetotal":"490"},{"name":"宁海县城关医院范家社区卫生服务站","id":"-1032945435855470536","pageindex":"1","pagetotal":"490"},{"name":"伊春市第四人民医院","id":"1033439999974588948","pageindex":"1","pagetotal":"490"}]} }
+2021-07-14 14:49:41.706 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 196 - 200 - text/json 8829.9459ms
+2021-07-14 14:49:46.536 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 169
+2021-07-14 14:49:46.538 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/QueryItem
+2021-07-14 14:49:46.540 +08:00 [INF] post数据:{   "AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",   "EmployeeID":"3855445455166195066",   "queryType":"hostpital",   "pagesize":100}
+2021-07-14 14:49:46.541 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 14:49:46.545 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 14:49:46.546 +08:00 [INF] Route matched with {action = "QueryAuthItem", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] QueryAuthItem() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-14 14:49:46.556 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) - Validation state: "Valid"
+2021-07-14 14:49:49.005 +08:00 [INF] Executed action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2446.8003ms.
+2021-07-14 14:49:49.007 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-07-14 14:49:49.009 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) in 2461.44ms
+2021-07-14 14:49:49.010 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 14:49:49.011 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[{"name":"临沂正和医院","id":"-100000005325828122","pageindex":"1","pagetotal":"490"},{"name":"钟祥市郢中镇皇庄社区卫生服务站","id":"1000296370533846853","pageindex":"1","pagetotal":"490"},{"name":"临汾市心脑血管病专科医院","id":"-1000301567495355217","pageindex":"1","pagetotal":"490"},{"name":"青山区自由路办事处都兰社区卫生服务站(内蒙古一机医院)","id":"-1000473902552036495","pageindex":"1","pagetotal":"490"},{"name":"山东好药师大药房连锁有限公司济南华龙路店","id":"1000663213921813295","pageindex":"1","pagetotal":"490"},{"name":"深圳市宝安区公明医院根竹园社区健康服务中心","id":"-1001121664656193403","pageindex":"1","pagetotal":"490"},{"name":"舒兰市白旗镇岗子村社区卫生服务站","id":"1001148041801977778","pageindex":"1","pagetotal":"490"},{"name":"霍城县第一人民医院","id":"100151915220518692","pageindex":"1","pagetotal":"490"},{"name":"特克斯县中医医院","id":"1001876738532459972","pageindex":"1","pagetotal":"490"},{"name":"祥云县博爱医院","id":"-1001921949248830179","pageindex":"1","pagetotal":"490"},{"name":"福州福兴女子医院","id":"1002012368261828365","pageindex":"1","pagetotal":"490"},{"name":"顺庆区油院路社区卫生服务站","id":"-1002401047491359643","pageindex":"1","pagetotal":"490"},{"name":"房山区长阳镇军留庄社区卫生服务站","id":"-1002464860018095858","pageindex":"1","pagetotal":"490"},{"name":"昌邑区左家镇河湾子村第二社区卫生服务站","id":"-1002875308594413233","pageindex":"1","pagetotal":"490"},{"name":"磐石市黑石镇天鹏村素力屯社区服务站","id":"-1002952488906764764","pageindex":"1","pagetotal":"490"},{"name":"石家庄医斯美医疗美容诊所","id":"1003456916490373426","pageindex":"1","pagetotal":"490"},{"name":"荔湾区第三人民医院鹤洞街社区卫生服务中心","id":"-1003485316382703405","pageindex":"1","pagetotal":"490"},{"name":"重庆长安医院","id":"1003520793943360077","pageindex":"1","pagetotal":"490"},{"name":"曲靖皮肤病专科医院","id":"1003648271347303360","pageindex":"1","pagetotal":"490"},{"name":"国药控股广州有限公司诗书路大药房","id":"1003673508899409234","pageindex":"1","pagetotal":"490"},{"name":"南浔区练市镇钟家墩社区卫生报务站","id":"-1004246876188687470","pageindex":"1","pagetotal":"490"},{"name":"望都县优抚医院","id":"-1004396993277771126","pageindex":"1","pagetotal":"490"},{"name":"吉林市龙潭区缸窑镇卫生院致富村社区卫生服务站","id":"1004508490197058680","pageindex":"1","pagetotal":"490"},{"name":"江苏省徐州市丰县五门桥小区服务站(李汉民)","id":"-1004577465096650394","pageindex":"1","pagetotal":"490"},{"name":"怀仁县仁爱医院","id":"-1004602678456398507","pageindex":"1","pagetotal":"490"},{"name":"国药集团新疆新特药业有限公司乌市安居北路新特药店","id":"1004695279402306465","pageindex":"1","pagetotal":"490"},{"name":"中国北车集团西安车辆厂职工医院","id":"-1004702208449360402","pageindex":"1","pagetotal":"490"},{"name":"高明杨和仁爱医院","id":"-1004731881548920482","pageindex":"1","pagetotal":"490"},{"name":"丰台区方庄街道芳星园社区卫生服务站","id":"1004775218744872693","pageindex":"1","pagetotal":"490"},{"name":"吉林市船营区越北镇晓光村第一社区卫生服务站","id":"-1004814826634656405","pageindex":"1","pagetotal":"490"},{"name":"南昌大学萍乡医院新余分院","id":"-1005016232206252256","pageindex":"1","pagetotal":"490"},{"name":"沈阳市东陵区红十字会医院","id":"-1005084486135231446","pageindex":"1","pagetotal":"490"},{"name":"株洲田心医院","id":"1005185680644327029","pageindex":"1","pagetotal":"490"},{"name":"安阳市相州肛肠病医院","id":"-1005539718682230526","pageindex":"1","pagetotal":"490"},{"name":"鄄城县人民医院","id":"1005794376261190910","pageindex":"1","pagetotal":"490"},{"name":"呼兰区第一人民医院","id":"-1005800922468236126","pageindex":"1","pagetotal":"490"},{"name":"广州市海珠区赤岗健福大药房","id":"-1005863280113399408","pageindex":"1","pagetotal":"490"},{"name":"新华路办事处社区卫生服务中心","id":"1006043007554308092","pageindex":"1","pagetotal":"490"},{"name":"景谷傣族彝族自治县中医医院","id":"1006147292232043408","pageindex":"1","pagetotal":"490"},{"name":"长沙市芙蓉区韭菜园街道社区卫生服务中心","id":"-1006297153662140159","pageindex":"1","pagetotal":"490"},{"name":"磐石市福安街红七村第一社区卫生服务站","id":"-1006385864232058535","pageindex":"1","pagetotal":"490"},{"name":"巴州蒙医院库尔勒分院","id":"1006452859197341985","pageindex":"1","pagetotal":"490"},{"name":"永吉县西阳镇西响水村第一社区卫生服务站","id":"1006521282618018490","pageindex":"1","pagetotal":"490"},{"name":"昆明市儿童医院","id":"1006622522001080835","pageindex":"1","pagetotal":"490"},{"name":"武汉东南医院","id":"-1006969172187592314","pageindex":"1","pagetotal":"490"},{"name":"天津河东君康医院","id":"-1006984883112165129","pageindex":"1","pagetotal":"490"},{"name":"龙岗区大鹏人民医院布新社区健康服务中心","id":"-1007307314256982507","pageindex":"1","pagetotal":"490"},{"name":"吉水县人民医院","id":"-1007405272055395335","pageindex":"1","pagetotal":"490"},{"name":"秦淮区双塘社区卫生服务站","id":"-1007466301702322397","pageindex":"1","pagetotal":"490"},{"name":"柳州五菱医院","id":"-1007467356702358169","pageindex":"1","pagetotal":"490"},{"name":"淮北市安康社区卫生服务站","id":"-1007673068258768957","pageindex":"1","pagetotal":"490"},{"name":"定陶县永康医院","id":"-100770498154183054","pageindex":"1","pagetotal":"490"},{"name":"电白曙光农场医院","id":"-1007977645661009529","pageindex":"1","pagetotal":"490"},{"name":"泰和生","id":"-1008209102456993238","pageindex":"1","pagetotal":"490"},{"name":"磐石市松山镇东北贫村新胜屯社区服务站","id":"-1008274079320554931","pageindex":"1","pagetotal":"490"},{"name":"古交市中医院","id":"-1008349797083690502","pageindex":"1","pagetotal":"490"},{"name":"国网江苏省电力公司医务室","id":"-1008573811146667740","pageindex":"1","pagetotal":"490"},{"name":"舒兰市吉舒街丰广村社区卫生服务站","id":"1008866851480224132","pageindex":"1","pagetotal":"490"},{"name":"南浔区菱湖镇南双林村社区卫生报务站","id":"1008981663320525931","pageindex":"1","pagetotal":"490"},{"name":"南京市秦淮区冶金卫生所","id":"100900709805082381","pageindex":"1","pagetotal":"490"},{"name":"石家庄霍文发中医骨伤医院","id":"100931817038235500","pageindex":"1","pagetotal":"490"},{"name":"杭州市江干区九堡镇牛田村社区卫生服务站","id":"-1009372768633336090","pageindex":"1","pagetotal":"490"},{"name":"吴中区城南街道红庄社区卫生服务站","id":"1009786327938778354","pageindex":"1","pagetotal":"490"},{"name":"明光市潘村湖农场医院","id":"1010006768148826601","pageindex":"1","pagetotal":"490"},{"name":"北京世华针刀中医医院","id":"-1010111160397574352","pageindex":"1","pagetotal":"490"},{"name":"内蒙古包钢医院","id":"1010334288365764789","pageindex":"1","pagetotal":"490"},{"name":"无锡东方肛肠医院","id":"-101034582776657929","pageindex":"1","pagetotal":"490"},{"name":"中国建筑第七工程局第二建筑公司职工医院","id":"1010463565822510817","pageindex":"1","pagetotal":"490"},{"name":"北京国际紧急救援中心诊所","id":"-1010592480317125600","pageindex":"1","pagetotal":"490"},{"name":"海丰县医药联合总公司广福堂大药房","id":"1010644496567455416","pageindex":"1","pagetotal":"490"},{"name":"文东办事处社区卫生服务中心","id":"-1010790829631322427","pageindex":"1","pagetotal":"490"},{"name":"南票矿务局三家子煤矿职工医院","id":"-1010800908483217","pageindex":"1","pagetotal":"490"},{"name":"莱州市文昌路街道北五里社区卫生服务站","id":"-1010846182704722665","pageindex":"1","pagetotal":"490"},{"name":"宜章县中医院","id":"1011157454076920614","pageindex":"1","pagetotal":"490"},{"name":"陵园北路社区卫生服务站","id":"-1011162777698088976","pageindex":"1","pagetotal":"490"},{"name":"石家庄市桥西区河北长寿大药房","id":"1011318258475879853","pageindex":"1","pagetotal":"490"},{"name":"荆州区草市社区卫生服务站","id":"1011858398514725319","pageindex":"1","pagetotal":"490"},{"name":"东莞市茶山镇上元社区卫生服务站","id":"1012005549732220397","pageindex":"1","pagetotal":"490"},{"name":"陕西省汉中监狱医院","id":"-1012199553359591820","pageindex":"1","pagetotal":"490"},{"name":"西安市周至县中医医院","id":"1012382380611748936","pageindex":"1","pagetotal":"490"},{"name":"景县龙华镇桥北社区卫生服务站","id":"1012528786055382708","pageindex":"1","pagetotal":"490"},{"name":"广东康发医疗信息咨询有限公司康华清大药房","id":"1012779869577429757","pageindex":"1","pagetotal":"490"},{"name":"兰州市城关区火车站街道红西村社区卫生服务站","id":"-1012999655117338183","pageindex":"1","pagetotal":"490"},{"name":"北票市南山管理区盛达社区卫生服务站","id":"1013201128868235359","pageindex":"1","pagetotal":"490"},{"name":"肇源县人民医院","id":"1013306576166079975","pageindex":"1","pagetotal":"490"},{"name":"东莞市凤岗镇三联社区卫生服务站","id":"-1013522271986760514","pageindex":"1","pagetotal":"490"},{"name":"向阳办振兴路社区卫生服务站","id":"1013526094006601673","pageindex":"1","pagetotal":"490"},{"name":"江苏省丁山监狱医院","id":"1013581576504887400","pageindex":"1","pagetotal":"490"},{"name":"天津市南开区汶水医院","id":"-1013708485317475740","pageindex":"1","pagetotal":"490"},{"name":"青阳康平医院","id":"-1013954112793131770","pageindex":"1","pagetotal":"490"},{"name":"宁波市鄞州区横街镇朱敏社区卫生服务站","id":"1014106552377560563","pageindex":"1","pagetotal":"490"},{"name":"宿城区中扬医院","id":"-1014365174847485356","pageindex":"1","pagetotal":"490"},{"name":"江苏采活小卫街药店","id":"1014570290804048006","pageindex":"1","pagetotal":"490"},{"name":"石岐区南下社区卫生服务站","id":"-1014583221755099309","pageindex":"1","pagetotal":"490"},{"name":"中国科技集团公司第二十研究所职工医院","id":"1014826110207608883","pageindex":"1","pagetotal":"490"},{"name":"黑龙江省梧桐河农场职工医院","id":"1014981171106955997","pageindex":"1","pagetotal":"490"},{"name":"邢台市桥东区北大街社区卫生服务中心","id":"-1015127071448543792","pageindex":"1","pagetotal":"490"},{"name":"中兴路国棉社区卫生服务站","id":"-1015307836738417311","pageindex":"1","pagetotal":"490"},{"name":"张渚镇北门社区卫生服务站","id":"-1015527423763069096","pageindex":"1","pagetotal":"490"},{"name":"兴国县中医院","id":"-1015704725497163841","pageindex":"1","pagetotal":"490"}]} }
+2021-07-14 14:49:49.016 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 169 - 200 - text/json 2479.4768ms
+2021-07-14 14:50:13.723 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 188
+2021-07-14 14:50:13.749 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/QueryItem
+2021-07-14 14:50:13.750 +08:00 [INF] post数据:{   "AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",   "EmployeeID":"3855445455166195066",   "queryValue":"",   "queryType":"product",   "pagesize":100}
+2021-07-14 14:50:13.751 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 14:50:13.752 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 14:50:13.754 +08:00 [INF] Route matched with {action = "QueryAuthItem", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] QueryAuthItem() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-14 14:50:13.765 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) - Validation state: "Valid"
+2021-07-14 14:50:15.911 +08:00 [INF] Executed action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2145.2719ms.
+2021-07-14 14:50:15.913 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-07-14 14:50:15.914 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) in 2159.2489ms
+2021-07-14 14:50:15.915 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 14:50:15.916 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[{"name":"艾夫吉夫25000U/2ml/支","id":"69d55ff7-d9d6-4f20-bcbc-b5244894f36e","pageindex":"1","pagetotal":"1"},{"name":"丙戊酸钠0.2克/片","id":"6e927e6d-b03a-4601-b4dd-2ec583a46768","pageindex":"1","pagetotal":"1"}]} }
+2021-07-14 14:50:15.923 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 188 - 200 - text/json 2201.0392ms
+2021-07-14 15:14:55.735 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-14 15:14:55.835 +08:00 [INF] Hosting environment: Development
+2021-07-14 15:14:55.837 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-07-14 15:14:55.844 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-14 15:14:55.844 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 15:14:55.844 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-14 15:14:55.844 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-14 15:14:55.844 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-14 15:14:55.844 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-14 15:14:55.844 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/GetMyAuthData application/json 106
+2021-07-14 15:14:55.913 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-07-14 15:14:55.913 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 15:14:55.914 +08:00 [INF] post数据:
+2021-07-14 15:14:55.915 +08:00 [INF] post数据:
+2021-07-14 15:14:55.913 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-07-14 15:14:55.918 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:14:55.917 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:14:55.919 +08:00 [INF] post数据:
+2021-07-14 15:14:55.913 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-07-14 15:14:55.922 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:14:55.923 +08:00 [INF] post数据:
+2021-07-14 15:14:55.913 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-07-14 15:14:55.925 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:14:55.926 +08:00 [INF] post数据:
+2021-07-14 15:14:55.913 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-07-14 15:14:55.928 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:14:55.929 +08:00 [INF] post数据:
+2021-07-14 15:14:55.913 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/GetMyAuthData
+2021-07-14 15:14:55.931 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:14:55.932 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"8536148497677042350"}
+2021-07-14 15:14:55.934 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 15:14:56.180 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 337.6087ms
+2021-07-14 15:14:56.180 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 337.5974ms
+2021-07-14 15:14:56.180 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 337.6108ms
+2021-07-14 15:14:56.180 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 337.6083ms
+2021-07-14 15:14:56.180 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 337.6107ms
+2021-07-14 15:14:56.180 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 337.6104ms
+2021-07-14 15:14:56.237 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 15:14:56.239 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 15:14:56.241 +08:00 [INF] post数据:
+2021-07-14 15:14:56.243 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:14:56.270 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 33.2080ms
+2021-07-14 15:14:56.272 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 15:14:56.274 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 15:14:56.274 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.GetMyAuthData (YRBApp)'
+2021-07-14 15:14:56.276 +08:00 [INF] post数据:
+2021-07-14 15:14:56.279 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:14:56.305 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 33.2833ms
+2021-07-14 15:14:56.308 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 15:14:56.310 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 15:14:56.311 +08:00 [INF] post数据:
+2021-07-14 15:14:56.313 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:14:56.344 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 35.9375ms
+2021-07-14 15:14:56.346 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 15:14:56.347 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 15:14:56.349 +08:00 [INF] post数据:
+2021-07-14 15:14:56.350 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:14:56.376 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 30.4029ms
+2021-07-14 15:14:56.378 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 15:14:56.380 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 15:14:56.381 +08:00 [INF] post数据:
+2021-07-14 15:14:56.383 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:14:56.412 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 33.7854ms
+2021-07-14 15:14:56.446 +08:00 [INF] Route matched with {action = "GetMyAuthData", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] GetMyAuthData() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-14 15:14:56.493 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.GetMyAuthData (YRBApp) - Validation state: "Valid"
+2021-07-14 15:15:02.652 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 15:15:03.955 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 15:15:04.644 +08:00 [INF] post数据:
+2021-07-14 15:15:05.365 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:15:09.812 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 9498.7364ms
+2021-07-14 15:15:09.812 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 15:15:09.816 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 15:15:09.817 +08:00 [INF] post数据:
+2021-07-14 15:15:09.818 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:15:09.875 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 62.1348ms
+2021-07-14 15:15:09.877 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 15:15:09.878 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 15:15:09.879 +08:00 [INF] post数据:
+2021-07-14 15:15:09.880 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:15:09.893 +08:00 [INF] Executed action method YRBApp.Controllers.AuthController.GetMyAuthData (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 13318.9118ms.
+2021-07-14 15:15:09.907 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 30.3276ms
+2021-07-14 15:15:09.913 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-07-14 15:15:09.940 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.GetMyAuthData (YRBApp) in 13489.4424ms
+2021-07-14 15:15:09.942 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.GetMyAuthData (YRBApp)'
+2021-07-14 15:15:10.028 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[{"institutionid":"5616456371214568708","institutionname":"保定市第一中心医院","authobjectid":"-1230971074430611817","authobjectname":"张晓飞"},{"institutionid":"-4086605884496197343","institutionname":"邯郸市中医院","authobjectid":"-1230971074430611817","authobjectname":"张晓飞"},{"institutionid":"8572288875608097710","institutionname":"河北省儿童医院","authobjectid":"-1230971074430611817","authobjectname":"张晓飞"},{"institutionid":"-7841641636430983352","institutionname":"河北省中医院","authobjectid":"-1230971074430611817","authobjectname":"张晓飞"},{"institutionid":"1990610628059220270","institutionname":"河北医科大学第二医院","authobjectid":"-1230971074430611817","authobjectname":"张晓飞"},{"institutionid":"8829770919125075284","institutionname":"河北医科大学第三医院","authobjectid":"-1230971074430611817","authobjectname":"张晓飞"},{"institutionid":"-3591510872908150824","institutionname":"河北医科大学第四医院","authobjectid":"-1230971074430611817","authobjectname":"张晓飞"},{"institutionid":"-1654152698112884573","institutionname":"河北医科大学第四医院东院","authobjectid":"-1230971074430611817","authobjectname":"张晓飞"},{"institutionid":"7851986522400843449","institutionname":"环球医院","authobjectid":"4255873149499886263","authobjectname":"白婉鑫"},{"institutionid":"7851986522400843449","institutionname":"环球医院","authobjectid":"8536148497677042350","authobjectname":"王天池"},{"institutionid":"6771012872435486502","institutionname":"滦南中西医结合医院","authobjectid":"-1230971074430611817","authobjectname":"张晓飞"},{"institutionid":"3322051999793825931","institutionname":"石家庄市第三医院","authobjectid":"8536148497677042350","authobjectname":"王天池"},{"institutionid":"3322051999793825931","institutionname":"石家庄市第三医院","authobjectid":"4255873149499886263","authobjectname":"白婉鑫"},{"institutionid":"-7580302078032036","institutionname":"石家庄市第一医院","authobjectid":"-1230971074430611817","authobjectname":"张晓飞"},{"institutionid":"-48263622315981309","institutionname":"石家庄市第一医院(中心院区)","authobjectid":"-1230971074430611817","authobjectname":"张晓飞"},{"institutionid":"-3430735815963752467","institutionname":"石家庄市中医院","authobjectid":"-1230971074430611817","authobjectname":"张晓飞"},{"institutionid":"-8575798950295289735","institutionname":"唐钢集团有限公司医院(弘慈医院)","authobjectid":"-1230971074430611817","authobjectname":"张晓飞"},{"institutionid":"9159948236554586607","institutionname":"唐山南湖医院","authobjectid":"-1230971074430611817","authobjectname":"张晓飞"},{"institutionid":"-2578768601741177226","institutionname":"唐山市人民医院","authobjectid":"-1230971074430611817","authobjectname":"张晓飞"},{"institutionid":"3661770701325354638","institutionname":"玉田县中医院","authobjectid":"-1230971074430611817","authobjectname":"张晓飞"},{"institutionid":"4483904079373946159","institutionname":"中国人民解放军白求恩国际和平医院","authobjectid":"-1230971074430611817","authobjectname":"张晓飞"},{"institutionid":"3051834300823652995","institutionname":"中国人民解放军二五五医院","authobjectid":"-1230971074430611817","authobjectname":"张晓飞"},{"institutionid":"1822748560051096797","institutionname":"中国石油天然气集团公司中心医院","authobjectid":"-1230971074430611817","authobjectname":"张晓飞"}]} }
+2021-07-14 15:15:10.031 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/GetMyAuthData application/json 106 - 200 - text/json 14189.4951ms
+2021-07-14 15:18:00.612 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/api/Auth/GetMyAuthData application/json 106
+2021-07-14 15:18:00.618 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/GetMyAuthData
+2021-07-14 15:18:00.619 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"8536148497677042350"}
+2021-07-14 15:18:00.620 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 15:18:00.624 +08:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2021-07-14 15:18:00.625 +08:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2021-07-14 15:18:07.843 +08:00 [ERR] Connection ID "17654110545197924353", Request ID "80000002-0001-f500-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YRBApp.Middleware.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in D:\Source\yrb2021Net5\YRBApp\Middleware\RequestResponseLoggingMiddleware.cs:line 71
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-07-14 15:18:09.701 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/api/Auth/GetMyAuthData application/json 106 - 500 - - 9088.9580ms
+2021-07-14 15:18:48.120 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/api/Auth/GetMyAuthData application/json 155
+2021-07-14 15:18:48.122 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/GetMyAuthData
+2021-07-14 15:18:48.127 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"8536148497677042350","auther":"责任人姓名","hospital":"医院"}
+2021-07-14 15:18:48.128 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 15:18:48.151 +08:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2021-07-14 15:18:48.156 +08:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2021-07-14 15:18:53.795 +08:00 [ERR] Connection ID "17654110545197924353", Request ID "80000003-0001-f500-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YRBApp.Middleware.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in D:\Source\yrb2021Net5\YRBApp\Middleware\RequestResponseLoggingMiddleware.cs:line 71
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-07-14 15:18:53.804 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/api/Auth/GetMyAuthData application/json 155 - 500 - - 5677.6958ms
+2021-07-14 15:19:19.936 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/api/Auth/GetMyAuthData application/json 155
+2021-07-14 15:19:19.938 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/GetMyAuthData
+2021-07-14 15:19:19.943 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"8536148497677042350","auther":"责任人姓名","hospital":"医院"}
+2021-07-14 15:19:19.944 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 15:19:19.946 +08:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2021-07-14 15:19:19.947 +08:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2021-07-14 15:19:29.902 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-14 15:19:29.933 +08:00 [INF] Hosting environment: Development
+2021-07-14 15:19:29.935 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-07-14 15:19:29.934 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-14 15:19:29.934 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 15:19:29.981 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-07-14 15:19:29.981 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 15:19:29.983 +08:00 [INF] post数据:
+2021-07-14 15:19:29.983 +08:00 [INF] post数据:
+2021-07-14 15:19:29.985 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:19:29.986 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:19:30.109 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 177.8751ms
+2021-07-14 15:19:30.109 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 177.8803ms
+2021-07-14 15:19:30.141 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 15:19:30.143 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 15:19:30.144 +08:00 [INF] post数据:
+2021-07-14 15:19:30.146 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:19:30.176 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 34.9922ms
+2021-07-14 15:19:31.119 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 15:19:31.121 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 15:19:31.122 +08:00 [INF] post数据:
+2021-07-14 15:19:31.123 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:19:31.148 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 28.9002ms
+2021-07-14 15:19:31.150 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 15:19:31.152 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 15:19:31.153 +08:00 [INF] post数据:
+2021-07-14 15:19:31.154 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:19:31.176 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 26.2901ms
+2021-07-14 15:19:31.178 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 15:19:31.179 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 15:19:31.180 +08:00 [INF] post数据:
+2021-07-14 15:19:31.181 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:19:31.202 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 24.8380ms
+2021-07-14 15:19:32.132 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 15:19:32.133 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 15:19:32.135 +08:00 [INF] post数据:
+2021-07-14 15:19:32.136 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:19:32.160 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 28.0059ms
+2021-07-14 15:19:32.628 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 15:19:32.630 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 15:19:32.631 +08:00 [INF] post数据:
+2021-07-14 15:19:32.632 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:19:32.654 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 26.4159ms
+2021-07-14 15:19:33.295 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 15:19:33.297 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 15:19:33.298 +08:00 [INF] post数据:
+2021-07-14 15:19:33.299 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:19:33.323 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 28.1341ms
+2021-07-14 15:19:33.337 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 15:19:33.339 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 15:19:33.340 +08:00 [INF] post数据:
+2021-07-14 15:19:33.342 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:19:33.367 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 29.6113ms
+2021-07-14 15:19:34.276 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 15:19:34.278 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 15:19:34.279 +08:00 [INF] post数据:
+2021-07-14 15:19:34.280 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:19:34.333 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 56.4690ms
+2021-07-14 15:19:37.050 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/api/Auth/GetMyAuthData application/json 155
+2021-07-14 15:19:37.052 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/GetMyAuthData
+2021-07-14 15:19:37.053 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"8536148497677042350","auther":"责任人姓名","hospital":"医院"}
+2021-07-14 15:19:37.054 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 15:19:37.091 +08:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2021-07-14 15:19:37.093 +08:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2021-07-14 15:19:51.841 +08:00 [ERR] Connection ID "18374686507052040193", Request ID "80000002-0006-ff00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YRBApp.Middleware.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in D:\Source\yrb2021Net5\YRBApp\Middleware\RequestResponseLoggingMiddleware.cs:line 71
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-07-14 15:19:51.887 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/api/Auth/GetMyAuthData application/json 155 - 500 - - 14837.6543ms
+2021-07-14 15:20:03.637 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/GetMyAuthData application/json 155
+2021-07-14 15:20:03.639 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/GetMyAuthData
+2021-07-14 15:20:03.640 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"8536148497677042350","auther":"责任人姓名","hospital":"医院"}
+2021-07-14 15:20:03.641 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 15:20:03.645 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.GetMyAuthData (YRBApp)'
+2021-07-14 15:20:03.670 +08:00 [INF] Route matched with {action = "GetMyAuthData", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] GetMyAuthData() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-14 15:20:03.713 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.GetMyAuthData (YRBApp) - Validation state: "Valid"
+2021-07-14 15:20:07.368 +08:00 [INF] Executed action method YRBApp.Controllers.AuthController.GetMyAuthData (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3648.2304ms.
+2021-07-14 15:20:07.373 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-07-14 15:20:07.391 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.GetMyAuthData (YRBApp) in 3715.9916ms
+2021-07-14 15:20:07.393 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.GetMyAuthData (YRBApp)'
+2021-07-14 15:20:09.387 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[]} }
+2021-07-14 15:20:09.391 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/GetMyAuthData application/json 155 - 200 - text/json 5753.3334ms
+2021-07-14 15:37:41.263 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-14 15:37:41.298 +08:00 [INF] Hosting environment: Development
+2021-07-14 15:37:41.300 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-07-14 15:37:41.300 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 15:37:41.300 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-14 15:37:41.339 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 15:37:41.339 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-07-14 15:37:41.340 +08:00 [INF] post数据:
+2021-07-14 15:37:41.341 +08:00 [INF] post数据:
+2021-07-14 15:37:41.343 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:37:41.343 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:37:41.506 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 209.2129ms
+2021-07-14 15:37:41.506 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 209.2128ms
+2021-07-14 15:37:41.546 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 15:37:41.548 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 15:37:41.549 +08:00 [INF] post数据:
+2021-07-14 15:37:41.551 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:37:41.585 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 38.6892ms
+2021-07-14 15:37:42.186 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 15:37:42.188 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 15:37:42.189 +08:00 [INF] post数据:
+2021-07-14 15:37:42.191 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:37:42.217 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 31.4965ms
+2021-07-14 15:37:42.219 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 15:37:42.220 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 15:37:42.221 +08:00 [INF] post数据:
+2021-07-14 15:37:42.222 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:37:42.255 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 36.7790ms
+2021-07-14 15:37:42.257 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 15:37:42.258 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 15:37:42.260 +08:00 [INF] post数据:
+2021-07-14 15:37:42.261 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:37:42.306 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 48.7950ms
+2021-07-14 15:37:43.377 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 15:37:43.378 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 15:37:43.379 +08:00 [INF] post数据:
+2021-07-14 15:37:43.380 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:37:43.404 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 27.2727ms
+2021-07-14 15:37:43.680 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 15:37:43.682 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 15:37:43.683 +08:00 [INF] post数据:
+2021-07-14 15:37:43.684 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:37:43.707 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 26.4961ms
+2021-07-14 15:37:44.391 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 15:37:44.393 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 15:37:44.394 +08:00 [INF] post数据:
+2021-07-14 15:37:44.395 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:37:44.419 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 27.5333ms
+2021-07-14 15:37:44.435 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 15:37:44.437 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 15:37:44.438 +08:00 [INF] post数据:
+2021-07-14 15:37:44.440 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:37:44.464 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 29.0040ms
+2021-07-14 15:37:45.526 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 15:37:45.527 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 15:37:45.528 +08:00 [INF] post数据:
+2021-07-14 15:37:45.529 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:37:45.582 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 56.0462ms
+2021-07-14 15:37:45.829 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 15:37:45.830 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 15:37:45.832 +08:00 [INF] post数据:
+2021-07-14 15:37:45.833 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:37:45.856 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 27.5405ms
+2021-07-14 15:38:06.268 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 120
+2021-07-14 15:38:06.271 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/QueryItem
+2021-07-14 15:38:06.272 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"8536148497677042350","queryType":1}
+2021-07-14 15:38:06.274 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 15:38:06.323 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 15:38:06.356 +08:00 [INF] Route matched with {action = "QueryAuthItem", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] QueryAuthItem() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-14 15:38:06.397 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) - Validation state: "Valid"
+2021-07-14 15:38:11.306 +08:00 [INF] Executed action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4902.563ms.
+2021-07-14 15:38:11.312 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-07-14 15:38:11.334 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) in 4973.8007ms
+2021-07-14 15:38:11.336 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 15:38:14.736 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[{"name":"临沂正和医院","id":"-100000005325828122","pageindex":"1","pagetotal":"48979"}]} }
+2021-07-14 15:38:14.739 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 120 - 200 - text/json 8476.2024ms
+2021-07-14 15:38:19.138 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 120
+2021-07-14 15:38:19.139 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/QueryItem
+2021-07-14 15:38:19.141 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"8536148497677042350","queryType":1}
+2021-07-14 15:38:19.142 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 15:38:19.146 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 15:38:19.148 +08:00 [INF] Route matched with {action = "QueryAuthItem", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] QueryAuthItem() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-14 15:38:19.159 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) - Validation state: "Valid"
+2021-07-14 15:41:12.851 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-14 15:41:12.881 +08:00 [INF] Hosting environment: Development
+2021-07-14 15:41:12.883 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-07-14 15:41:12.881 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 15:41:12.881 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-14 15:41:12.919 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 15:41:12.919 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-07-14 15:41:12.920 +08:00 [INF] post数据:
+2021-07-14 15:41:12.921 +08:00 [INF] post数据:
+2021-07-14 15:41:12.923 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:41:12.923 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:41:13.077 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 198.5375ms
+2021-07-14 15:41:13.077 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 198.5375ms
+2021-07-14 15:41:13.109 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 15:41:13.112 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 15:41:13.113 +08:00 [INF] post数据:
+2021-07-14 15:41:13.116 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:41:13.147 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 37.7764ms
+2021-07-14 15:41:13.773 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 15:41:13.776 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 15:41:13.777 +08:00 [INF] post数据:
+2021-07-14 15:41:13.779 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:41:13.805 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 31.8122ms
+2021-07-14 15:41:13.807 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 15:41:13.808 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 15:41:13.809 +08:00 [INF] post数据:
+2021-07-14 15:41:13.810 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:41:13.835 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 28.0615ms
+2021-07-14 15:41:13.837 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 15:41:13.838 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 15:41:13.839 +08:00 [INF] post数据:
+2021-07-14 15:41:13.840 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:41:13.864 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 27.5825ms
+2021-07-14 15:41:14.972 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 15:41:14.973 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 15:41:14.974 +08:00 [INF] post数据:
+2021-07-14 15:41:14.975 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:41:15.006 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 34.2817ms
+2021-07-14 15:41:15.272 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 15:41:15.274 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 15:41:15.276 +08:00 [INF] post数据:
+2021-07-14 15:41:15.277 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:41:15.301 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 28.8765ms
+2021-07-14 15:41:15.966 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 15:41:15.968 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 15:41:15.970 +08:00 [INF] post数据:
+2021-07-14 15:41:15.971 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:41:15.995 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 28.6883ms
+2021-07-14 15:41:16.023 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 15:41:16.024 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 15:41:16.026 +08:00 [INF] post数据:
+2021-07-14 15:41:16.027 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:41:16.051 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 28.0853ms
+2021-07-14 15:41:17.125 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 15:41:17.127 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 15:41:17.128 +08:00 [INF] post数据:
+2021-07-14 15:41:17.129 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:41:17.182 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 56.8936ms
+2021-07-14 15:41:17.426 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 15:41:17.427 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 15:41:17.428 +08:00 [INF] post数据:
+2021-07-14 15:41:17.430 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:41:17.451 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 25.6106ms
+2021-07-14 15:41:18.113 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 15:41:18.115 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 15:41:18.116 +08:00 [INF] post数据:
+2021-07-14 15:41:18.117 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 15:41:18.140 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 26.7854ms
+2021-07-14 15:43:36.575 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 120
+2021-07-14 15:43:36.580 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/QueryItem
+2021-07-14 15:43:36.589 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"8536148497677042350","queryType":1}
+2021-07-14 15:43:36.591 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 15:43:36.638 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 15:43:36.671 +08:00 [INF] Route matched with {action = "QueryAuthItem", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] QueryAuthItem() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-14 15:43:36.717 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) - Validation state: "Valid"
+2021-07-14 15:45:56.192 +08:00 [INF] Executed action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 139467.9875ms.
+2021-07-14 15:45:56.198 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-07-14 15:45:56.220 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) in 139545.0255ms
+2021-07-14 15:45:56.222 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 15:45:58.138 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[{"name":"临沂正和医院","id":"-100000005325828122","pageindex":"1","pagetotal":"490"},{"name":"钟祥市郢中镇皇庄社区卫生服务站","id":"1000296370533846853","pageindex":"1","pagetotal":"490"},{"name":"临汾市心脑血管病专科医院","id":"-1000301567495355217","pageindex":"1","pagetotal":"490"},{"name":"青山区自由路办事处都兰社区卫生服务站(内蒙古一机医院)","id":"-1000473902552036495","pageindex":"1","pagetotal":"490"},{"name":"山东好药师大药房连锁有限公司济南华龙路店","id":"1000663213921813295","pageindex":"1","pagetotal":"490"},{"name":"深圳市宝安区公明医院根竹园社区健康服务中心","id":"-1001121664656193403","pageindex":"1","pagetotal":"490"},{"name":"舒兰市白旗镇岗子村社区卫生服务站","id":"1001148041801977778","pageindex":"1","pagetotal":"490"},{"name":"霍城县第一人民医院","id":"100151915220518692","pageindex":"1","pagetotal":"490"},{"name":"特克斯县中医医院","id":"1001876738532459972","pageindex":"1","pagetotal":"490"},{"name":"祥云县博爱医院","id":"-1001921949248830179","pageindex":"1","pagetotal":"490"},{"name":"福州福兴女子医院","id":"1002012368261828365","pageindex":"1","pagetotal":"490"},{"name":"顺庆区油院路社区卫生服务站","id":"-1002401047491359643","pageindex":"1","pagetotal":"490"},{"name":"房山区长阳镇军留庄社区卫生服务站","id":"-1002464860018095858","pageindex":"1","pagetotal":"490"},{"name":"昌邑区左家镇河湾子村第二社区卫生服务站","id":"-1002875308594413233","pageindex":"1","pagetotal":"490"},{"name":"磐石市黑石镇天鹏村素力屯社区服务站","id":"-1002952488906764764","pageindex":"1","pagetotal":"490"},{"name":"石家庄医斯美医疗美容诊所","id":"1003456916490373426","pageindex":"1","pagetotal":"490"},{"name":"荔湾区第三人民医院鹤洞街社区卫生服务中心","id":"-1003485316382703405","pageindex":"1","pagetotal":"490"},{"name":"重庆长安医院","id":"1003520793943360077","pageindex":"1","pagetotal":"490"},{"name":"曲靖皮肤病专科医院","id":"1003648271347303360","pageindex":"1","pagetotal":"490"},{"name":"国药控股广州有限公司诗书路大药房","id":"1003673508899409234","pageindex":"1","pagetotal":"490"},{"name":"南浔区练市镇钟家墩社区卫生报务站","id":"-1004246876188687470","pageindex":"1","pagetotal":"490"},{"name":"望都县优抚医院","id":"-1004396993277771126","pageindex":"1","pagetotal":"490"},{"name":"吉林市龙潭区缸窑镇卫生院致富村社区卫生服务站","id":"1004508490197058680","pageindex":"1","pagetotal":"490"},{"name":"江苏省徐州市丰县五门桥小区服务站(李汉民)","id":"-1004577465096650394","pageindex":"1","pagetotal":"490"},{"name":"怀仁县仁爱医院","id":"-1004602678456398507","pageindex":"1","pagetotal":"490"},{"name":"国药集团新疆新特药业有限公司乌市安居北路新特药店","id":"1004695279402306465","pageindex":"1","pagetotal":"490"},{"name":"中国北车集团西安车辆厂职工医院","id":"-1004702208449360402","pageindex":"1","pagetotal":"490"},{"name":"高明杨和仁爱医院","id":"-1004731881548920482","pageindex":"1","pagetotal":"490"},{"name":"丰台区方庄街道芳星园社区卫生服务站","id":"1004775218744872693","pageindex":"1","pagetotal":"490"},{"name":"吉林市船营区越北镇晓光村第一社区卫生服务站","id":"-1004814826634656405","pageindex":"1","pagetotal":"490"},{"name":"南昌大学萍乡医院新余分院","id":"-1005016232206252256","pageindex":"1","pagetotal":"490"},{"name":"沈阳市东陵区红十字会医院","id":"-1005084486135231446","pageindex":"1","pagetotal":"490"},{"name":"株洲田心医院","id":"1005185680644327029","pageindex":"1","pagetotal":"490"},{"name":"安阳市相州肛肠病医院","id":"-1005539718682230526","pageindex":"1","pagetotal":"490"},{"name":"鄄城县人民医院","id":"1005794376261190910","pageindex":"1","pagetotal":"490"},{"name":"呼兰区第一人民医院","id":"-1005800922468236126","pageindex":"1","pagetotal":"490"},{"name":"广州市海珠区赤岗健福大药房","id":"-1005863280113399408","pageindex":"1","pagetotal":"490"},{"name":"新华路办事处社区卫生服务中心","id":"1006043007554308092","pageindex":"1","pagetotal":"490"},{"name":"景谷傣族彝族自治县中医医院","id":"1006147292232043408","pageindex":"1","pagetotal":"490"},{"name":"长沙市芙蓉区韭菜园街道社区卫生服务中心","id":"-1006297153662140159","pageindex":"1","pagetotal":"490"},{"name":"磐石市福安街红七村第一社区卫生服务站","id":"-1006385864232058535","pageindex":"1","pagetotal":"490"},{"name":"巴州蒙医院库尔勒分院","id":"1006452859197341985","pageindex":"1","pagetotal":"490"},{"name":"永吉县西阳镇西响水村第一社区卫生服务站","id":"1006521282618018490","pageindex":"1","pagetotal":"490"},{"name":"昆明市儿童医院","id":"1006622522001080835","pageindex":"1","pagetotal":"490"},{"name":"武汉东南医院","id":"-1006969172187592314","pageindex":"1","pagetotal":"490"},{"name":"天津河东君康医院","id":"-1006984883112165129","pageindex":"1","pagetotal":"490"},{"name":"龙岗区大鹏人民医院布新社区健康服务中心","id":"-1007307314256982507","pageindex":"1","pagetotal":"490"},{"name":"吉水县人民医院","id":"-1007405272055395335","pageindex":"1","pagetotal":"490"},{"name":"秦淮区双塘社区卫生服务站","id":"-1007466301702322397","pageindex":"1","pagetotal":"490"},{"name":"柳州五菱医院","id":"-1007467356702358169","pageindex":"1","pagetotal":"490"},{"name":"淮北市安康社区卫生服务站","id":"-1007673068258768957","pageindex":"1","pagetotal":"490"},{"name":"定陶县永康医院","id":"-100770498154183054","pageindex":"1","pagetotal":"490"},{"name":"电白曙光农场医院","id":"-1007977645661009529","pageindex":"1","pagetotal":"490"},{"name":"泰和生","id":"-1008209102456993238","pageindex":"1","pagetotal":"490"},{"name":"磐石市松山镇东北贫村新胜屯社区服务站","id":"-1008274079320554931","pageindex":"1","pagetotal":"490"},{"name":"古交市中医院","id":"-1008349797083690502","pageindex":"1","pagetotal":"490"},{"name":"国网江苏省电力公司医务室","id":"-1008573811146667740","pageindex":"1","pagetotal":"490"},{"name":"舒兰市吉舒街丰广村社区卫生服务站","id":"1008866851480224132","pageindex":"1","pagetotal":"490"},{"name":"南浔区菱湖镇南双林村社区卫生报务站","id":"1008981663320525931","pageindex":"1","pagetotal":"490"},{"name":"南京市秦淮区冶金卫生所","id":"100900709805082381","pageindex":"1","pagetotal":"490"},{"name":"石家庄霍文发中医骨伤医院","id":"100931817038235500","pageindex":"1","pagetotal":"490"},{"name":"杭州市江干区九堡镇牛田村社区卫生服务站","id":"-1009372768633336090","pageindex":"1","pagetotal":"490"},{"name":"吴中区城南街道红庄社区卫生服务站","id":"1009786327938778354","pageindex":"1","pagetotal":"490"},{"name":"明光市潘村湖农场医院","id":"1010006768148826601","pageindex":"1","pagetotal":"490"},{"name":"北京世华针刀中医医院","id":"-1010111160397574352","pageindex":"1","pagetotal":"490"},{"name":"内蒙古包钢医院","id":"1010334288365764789","pageindex":"1","pagetotal":"490"},{"name":"无锡东方肛肠医院","id":"-101034582776657929","pageindex":"1","pagetotal":"490"},{"name":"中国建筑第七工程局第二建筑公司职工医院","id":"1010463565822510817","pageindex":"1","pagetotal":"490"},{"name":"北京国际紧急救援中心诊所","id":"-1010592480317125600","pageindex":"1","pagetotal":"490"},{"name":"海丰县医药联合总公司广福堂大药房","id":"1010644496567455416","pageindex":"1","pagetotal":"490"},{"name":"文东办事处社区卫生服务中心","id":"-1010790829631322427","pageindex":"1","pagetotal":"490"},{"name":"南票矿务局三家子煤矿职工医院","id":"-1010800908483217","pageindex":"1","pagetotal":"490"},{"name":"莱州市文昌路街道北五里社区卫生服务站","id":"-1010846182704722665","pageindex":"1","pagetotal":"490"},{"name":"宜章县中医院","id":"1011157454076920614","pageindex":"1","pagetotal":"490"},{"name":"陵园北路社区卫生服务站","id":"-1011162777698088976","pageindex":"1","pagetotal":"490"},{"name":"石家庄市桥西区河北长寿大药房","id":"1011318258475879853","pageindex":"1","pagetotal":"490"},{"name":"荆州区草市社区卫生服务站","id":"1011858398514725319","pageindex":"1","pagetotal":"490"},{"name":"东莞市茶山镇上元社区卫生服务站","id":"1012005549732220397","pageindex":"1","pagetotal":"490"},{"name":"陕西省汉中监狱医院","id":"-1012199553359591820","pageindex":"1","pagetotal":"490"},{"name":"西安市周至县中医医院","id":"1012382380611748936","pageindex":"1","pagetotal":"490"},{"name":"景县龙华镇桥北社区卫生服务站","id":"1012528786055382708","pageindex":"1","pagetotal":"490"},{"name":"广东康发医疗信息咨询有限公司康华清大药房","id":"1012779869577429757","pageindex":"1","pagetotal":"490"},{"name":"兰州市城关区火车站街道红西村社区卫生服务站","id":"-1012999655117338183","pageindex":"1","pagetotal":"490"},{"name":"北票市南山管理区盛达社区卫生服务站","id":"1013201128868235359","pageindex":"1","pagetotal":"490"},{"name":"肇源县人民医院","id":"1013306576166079975","pageindex":"1","pagetotal":"490"},{"name":"东莞市凤岗镇三联社区卫生服务站","id":"-1013522271986760514","pageindex":"1","pagetotal":"490"},{"name":"向阳办振兴路社区卫生服务站","id":"1013526094006601673","pageindex":"1","pagetotal":"490"},{"name":"江苏省丁山监狱医院","id":"1013581576504887400","pageindex":"1","pagetotal":"490"},{"name":"天津市南开区汶水医院","id":"-1013708485317475740","pageindex":"1","pagetotal":"490"},{"name":"青阳康平医院","id":"-1013954112793131770","pageindex":"1","pagetotal":"490"},{"name":"宁波市鄞州区横街镇朱敏社区卫生服务站","id":"1014106552377560563","pageindex":"1","pagetotal":"490"},{"name":"宿城区中扬医院","id":"-1014365174847485356","pageindex":"1","pagetotal":"490"},{"name":"江苏采活小卫街药店","id":"1014570290804048006","pageindex":"1","pagetotal":"490"},{"name":"石岐区南下社区卫生服务站","id":"-1014583221755099309","pageindex":"1","pagetotal":"490"},{"name":"中国科技集团公司第二十研究所职工医院","id":"1014826110207608883","pageindex":"1","pagetotal":"490"},{"name":"黑龙江省梧桐河农场职工医院","id":"1014981171106955997","pageindex":"1","pagetotal":"490"},{"name":"邢台市桥东区北大街社区卫生服务中心","id":"-1015127071448543792","pageindex":"1","pagetotal":"490"},{"name":"中兴路国棉社区卫生服务站","id":"-1015307836738417311","pageindex":"1","pagetotal":"490"},{"name":"张渚镇北门社区卫生服务站","id":"-1015527423763069096","pageindex":"1","pagetotal":"490"},{"name":"兴国县中医院","id":"-1015704725497163841","pageindex":"1","pagetotal":"490"}]} }
+2021-07-14 15:45:58.151 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 120 - 200 - text/json 141576.0393ms
+2021-07-14 21:51:42.756 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-14 21:51:42.805 +08:00 [INF] Hosting environment: Development
+2021-07-14 21:51:42.807 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-07-14 21:51:42.813 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-14 21:51:42.813 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 21:51:42.870 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 21:51:42.870 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-07-14 21:51:42.872 +08:00 [INF] post数据:
+2021-07-14 21:51:42.873 +08:00 [INF] post数据:
+2021-07-14 21:51:42.875 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 21:51:42.875 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 21:51:43.053 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 240.6723ms
+2021-07-14 21:51:43.053 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 240.6726ms
+2021-07-14 21:51:43.084 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 21:51:43.087 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 21:51:43.090 +08:00 [INF] post数据:
+2021-07-14 21:51:43.092 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 21:51:43.128 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 44.1747ms
+2021-07-14 21:53:01.804 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 136
+2021-07-14 21:53:01.836 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/QueryItem
+2021-07-14 21:53:01.837 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"8536148497677042350","queryType":1,"Name":"环球"}
+2021-07-14 21:53:01.838 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 21:53:01.891 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 21:53:01.936 +08:00 [INF] Route matched with {action = "QueryAuthItem", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] QueryAuthItem(ydb.Domain.Models.AuthHospital) on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-14 21:53:02.090 +08:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-07-14 21:53:02.109 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) in 168.3524ms
+2021-07-14 21:53:02.112 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 21:53:02.442 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[]} }
+2021-07-14 21:53:02.446 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 136 - 400 - text/json 642.0710ms
+2021-07-14 21:58:57.102 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 136
+2021-07-14 21:58:57.108 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/QueryItem
+2021-07-14 21:58:57.108 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"8536148497677042350","queryType":1,"Name":"环球"}
+2021-07-14 21:58:57.109 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 21:58:57.113 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 21:58:57.114 +08:00 [INF] Route matched with {action = "QueryAuthItem", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] QueryAuthItem(ydb.Domain.Models.AuthHospital) on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-14 21:58:57.260 +08:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-07-14 21:58:57.261 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) in 146.2452ms
+2021-07-14 21:58:57.263 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 21:58:57.264 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[]} }
+2021-07-14 21:58:57.266 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 136 - 400 - text/json 164.1768ms
+2021-07-14 22:05:16.327 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 136
+2021-07-14 22:05:16.328 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/QueryItem
+2021-07-14 22:05:16.333 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"8536148497677042350","queryType":1,"Name":"环球"}
+2021-07-14 22:05:16.334 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 22:05:16.335 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 22:05:16.336 +08:00 [INF] Route matched with {action = "QueryAuthItem", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] QueryAuthItem(ydb.Domain.Models.AuthHospital) on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-14 22:05:16.420 +08:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-07-14 22:05:16.422 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) in 84.5566ms
+2021-07-14 22:05:16.423 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 22:05:16.424 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[]} }
+2021-07-14 22:05:16.429 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 136 - 400 - text/json 102.7579ms
+2021-07-14 22:05:46.483 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-14 22:05:46.516 +08:00 [INF] Hosting environment: Development
+2021-07-14 22:05:46.518 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-07-14 22:05:46.517 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-14 22:05:46.517 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 22:05:46.555 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 22:05:46.555 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-07-14 22:05:46.557 +08:00 [INF] post数据:
+2021-07-14 22:05:46.557 +08:00 [INF] post数据:
+2021-07-14 22:05:46.579 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 22:05:46.580 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 22:05:46.694 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 179.5697ms
+2021-07-14 22:05:46.694 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 179.5705ms
+2021-07-14 22:05:46.718 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 22:05:46.720 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 22:05:46.722 +08:00 [INF] post数据:
+2021-07-14 22:05:46.725 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 22:05:46.758 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 39.4807ms
+2021-07-14 22:05:51.388 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 136
+2021-07-14 22:05:51.389 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/QueryItem
+2021-07-14 22:05:51.390 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"8536148497677042350","queryType":1,"Name":"环球"}
+2021-07-14 22:05:51.391 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 22:05:51.428 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 22:05:51.454 +08:00 [INF] Route matched with {action = "QueryAuthItem", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] QueryAuthItem() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-14 22:05:51.499 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) - Validation state: "Valid"
+2021-07-14 22:06:16.474 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-14 22:06:16.498 +08:00 [INF] Hosting environment: Development
+2021-07-14 22:06:16.500 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-07-14 22:06:16.499 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 22:06:16.499 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-14 22:06:16.537 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-07-14 22:06:16.537 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 22:06:16.538 +08:00 [INF] post数据:
+2021-07-14 22:06:16.539 +08:00 [INF] post数据:
+2021-07-14 22:06:16.540 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 22:06:16.540 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 22:06:16.705 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 208.5155ms
+2021-07-14 22:06:16.705 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 208.5157ms
+2021-07-14 22:06:16.739 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 22:06:16.742 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 22:06:16.743 +08:00 [INF] post数据:
+2021-07-14 22:06:16.745 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 22:06:16.777 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 37.6682ms
+2021-07-14 22:06:22.624 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 136
+2021-07-14 22:06:22.626 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/QueryItem
+2021-07-14 22:06:22.627 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"8536148497677042350","queryType":1,"Name":"环球"}
+2021-07-14 22:06:22.628 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 22:06:22.665 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 22:06:22.696 +08:00 [INF] Route matched with {action = "QueryAuthItem", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] QueryAuthItem(ydb.Domain.Models.AuthHospital) on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-14 22:06:22.841 +08:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-07-14 22:06:22.860 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) in 158.6667ms
+2021-07-14 22:06:22.863 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 22:06:23.060 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[]} }
+2021-07-14 22:06:23.064 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 136 - 400 - text/json 439.6010ms
+2021-07-14 22:06:49.733 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-14 22:06:49.772 +08:00 [INF] Hosting environment: Development
+2021-07-14 22:06:49.774 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-07-14 22:06:49.772 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-14 22:06:49.772 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 22:06:49.828 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-07-14 22:06:49.828 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 22:06:49.830 +08:00 [INF] post数据:
+2021-07-14 22:06:49.831 +08:00 [INF] post数据:
+2021-07-14 22:06:49.834 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 22:06:49.834 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 22:06:49.982 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 212.5063ms
+2021-07-14 22:06:49.982 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 212.3233ms
+2021-07-14 22:06:50.023 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 22:06:50.026 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 22:06:50.029 +08:00 [INF] post数据:
+2021-07-14 22:06:50.030 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 22:06:50.060 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 37.1508ms
+2021-07-14 22:06:50.062 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 22:06:50.064 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 22:06:50.066 +08:00 [INF] post数据:
+2021-07-14 22:06:50.067 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 22:06:50.093 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 30.8697ms
+2021-07-14 22:06:53.614 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 136
+2021-07-14 22:06:53.616 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/QueryItem
+2021-07-14 22:06:53.618 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"8536148497677042350","queryType":1,"Name":"环球"}
+2021-07-14 22:06:53.619 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 22:06:53.655 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 22:06:53.694 +08:00 [INF] Route matched with {action = "QueryAuthItem", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] QueryAuthItem(ydb.Domain.Models.AuthHospital) on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-14 22:06:53.743 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) - Validation state: "Valid"
+2021-07-14 22:07:24.089 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-14 22:07:24.119 +08:00 [INF] Hosting environment: Development
+2021-07-14 22:07:24.121 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-07-14 22:07:24.119 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 22:07:24.119 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-14 22:07:24.158 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-07-14 22:07:24.158 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 22:07:24.160 +08:00 [INF] post数据:
+2021-07-14 22:07:24.162 +08:00 [INF] post数据:
+2021-07-14 22:07:24.163 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 22:07:24.164 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 22:07:24.330 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 213.5177ms
+2021-07-14 22:07:24.330 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 213.5295ms
+2021-07-14 22:07:24.358 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 22:07:24.360 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 22:07:24.362 +08:00 [INF] post数据:
+2021-07-14 22:07:24.364 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 22:07:24.396 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 38.1007ms
+2021-07-14 22:07:27.353 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 136
+2021-07-14 22:07:27.355 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/QueryItem
+2021-07-14 22:07:27.356 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"8536148497677042350","queryType":1,"Name":"环球"}
+2021-07-14 22:07:27.357 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 22:07:27.393 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 22:07:27.424 +08:00 [INF] Route matched with {action = "QueryAuthItem", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] QueryAuthItem(ydb.Domain.Models.AuthHospital) on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-14 22:07:27.571 +08:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-07-14 22:07:27.590 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) in 160.5848ms
+2021-07-14 22:07:27.593 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 22:07:27.790 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[]} }
+2021-07-14 22:07:27.793 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 136 - 400 - text/json 439.8176ms
+2021-07-14 22:07:29.302 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 136
+2021-07-14 22:07:29.304 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/QueryItem
+2021-07-14 22:07:29.305 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"8536148497677042350","queryType":1,"Name":"环球"}
+2021-07-14 22:07:29.306 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 22:07:29.309 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 22:07:29.311 +08:00 [INF] Route matched with {action = "QueryAuthItem", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] QueryAuthItem(ydb.Domain.Models.AuthHospital) on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-14 22:07:29.392 +08:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-07-14 22:07:29.394 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) in 81.8173ms
+2021-07-14 22:07:29.395 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 22:07:29.396 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[]} }
+2021-07-14 22:07:29.398 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 136 - 400 - text/json 96.0590ms
+2021-07-14 22:11:10.140 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-14 22:11:10.170 +08:00 [INF] Hosting environment: Development
+2021-07-14 22:11:10.172 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-07-14 22:11:10.171 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-14 22:11:10.171 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 22:11:10.210 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 22:11:10.210 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-07-14 22:11:10.211 +08:00 [INF] post数据:
+2021-07-14 22:11:10.212 +08:00 [INF] post数据:
+2021-07-14 22:11:10.214 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 22:11:10.214 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 22:11:10.389 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 221.5030ms
+2021-07-14 22:11:10.389 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 221.5031ms
+2021-07-14 22:11:10.423 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 22:11:10.425 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 22:11:10.427 +08:00 [INF] post数据:
+2021-07-14 22:11:10.428 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 22:11:10.457 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 33.9053ms
+2021-07-14 22:11:11.263 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 22:11:11.265 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 22:11:11.266 +08:00 [INF] post数据:
+2021-07-14 22:11:11.266 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 22:11:11.291 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 27.3922ms
+2021-07-14 22:11:24.276 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 136
+2021-07-14 22:11:24.279 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/QueryItem
+2021-07-14 22:11:24.280 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"8536148497677042350","queryType":1,"Name":"环球"}
+2021-07-14 22:11:24.282 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 22:11:24.321 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 22:11:24.354 +08:00 [INF] Route matched with {action = "QueryAuthItem", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] QueryAuthItem(ydb.Domain.Models.AuthHospital) on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-14 22:11:24.501 +08:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-07-14 22:11:24.522 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) in 164.159ms
+2021-07-14 22:11:24.525 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 22:11:24.741 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[]} }
+2021-07-14 22:11:24.745 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 136 - 400 - text/json 468.5223ms
+2021-07-14 22:40:24.010 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 136
+2021-07-14 22:40:24.014 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/QueryItem
+2021-07-14 22:40:24.015 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"8536148497677042350","queryType":1,"Name":"环球"}
+2021-07-14 22:40:24.018 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 22:40:24.022 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 22:40:24.023 +08:00 [INF] Route matched with {action = "QueryAuthItem", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] QueryAuthItem(ydb.Domain.Models.AuthHospital) on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-14 22:40:24.138 +08:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-07-14 22:40:24.140 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) in 115.1158ms
+2021-07-14 22:40:24.141 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 22:40:24.142 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[]} }
+2021-07-14 22:40:24.143 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 136 - 400 - text/json 134.1792ms
+2021-07-14 22:41:07.592 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 136
+2021-07-14 22:41:07.594 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/QueryItem
+2021-07-14 22:41:07.598 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"8536148497677042350","queryType":1,"Name":"环球"}
+2021-07-14 22:41:07.599 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 22:41:07.601 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 22:41:07.602 +08:00 [INF] Route matched with {action = "QueryAuthItem", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] QueryAuthItem(ydb.Domain.Models.AuthHospital) on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-14 22:41:07.715 +08:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-07-14 22:41:07.717 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) in 113.7202ms
+2021-07-14 22:41:07.718 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 22:41:17.313 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[]} }
+2021-07-14 22:41:17.322 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 136 - 400 - text/json 9724.7620ms
+2021-07-14 23:33:52.907 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 136
+2021-07-14 23:33:52.912 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/QueryItem
+2021-07-14 23:33:52.913 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"8536148497677042350","queryType":1,"Name":"环球"}
+2021-07-14 23:33:52.914 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 23:33:52.915 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 23:33:52.916 +08:00 [INF] Route matched with {action = "QueryAuthItem", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] QueryAuthItem(ydb.Domain.Models.AuthHospital) on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-14 23:33:53.032 +08:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-07-14 23:33:53.033 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) in 116.1245ms
+2021-07-14 23:33:53.034 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 23:33:58.208 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[]} }
+2021-07-14 23:33:58.246 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 136 - 400 - text/json 5339.6050ms
+2021-07-14 23:34:58.982 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-14 23:34:59.003 +08:00 [INF] Hosting environment: Development
+2021-07-14 23:34:59.004 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-14 23:34:59.006 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-07-14 23:34:59.046 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-07-14 23:34:59.047 +08:00 [INF] post数据:
+2021-07-14 23:34:59.048 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 23:34:59.178 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 176.9817ms
+2021-07-14 23:34:59.215 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 23:34:59.217 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 23:34:59.219 +08:00 [INF] post数据:
+2021-07-14 23:34:59.220 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 23:34:59.251 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 36.2756ms
+2021-07-14 23:34:59.253 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 23:34:59.254 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 23:34:59.255 +08:00 [INF] post数据:
+2021-07-14 23:34:59.257 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 23:34:59.282 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 29.7320ms
+2021-07-14 23:35:02.903 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem multipart/form-data;+boundary=--------------------------721279550858609196278457 204
+2021-07-14 23:35:02.906 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/QueryItem
+2021-07-14 23:35:02.907 +08:00 [INF] post数据:----------------------------721279550858609196278457Content-Disposition: form-data; name="AuthCode"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5----------------------------721279550858609196278457--
+2021-07-14 23:35:02.908 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 23:35:02.965 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem multipart/form-data;+boundary=--------------------------721279550858609196278457 204 - 200 - - 61.8931ms
+2021-07-14 23:35:22.710 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem multipart/form-data;+boundary=--------------------------095335081592166735846126 219
+2021-07-14 23:35:22.712 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/QueryItem
+2021-07-14 23:35:22.714 +08:00 [INF] post数据:----------------------------095335081592166735846126Content-Disposition: form-data; name="AuthCode"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==----------------------------095335081592166735846126--
+2021-07-14 23:35:22.715 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 23:35:22.739 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem multipart/form-data;+boundary=--------------------------095335081592166735846126 219 - 200 - - 28.9473ms
+2021-07-14 23:35:23.745 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem multipart/form-data;+boundary=--------------------------102089596784332831726461 219
+2021-07-14 23:35:23.746 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/QueryItem
+2021-07-14 23:35:23.747 +08:00 [INF] post数据:----------------------------102089596784332831726461Content-Disposition: form-data; name="AuthCode"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==----------------------------102089596784332831726461--
+2021-07-14 23:35:23.749 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 23:35:23.773 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem multipart/form-data;+boundary=--------------------------102089596784332831726461 219 - 200 - - 28.2026ms
+2021-07-14 23:36:23.733 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 135
+2021-07-14 23:36:23.739 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/QueryItem
+2021-07-14 23:36:23.740 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg=","EmployeeID":"8536148497677042350","queryType":1,"Name":"环球"}
+2021-07-14 23:36:23.741 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 23:36:23.752 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 135 - 200 - - 19.7368ms
+2021-07-14 23:36:30.756 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 136
+2021-07-14 23:36:30.757 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/QueryItem
+2021-07-14 23:36:30.758 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"8536148497677042350","queryType":1,"Name":"环球"}
+2021-07-14 23:36:30.759 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 23:36:30.795 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 23:36:30.834 +08:00 [INF] Route matched with {action = "QueryAuthItem", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] QueryAuthItem(ydb.Domain.Models.AuthHospital) on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-14 23:36:30.884 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) - Validation state: "Valid"
+2021-07-14 23:36:50.998 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-14 23:36:51.027 +08:00 [INF] Hosting environment: Development
+2021-07-14 23:36:51.027 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 23:36:51.027 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-14 23:36:51.030 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-07-14 23:36:51.070 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 23:36:51.070 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-07-14 23:36:51.071 +08:00 [INF] post数据:
+2021-07-14 23:36:51.072 +08:00 [INF] post数据:
+2021-07-14 23:36:51.073 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 23:36:51.074 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 23:36:51.236 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 211.0156ms
+2021-07-14 23:36:51.236 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 211.0158ms
+2021-07-14 23:36:51.263 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 23:36:51.265 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 23:36:51.266 +08:00 [INF] post数据:
+2021-07-14 23:36:51.267 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 23:36:51.298 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 34.7343ms
+2021-07-14 23:36:52.540 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 136
+2021-07-14 23:36:52.542 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/QueryItem
+2021-07-14 23:36:52.543 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"8536148497677042350","queryType":1,"Name":"环球"}
+2021-07-14 23:36:52.544 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 23:36:52.581 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 23:36:52.612 +08:00 [INF] Route matched with {action = "QueryAuthItem", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] QueryAuthItem(ydb.Domain.Models.AuthHospital) on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-14 23:36:52.759 +08:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-07-14 23:36:52.778 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) in 160.3046ms
+2021-07-14 23:36:52.781 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 23:36:55.604 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[]} }
+2021-07-14 23:36:55.607 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 136 - 400 - text/json 3066.7018ms
+2021-07-14 23:37:05.284 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 135
+2021-07-14 23:37:05.286 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/QueryItem
+2021-07-14 23:37:05.287 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg=","EmployeeID":"8536148497677042350","queryType":1,"Name":"环球"}
+2021-07-14 23:37:05.288 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 23:37:05.290 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 135 - 200 - - 5.5672ms
+2021-07-14 23:37:10.102 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 136
+2021-07-14 23:37:10.103 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/QueryItem
+2021-07-14 23:37:10.104 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"8536148497677042350","queryType":1,"Name":"环球"}
+2021-07-14 23:37:10.105 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 23:37:10.109 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 23:37:10.111 +08:00 [INF] Route matched with {action = "QueryAuthItem", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] QueryAuthItem(ydb.Domain.Models.AuthHospital) on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-14 23:37:10.224 +08:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-07-14 23:37:10.226 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) in 114.1448ms
+2021-07-14 23:37:10.227 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 23:41:07.083 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[]} }
+2021-07-14 23:41:07.086 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 136 - 400 - text/json 236983.8279ms
+2021-07-14 23:41:10.542 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 136
+2021-07-14 23:41:10.543 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/QueryItem
+2021-07-14 23:41:10.544 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"8536148497677042350","queryType":1,"Name":"环球"}
+2021-07-14 23:41:10.566 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 23:41:32.803 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 23:41:32.804 +08:00 [INF] Route matched with {action = "QueryAuthItem", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] QueryAuthItem(ydb.Domain.Models.AuthHospital) on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-14 23:41:32.921 +08:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-07-14 23:41:32.923 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) in 117.5397ms
+2021-07-14 23:41:32.924 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 23:41:48.410 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-14 23:41:48.449 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 23:41:48.449 +08:00 [INF] Hosting environment: Development
+2021-07-14 23:41:48.449 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-14 23:41:48.453 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-07-14 23:41:48.486 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-07-14 23:41:48.486 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 23:41:48.487 +08:00 [INF] post数据:
+2021-07-14 23:41:48.488 +08:00 [INF] post数据:
+2021-07-14 23:41:48.490 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 23:41:48.490 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 23:41:55.140 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 6694.4790ms
+2021-07-14 23:41:55.140 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 6694.4804ms
+2021-07-14 23:41:55.174 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 23:41:55.176 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 23:41:55.177 +08:00 [INF] post数据:
+2021-07-14 23:41:55.178 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 23:41:55.899 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 725.0151ms
+2021-07-14 23:41:55.901 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-14 23:41:55.902 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-07-14 23:41:55.903 +08:00 [INF] post数据:
+2021-07-14 23:41:55.904 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-14 23:41:58.459 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 2558.2854ms
+2021-07-14 23:42:03.486 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 136
+2021-07-14 23:42:03.489 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/QueryItem
+2021-07-14 23:42:03.490 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"8536148497677042350","queryType":1,"Name":"环球"}
+2021-07-14 23:42:03.490 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-14 23:42:09.245 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-14 23:42:09.280 +08:00 [INF] Route matched with {action = "QueryAuthItem", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] QueryAuthItem(ydb.Domain.Models.AuthHospital) on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-14 23:42:09.329 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) - Validation state: "Valid"

@@ -1,0 +1,139 @@
+2021-07-13 17:08:27.808 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-13 17:08:28.963 +08:00 [INF] Hosting environment: Development
+2021-07-13 17:08:28.965 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-07-13 17:08:31.430 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-13 17:08:37.493 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/GetMyAuthData application/json 153
+2021-07-13 17:08:37.504 +08:00 [INF] post数据:
+2021-07-13 17:08:37.525 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-13 17:08:37.525 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"8536148497677042350","auther":"环球医院","hospital":"王天池"}
+2021-07-13 17:08:37.527 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-13 17:08:39.372 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 7942.2231ms
+2021-07-13 17:08:40.516 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.GetMyAuthData (YRBApp)'
+2021-07-13 17:08:40.516 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-13 17:08:40.547 +08:00 [INF] post数据:
+2021-07-13 17:08:40.549 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-13 17:08:40.582 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 61.5337ms
+2021-07-13 17:08:41.837 +08:00 [INF] Route matched with {action = "GetMyAuthData", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] GetMyAuthData() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-13 17:08:43.490 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.GetMyAuthData (YRBApp) - Validation state: "Valid"
+2021-07-13 17:09:45.382 +08:00 [INF] Executed action method YRBApp.Controllers.AuthController.GetMyAuthData (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 61884.4748ms.
+2021-07-13 17:09:45.390 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-07-13 17:09:45.415 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.GetMyAuthData (YRBApp) in 63573.1751ms
+2021-07-13 17:09:45.417 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.GetMyAuthData (YRBApp)'
+2021-07-13 17:09:49.101 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[]} }
+2021-07-13 17:09:49.105 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/GetMyAuthData application/json 153 - 200 - text/json 71611.4485ms
+2021-07-13 17:10:23.629 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/GetMyAuthData application/json 153
+2021-07-13 17:10:23.636 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"8536148497677042350","auther":"环球医院","hospital":"王天池"}
+2021-07-13 17:10:23.637 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-13 17:10:23.641 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.GetMyAuthData (YRBApp)'
+2021-07-13 17:10:23.642 +08:00 [INF] Route matched with {action = "GetMyAuthData", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] GetMyAuthData() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-13 17:10:23.667 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.GetMyAuthData (YRBApp) - Validation state: "Valid"
+2021-07-13 17:11:07.294 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.GetMyAuthData (YRBApp) in 43650.9958ms
+2021-07-13 17:11:07.317 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.GetMyAuthData (YRBApp)'
+2021-07-13 17:11:07.356 +08:00 [ERR] Column 'authobjectname' does not belong to table .
+2021-07-13 17:11:07.359 +08:00 [INF] 服务消息:{"Result":"false","Description":"Column 'authobjectname' does not belong to table .","DataRows":{"DataRow":[]} }
+2021-07-13 17:11:07.367 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/GetMyAuthData application/json 153 - 200 - text/json 43737.9632ms
+2021-07-13 17:11:29.600 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/GetMyAuthData application/json 153
+2021-07-13 17:11:29.606 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"8536148497677042350","auther":"环球医院","hospital":"王天池"}
+2021-07-13 17:11:29.607 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-13 17:11:29.608 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.GetMyAuthData (YRBApp)'
+2021-07-13 17:11:29.610 +08:00 [INF] Route matched with {action = "GetMyAuthData", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] GetMyAuthData() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-13 17:11:29.622 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.GetMyAuthData (YRBApp) - Validation state: "Valid"
+2021-07-13 17:11:31.621 +08:00 [INF] Executed action method YRBApp.Controllers.AuthController.GetMyAuthData (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1997.1092ms.
+2021-07-13 17:11:31.623 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-07-13 17:11:31.634 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.GetMyAuthData (YRBApp) in 2023.471ms
+2021-07-13 17:11:31.636 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.GetMyAuthData (YRBApp)'
+2021-07-13 17:11:31.638 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[{"institutionid":"8536148497677042350","institutionname":"王天池","authobjectid":"7851986522400843449","authobjectname":"环球医院"}]} }
+2021-07-13 17:11:31.644 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/GetMyAuthData application/json 153 - 200 - text/json 2043.9850ms
+2021-07-13 17:23:50.545 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-13 17:23:50.581 +08:00 [INF] Hosting environment: Development
+2021-07-13 17:23:50.583 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-07-13 17:23:50.582 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-13 17:23:50.582 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-13 17:23:50.615 +08:00 [INF] post数据:
+2021-07-13 17:23:50.615 +08:00 [INF] post数据:
+2021-07-13 17:23:50.618 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-13 17:23:50.618 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-13 17:23:50.792 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 212.7784ms
+2021-07-13 17:23:50.792 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 212.7790ms
+2021-07-13 17:23:50.822 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-13 17:23:50.825 +08:00 [INF] post数据:
+2021-07-13 17:23:50.826 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-13 17:23:50.864 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 41.8353ms
+2021-07-13 17:24:27.666 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/GetAuthData application/json 153
+2021-07-13 17:24:27.670 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"8536148497677042350","auther":"王天池","hospital":"环球医院"}
+2021-07-13 17:24:27.671 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-13 17:24:27.716 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.GetAuthData (YRBApp)'
+2021-07-13 17:24:27.752 +08:00 [INF] Route matched with {action = "GetAuthData", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] GetAuthData() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-13 17:24:27.795 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.GetAuthData (YRBApp) - Validation state: "Valid"
+2021-07-13 17:26:06.932 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-13 17:26:06.969 +08:00 [INF] Hosting environment: Development
+2021-07-13 17:26:06.971 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-07-13 17:26:06.972 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-13 17:26:06.972 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-13 17:26:07.006 +08:00 [INF] post数据:
+2021-07-13 17:26:07.006 +08:00 [INF] post数据:
+2021-07-13 17:26:07.009 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-13 17:26:07.009 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-13 17:26:07.185 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 216.9696ms
+2021-07-13 17:26:07.185 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 216.9689ms
+2021-07-13 17:26:07.229 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-13 17:26:07.231 +08:00 [INF] post数据:
+2021-07-13 17:26:07.232 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-13 17:26:07.265 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 36.1251ms
+2021-07-13 17:26:07.495 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-13 17:26:07.496 +08:00 [INF] post数据:
+2021-07-13 17:26:07.497 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-13 17:26:07.521 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 25.8815ms
+2021-07-13 17:26:10.842 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/GetAuthData application/json 153
+2021-07-13 17:26:10.844 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"8536148497677042350","auther":"王天池","hospital":"环球医院"}
+2021-07-13 17:26:10.845 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-13 17:26:10.880 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.GetAuthData (YRBApp)'
+2021-07-13 17:26:10.908 +08:00 [INF] Route matched with {action = "GetAuthData", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] GetAuthData() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-13 17:26:10.948 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.GetAuthData (YRBApp) - Validation state: "Valid"
+2021-07-13 17:26:17.098 +08:00 [INF] Executed action method YRBApp.Controllers.AuthController.GetAuthData (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 6142.9182ms.
+2021-07-13 17:26:17.104 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-07-13 17:26:17.126 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.GetAuthData (YRBApp) in 6214.2747ms
+2021-07-13 17:26:17.128 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.GetAuthData (YRBApp)'
+2021-07-13 17:26:17.212 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[{"formid":"3a2e9b55-a18c-4747-a8c3-d293b229ce31","hospitalid":"7851986522400843449","hospitalname":"环球医院","productname":"丙戊酸钠0.2克/片","productid":"6e927e6d-b03a-4601-b4dd-2ec583a46768","grid":"2000","gridname":"华中大区","autherid":"8536148497677042350","authername":"王天池","applyerid":"47a1fd79-7530-4af2-9ed3-95d0fbf9a468","applyername":"叶桃","salemode":"1000","salemodename":"招商","savetype":"0"}]} }
+2021-07-13 17:26:17.215 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/GetAuthData application/json 153 - 200 - text/json 6373.0591ms
+2021-07-13 17:26:28.850 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/GetMyAuthData application/json 153
+2021-07-13 17:26:28.851 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"8536148497677042350","auther":"王天池","hospital":"环球医院"}
+2021-07-13 17:26:28.853 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-13 17:26:28.857 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.GetMyAuthData (YRBApp)'
+2021-07-13 17:26:28.861 +08:00 [INF] Route matched with {action = "GetMyAuthData", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] GetMyAuthData() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-13 17:26:28.872 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.GetMyAuthData (YRBApp) - Validation state: "Valid"
+2021-07-13 17:26:31.611 +08:00 [INF] Executed action method YRBApp.Controllers.AuthController.GetMyAuthData (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2738.031ms.
+2021-07-13 17:26:31.613 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-07-13 17:26:31.615 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.GetMyAuthData (YRBApp) in 2752.7214ms
+2021-07-13 17:26:31.616 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.GetMyAuthData (YRBApp)'
+2021-07-13 17:26:31.618 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[]} }
+2021-07-13 17:26:31.620 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/GetMyAuthData application/json 153 - 200 - text/json 2770.2384ms
+2021-07-13 17:27:05.528 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-13 17:27:05.567 +08:00 [INF] Hosting environment: Development
+2021-07-13 17:27:05.569 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-07-13 17:27:05.570 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-13 17:27:05.570 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-13 17:27:05.602 +08:00 [INF] post数据:
+2021-07-13 17:27:05.602 +08:00 [INF] post数据:
+2021-07-13 17:27:05.605 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-13 17:27:05.605 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-13 17:27:05.783 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 218.3266ms
+2021-07-13 17:27:05.783 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 218.3397ms
+2021-07-13 17:27:05.825 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-13 17:27:05.827 +08:00 [INF] post数据:
+2021-07-13 17:27:05.829 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-13 17:27:05.859 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 33.2463ms
+2021-07-13 17:27:06.078 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-13 17:27:06.080 +08:00 [INF] post数据:
+2021-07-13 17:27:06.081 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-13 17:27:06.110 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 32.0499ms
+2021-07-13 17:27:06.112 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-13 17:27:06.113 +08:00 [INF] post数据:
+2021-07-13 17:27:06.116 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021-07-13 17:27:06.144 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 32.4241ms
+2021-07-13 17:27:08.884 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/GetMyAuthData application/json 153
+2021-07-13 17:27:08.885 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"8536148497677042350","auther":"王天池","hospital":"环球医院"}
+2021-07-13 17:27:08.886 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-13 17:27:08.923 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.GetMyAuthData (YRBApp)'
+2021-07-13 17:27:08.950 +08:00 [INF] Route matched with {action = "GetMyAuthData", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] GetMyAuthData() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-13 17:27:08.993 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.GetMyAuthData (YRBApp) - Validation state: "Valid"

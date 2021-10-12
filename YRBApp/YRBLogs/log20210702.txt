@@ -1,0 +1,91 @@
+2021-07-02 16:26:48.340 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-02 16:26:48.382 +08:00 [INF] Hosting environment: Development
+2021-07-02 16:26:48.384 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-07-02 16:26:48.399 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-02 16:26:48.464 +08:00 [INF] post数据:
+2021-07-02 16:26:48.465 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2021-07-02 16:26:48.706 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 314.4636ms
+2021-07-02 16:26:48.935 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-02 16:26:48.937 +08:00 [INF] post数据:
+2021-07-02 16:26:48.940 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2021-07-02 16:26:48.963 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 28.7208ms
+2021-07-02 16:27:16.641 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 164
+2021-07-02 16:27:16.643 +08:00 [INF] post数据:{   "AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",   "EmployeeID":"3855445455166195066","queryValue":"xx医院","queryType":"4"}
+2021-07-02 16:27:16.645 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-02 16:27:16.688 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-02 16:27:16.732 +08:00 [INF] Route matched with {action = "QueryAuthItem", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] QueryAuthItem() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-02 16:27:16.840 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) in 101.9006ms
+2021-07-02 16:27:16.862 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-02 16:27:16.898 +08:00 [ERR] Unable to resolve service for type 'ydb.Domain.Interface.IQueryItem' while attempting to activate 'YRBApp.Controllers.AuthController'.
+2021-07-02 16:27:22.316 +08:00 [INF] 服务消息:{"Result":"false","Description":"Unable to resolve service for type 'ydb.Domain.Interface.IQueryItem' while attempting to activate 'YRBApp.Controllers.AuthController'.","DataRows":{"DataRow":[]} }
+2021-07-02 16:27:22.318 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 164 - 200 - text/json 5677.0677ms
+2021-07-02 16:28:43.794 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-02 16:28:43.814 +08:00 [INF] Hosting environment: Development
+2021-07-02 16:28:43.816 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-07-02 16:28:43.815 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-02 16:28:43.844 +08:00 [INF] post数据:
+2021-07-02 16:28:43.845 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2021-07-02 16:28:43.996 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 184.4529ms
+2021-07-02 16:28:44.045 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-02 16:28:44.048 +08:00 [INF] post数据:
+2021-07-02 16:28:44.049 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2021-07-02 16:28:44.077 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 31.9504ms
+2021-07-02 16:28:55.602 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 164
+2021-07-02 16:28:55.604 +08:00 [INF] post数据:{   "AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",   "EmployeeID":"3855445455166195066","queryValue":"xx医院","queryType":"4"}
+2021-07-02 16:28:55.606 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-02 16:28:55.642 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-02 16:28:55.675 +08:00 [INF] Route matched with {action = "QueryAuthItem", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] QueryAuthItem() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-02 16:28:55.726 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) - Validation state: "Valid"
+2021-07-02 16:29:13.203 +08:00 [INF] Executed action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 17470.232ms.
+2021-07-02 16:29:13.209 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-07-02 16:29:13.232 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) in 17552.1375ms
+2021-07-02 16:29:13.234 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-02 16:29:13.308 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[]} }
+2021-07-02 16:29:13.311 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 164 - 200 - text/json 17708.6958ms
+2021-07-02 16:29:21.415 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 138
+2021-07-02 16:29:21.417 +08:00 [INF] post数据:{   "AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",   "EmployeeID":"3855445455166195066","queryType":"4"}
+2021-07-02 16:29:21.418 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-02 16:29:21.421 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-02 16:29:21.423 +08:00 [INF] Route matched with {action = "QueryAuthItem", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] QueryAuthItem() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-02 16:29:21.433 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) - Validation state: "Valid"
+2021-07-02 16:29:21.468 +08:00 [INF] Executed action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 33.216ms.
+2021-07-02 16:29:21.470 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-07-02 16:29:21.471 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) in 47.2256ms
+2021-07-02 16:29:21.472 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-02 16:29:21.473 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[]} }
+2021-07-02 16:29:21.474 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 138 - 200 - text/json 59.7352ms
+2021-07-02 16:29:59.123 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 138
+2021-07-02 16:29:59.131 +08:00 [INF] post数据:{   "AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",   "EmployeeID":"3855445455166195066","queryType":"4"}
+2021-07-02 16:29:59.132 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-02 16:29:59.134 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-02 16:29:59.135 +08:00 [INF] Route matched with {action = "QueryAuthItem", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] QueryAuthItem() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-02 16:29:59.149 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) - Validation state: "Valid"
+2021-07-02 16:30:52.465 +08:00 [INF] Executed action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 53314.0719ms.
+2021-07-02 16:30:52.467 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-07-02 16:30:52.468 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) in 53331.3435ms
+2021-07-02 16:30:52.469 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-02 16:30:52.470 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[]} }
+2021-07-02 16:30:52.501 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 138 - 200 - text/json 53378.6119ms
+2021-07-02 16:34:51.985 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-02 16:34:51.964 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-02 16:34:51.989 +08:00 [INF] Hosting environment: Development
+2021-07-02 16:34:51.990 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-07-02 16:34:52.019 +08:00 [INF] post数据:
+2021-07-02 16:34:52.021 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2021-07-02 16:34:52.152 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 169.1085ms
+2021-07-02 16:34:52.271 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-02 16:34:52.273 +08:00 [INF] post数据:
+2021-07-02 16:34:52.274 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2021-07-02 16:34:52.302 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 31.8018ms
+2021-07-02 16:34:56.524 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 138
+2021-07-02 16:34:56.527 +08:00 [INF] post数据:{   "AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",   "EmployeeID":"3855445455166195066","queryType":"4"}
+2021-07-02 16:34:56.528 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-02 16:34:56.565 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-02 16:34:56.606 +08:00 [INF] Route matched with {action = "QueryAuthItem", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] QueryAuthItem() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-02 16:34:56.649 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) - Validation state: "Valid"
+2021-07-02 16:34:59.470 +08:00 [INF] Executed action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2813.8009ms.
+2021-07-02 16:34:59.476 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-07-02 16:34:59.498 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) in 2888.3366ms
+2021-07-02 16:34:59.500 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-07-02 16:34:59.576 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[{"name":"叶桃","id":"3525848446687333320"}]} }
+2021-07-02 16:34:59.579 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 138 - 200 - text/json 3054.7480ms

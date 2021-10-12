@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ydb.BLL\ydb.BLL.csproj" />
+    <ProjectReference Include="..\ydb.Common\ydb.Common.BLL.csproj" />
+    <ProjectReference Include="..\ydb.iTR\iTR.Lib\iTR.Lib.csproj" />
+  </ItemGroup>
+</Project>

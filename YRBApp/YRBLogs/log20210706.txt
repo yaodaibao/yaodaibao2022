@@ -1,0 +1,28 @@
+2021-07-06 17:29:59.107 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-06 17:30:00.324 +08:00 [INF] Hosting environment: Development
+2021-07-06 17:30:00.326 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-07-06 17:30:02.680 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-07-06 17:30:05.636 +08:00 [INF] post数据:
+2021-07-06 17:30:05.638 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2021-07-06 17:30:06.831 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - - 4152.0774ms
+2021-07-06 17:30:07.862 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-07-06 17:30:07.864 +08:00 [INF] post数据:
+2021-07-06 17:30:07.866 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2021-07-06 17:30:09.077 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - - 1214.5954ms
+2021-07-06 17:30:18.826 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/GetAuthData application/json 122
+2021-07-06 17:30:18.828 +08:00 [INF] post数据:{    "AuthCode": "0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",    "EmployeeID": "4255873149499886263"}
+2021-07-06 17:30:18.829 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-06 17:30:18.866 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.GetAuthData (YRBApp)'
+2021-07-06 17:30:18.894 +08:00 [INF] Route matched with {action = "GetAuthData", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] GetAuthData() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-06 17:30:20.551 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.GetAuthData (YRBApp) - Validation state: "Valid"
+2021-07-06 17:31:12.698 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.GetAuthData (YRBApp) in 53799.2621ms
+2021-07-06 17:31:12.720 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.GetAuthData (YRBApp)'
+2021-07-06 17:31:12.762 +08:00 [ERR] 用户 'sa' 登录失败。
+2021-07-06 17:31:15.296 +08:00 [INF] 服务消息:{"Result":"false","Description":"用户 'sa' 登录失败。","DataRows":{"DataRow":[]} }
+2021-07-06 17:31:15.303 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/GetAuthData application/json 122 - 200 - text/json 56477.0417ms
+2021-07-06 17:31:27.251 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/GetAuthData application/json 122
+2021-07-06 17:31:27.252 +08:00 [INF] post数据:{    "AuthCode": "0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",    "EmployeeID": "4255873149499886263"}
+2021-07-06 17:31:27.254 +08:00 [INF] User-Agent:PostmanRuntime/7.28.1
+2021-07-06 17:31:27.258 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.GetAuthData (YRBApp)'
+2021-07-06 17:31:27.260 +08:00 [INF] Route matched with {action = "GetAuthData", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] GetAuthData() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-07-06 17:31:27.273 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.GetAuthData (YRBApp) - Validation state: "Valid"

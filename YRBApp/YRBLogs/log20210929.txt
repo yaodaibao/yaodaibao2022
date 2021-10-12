@@ -1,0 +1,52 @@
+2021-09-29 09:43:26.872 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-29 09:43:26.919 +08:00 [INF] Hosting environment: Development
+2021-09-29 09:43:26.921 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-09-29 09:43:26.938 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-09-29 09:43:27.086 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-09-29 09:43:27.087 +08:00 [INF] post数据:
+2021-09-29 09:43:27.088 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36
+2021-09-29 09:43:27.191 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 254.1427ms
+2021-09-29 09:43:27.222 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-09-29 09:43:27.223 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-09-29 09:43:27.224 +08:00 [INF] post数据:
+2021-09-29 09:43:27.226 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36
+2021-09-29 09:43:27.251 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 29.8354ms
+2021-09-29 09:43:36.464 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/login/GetRegStatusByMobile application/json 94
+2021-09-29 09:43:36.500 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.LoginController.GetRegStatusByMobile (YRBApp)'
+2021-09-29 09:43:36.540 +08:00 [INF] Route matched with {action = "GetRegStatusByMobile", controller = "Login"}. Executing controller action with signature ydb.Domain.ResponseModel GetRegStatusByMobile(ydb.Domain.Models.Login) on controller YRBApp.Controllers.LoginController (YRBApp).
+2021-09-29 09:43:36.708 +08:00 [INF] Executing action method YRBApp.Controllers.LoginController.GetRegStatusByMobile (YRBApp) - Validation state: "Valid"
+2021-09-29 09:44:58.442 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-29 09:44:58.462 +08:00 [INF] Hosting environment: Development
+2021-09-29 09:44:58.464 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-09-29 09:44:58.463 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-09-29 09:44:58.613 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-09-29 09:44:58.615 +08:00 [INF] post数据:
+2021-09-29 09:44:58.617 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36
+2021-09-29 09:44:58.706 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 246.5142ms
+2021-09-29 09:44:58.733 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-09-29 09:44:58.735 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-09-29 09:44:58.736 +08:00 [INF] post数据:
+2021-09-29 09:44:58.737 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36
+2021-09-29 09:44:58.766 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 33.0884ms
+2021-09-29 09:45:02.364 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/login/GetRegStatusByMobile application/json 94
+2021-09-29 09:45:02.400 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.LoginController.GetRegStatusByMobile (YRBApp)'
+2021-09-29 09:45:02.435 +08:00 [INF] Route matched with {action = "GetRegStatusByMobile", controller = "Login"}. Executing controller action with signature ydb.Domain.ResponseModel GetRegStatusByMobile(ydb.Domain.Models.Login) on controller YRBApp.Controllers.LoginController (YRBApp).
+2021-09-29 09:45:02.561 +08:00 [INF] Executing action method YRBApp.Controllers.LoginController.GetRegStatusByMobile (YRBApp) - Validation state: "Valid"
+2021-09-29 09:45:08.733 +08:00 [INF] Executed action method YRBApp.Controllers.LoginController.GetRegStatusByMobile (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 6165.6972ms.
+2021-09-29 09:45:08.739 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-09-29 09:45:08.767 +08:00 [INF] Executed action YRBApp.Controllers.LoginController.GetRegStatusByMobile (YRBApp) in 6326.6734ms
+2021-09-29 09:45:08.768 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.LoginController.GetRegStatusByMobile (YRBApp)'
+2021-09-29 09:45:08.770 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/login/GetRegStatusByMobile application/json 94 - 200 46 application/json;+charset=utf-8 6405.9929ms
+2021-09-29 11:06:31.305 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-29 11:06:31.342 +08:00 [INF] Hosting environment: Development
+2021-09-29 11:06:31.344 +08:00 [INF] Content root path: D:\Source\yrb2021Net5\YRBApp
+2021-09-29 11:06:31.350 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-09-29 11:06:31.488 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-09-29 11:06:31.489 +08:00 [INF] post数据:
+2021-09-29 11:06:31.490 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36
+2021-09-29 11:06:31.582 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 233.6000ms
+2021-09-29 11:06:31.604 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-09-29 11:06:31.606 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-09-29 11:06:31.607 +08:00 [INF] post数据:
+2021-09-29 11:06:31.608 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36
+2021-09-29 11:06:31.633 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 28.2449ms

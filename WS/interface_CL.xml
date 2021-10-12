@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InterFace>
+<Class Name="RouteData" Namespace="ydb.BLL" Dll="ydb.BLL.dll">
+	<Property></Property>
+	<Method Name="SignIn">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="xmlString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="SignOut">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="xmlString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetDetail">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="routeID" Type="String" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetList">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="xmlString" Type="Xml" Desription=""></Parameter>
+	</Method>
+</Class>
+<Class Name="Schedule" Namespace="ydb.BLL" Dll="ydb.BLL.dll">
+	<Property></Property>
+	<Method Name="Update">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="xmlString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetDetail">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="xmlString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetList">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="routeID" Type="String" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetMyList">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="xmlString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetTeamList">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="xmlString" Type="Xml" Desription=""></Parameter>
+	</Method>
+</Class>
+<Class Name="CallData" Namespace="ydb.BLL" Dll="ydb.BLL.dll">
+	<Property></Property>
+	<Method Name="Update">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="Delete">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="callID" Type="String" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetDetail">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="callID" Type="String" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetMyList">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="xmlString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetTeamList">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="xmlString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetListXML">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="xmlString" Type="Xml" Desription=""></Parameter>
+	</Method>
+</Class>
+<Class Name="ItemClass" Namespace="ydb.BLL" Dll="ydb.Common.BLL.dll">
+	<Property></Property>
+	<Method Name="Update">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="Delete">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="classID" Type="String" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetDetailXml">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="classID" Type="String" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetListXml">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="xmlString" Type="Xml" Desription=""></Parameter>
+	</Method>
+</Class>
+<Class Name="Items" Namespace="ydb.BLL" Dll="ydb.Common.BLL.dll" >
+	<Property></Property>
+	<Method Name="Update">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="Delete">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="classID" Type="String" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetListByClassXml">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="classID" Type="String" Desription=""></Parameter>
+		<Parameter Name="level" Type="int" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetListByParentXml">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="parentID" Type="string" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetAllByParentXml">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="parentID" Type="string" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetItemDetailXml">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="ID" Type="string" Desription=""></Parameter>
+	</Method>
+</Class>
+<Class Name="WorkShip" Namespace="ydb.BLL" Dll="ydb.Common.BLL.dll">
+	<Property></Property>
+	<Method Name="GetTeamMemberList">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetAllMemberIDsByLeaderID">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+</Class>
+<Class Name="Department" Namespace="ydb.BLL" Dll="ydb.Common.BLL.dll">
+	<Property></Property>
+	<Method Name="Update">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="Delete">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="classID" Type="String" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetDepartList">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="classID" Type="String" Desription=""></Parameter>
+		<Parameter Name="level" Type="int" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetDepartDetail">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="parentID" Type="string" Desription=""></Parameter>
+	</Method>
+		<Method Name="GetAllSubItemList">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="xmlString" Type="Xml" Desription=""></Parameter>
+	</Method>
+</Class>
+<Class Name="Employee" Namespace="ydb.BLL" Dll="ydb.Common.BLL.dll">
+	<Property></Property>
+	<Method Name="GetRegStatusByMobile">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="Update">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="Delete">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="classID" Type="String" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetEmployeeList">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="classID" Type="String" Desription=""></Parameter>
+		<Parameter Name="level" Type="int" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetEmployeeDetail">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="employeeID" Type="string" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetEmployeeListByDepartment">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="departmentID" Type="string" Desription=""></Parameter>
+	</Method>
+	<Method Name="Login">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="departmentID" Type="string" Desription=""></Parameter>
+	</Method>
+	<Method Name="CheckInvitationCode">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="departmentID" Type="string" Desription=""></Parameter>
+	</Method>
+	<Method Name="CreateInvitationCode">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="departmentID" Type="string" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetInvitationCode">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="departmentID" Type="string" Desription=""></Parameter>
+	</Method>
+	<Method Name="SetPassword">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="departmentID" Type="string" Desription=""></Parameter>
+	</Method>
+	<Method Name="ChangePassword">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="departmentID" Type="string" Desription=""></Parameter>
+	</Method>
+</Class>
+<Class Name="Hospital" Namespace="ydb.BLL" Dll="ydb.Common.BLL.dll">
+	<Property></Property>
+	<Method Name="Update">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="Delete">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="classID" Type="String" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetHospitalList">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="classID" Type="String" Desription=""></Parameter>
+		<Parameter Name="level" Type="int" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetHospitalDetail">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="parentID" Type="string" Desription=""></Parameter>
+	</Method>
+</Class>
+<Class Name="HospitalDepartment" Namespace="ydb.BLL" Dll="ydb.Common.BLL.dll">
+	<Property></Property>
+	<Method Name="Update">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="Delete">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="classID" Type="String" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetList">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="classID" Type="String" Desription=""></Parameter>
+		<Parameter Name="level" Type="int" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetDetail">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="parentID" Type="string" Desription=""></Parameter>
+	</Method>
+</Class>
+<Class Name="Doctor" Namespace="ydb.BLL" Dll="ydb.Common.BLL.dll">
+	<Property></Property>
+	<Method Name="Update">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="Delete">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="classID" Type="String" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetList">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="classID" Type="String" Desription=""></Parameter>
+		<Parameter Name="level" Type="int" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetDetail">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="parentID" Type="string" Desription=""></Parameter>
+	</Method>
+	<Method Name="Approve">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="parentID" Type="string" Desription=""></Parameter>
+	</Method>
+		<Method Name="GetMyList">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="parentID" Type="string" Desription=""></Parameter>
+	</Method>
+</Class>
+<Class Name="Product" Namespace="ydb.BLL" Dll="ydb.Common.BLL.dll">
+	<Property></Property>
+	<Method Name="Update">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="Delete">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="classID" Type="String" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetList">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="classID" Type="String" Desription=""></Parameter>
+		<Parameter Name="level" Type="int" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetDetail">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="parentID" Type="string" Desription=""></Parameter>
+	</Method>
+</Class>
+<Class Name="Agency" Namespace="ydb.BLL" Dll="ydb.BLL.dll">
+	<Property></Property>
+	<Method Name="Update">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="Delete">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="classID" Type="String" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetList">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="classID" Type="String" Desription=""></Parameter>
+		<Parameter Name="level" Type="int" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetDetail">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="parentID" Type="string" Desription=""></Parameter>
+	</Method>
+</Class>
+<Class Name="WorkReport" Namespace="ydb.BLL" Dll="ydb.BLL.dll">
+	<Property></Property>
+	<Method Name="GetPerformanceList">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="UpdateDaily">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="UpdateWeek">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="UpdateMonth">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetMonthList">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetWeekList">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetMonthListByIndex">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetWeekListByIndx">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetDailyList">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+</Class>
+<Class Name="AuthData" Namespace="ydb.BLL" Dll="ydb.BLL.dll">
+	<Property></Property>
+	<Method Name="Update">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetProductListByHospitalID">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="classID" Type="String" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetList">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="classID" Type="String" Desription=""></Parameter>
+		<Parameter Name="level" Type="int" Desription=""></Parameter>
+	</Method>
+	<Method Name="UpdateHospitalProducts">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="parentID" Type="string" Desription=""></Parameter>
+	</Method>
+	<Method Name="UpdateHospitalOwners">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="parentID" Type="string" Desription=""></Parameter>
+	</Method>
+	<Method Name="UpdateRegionOwners">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="parentID" Type="string" Desription=""></Parameter>
+	</Method>
+	<Method Name="UpdateAgencyOwners">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="parentID" Type="string" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetMyClientList">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="parentID" Type="string" Desription=""></Parameter>
+	</Method>
+		<Method Name="GetAuthHospitalList">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="parentID" Type="string" Desription=""></Parameter>
+	</Method>
+  <Method Name="GetDetailByHospitalID">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="parentID" Type="string" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetAuthAgencyList">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="parentID" Type="string" Desription=""></Parameter>
+	</Method>
+	<Method Name="UpdateRegionProducts">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="parentID" Type="string" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetAuthRegionList">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="parentID" Type="string" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetDetailByRegionID">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="parentID" Type="string" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetDetailByAgencyID">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="parentID" Type="string" Desription=""></Parameter>
+	</Method>
+</Class>
+<Class Name="PageInfo" Namespace="iTR.Common.BLL" Dll="iTR.Common.BLL.dll">
+	<Property></Property>
+	<Method Name="GetDetail">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+</Class>
+<Class Name="Common" Namespace="iTR.Lib" Dll="iTR.Lib.dll">
+	<Property></Property>
+		<Method Name="Json2XML">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="numbertype" Type="string" Desription=""></Parameter>
+	    </Method>
+		
+	     <Method Name="XML2Json">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="str" Type="string" Desription=""></Parameter>
+		<Parameter Name="nodename" Type="string" Desription=""></Parameter>
+	    </Method>
+	
+	<Method Name="GetNumber">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="numbertype" Type="string" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetWeekIndexOfYearEx">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="weekIndx" Type="string" Desription=""></Parameter>
+		<Parameter Name="years" Type="string" Desription=""></Parameter>
+		<Parameter Name="weekOfyears" Type="string" Desription=""></Parameter>
+	</Method>
+		<Method Name="GetWeekIndexOfYear">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="weekIndx" Type="string" Desription=""></Parameter>
+		<Parameter Name="year" Type="int" Desription=""></Parameter>
+		<Parameter Name="weekOfyear" Type="int" Desription=""></Parameter>
+	</Method>
+</Class>
+<Class Name="Payment" Namespace="iTR.BLL" Dll="iTR.BLL.dll">
+	<Property></Property>
+	<Method Name="UpdateAccoutData">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetAccountDetail">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="UpdatePlanData">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetPlanDetail">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="UpdatePayData">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetPayDetail">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+</Class>
+<Class Name="MktActivity" Namespace="ydb.BLL" Dll="ydb.BLL.dll">
+	<Property></Property>
+	<Method Name="Update">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetDetail">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetList">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="Delete">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+</Class>
+<Class Name="RegApplication" Namespace="ydb.BLL" Dll="ydb.BLL.dll">
+	<Property></Property>
+	<Method Name="UploadImage">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="Update">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetDetail">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="SaveRegType">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetRegType">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="SaveRegApplicant">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="UpdateRegApplicant">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetRegApplicant">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="UpdatePayData">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetPayDetail">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="UpdateRegProduct">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="UpdateRegRelationship">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+  <Method Name="GetRegRelationShip">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	 <Method Name="GetRegRelationShip">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="SendVCode">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="CheckVCode">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+		<Method Name="UploadFile">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+</Class>
+<Class Name="FeeData" Namespace="ydb.BLL" Dll="ydb.BLL.dll">
+	<Property></Property>
+	<Method Name="Update">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetFeeDetail">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetList">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+</Class>
+
+<Class Name="RouteData" Namespace="ydb.BLL" Dll="ydb.BLL.dll">
+	<Property></Property>
+	<Method Name="AutoRoute">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+		<Method Name="AlterAutoStatus">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+</Class>
+<Class Name="ydbMessage" Namespace="ydb.BLL" Dll="ydb.BLL.dll">
+	<Property></Property>
+	<Method Name="GetListXML">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+</Class>
+<Class Name="ProductSKU" Namespace="ydb.BLL" Dll="ydb.Common.BLL">
+	<Property></Property>
+	<Method Name="GetList">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+</Class>
+<Class Name="CallRpt" Namespace="ydb.Report" Dll="ydb.Report.dll">
+	<Property></Property>
+	<Method Name="GetCallRepotr1">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetCallRepotr2">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="ExportCallReport">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+		<Method Name="GetMultiCallReport">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+</Class>
+<Class Name="PersonalChildpage" Namespace="ydb.Report" Dll="ydb.Report.dll">
+	<Property></Property>
+	<Method Name="GetPersonChildData">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+		<Parameter Name="FormatResult" Type="Xml" Desription=""></Parameter>
+        <Parameter Name="callType" Type="Xml" Desription=""></Parameter>
+        <Parameter Name="childtype" Type="Xml" Desription=""></Parameter>
+
+	</Method>
+</Class>
+<Class Name="OASyncHelper" Namespace="ydb.Report" Dll="ydb.Report.dll">
+	<Property></Property>
+	<Method Name="SyncFlow">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="xmlMessage" Type="Xml" Desription=""></Parameter>
+	</Method>
+</Class>
+<Class Name="PersonalCompass" Namespace="ydb.Report" Dll="ydb.Report.dll">
+	<Property></Property>
+	<Method Name="GetPersonPerReport">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+</Class>
+
+<Class Name="PreSaleBill" Namespace="iTR.Pecker.BLL" Dll="iTR.Pecker.BLL.dll">
+	<Property></Property>
+	<Method Name="UpdatePreSaleBillData">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>
+	</Method>
+	<Method Name="GetPreSaleBillList">                                 
+		<Return Type="Xml" Desription="" ></Return>                         
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>  
+</Method>
+ 	<Method Name="GetPreSaleBillDetail">                                 
+		<Return Type="Xml" Desription="" ></Return>                         
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>  
+</Method>     
+<Method Name="PreSaleBillScore">                                 
+		<Return Type="Xml" Desription="" ></Return>                         
+		<Parameter Name="dataString" Type="Xml" Desription=""></Parameter>  
+</Method>                                                         
+</Class>
+<Class Name="SCM" Namespace="ydb.BLL.Works" Dll="ydb.BLL.Works.dll">
+	<Property></Property>
+	<Method Name="GetHospitalStockList">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="xmlString" Type="Xml" Desription=""></Parameter>
+	</Method>                                                        
+</Class>
+<Class Name="WebService" Namespace="ydb.WebService" Dll="ydb.WebService.dll">
+	<Property></Property>
+	<Method Name="GetCompassReport">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="JsonMessage" Type="Xml" Desription=""></Parameter>
+		<Parameter Name="callType" Type="Xml" Desription=""></Parameter>
+	</Method>                                                        
+</Class>
+
+<Class Name="OWLBusHelper" Namespace="TR.OA.BusHelper" Dll="TR.OA.BusHelper.dll">
+	<Property></Property>
+	<Method Name="SubmitActivityExpensesForm">
+		<Return Type="Xml" Desription="" ></Return>
+		<Parameter Name="xmlString" Type="Xml" Desription=""></Parameter>
+	</Method>      	
+	<Method Name="GetAppSystemInfo">
+		<Return Type="Xml" Desription="" ></Return>
+	    <Parameter Name="xmlString" Type="Xml" Desription=""></Parameter>
+	</Method>        
+	<Method Name="GetPersonSummaryReport">
+		<Return Type="Xml" Desription="" ></Return>
+	    <Parameter Name="xmlString" Type="Xml" Desription=""></Parameter>
+		<Parameter Name="xmlString" Type="Xml" Desription=""></Parameter>
+		<Parameter Name="xmlString" Type="Xml" Desription=""></Parameter>
+	</Method>  	
+</Class>
+
+</InterFace>
