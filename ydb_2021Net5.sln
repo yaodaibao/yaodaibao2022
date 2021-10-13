@@ -27,11 +27,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{AD8351
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ydb.Domain", "ydb.Domain\ydb.Domain.csproj", "{17A37D44-264C-428D-AFC9-2C4DB61B0C22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YRBApp.Test", "YRBApp.Test\YRBApp.Test.csproj", "{B23427E3-B322-4003-8CCD-1C3840213B43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YRBApp.Test", "YRBApp.Test\YRBApp.Test.csproj", "{B23427E3-B322-4003-8CCD-1C3840213B43}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{C84685B9-4921-464F-94E6-354A25BBDF47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{E9689D3A-E404-48E3-9544-138358EB13B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{E9689D3A-E404-48E3-9544-138358EB13B1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashBase.Common", "CashBase.Common\CashBase.Common.csproj", "{2F5173A6-7775-4468-AD3E-E3E599D6EE8D}"
 EndProject
