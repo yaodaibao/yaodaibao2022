@@ -40,18 +40,19 @@ namespace YRBApp
             //    .CreateLogger();
             host.Run();
         }
-            public static IHostBuilder CreateHostBuilder(string[] args) =>
-               Host.CreateDefaultBuilder(args).ConfigureAppConfiguration((hostcontext, configbuilder) => {
-                    configbuilder.AddJsonFile("appsettings.json",
-                    optional: true,
-                    reloadOnChange: true);
-                    Global.HostingEnvironment = hostcontext.HostingEnvironment;
-                }) 
-                .ConfigureWebHostDefaults(webBuilder =>
-                {
-                    webBuilder.UseStartup<Startup>();
-                }).UseSerilog((hostingContext, loggerConfiguration) =>
-            loggerConfiguration.ReadFrom.Configuration(hostingContext.Configuration));
+        public static IHostBuilder CreateHostBuilder(string[] args) =>
+           Host.CreateDefaultBuilder(args).ConfigureAppConfiguration((hostcontext, configbuilder) =>
+           {
+               configbuilder.AddJsonFile("appsettings.json",
+                   optional: true,
+                   reloadOnChange: true);
+               Global.HostingEnvironment = hostcontext.HostingEnvironment;
+           })
+            .ConfigureWebHostDefaults(webBuilder =>
+            {
+                webBuilder.UseStartup<Startup>();
+            }).UseSerilog((hostingContext, loggerConfiguration) =>
+        loggerConfiguration.ReadFrom.Configuration(hostingContext.Configuration));
 
-    } 
+    }
 }

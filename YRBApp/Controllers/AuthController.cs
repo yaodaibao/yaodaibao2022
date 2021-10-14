@@ -48,9 +48,49 @@ namespace YRBApp.Controllers
         }
 
         // POST api/<AuthInvokeController>
+        //[HttpPost]
+        //[Route("SaveAuthData")]
+        //public async Task<ResponseModel> SaveAuthData()
+        //{
+        //    string jsonString;
+        //    using (StreamReader reader = new StreamReader(Request.Body, Encoding.UTF8))
+        //    {
+        //        jsonString = await reader.ReadToEndAsync();
+        //    }
+        //    var jsonobj = JObject.Parse(jsonString);
+        //    ResponseModel result = _authHospitalService.SaveAuth(jsonobj);
+        //    return result;
+        //}
+        //[HttpPost]
+        //[Route("GetAuthData")]
+        //public async Task<ResponseModel> GetAuthData()
+        //{
+        //    string jsonString;
+        //    using (StreamReader reader = new StreamReader(Request.Body, Encoding.UTF8))
+        //    {
+        //        jsonString = await reader.ReadToEndAsync();
+        //    }
+        //    var jsonobj = JObject.Parse(jsonString);
+        //    ResponseModel result = _authHospitalService.GetAuthData(jsonobj["EmployeeID"]?.ToString(), "auth", jsonobj["auther"]?.ToString() ?? "", jsonobj["hospital"]?.ToString() ?? "");
+        //    return result;
+        //}
+        //[HttpPost]
+        //[Route("GetMyAuthData")]
+        //public async Task<ResponseModel> GetMyAuthData()
+        //{
+        //    string jsonString;
+        //    using (StreamReader reader = new StreamReader(Request.Body, Encoding.UTF8))
+        //    {
+        //        jsonString = await reader.ReadToEndAsync();
+        //    }
+        //    var jsonobj = JObject.Parse(jsonString);
+        //    ResponseModel result = _authHospitalService.GetAuthData(jsonobj["EmployeeID"]?.ToString(), jsonobj["savetype"]?.ToString() ?? "", jsonobj["auther"]?.ToString() ?? "", jsonobj["hospital"]?.ToString() ?? "");
+        //    return result;
+        //}
+
         [HttpPost]
         [Route("SaveAuthData")]
-        public async Task<ResponseModel> SaveAuthData()
+        public async Task<ResponseModel> GetMyAuthDataMini()
         {
             string jsonString;
             using (StreamReader reader = new StreamReader(Request.Body, Encoding.UTF8))
@@ -58,12 +98,14 @@ namespace YRBApp.Controllers
                 jsonString = await reader.ReadToEndAsync();
             }
             var jsonobj = JObject.Parse(jsonString);
-            ResponseModel result = _authHospitalService.SaveAuth(jsonobj);
+            ResponseModel result = _authHospitalService.GetAuthData(jsonobj["EmployeeID"]?.ToString(), jsonobj["savetype"]?.ToString() ?? "", jsonobj["auther"]?.ToString() ?? "", jsonobj["hospital"]?.ToString() ?? "");
             return result;
+
         }
+
         [HttpPost]
         [Route("GetAuthData")]
-        public async Task<ResponseModel> GetAuthData()
+        public async Task<ResponseModel> GetAuthDataMini()
         {
             string jsonString;
             using (StreamReader reader = new StreamReader(Request.Body, Encoding.UTF8))
@@ -74,9 +116,10 @@ namespace YRBApp.Controllers
             ResponseModel result = _authHospitalService.GetAuthData(jsonobj["EmployeeID"]?.ToString(), "auth", jsonobj["auther"]?.ToString() ?? "", jsonobj["hospital"]?.ToString() ?? "");
             return result;
         }
+
         [HttpPost]
-        [Route("GetMyAuthData")]
-        public async Task<ResponseModel> GetMyAuthData()
+        [Route("SaveAuthData")]
+        public async Task<ResponseModel> SaveAuthDataMini()
         {
             string jsonString;
             using (StreamReader reader = new StreamReader(Request.Body, Encoding.UTF8))
@@ -84,32 +127,8 @@ namespace YRBApp.Controllers
                 jsonString = await reader.ReadToEndAsync();
             }
             var jsonobj = JObject.Parse(jsonString);
-            ResponseModel result = _authHospitalService.GetAuthData(jsonobj["EmployeeID"]?.ToString(), jsonobj["savetype"]?.ToString() ?? "", jsonobj["auther"]?.ToString() ?? "", jsonobj["hospital"]?.ToString() ?? "");
+            ResponseModel result = _authHospitalService.SaveAuth(jsonobj);
             return result;
-        }
-
-        [HttpPost]
-        [Route("SaveAuthDataMini")]
-        public async Task<ResponseModel> GetMyAuthDataMini(AuthHospital authHospital)
-        {
-            //ResponseModel responseModel = _authHospitalService.SaveAuthMini(authHospital);
-            return new ResponseModel();
-        }
-
-        [HttpPost]
-        [Route("GetAuthDataMini")]
-        public async Task<ResponseModel> GetAuthDataMini(AuthHospital authHospital)
-        {
-            //  ResponseModel responseModel = _authHospitalService.GetAuthDataMini(authHospital);
-            return new ResponseModel();
-        }
-
-        [HttpPost]
-        [Route("SaveAuthDataMini")]
-        public async Task<ResponseModel> SaveAuthDataMini(AuthHospital authHospital)
-        {
-            // ResponseModel responseModel = _authHospitalService.GetAuthDataMini(authHospital);
-            return new ResponseModel();
         }
     }
 }

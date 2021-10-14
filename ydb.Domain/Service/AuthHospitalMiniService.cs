@@ -123,7 +123,7 @@ namespace ydb.Domain.Service
                         dataTable = serverHelper.ExecuteSql(sql);
                         if (dataTable.Rows.Count == 0)
                         {
-                            Approve(myEmployeeID, string.Join("|", formIDList.ToArray()), hospitalID, procuctID, productName, autherID, viewerID, grid, string.Join("|", checkStateList.ToArray()));
+                            ApproveMini(myEmployeeID, string.Join("|", formIDList.ToArray()), hospitalID, procuctID, productName, autherID, viewerID, grid, string.Join("|", checkStateList.ToArray()));
                             continue;
                         }
                         sql = $@"SELECT t2.FParentID 
@@ -166,26 +166,49 @@ namespace ydb.Domain.Service
             if (queryState == "auth")
             {
                 sql = $@"
-                        SELECT [FormID]
-                              ,ISNULL([HospitalID],'') [HospitalID]
-                              ,ISNULL([HospitalName],'') [HospitalName]
-                              ,ISNULL([ProductName],'')  [ProductName]
-                              ,ISNULL([ProductID],'') [ProductID]
-                              ,ISNULL([GridName],'') [GridName]
-                              ,ISNULL([GridID],'') [GridID]
-                              ,ISNULL([AutherName],'') [AutherName]
-                              ,ISNULL([AutherID],'') [AutherID]
-                              ,ISNULL([AuthState],'') [AuthState]
-                              ,ISNULL([ViewerName],'') [ViewerName]
-                              ,ISNULL([ViewerID],'') [ViewerID]
-                              ,ISNULL([EmployeeID],'') [EmployeeID]
-                              ,ISNULL([NextAuthID],'') [NextAuthID]
-                              ,ISNULL([CurrentAuthID],'') [CurrentAuthID]
-                              ,[CreateTime]
-                              ,[ModifyTime]
-                              ,ISNULL([SaleModeName],'') [SaleModeName]
-                              ,ISNULL([SaleMode],'') [SaleMode]
-                          FROM [yaodaibao].[dbo].[AuthStating] where NextAuthID='{employeeID}' and AuthState <> '2'  and AuthState <> '-1' order by  AutherName";
+                        SELECT t1.FormID
+                              ,ISNULL(t2.field0009,'') [HospitalID]
+                              ,ISNULL(t2.field0004,'') [HospitalName]
+                              ,ISNULL(t2.field0005,'')  [ProductName]
+                              ,ISNULL(t2.field0010,'') [ProductID]
+                              ,ISNULL(t2.GridName,'') [GridName]
+                              ,ISNULL(t2.GridID,'') [GridID]
+                              ,ISNULL(t2.AutherName,'') [AutherName]
+                              ,ISNULL(t2.field0007,'') [AutherID]
+                              ,ISNULL(t2.FStatus,'') [AuthState]
+                              ,ISNULL(t2.ViewerName,'') [ViewerName]
+                              ,ISNULL(t2.field0008,'') [ViewerID]
+                              ,ISNULL(t2.NextAuthID,'') [NextAuthID]
+                              ,ISNULL(t2.CurrentAuthID,'') [CurrentAuthID]
+                              ,t1.[CreateTime] 
+                              ,t1.[ModifyTime]
+                              ,ISNULL(t2.field0006,'') [SaleModeName]
+                              ,ISNULL(t2.SaleMode,'') [SaleMode]
+                              ,ISNULL(t1.field0001,'') [EmployeeID]
+                          FROM [yaodaibao].[dbo].[formmain_8916] t1 left join  [yaodaibao].[dbo].[formson_8917] t2 on t1.formid=t2.formid  where t1.NextAuthID='{employeeID}' and t1.FStatus <> '2'  and t1.FStatus <> '-1' and t1.FStatus <> '3' order by  t2.AutherName";
+
+
+                //sql = $@"
+                //        SELECT [FormID]
+                //              ,ISNULL([HospitalID],'') [HospitalID]
+                //              ,ISNULL([HospitalName],'') [HospitalName]
+                //              ,ISNULL([ProductName],'')  [ProductName]
+                //              ,ISNULL([ProductID],'') [ProductID]
+                //              ,ISNULL([GridName],'') [GridName]
+                //              ,ISNULL([GridID],'') [GridID]
+                //              ,ISNULL([AutherName],'') [AutherName]
+                //              ,ISNULL([AutherID],'') [AutherID]
+                //              ,ISNULL([AuthState],'') [AuthState]
+                //              ,ISNULL([ViewerName],'') [ViewerName]
+                //              ,ISNULL([ViewerID],'') [ViewerID]
+                //              ,ISNULL([EmployeeID],'') [EmployeeID]
+                //              ,ISNULL([NextAuthID],'') [NextAuthID]
+                //              ,ISNULL([CurrentAuthID],'') [CurrentAuthID]
+                //              ,[CreateTime]
+                //              ,[ModifyTime]
+                //              ,ISNULL([SaleModeName],'') [SaleModeName]
+                //              ,ISNULL([SaleMode],'') [SaleMode]
+                //          FROM [yaodaibao].[dbo].[AuthStating] where NextAuthID='{employeeID}' and AuthState <> '2'  and AuthState <> '-1' order by  AutherName";
                 dataTable = serverHelper.ExecuteSql(sql);
                 //处理多次提交记录，多个表单 
                 foreach (DataRow row in dataTable.Rows)
@@ -208,7 +231,6 @@ namespace ydb.Domain.Service
             else
             {
                 //过滤责任人和医院
-
                 sql = $"SELECT td.FSupervisorID   FROM yaodaibao.dbo.t_Departments td WHERE td.FID =( SELECT te.FDeptID FROM yaodaibao.dbo.t_Employees te WHERE te.FID = '{employeeID}')";
                 dataTable = serverHelper.ExecuteSql(sql);
                 WorkShip workShip = new WorkShip();
@@ -238,12 +260,12 @@ namespace ydb.Domain.Service
                         //authDataList.Add($"{{\"institutionid\":\"{row["FInstitutionID"].ToString()}\",\"institutionname\":\"{row["InsName"].ToString()}\",\"authobjectid\":\"{row["FAuthObjectID"].ToString()}\",\"authobjectname\":\"{row["objName"].ToString()}\"}}");
                         authDataList.Add($"{{\"institutionid\":\"{row["FAuthObjectID"].ToString()}\",\"institutionname\":\"{row["objName"].ToString()}\",\"authobjectid\":\"{row["FInstitutionID"].ToString()}\",\"authobjectname\":\"{row["InsName"].ToString()}\"}}");
                     }
-
                 }
             }
 
             return new ResponseModel() { DataRow = string.Join(',', authDataList.ToArray()) };
         }
+
         /// <summary>    
         ///  提交直接保存
         /// </summary>
@@ -310,43 +332,14 @@ namespace ydb.Domain.Service
             }
             for (int i = 0; i < hospitalID.Split("|").Length; i++)
             {
-                string fromid = Guid.NewGuid().ToString();
-                //先根据医院和责任人判断是否有数据变化
-                //sql = $"select * from [yaodaibao].[dbo].[AuthStating] where HospitalID='{hospitalID.Split('|')[i]}'  and AutherID = '{autherID.Split('|')[i]}'";
-                sql = "insert into ";
-                dataTable = serverHelper.ExecuteSql(sql);
-                //if (dataTable.Rows.Count > 0)
-                //{
-                //    //判断是否有相同的授权人，产品
-                //    foreach (DataRow row in dataTable.Rows)
-                //    {
-                //        for (int j = 0; j < viewerID.Split('|')[i].Split(",").Length; j++)
-                //        {
-                //            //新增授权人
-                //            if (!row["ViewerID"].ToString().Contains(viewerID.Split('|')[i].Split(",")[j]))
-                //            {
-                //                sql = $"update [yaodaibao].[dbo].[AuthStating]  set ViewerID = '{(string.IsNullOrEmpty(row["ViewerID"].ToString() ?? "") ? "" : row["ViewerID"] + ",") + viewerID.Split('|')[i].Split(",")[j]}' , ViewerName = '{(string.IsNullOrEmpty(row["ViewerName"].ToString() ?? "") ? "" : row["ViewerName"] + ",") + viewerName.Split('|')[i].Split(",")[j] }' , AuthState = '0' where FormID='{row["FormID"]}'";
-                //                serverHelper.ExecuteSqlNone(sql);
-                //            }
-                //        }
-                //        for (int j = 0; j < ProcuctID.Split('|')[i].Split(",").Length; j++)
-                //        {
-                //            //新增产品
-                //            if (!row["ProductID"].ToString().Contains(ProcuctID.Split('|')[i]))
-                //            {
-                //                sql = $"update [yaodaibao].[dbo].[AuthStating]  set ProductID = '{row["ProductID"] + "," + ProcuctID.Split('|')[i]}' , ProductName = '{row["ProductName"] + "," + ProductName.Split('|')[i] }' , AuthState = '0' where FormID='{row["FormID"]}'";
-                //                serverHelper.ExecuteSqlNone(sql);
-                //            }
-                //        }
-                //    }
-                //}
-                //else
-                //{
-                sql = $"insert into [yaodaibao].[dbo].[AuthStating]([EmployeeID],[FormID],[HospitalID],[HospitalName],[ProductID],[ProductName],[AutherID],[AutherName],[GridID],[GridName],[ViewerID],[ViewerName],[SaleMode],[SaleModeName],[NextAuthID],[AuthState]) values('{myEmployeeID}','{fromid}','{hospitalID.Split('|')[i] ?? ""}','{hospitalName.Split('|')[i] ?? ""}','{ProcuctID.Split('|')[i] ?? ""}','{ProductName.Split('|')[i] ?? ""}','{autherID.Split('|')[i] ?? ""}','{autherName.Split('|')[i] ?? ""}','{grid.Split('|')[i] ?? ""}','{gridName.Split('|')[i] ?? ""}','{viewerID.Split('|')[i] ?? ""}','{viewerName.Split('|')[i] ?? ""}','{saleMode.Split('|')[i] ?? ""}','{saleModeName.Split('|')[i] ?? ""}','{nextID}','0')";
+                string formid = Guid.NewGuid().ToString();
+                //先保存主表数据
+                sql = $"insert into yaodaibao.dbo.formmain_8916(field0001,NextAuthID,formid)  values('{myEmployeeID}','{nextID}','{formid}')";
                 serverHelper.ExecuteSqlNone(sql);
-                //}
-
-
+                //再保存子表数据 不是field000 开头的是新加字段
+                sql = $"insert into yaodaibao.dbo.formson_8917(field0004,field0009,field0010,field0005,field0006,field0007,field0008,,field0019,formid,GridName,GridID,ViewerName,SaleMode) values('{hospitalName.Split('|')[i] ?? ""}','{hospitalID.Split('|')[i] ?? ""}','{ProductName.Split('|')[i] ?? ""}','{ProcuctID.Split('|')[i] ?? ""}','{saleMode.Split('|')[i] ?? ""}','{autherID.Split('|')[i] ?? ""}','{viewerID.Split('|')[i] ?? ""}','{formid}',,'{gridName.Split('|')[i] ?? ""}','{grid.Split('|')[i] ?? ""}','{viewerName.Split('|')[i] ?? ""}','{saleMode.Split('|')[i] ?? ""}')";
+                serverHelper.ExecuteSqlNone(sql);
+                //sql = $"insert into [yaodaibao].[dbo].[AuthStating]([EmployeeID],[FormID],[HospitalID],[HospitalName],[ProductID],[ProductName],[AutherID],[AutherName],[GridID],[GridName],[ViewerID],[ViewerName],[SaleMode],[SaleModeName],[NextAuthID],[AuthState]) values('{myEmployeeID}','{formid}','{hospitalID.Split('|')[i] ?? ""}','{hospitalName.Split('|')[i] ?? ""}','{ProcuctID.Split('|')[i] ?? ""}','{ProductName.Split('|')[i] ?? ""}','{autherID.Split('|')[i] ?? ""}','{autherName.Split('|')[i] ?? ""}','{grid.Split('|')[i] ?? ""}','{gridName.Split('|')[i] ?? ""}','{viewerID.Split('|')[i] ?? ""}','{viewerName.Split('|')[i] ?? ""}','{saleMode.Split('|')[i] ?? ""}','{saleModeName.Split('|')[i] ?? ""}','{nextID}','0')";
             }
             return new ResponseModel();
         }
@@ -392,11 +385,11 @@ namespace ydb.Domain.Service
                 //不同意
                 if (checkState.Split("|")[i] == "b")
                 {
-                    serverHelper.ExecuteSqlNone($"update [yaodaibao].[dbo].[AuthStating] set [AuthState] = '-1',[ModifyTime] = '{DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")}',[NextAuthID] ='{nextID}',CurrentAuthID='{myEmployeeID}' where formID = '{formID.Split('|')[i]}'");
+                    serverHelper.ExecuteSqlNone($"update [yaodaibao].[dbo].[formmain_8916] set [FStatus] = '-1',[ModifyTime] = '{DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")}',[NextAuthID] ='{nextID}',CurrentAuthID='{myEmployeeID}' where formID = '{formID.Split('|')[i]}'");
                 }
                 else
                 {
-                    serverHelper.ExecuteSqlNone($"update [yaodaibao].[dbo].[AuthStating] set [AuthState] = '1',[ModifyTime] = '{DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")}',[NextAuthID] ='{nextID}',CurrentAuthID='{myEmployeeID}' where formID = '{formID.Split('|')[i]}'");
+                    serverHelper.ExecuteSqlNone($"update [yaodaibao].[dbo].[formmain_8916] set [FStatus] = '1',[ModifyTime] = '{DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")}',[NextAuthID] ='{nextID}',CurrentAuthID='{myEmployeeID}' where formID = '{formID.Split('|')[i]}'");
                 }
 
             }
@@ -441,7 +434,7 @@ namespace ydb.Domain.Service
                     //不同意
                     if (checkState.Split('|')[i] == "b")
                     {
-                        serverHelper.ExecuteSqlNone($"update [yaodaibao].[dbo].[AuthStating] set [AuthState] = '-1',[ModifyTime] = '{DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")}' where formID = '{formID.Split('|')[i]}'");
+                        serverHelper.ExecuteSqlNone($"update [yaodaibao].[dbo].[formmain_8916] set [FStatus] = '-1',[ModifyTime] = '{DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")}' where formID = '{formID.Split('|')[i]}'");
                         continue;
                     }
                     List<string> transList = new List<string>();
@@ -549,13 +542,13 @@ namespace ydb.Domain.Service
                         }
 
                         //审批完成
-                        serverHelper.ExecuteTransSqlNone($"update [yaodaibao].[dbo].[AuthStating] set [AuthState] = '2',[ModifyTime] = '{DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")}' where formID = '{formID.Split('|')[i]}'");
+                        serverHelper.ExecuteTransSqlNone($"update [yaodaibao].[dbo].[formmain_8916] set [FStatus] = '2',[ModifyTime] = '{DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")}' where formID = '{formID.Split('|')[i]}'");
                     }
                     #endregion
                     #endregion
                     _logger.LogInformation("回调请求Json:" + sendOAData);
                     //审批完成
-                    serverHelper.ExecuteTransSqlNone($"update [yaodaibao].[dbo].[AuthStating] set [AuthState] = '2',[ModifyTime] = '{DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")}' where formID = '{formID.Split('|')[i]}'");
+                    serverHelper.ExecuteTransSqlNone($"update [yaodaibao].[dbo].[formmain_8916] set [FStatus] = '2',[ModifyTime] = '{DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")}' where formID = '{formID.Split('|')[i]}'");
                     ////提交事务
                     //serverHelper.CommitTran();
                 }

@@ -1,0 +1,13 @@
+2021-10-13 13:10:53.152 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-13 13:10:53.189 +08:00 [INF] Hosting environment: Development
+2021-10-13 13:10:53.192 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-10-13 13:10:53.199 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-10-13 13:10:53.240 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-10-13 13:10:53.242 +08:00 [INF] post数据:
+2021-10-13 13:10:53.243 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36
+2021-10-13 13:10:53.289 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 91.4210ms
+2021-10-13 13:10:53.304 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-10-13 13:10:53.306 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-10-13 13:10:53.308 +08:00 [INF] post数据:
+2021-10-13 13:10:53.310 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36
+2021-10-13 13:10:53.340 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 36.1536ms
