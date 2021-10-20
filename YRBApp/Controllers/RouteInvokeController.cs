@@ -21,7 +21,7 @@ using YRBApp.Middleware;
 namespace YRBApp.Controllers
 {
     [Route("api/[controller]")]
-    [ApiController]
+    //[ApiController]
     public class RouteInvokeController : ControllerBase
     {
 
@@ -73,8 +73,8 @@ namespace YRBApp.Controllers
         public string SignOut([FromBody] RouteDetails routeDetails)
         {
 
- 
-            string xmlString= $"<SignOut><RouteID>{routeDetails.RouteID}</RouteID><FSignOutDate>{routeDetails.SignOutDate}</FSignOutDate><FSignOutTime>{routeDetails.SignInTime}</FSignOutTime><SignOutAddress>{routeDetails.SignOutAddress}</SignOutAddress><SignOutLat>{routeDetails.SignOutLat}</SignOutLat><SignOutLng>{routeDetails.SignOutLng}</SignOutLng></SignOut>";
+
+            string xmlString = $"<SignOut><RouteID>{routeDetails.RouteID}</RouteID><FSignOutDate>{routeDetails.SignOutDate}</FSignOutDate><FSignOutTime>{routeDetails.SignInTime}</FSignOutTime><SignOutAddress>{routeDetails.SignOutAddress}</SignOutAddress><SignOutLat>{routeDetails.SignOutLat}</SignOutLat><SignOutLng>{routeDetails.SignOutLng}</SignOutLng></SignOut>";
             var routeData = new RouteData();
             string result = routeData.SignOut(xmlString);
             return result;

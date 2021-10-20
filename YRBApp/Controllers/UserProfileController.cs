@@ -6,7 +6,7 @@ using ydb.Domain.Models;
 namespace YRBApp.Controllers
 {
     [Route("api/[controller]")]
-    [ApiController]
+    // [ApiController]
     public class UserProfileController : ControllerBase
     {
         private readonly IUserProfileService _userProfile;

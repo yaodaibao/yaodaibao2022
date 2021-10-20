@@ -21,7 +21,7 @@ using ydb.Domain.Models;
 namespace YRBApp.Controllers
 {
     [Route("api/[controller]")]
-    [ApiController]
+    //[ApiController]
     public class AuthController : ControllerBase
     {
         public IQueryItem _queryItem;
@@ -89,7 +89,7 @@ namespace YRBApp.Controllers
         //}
 
         [HttpPost]
-        [Route("SaveAuthData")]
+        [Route("GetMyAuthData")]
         public async Task<ResponseModel> GetMyAuthDataMini()
         {
             string jsonString;

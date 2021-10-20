@@ -14,8 +14,8 @@ using Microsoft.Extensions.Logging;
 namespace YRBApp.Controllers
 {
     [Route("api/[controller]")]
-    [ApiController]
- 
+    //[ApiController]
+
     public class CompassController : ControllerBase
     {
         public readonly IRewardDomainService _rewardDomainService;
@@ -36,7 +36,7 @@ namespace YRBApp.Controllers
                 jsonString = await reader.ReadToEndAsync();
             }
             var jsonobj = JObject.Parse(jsonString);
-            ResponseModel  result = _rewardDomainService.GetReward(jsonobj["EmployeeID"]?.ToString(), jsonobj["startmonth"]?.ToString(), jsonobj["endmonth"]?.ToString()).GetAwaiter().GetResult();
+            ResponseModel result = _rewardDomainService.GetReward(jsonobj["EmployeeID"]?.ToString(), jsonobj["startmonth"]?.ToString(), jsonobj["endmonth"]?.ToString()).GetAwaiter().GetResult();
             return result;
         }
 
@@ -54,7 +54,7 @@ namespace YRBApp.Controllers
             return result;
         }
 
- 
+
         /// <summary>
         /// 获取各种产品的销量
         /// </summary>
@@ -69,7 +69,7 @@ namespace YRBApp.Controllers
                 jsonString = await reader.ReadToEndAsync();
             }
             var jsonobj = JObject.Parse(jsonString);
-            ResponseModel result = _rewardDomainService.GetSaleProducts(jsonobj["EmployeeID"]?.ToString(), jsonobj["startmonth"]?.ToString(), jsonobj["endmonth"]?.ToString(),jsonobj["product"]?.ToString()).GetAwaiter().GetResult();
+            ResponseModel result = _rewardDomainService.GetSaleProducts(jsonobj["EmployeeID"]?.ToString(), jsonobj["startmonth"]?.ToString(), jsonobj["endmonth"]?.ToString(), jsonobj["product"]?.ToString()).GetAwaiter().GetResult();
             return result;
         }
         /// <summary>
@@ -80,13 +80,13 @@ namespace YRBApp.Controllers
         [Route("GetSalesHospitals")]
         public async Task<ResponseModel> GetSalesHospitals()
         {
-            string jsonString; 
+            string jsonString;
             using (StreamReader reader = new StreamReader(Request.Body, Encoding.UTF8))
             {
                 jsonString = await reader.ReadToEndAsync();
             }
             var jsonobj = JObject.Parse(jsonString);
-            ResponseModel result = _rewardDomainService.GetSalesHospitals(jsonobj["EmployeeID"]?.ToString(), jsonobj["product"]?.ToString()??"",jsonobj["startmonth"]?.ToString(), jsonobj["endmonth"]?.ToString()).GetAwaiter().GetResult();
+            ResponseModel result = _rewardDomainService.GetSalesHospitals(jsonobj["EmployeeID"]?.ToString(), jsonobj["product"]?.ToString() ?? "", jsonobj["startmonth"]?.ToString(), jsonobj["endmonth"]?.ToString()).GetAwaiter().GetResult();
             return result;
         }
     }

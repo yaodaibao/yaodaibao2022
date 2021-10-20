@@ -123,21 +123,32 @@ namespace ydb.Domain.Service
         {
             string pwd = Common.EncryptDES(login.Password, Common.DesKey);
             string sql = "";
-            if (login.UserName.Length > 0)
+            if (string.IsNullOrEmpty(login.UserName) && string.IsNullOrEmpty(login.Mobile))
+            {
+                return new ResponseModel() { Result = false, Description = "用户名不能为空" };
+            }
+
+            if (string.IsNullOrEmpty(login.Password))
+            {
+                return new ResponseModel() { Result = false, Description = "密码不能为空" };
+            }
+
+            if (!string.IsNullOrEmpty(login.Mobile))
             {
                 sql = "Select t1.*,t2.FName As FEmployeeName from " +
-                    " t_Employees t1 " +
-                    " Left Join t_Items t2 On t1.FID= t2.FID";
-                sql = sql + " Where t1.FMobile='" + login.UserName + "' and FLoginPwd='" + pwd + "' And t1.FIsDeleted=0";
+                      " t_Employees t1 " +
+                      " Left Join t_Items t2 On t1.FID= t2.FID";
+                sql = sql + " Where t1.FMobile='" + login.Mobile + "' and t1.FLoginPwd='" + pwd + "' And t1.FIsDeleted=0";
             }
-            else if (login.UserName.Length > 0)
+            else if (!string.IsNullOrEmpty(login.UserName))
             {
-                sql = "Select * From  t_Employees  Where FLoginName='" + login.UserName + "'";
+
                 sql = "Select t1.*,t2.FName As FEmployeeName from " +
-                    " t_Employees t1 " +
-                    " Left Join t_Items t2 On t1.FID= t2.FID";
-                sql = sql + " Where t1.FLoginPwd='" + pwd + "' And  FLoginName ='" + login.UserName + "' FIsDeleted=0";
+                      " t_Employees t1 " +
+                      " Left Join t_Items t2 On t1.FID= t2.FID";
+                sql = sql + " Where t1.FLoginPwd='" + pwd + "' And  t1.FLoginName ='" + login.UserName + "'  and  t1.FIsDeleted=0";
             }
+
 
             SQLServerHelper runner = new SQLServerHelper();
             DataTable dt = runner.ExecuteSql(sql);
@@ -148,7 +159,8 @@ namespace ydb.Domain.Service
             else
             {
                 //登陆完成交换 登陆秘钥
-                return new ResponseModel { Result = true, Description = "0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==|" + dt.Rows[0]["FID"].ToString() };
+                //return new ResponseModel { Result = true, DataRow = "0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==|" + dt.Rows[0]["FID"].ToString() };
+                return new ResponseModel() { Result = true, Description = "登陆完成", DataRow = $"{{\"CompanyID\":\"{ dt.Rows[0]["FCompanyID"]}\",\"EmployeeID\":\"{ dt.Rows[0]["FID"]}\",\"RoleID\":\"{ dt.Rows[0]["FRoleID"]}\",\"PageID\":\"{ dt.Rows[0]["FPageID"]}\",\"DeptID\":\"{ dt.Rows[0]["FDeptID"]}\",\"EmployeeName\":\"{ dt.Rows[0]["FEmployeeName"]}\",\"Mobile\":\"{ dt.Rows[0]["FMobile"]}\",\"Profile\":\"{ dt.Rows[0]["FProfile"]}\"}}" };
             }
 
 

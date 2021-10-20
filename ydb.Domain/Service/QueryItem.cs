@@ -18,13 +18,13 @@ namespace ydb.Domain.Service
     /// </summary>
     public class QueryItem : IQueryItem
     {
-        public ResponseModel GetItems(string employeeID, string itemType, string queryValue="",int pageIndex=1,int pageSize=100)
+        public ResponseModel GetItems(string employeeID, string itemType, string queryValue = "", int pageIndex = 1, int pageSize = 100)
         {
             SQLServerHelper sqlServer = new();
             string sql = "";
             string pageTotal = "0";
             string amount = "0";
-            
+
             DataTable dataTable = new DataTable();
             //获取医院
             if (itemType == "1")
@@ -48,7 +48,7 @@ namespace ydb.Domain.Service
                          Left Join yaodaibao.dbo.t_Items t6 On t1.FCountryID = t6.FID
                          Left Join yaodaibao.dbo.t_Items t7 On t1.FTownID = t7.FID
                          Left Join yaodaibao.dbo.t_Items t8 On t1.FRevenueLevelID = t8.FID
-                         Left Join yaodaibao.dbo.t_Items t9 On t1.FModeID = t9.FID  {queryValue??""}  order by t1.FSortIndex Asc  offset {(pageIndex - 1 )*100} row fetch next {pageSize} row only ";
+                         Left Join yaodaibao.dbo.t_Items t9 On t1.FModeID = t9.FID  {queryValue ?? ""}  order by t1.FSortIndex Asc  offset {(pageIndex - 1) * 100} row fetch next {pageSize} row only ";
             }
             //获取产品
             else if (itemType == "2")

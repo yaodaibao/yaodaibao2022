@@ -20,7 +20,6 @@ namespace ydb.Domain.Service
             else
             {
                 sql = $"insert into [yaodaibao].[dbo].[Profile]([FEmployeeID],[FRouteStatus]) values('{userProfile.EmployeeID}','{userProfile.AutoState}')";
-
             }
 
             runner.ExecuteSqlNone(sql);

@@ -58,33 +58,28 @@ namespace YRBApp.Middleware
                 }
                 else
                 {
+
+                    var orgBodyStream = context.Response.Body;
+                    context.Response.Body = ms;
                     await _next(context);
-                    // context.Response.ContentType = "text/plain; charset=utf-8";
-                    //responsebody 不能直接读取，使用momerystream当中转读取responsebody
-                    // var orgBodyStream = context.Response.Body;
-                    // context.Response.Body = ms;
-                    // await _next(context);
-                    // context.Response.Body.Seek(0, SeekOrigin.Begin);
-                    // //得到Action的返回值
-                    // var actionJsonResult = await new StreamReader(context.Response.Body, Encoding.UTF8).ReadToEndAsync();
-                    // //actionJsonResult = actionJsonResult.Replace("\\","");
-                    // context.Response.Body.Seek(0, SeekOrigin.Begin);
-                    // ResponseModel responseModel = JsonConvert.DeserializeObject<ResponseModel>(actionJsonResult);
-                    // //处理成统一的返回格式
-                    // string responJson = $"{{\"Result\":\"{responseModel.Result.ToString().ToLower()}\",\"Description\":\"{responseModel.Description}\",\"DataRows\":{{\"DataRow\":[{responseModel.DataRow }]}} }}";
-                    // //必须把原始流给responsebody
-                    // context.Response.Body = orgBodyStream;
-                    // context.Response.ContentType = "text/json";
-                    // _logger.LogInformation($"服务消息:{responJson}");
-                    // //显示修改后的数据 
-                    //await context.Response.WriteAsync(responJson, Encoding.UTF8);
+                    context.Response.Body.Seek(0, SeekOrigin.Begin);
+                    //得到Action的返回值
+                    var actionJsonResult = await new StreamReader(context.Response.Body, Encoding.UTF8).ReadToEndAsync();
+                    context.Response.Body.Seek(0, SeekOrigin.Begin);
+                    ResponseModel responseModel = JsonConvert.DeserializeObject<ResponseModel>(actionJsonResult);
+                    //处理成统一的返回格式
+                    string responJson = $"{{\"Result\":\"{responseModel.Result.ToString().ToLower()}\",\"Description\":\"{responseModel.Description}\",\"DataRows\":{{\"DataRow\":[{responseModel.DataRow }]}} }}";
+                    //必须把原始流给responsebody
+                    context.Response.Body = orgBodyStream;
+                    context.Response.ContentType = "text/json";
+                    _logger.LogInformation($"服务消息:{responJson}");
+                    //显示修改后的数据 
+                    await context.Response.WriteAsync(responJson, Encoding.UTF8);
                 }
             }
         }
         private async Task<bool> FormatRequest(HttpRequest request)
         {
-
- 
 
             request.EnableBuffering();
             request.Body.Seek(0, SeekOrigin.Begin);
@@ -95,42 +90,52 @@ namespace YRBApp.Middleware
             _logger.LogInformation($"User-Agent:{request.Headers["User-Agent"]}");
 
             request.Body.Seek(0, SeekOrigin.Begin);
+
+
             try
             {
                 var requstJson = JObject.Parse(bodyAsText);
-                //无序判断路由
-                if (request.GetDisplayUrl().ToLower().Contains("api/login"))
+                //使用前台写死authcode方案。。 不判断路由统一拦截
+                if (requstJson["AuthCode"]?.ToString() != "0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==")
                 {
-                    if (request.GetDisplayUrl().Contains("api/login/SetPwd"))
-                    {
-                        if (requstJson["smsmd5"]?.ToString() != "5F1B87CACCE747E5DD5F813FBC9163E5")
-                        {
-                            return false;
-                        }
-
-                    }
-                    if (request.GetDisplayUrl().Contains("api/login/ChangePwd"))
-                    {
-
-                        if (requstJson["AuthCode"]?.ToString() != "0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==")
-                        {
-                            return false;
-                        }
-                    }
-                    return true;
+                    return false;
                 }
                 else
                 {
-                    if (requstJson["AuthCode"]?.ToString() == "0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==")
-                    {
-                        return true;
-                    }
-                    else
-                    {
-                        return false;
-                    }
+                    return true;
                 }
+                ////无序判断路由
+                //if (request.GetDisplayUrl().ToLower().Contains("api/login"))
+                //{
+                //    if (request.GetDisplayUrl().Contains("api/login/SetPwd"))
+                //    {
+                //        if (requstJson["smsmd5"]?.ToString() != "5F1B87CACCE747E5DD5F813FBC9163E5")
+                //        {
+                //            return false;
+                //        }
 
+                //    }
+                //    if (request.GetDisplayUrl().Contains("api/login/ChangePwd"))
+                //    {
+
+                //        if (requstJson["AuthCode"]?.ToString() != "0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==")
+                //        {
+                //            return false;
+                //        }
+                //    }
+                //    return true;
+                //}
+                //else
+                //{
+                //    if (requstJson["AuthCode"]?.ToString() == "0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==")
+                //    {
+                //        return true;
+                //    }
+                //    else
+                //    {
+                //        return false;
+                //    }
+                //}
             }
             catch (Exception)
             {

@@ -1,0 +1,432 @@
+2021-10-19 09:56:30.752 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-19 09:56:30.786 +08:00 [INF] Hosting environment: Development
+2021-10-19 09:56:30.788 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-10-19 09:56:30.790 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-10-19 09:56:35.817 +08:00 [ERR] Connection ID "18230571310386249730", Request ID "80000003-0004-fd00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YRBApp.Middleware.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in D:\Source\yaodaibao2022\YRBApp\Middleware\RequestResponseLoggingMiddleware.cs:line 71
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-10-19 09:56:35.886 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 500 - - 5099.4386ms
+2021-10-19 09:58:53.075 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Login/Login application/json 113
+2021-10-19 09:58:53.089 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.LoginController.Login (YRBApp)'
+2021-10-19 09:58:53.118 +08:00 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature ydb.Domain.ResponseModel Login(ydb.Domain.Models.Login) on controller YRBApp.Controllers.LoginController (YRBApp).
+2021-10-19 09:58:53.187 +08:00 [INF] Executing action method YRBApp.Controllers.LoginController.Login (YRBApp) - Validation state: "Valid"
+2021-10-19 10:00:39.462 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-19 10:00:39.484 +08:00 [INF] Hosting environment: Development
+2021-10-19 10:00:39.486 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-10-19 10:00:39.484 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-10-19 10:00:42.697 +08:00 [ERR] Connection ID "18230571293206380553", Request ID "8000000a-0000-fd00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YRBApp.Middleware.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in D:\Source\yaodaibao2022\YRBApp\Middleware\RequestResponseLoggingMiddleware.cs:line 71
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-10-19 10:00:42.755 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 500 - - 3274.3849ms
+2021-10-19 10:00:46.407 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Login/Login application/json 113
+2021-10-19 10:00:46.412 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.LoginController.Login (YRBApp)'
+2021-10-19 10:00:46.440 +08:00 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature ydb.Domain.ResponseModel Login(ydb.Domain.Models.Login) on controller YRBApp.Controllers.LoginController (YRBApp).
+2021-10-19 10:00:46.506 +08:00 [INF] Executing action method YRBApp.Controllers.LoginController.Login (YRBApp) - Validation state: "Valid"
+2021-10-19 10:00:48.447 +08:00 [INF] Executed action method YRBApp.Controllers.LoginController.Login (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1934.8072ms.
+2021-10-19 10:00:48.451 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-10-19 10:00:48.488 +08:00 [INF] Executed action YRBApp.Controllers.LoginController.Login (YRBApp) in 2042.7927ms
+2021-10-19 10:00:48.489 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.LoginController.Login (YRBApp)'
+2021-10-19 10:00:48.599 +08:00 [INF] 服务消息:{"Result":"false","Description":"用户名不能为空","DataRows":{"DataRow":[]} }
+2021-10-19 10:00:48.605 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Login/Login application/json 113 - 200 67 text/json 2197.9619ms
+2021-10-19 10:01:00.190 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Login/Login application/json 116
+2021-10-19 10:01:00.195 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.LoginController.Login (YRBApp)'
+2021-10-19 10:01:00.196 +08:00 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature ydb.Domain.ResponseModel Login(ydb.Domain.Models.Login) on controller YRBApp.Controllers.LoginController (YRBApp).
+2021-10-19 10:01:00.207 +08:00 [INF] Executing action method YRBApp.Controllers.LoginController.Login (YRBApp) - Validation state: "Valid"
+2021-10-19 10:02:01.531 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-19 10:02:01.554 +08:00 [INF] Hosting environment: Development
+2021-10-19 10:02:01.554 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-10-19 10:02:01.556 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-10-19 10:02:08.487 +08:00 [ERR] Connection ID "18302628908719144971", Request ID "8000000c-0005-fe00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YRBApp.Middleware.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in D:\Source\yaodaibao2022\YRBApp\Middleware\RequestResponseLoggingMiddleware.cs:line 71
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-10-19 10:02:08.541 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 500 - - 6990.4167ms
+2021-10-19 10:02:12.353 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Login/Login application/json 116
+2021-10-19 10:02:12.363 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.LoginController.Login (YRBApp)'
+2021-10-19 10:02:12.390 +08:00 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature ydb.Domain.ResponseModel Login(ydb.Domain.Models.Login) on controller YRBApp.Controllers.LoginController (YRBApp).
+2021-10-19 10:02:12.457 +08:00 [INF] Executing action method YRBApp.Controllers.LoginController.Login (YRBApp) - Validation state: "Valid"
+2021-10-19 10:02:13.032 +08:00 [INF] Executed action YRBApp.Controllers.LoginController.Login (YRBApp) in 637.1757ms
+2021-10-19 10:02:13.053 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.LoginController.Login (YRBApp)'
+2021-10-19 10:02:13.093 +08:00 [ERR] “FIsDeleted”附近有语法错误。
+2021-10-19 10:02:21.341 +08:00 [INF] 服务消息:{"Result":"false","Description":"“FIsDeleted”附近有语法错误。","DataRows":{"DataRow":[]} }
+2021-10-19 10:02:21.347 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Login/Login application/json 116 - 200 - text/json 8993.1864ms
+2021-10-19 10:02:51.765 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Login/Login application/json 116
+2021-10-19 10:02:51.774 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.LoginController.Login (YRBApp)'
+2021-10-19 10:02:51.775 +08:00 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature ydb.Domain.ResponseModel Login(ydb.Domain.Models.Login) on controller YRBApp.Controllers.LoginController (YRBApp).
+2021-10-19 10:02:51.798 +08:00 [INF] Executing action method YRBApp.Controllers.LoginController.Login (YRBApp) - Validation state: "Valid"
+2021-10-19 10:04:12.483 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-19 10:04:12.505 +08:00 [INF] Hosting environment: Development
+2021-10-19 10:04:12.507 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-10-19 10:04:12.507 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-10-19 10:04:16.202 +08:00 [ERR] Connection ID "18086456113720459269", Request ID "80000006-0002-fb00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YRBApp.Middleware.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in D:\Source\yaodaibao2022\YRBApp\Middleware\RequestResponseLoggingMiddleware.cs:line 71
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-10-19 10:04:16.262 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 500 - - 3758.8249ms
+2021-10-19 10:04:22.130 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Login/Login application/json 116
+2021-10-19 10:04:22.136 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.LoginController.Login (YRBApp)'
+2021-10-19 10:04:22.163 +08:00 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature ydb.Domain.ResponseModel Login(ydb.Domain.Models.Login) on controller YRBApp.Controllers.LoginController (YRBApp).
+2021-10-19 10:04:22.230 +08:00 [INF] Executing action method YRBApp.Controllers.LoginController.Login (YRBApp) - Validation state: "Valid"
+2021-10-19 10:04:24.466 +08:00 [INF] Executed action YRBApp.Controllers.LoginController.Login (YRBApp) in 2298.0108ms
+2021-10-19 10:04:24.490 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.LoginController.Login (YRBApp)'
+2021-10-19 10:04:24.532 +08:00 [ERR] 列名 'FIsDeleted' 不明确。
+2021-10-19 10:04:26.253 +08:00 [INF] 服务消息:{"Result":"false","Description":"列名 'FIsDeleted' 不明确。","DataRows":{"DataRow":[]} }
+2021-10-19 10:04:26.258 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Login/Login application/json 116 - 200 - text/json 4128.2209ms
+2021-10-19 10:05:31.618 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-19 10:05:31.640 +08:00 [INF] Hosting environment: Development
+2021-10-19 10:05:31.643 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-10-19 10:05:31.641 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-10-19 10:05:34.421 +08:00 [ERR] Connection ID "18230571310386249734", Request ID "80000007-0004-fd00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YRBApp.Middleware.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in D:\Source\yaodaibao2022\YRBApp\Middleware\RequestResponseLoggingMiddleware.cs:line 71
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-10-19 10:05:34.478 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 500 - - 2839.5975ms
+2021-10-19 10:05:38.241 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Login/Login application/json 116
+2021-10-19 10:05:38.251 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.LoginController.Login (YRBApp)'
+2021-10-19 10:05:38.278 +08:00 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature ydb.Domain.ResponseModel Login(ydb.Domain.Models.Login) on controller YRBApp.Controllers.LoginController (YRBApp).
+2021-10-19 10:05:38.344 +08:00 [INF] Executing action method YRBApp.Controllers.LoginController.Login (YRBApp) - Validation state: "Valid"
+2021-10-19 10:05:41.072 +08:00 [INF] Executed action method YRBApp.Controllers.LoginController.Login (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2722.3859ms.
+2021-10-19 10:05:41.076 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-10-19 10:05:41.103 +08:00 [INF] Executed action YRBApp.Controllers.LoginController.Login (YRBApp) in 2820.7551ms
+2021-10-19 10:05:41.105 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.LoginController.Login (YRBApp)'
+2021-10-19 10:05:41.108 +08:00 [INF] 服务消息:{"Result":"true","Description":"登陆完成|eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiMTgzMzgyMDUyOTciLCJleHAiOjE2MzQ2MTA5NDAsIm5iZiI6IjE2MzQ2MDkxNDAiLCJpc3MiOiJ0ciIsImF1ZCI6InJ0eSJ9.TlH0k3_Kdxb5hTNRZy85w5iVUZB85QkkIQ3ymGvPyAQ","DataRows":{"DataRow":["CompanyID":"-1","EmployeeID":"4255873149499886263","RoleID":"-1","PageID":"-1","DeptID":"4862452695616537188","EmployeeName":"白婉鑫","Mobile":"18338205297","Profile":""]} }
+2021-10-19 10:05:41.113 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Login/Login application/json 116 - 200 524 text/json 2872.7596ms
+2021-10-19 10:06:45.154 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-19 10:06:45.176 +08:00 [INF] Hosting environment: Development
+2021-10-19 10:06:45.178 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-10-19 10:06:45.177 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-10-19 10:06:51.655 +08:00 [ERR] Connection ID "18230571310386249736", Request ID "80000009-0004-fd00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YRBApp.Middleware.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in D:\Source\yaodaibao2022\YRBApp\Middleware\RequestResponseLoggingMiddleware.cs:line 71
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-10-19 10:06:51.713 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 500 - - 6540.3662ms
+2021-10-19 10:06:54.377 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Login/Login application/json 116
+2021-10-19 10:06:54.382 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.LoginController.Login (YRBApp)'
+2021-10-19 10:06:54.410 +08:00 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature ydb.Domain.ResponseModel Login(ydb.Domain.Models.Login) on controller YRBApp.Controllers.LoginController (YRBApp).
+2021-10-19 10:06:54.476 +08:00 [INF] Executing action method YRBApp.Controllers.LoginController.Login (YRBApp) - Validation state: "Valid"
+2021-10-19 10:06:56.407 +08:00 [INF] Executed action method YRBApp.Controllers.LoginController.Login (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1924.5599ms.
+2021-10-19 10:06:56.411 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-10-19 10:06:56.439 +08:00 [INF] Executed action YRBApp.Controllers.LoginController.Login (YRBApp) in 2024.7905ms
+2021-10-19 10:06:56.442 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.LoginController.Login (YRBApp)'
+2021-10-19 10:06:56.446 +08:00 [INF] 服务消息:{"Result":"true","Description":"登陆完成|eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiMTgzMzgyMDUyOTciLCJleHAiOjE2MzQ2MTEwMTYsIm5iZiI6IjE2MzQ2MDkyMTYiLCJpc3MiOiJ0ciIsImF1ZCI6InJ0eSJ9.SVWOmiknwHfol8m_RVhpZx4vgqQUY6COe4yFMIxivnY","DataRows":{"DataRow":[{"CompanyID":"-1","EmployeeID":"4255873149499886263","RoleID":"-1","PageID":"-1","DeptID":"4862452695616537188","EmployeeName":"白婉鑫","Mobile":"18338205297","Profile":""}]} }
+2021-10-19 10:06:56.452 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Login/Login application/json 116 - 200 526 text/json 2075.2916ms
+2021-10-19 10:07:25.319 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Login/Login application/json 116
+2021-10-19 10:07:25.323 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.LoginController.Login (YRBApp)'
+2021-10-19 10:07:25.325 +08:00 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature ydb.Domain.ResponseModel Login(ydb.Domain.Models.Login) on controller YRBApp.Controllers.LoginController (YRBApp).
+2021-10-19 10:07:25.344 +08:00 [INF] Executing action method YRBApp.Controllers.LoginController.Login (YRBApp) - Validation state: "Valid"
+2021-10-19 10:07:31.542 +08:00 [INF] Executed action method YRBApp.Controllers.LoginController.Login (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 6196.3949ms.
+2021-10-19 10:07:31.549 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-10-19 10:07:31.550 +08:00 [INF] Executed action YRBApp.Controllers.LoginController.Login (YRBApp) in 6223.8475ms
+2021-10-19 10:07:31.551 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.LoginController.Login (YRBApp)'
+2021-10-19 10:07:31.552 +08:00 [INF] 服务消息:{"Result":"true","Description":"登陆完成|eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiMTgzMzgyMDUyOTciLCJleHAiOjE2MzQ2MTEwNTEsIm5iZiI6IjE2MzQ2MDkyNTEiLCJpc3MiOiJ0ciIsImF1ZCI6InJ0eSJ9.HSEMQP2KiiH521-fOeUTfH52Mh871KpaVjD-ZnPR5g8","DataRows":{"DataRow":[{"CompanyID":"-1","EmployeeID":"4255873149499886263","RoleID":"-1","PageID":"-1","DeptID":"4862452695616537188","EmployeeName":"白婉鑫","Mobile":"18338205297","Profile":""}]} }
+2021-10-19 10:07:31.554 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Login/Login application/json 116 - 200 526 text/json 6235.1020ms
+2021-10-19 10:08:52.597 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-19 10:08:52.629 +08:00 [INF] Hosting environment: Development
+2021-10-19 10:08:52.631 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-10-19 10:08:52.629 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-10-19 10:08:55.777 +08:00 [ERR] Connection ID "18302628913014112264", Request ID "80000009-0006-fe00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YRBApp.Middleware.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in D:\Source\yaodaibao2022\YRBApp\Middleware\RequestResponseLoggingMiddleware.cs:line 71
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-10-19 10:08:55.833 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 500 - - 3206.4868ms
+2021-10-19 10:09:01.950 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Login/Login application/json 116
+2021-10-19 10:09:01.955 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.LoginController.Login (YRBApp)'
+2021-10-19 10:09:01.978 +08:00 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature ydb.Domain.ResponseModel Login(ydb.Domain.Models.Login) on controller YRBApp.Controllers.LoginController (YRBApp).
+2021-10-19 10:09:02.046 +08:00 [INF] Executing action method YRBApp.Controllers.LoginController.Login (YRBApp) - Validation state: "Valid"
+2021-10-19 10:09:04.142 +08:00 [INF] Executed action method YRBApp.Controllers.LoginController.Login (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2090.9135ms.
+2021-10-19 10:09:04.147 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-10-19 10:09:04.174 +08:00 [INF] Executed action YRBApp.Controllers.LoginController.Login (YRBApp) in 2191.8064ms
+2021-10-19 10:09:04.176 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.LoginController.Login (YRBApp)'
+2021-10-19 10:09:04.179 +08:00 [INF] 服务消息:{"Result":"true","Description":"登陆完成","DataRows":{"DataRow":[{"CompanyID":"-1","EmployeeID":"4255873149499886263","RoleID":"-1","PageID":"-1","DeptID":"4862452695616537188","EmployeeName":"白婉鑫","Mobile":"18338205297","Profile":""}]} }
+2021-10-19 10:09:04.188 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Login/Login application/json 116 - 200 264 text/json 2238.6433ms
+2021-10-19 10:12:35.274 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-19 10:12:35.297 +08:00 [INF] Hosting environment: Development
+2021-10-19 10:12:35.296 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-10-19 10:12:35.300 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-10-19 10:12:35.352 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-10-19 10:12:35.353 +08:00 [INF] post数据:
+2021-10-19 10:12:35.354 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36
+2021-10-19 10:12:35.438 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 144.3456ms
+2021-10-19 10:12:35.465 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-10-19 10:12:35.467 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-10-19 10:12:35.469 +08:00 [INF] post数据:
+2021-10-19 10:12:35.470 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36
+2021-10-19 10:12:35.495 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 29.8357ms
+2021-10-19 10:12:55.645 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Login/Login application/json 116
+2021-10-19 10:12:55.651 +08:00 [INF] 请求地址:http://localhost:10294/api/Login/Login
+2021-10-19 10:12:55.652 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","UserName":"18338205297","Password":"123456"}
+2021-10-19 10:12:55.653 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-10-19 10:12:57.339 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.LoginController.Login (YRBApp)'
+2021-10-19 10:12:57.370 +08:00 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature ydb.Domain.ResponseModel Login(ydb.Domain.Models.Login) on controller YRBApp.Controllers.LoginController (YRBApp).
+2021-10-19 10:12:57.504 +08:00 [INF] Executing action method YRBApp.Controllers.LoginController.Login (YRBApp) - Validation state: "Valid"
+2021-10-19 10:12:58.801 +08:00 [INF] Executed action method YRBApp.Controllers.LoginController.Login (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1290.7163ms.
+2021-10-19 10:12:58.806 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-10-19 10:12:58.832 +08:00 [INF] Executed action YRBApp.Controllers.LoginController.Login (YRBApp) in 1458.1551ms
+2021-10-19 10:12:58.834 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.LoginController.Login (YRBApp)'
+2021-10-19 10:12:58.837 +08:00 [INF] 服务消息:{"Result":"true","Description":"登陆完成","DataRows":{"DataRow":[{"CompanyID":"-1","EmployeeID":"4255873149499886263","RoleID":"-1","PageID":"-1","DeptID":"4862452695616537188","EmployeeName":"白婉鑫","Mobile":"18338205297","Profile":""}]} }
+2021-10-19 10:12:58.839 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Login/Login application/json 116 - 200 264 text/json 3194.2780ms
+2021-10-19 10:50:00.074 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-19 10:50:00.095 +08:00 [INF] Hosting environment: Development
+2021-10-19 10:50:00.096 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-10-19 10:50:00.095 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-10-19 10:50:00.123 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-10-19 10:50:00.124 +08:00 [INF] post数据:
+2021-10-19 10:50:00.125 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36
+2021-10-19 10:50:02.636 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 2543.0747ms
+2021-10-19 10:50:02.666 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-10-19 10:50:02.667 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-10-19 10:50:02.668 +08:00 [INF] post数据:
+2021-10-19 10:50:02.670 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36
+2021-10-19 10:50:05.159 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 2493.4021ms
+2021-10-19 10:51:52.211 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/login/GetRegStatusByMobile application/json 114
+2021-10-19 10:51:52.218 +08:00 [INF] 请求地址:http://localhost:10294/api/login/GetRegStatusByMobile
+2021-10-19 10:51:52.221 +08:00 [INF] post数据:{"mobile":"18338205297","password":"123456","AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg=="}
+2021-10-19 10:51:52.225 +08:00 [INF] User-Agent:Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.05.2109131 MicroMessenger/8.0.5 Language/zh_CN webview/
+2021-10-19 10:51:54.156 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/login/GetRegStatusByMobile application/json 114 - 200 - text/plain;+charset=utf-8 1945.5412ms
+2021-10-19 10:52:34.891 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/login/GetRegStatusByMobile application/json 114
+2021-10-19 10:52:34.898 +08:00 [INF] 请求地址:http://localhost:10294/api/login/GetRegStatusByMobile
+2021-10-19 10:52:34.900 +08:00 [INF] post数据:{"mobile":"18338205297","password":"123456","AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg=="}
+2021-10-19 10:52:34.902 +08:00 [INF] User-Agent:Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.05.2109131 MicroMessenger/8.0.5 Language/zh_CN webview/
+2021-10-19 10:53:38.689 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-19 10:53:38.710 +08:00 [INF] Hosting environment: Development
+2021-10-19 10:53:38.713 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-10-19 10:53:38.711 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-10-19 10:53:38.751 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-10-19 10:53:38.752 +08:00 [INF] post数据:
+2021-10-19 10:53:38.753 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36
+2021-10-19 10:53:40.265 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 1557.7463ms
+2021-10-19 10:53:40.274 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-10-19 10:53:40.275 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-10-19 10:53:40.276 +08:00 [INF] post数据:
+2021-10-19 10:53:40.277 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36
+2021-10-19 10:53:41.034 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 759.9636ms
+2021-10-19 10:53:51.569 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/login/GetRegStatusByMobile application/json 114
+2021-10-19 10:53:51.572 +08:00 [INF] 请求地址:http://localhost:10294/api/login/GetRegStatusByMobile
+2021-10-19 10:53:51.573 +08:00 [INF] post数据:{"mobile":"18338205297","password":"123456","AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg=="}
+2021-10-19 10:53:51.574 +08:00 [INF] User-Agent:Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.05.2109131 MicroMessenger/8.0.5 Language/zh_CN webview/
+2021-10-19 10:54:58.270 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.LoginController.GetRegStatusByMobile (YRBApp)'
+2021-10-19 10:54:58.296 +08:00 [INF] Route matched with {action = "GetRegStatusByMobile", controller = "Login"}. Executing controller action with signature ydb.Domain.ResponseModel GetRegStatusByMobile(ydb.Domain.Models.Login) on controller YRBApp.Controllers.LoginController (YRBApp).
+2021-10-19 10:54:58.408 +08:00 [INF] Executing action method YRBApp.Controllers.LoginController.GetRegStatusByMobile (YRBApp) - Validation state: "Valid"
+2021-10-19 10:54:58.906 +08:00 [INF] Executed action method YRBApp.Controllers.LoginController.GetRegStatusByMobile (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 492.4923ms.
+2021-10-19 10:54:58.913 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-10-19 10:54:58.931 +08:00 [INF] Executed action YRBApp.Controllers.LoginController.GetRegStatusByMobile (YRBApp) in 630.6061ms
+2021-10-19 10:54:58.933 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.LoginController.GetRegStatusByMobile (YRBApp)'
+2021-10-19 10:54:58.936 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[2]} }
+2021-10-19 10:54:58.938 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/login/GetRegStatusByMobile application/json 114 - 200 46 text/json 67368.5507ms
+2021-10-19 10:56:00.078 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/login/GetRegStatusByMobile application/json 114
+2021-10-19 10:56:00.087 +08:00 [INF] 请求地址:http://localhost:10294/api/login/GetRegStatusByMobile
+2021-10-19 10:56:00.089 +08:00 [INF] post数据:{"mobile":"18338205297","password":"123456","AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg=="}
+2021-10-19 10:56:00.090 +08:00 [INF] User-Agent:Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.05.2109131 MicroMessenger/8.0.5 Language/zh_CN webview/
+2021-10-19 10:56:02.125 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.LoginController.GetRegStatusByMobile (YRBApp)'
+2021-10-19 10:56:02.127 +08:00 [INF] Route matched with {action = "GetRegStatusByMobile", controller = "Login"}. Executing controller action with signature ydb.Domain.ResponseModel GetRegStatusByMobile(ydb.Domain.Models.Login) on controller YRBApp.Controllers.LoginController (YRBApp).
+2021-10-19 10:56:02.143 +08:00 [INF] Executing action method YRBApp.Controllers.LoginController.GetRegStatusByMobile (YRBApp) - Validation state: "Valid"
+2021-10-19 10:56:02.177 +08:00 [INF] Executed action method YRBApp.Controllers.LoginController.GetRegStatusByMobile (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 32.4571ms.
+2021-10-19 10:56:02.178 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-10-19 10:56:02.180 +08:00 [INF] Executed action YRBApp.Controllers.LoginController.GetRegStatusByMobile (YRBApp) in 51.634ms
+2021-10-19 10:56:02.180 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.LoginController.GetRegStatusByMobile (YRBApp)'
+2021-10-19 10:56:02.181 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[2]} }
+2021-10-19 10:56:02.188 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/login/GetRegStatusByMobile application/json 114 - 200 46 text/json 2105.2871ms
+2021-10-19 10:56:19.072 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/login/GetRegStatusByMobile application/json 114
+2021-10-19 10:56:19.074 +08:00 [INF] 请求地址:http://localhost:10294/api/login/GetRegStatusByMobile
+2021-10-19 10:56:19.076 +08:00 [INF] post数据:{"mobile":"18338205297","password":"123456","AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg=="}
+2021-10-19 10:56:19.078 +08:00 [INF] User-Agent:Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.05.2109131 MicroMessenger/8.0.5 Language/zh_CN webview/
+2021-10-19 10:56:21.239 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.LoginController.GetRegStatusByMobile (YRBApp)'
+2021-10-19 10:56:21.241 +08:00 [INF] Route matched with {action = "GetRegStatusByMobile", controller = "Login"}. Executing controller action with signature ydb.Domain.ResponseModel GetRegStatusByMobile(ydb.Domain.Models.Login) on controller YRBApp.Controllers.LoginController (YRBApp).
+2021-10-19 10:56:21.253 +08:00 [INF] Executing action method YRBApp.Controllers.LoginController.GetRegStatusByMobile (YRBApp) - Validation state: "Valid"
+2021-10-19 10:56:21.286 +08:00 [INF] Executed action method YRBApp.Controllers.LoginController.GetRegStatusByMobile (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 32.445ms.
+2021-10-19 10:56:21.288 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-10-19 10:56:21.289 +08:00 [INF] Executed action YRBApp.Controllers.LoginController.GetRegStatusByMobile (YRBApp) in 47.2652ms
+2021-10-19 10:56:21.290 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.LoginController.GetRegStatusByMobile (YRBApp)'
+2021-10-19 10:56:21.291 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[2]} }
+2021-10-19 10:56:21.293 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/login/GetRegStatusByMobile application/json 114 - 200 46 text/json 2220.7472ms
+2021-10-19 10:58:13.200 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-19 10:58:13.223 +08:00 [INF] Hosting environment: Development
+2021-10-19 10:58:13.225 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-10-19 10:58:13.223 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-10-19 10:58:13.251 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-10-19 10:58:13.253 +08:00 [INF] post数据:
+2021-10-19 10:58:13.254 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36
+2021-10-19 10:58:17.285 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 4065.8545ms
+2021-10-19 10:58:17.302 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-10-19 10:58:17.304 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-10-19 10:58:17.305 +08:00 [INF] post数据:
+2021-10-19 10:58:17.307 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36
+2021-10-19 10:58:17.873 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 571.1913ms
+2021-10-19 10:58:32.234 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/login/GetRegStatusByMobile application/json 114
+2021-10-19 10:58:32.238 +08:00 [INF] 请求地址:http://localhost:10294/api/login/GetRegStatusByMobile
+2021-10-19 10:58:32.239 +08:00 [INF] post数据:{"mobile":"18338205297","password":"123456","AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg=="}
+2021-10-19 10:58:32.240 +08:00 [INF] User-Agent:Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.05.2109131 MicroMessenger/8.0.5 Language/zh_CN webview/
+2021-10-19 10:58:34.806 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.LoginController.GetRegStatusByMobile (YRBApp)'
+2021-10-19 10:58:34.836 +08:00 [INF] Route matched with {action = "GetRegStatusByMobile", controller = "Login"}. Executing controller action with signature ydb.Domain.ResponseModel GetRegStatusByMobile(ydb.Domain.Models.Login) on controller YRBApp.Controllers.LoginController (YRBApp).
+2021-10-19 10:58:34.957 +08:00 [INF] Executing action method YRBApp.Controllers.LoginController.GetRegStatusByMobile (YRBApp) - Validation state: "Valid"
+2021-10-19 10:58:35.292 +08:00 [INF] Executed action method YRBApp.Controllers.LoginController.GetRegStatusByMobile (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 328.5881ms.
+2021-10-19 10:58:35.297 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-10-19 10:58:35.322 +08:00 [INF] Executed action YRBApp.Controllers.LoginController.GetRegStatusByMobile (YRBApp) in 481.6546ms
+2021-10-19 10:58:35.324 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.LoginController.GetRegStatusByMobile (YRBApp)'
+2021-10-19 10:58:35.327 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[2]} }
+2021-10-19 10:58:35.329 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/login/GetRegStatusByMobile application/json 114 - 200 46 text/json 3094.2287ms
+2021-10-19 10:58:37.805 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/login/login application/json 116
+2021-10-19 10:58:37.807 +08:00 [INF] 请求地址:http://localhost:10294/api/login/login
+2021-10-19 10:58:37.809 +08:00 [INF] post数据:{"username":"18338205297","password":"123456","AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg=="}
+2021-10-19 10:58:37.810 +08:00 [INF] User-Agent:Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.05.2109131 MicroMessenger/8.0.5 Language/zh_CN webview/
+2021-10-19 10:58:41.545 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.LoginController.Login (YRBApp)'
+2021-10-19 10:58:41.547 +08:00 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature ydb.Domain.ResponseModel Login(ydb.Domain.Models.Login) on controller YRBApp.Controllers.LoginController (YRBApp).
+2021-10-19 10:58:41.559 +08:00 [INF] Executing action method YRBApp.Controllers.LoginController.Login (YRBApp) - Validation state: "Valid"
+2021-10-19 10:58:42.389 +08:00 [INF] Executed action method YRBApp.Controllers.LoginController.Login (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 828.5443ms.
+2021-10-19 10:58:42.391 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-10-19 10:58:42.392 +08:00 [INF] Executed action YRBApp.Controllers.LoginController.Login (YRBApp) in 843.3845ms
+2021-10-19 10:58:42.393 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.LoginController.Login (YRBApp)'
+2021-10-19 10:58:42.394 +08:00 [INF] 服务消息:{"Result":"true","Description":"登陆完成","DataRows":{"DataRow":[{"CompanyID":"-1","EmployeeID":"4255873149499886263","RoleID":"-1","PageID":"-1","DeptID":"4862452695616537188","EmployeeName":"白婉鑫","Mobile":"18338205297","Profile":""}]} }
+2021-10-19 10:58:42.396 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/login/login application/json 116 - 200 264 text/json 4590.6004ms
+2021-10-19 15:54:24.371 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-19 15:54:24.396 +08:00 [INF] Hosting environment: Development
+2021-10-19 15:54:24.398 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-10-19 15:54:24.397 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-10-19 15:54:24.424 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-10-19 15:54:24.425 +08:00 [INF] post数据:
+2021-10-19 15:54:24.426 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36
+2021-10-19 15:54:26.168 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 1773.7240ms
+2021-10-19 15:54:26.193 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-10-19 15:54:26.195 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-10-19 15:54:26.196 +08:00 [INF] post数据:
+2021-10-19 15:54:26.198 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36
+2021-10-19 15:54:27.112 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 918.8349ms
+2021-10-19 15:54:32.244 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/GetMyAuthData application/json 162
+2021-10-19 15:54:32.246 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/GetMyAuthData
+2021-10-19 15:54:32.247 +08:00 [INF] post数据:{    "AuthCode": "0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",    "EmployeeID": "4255873149499886263",    "auther": "",    "hospital": ""}
+2021-10-19 15:54:32.249 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-10-19 15:54:37.032 +08:00 [ERR] Connection ID "18086456122310393859", Request ID "80000004-0004-fb00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YRBApp.Middleware.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in D:\Source\yaodaibao2022\YRBApp\Middleware\RequestResponseLoggingMiddleware.cs:line 71
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-10-19 15:54:37.113 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/GetMyAuthData application/json 162 - 500 - - 4869.5810ms
+2021-10-19 15:54:39.992 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/GetMyAuthData application/json 162
+2021-10-19 15:54:39.994 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/GetMyAuthData
+2021-10-19 15:54:39.996 +08:00 [INF] post数据:{    "AuthCode": "0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",    "EmployeeID": "4255873149499886263",    "auther": "",    "hospital": ""}
+2021-10-19 15:54:39.997 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-10-19 15:54:52.376 +08:00 [ERR] Connection ID "18086456122310393859", Request ID "80000005-0004-fb00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YRBApp.Middleware.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in D:\Source\yaodaibao2022\YRBApp\Middleware\RequestResponseLoggingMiddleware.cs:line 71
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-10-19 15:54:52.379 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/GetMyAuthData application/json 162 - 500 - - 12386.5717ms
+2021-10-19 15:55:53.454 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/GetMyAuthData application/json 162
+2021-10-19 15:55:53.464 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/GetMyAuthData
+2021-10-19 15:55:53.465 +08:00 [INF] post数据:{    "AuthCode": "0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",    "EmployeeID": "4255873149499886263",    "auther": "",    "hospital": ""}
+2021-10-19 15:55:53.466 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-10-19 15:56:05.735 +08:00 [ERR] Connection ID "18086456122310393859", Request ID "80000006-0004-fb00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YRBApp.Middleware.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in D:\Source\yaodaibao2022\YRBApp\Middleware\RequestResponseLoggingMiddleware.cs:line 71
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-10-19 15:56:05.739 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/GetMyAuthData application/json 162 - 500 - - 12287.5511ms
+2021-10-19 15:56:46.874 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-19 15:56:46.910 +08:00 [INF] Hosting environment: Development
+2021-10-19 15:56:46.913 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-10-19 15:56:46.911 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-10-19 15:56:46.940 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-10-19 15:56:46.962 +08:00 [INF] post数据:
+2021-10-19 15:56:46.963 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36
+2021-10-19 15:56:50.746 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 3837.2408ms
+2021-10-19 15:56:50.757 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-10-19 15:56:50.759 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-10-19 15:56:50.761 +08:00 [INF] post数据:
+2021-10-19 15:56:50.762 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36
+2021-10-19 15:56:51.967 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 1210.8232ms
+2021-10-19 15:56:54.677 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/GetMyAuthData application/json 162
+2021-10-19 15:56:54.679 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/GetMyAuthData
+2021-10-19 15:56:54.680 +08:00 [INF] post数据:{    "AuthCode": "0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",    "EmployeeID": "4255873149499886263",    "auther": "",    "hospital": ""}
+2021-10-19 15:56:54.681 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-10-19 15:56:57.391 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.GetMyAuthDataMini (YRBApp)'
+2021-10-19 15:56:57.419 +08:00 [INF] Route matched with {action = "GetMyAuthDataMini", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] GetMyAuthDataMini() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-10-19 15:56:57.461 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.GetMyAuthDataMini (YRBApp) - Validation state: "Valid"
+2021-10-19 15:56:58.505 +08:00 [INF] Executed action method YRBApp.Controllers.AuthController.GetMyAuthDataMini (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1026.1466ms.
+2021-10-19 15:56:58.516 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-10-19 15:56:58.593 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.GetMyAuthDataMini (YRBApp) in 1169.7845ms
+2021-10-19 15:56:58.595 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.GetMyAuthDataMini (YRBApp)'
+2021-10-19 15:56:58.609 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[{"institutionid":"4255873149499886263","institutionname":"白婉鑫","authobjectid":"-8776594318102084174","authobjectname":"环江县人民医院"},{"institutionid":"4255873149499886263","institutionname":"白婉鑫","authobjectid":"7851986522400843449","authobjectname":"环球医院"},{"institutionid":"4255873149499886263","institutionname":"白婉鑫","authobjectid":"2941825761041138498","authobjectname":"米易县丙谷镇中心卫生院"},{"institutionid":"4255873149499886263","institutionname":"白婉鑫","authobjectid":"3322051999793825931","authobjectname":"石家庄市第三医院"}]} }
+2021-10-19 15:56:58.611 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/GetMyAuthData application/json 162 - 200 707 text/json 3934.2140ms
+2021-10-19 16:27:41.411 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-19 16:27:41.438 +08:00 [INF] Hosting environment: Development
+2021-10-19 16:27:41.439 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-10-19 16:27:41.441 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-10-19 16:27:41.465 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-10-19 16:27:41.467 +08:00 [INF] post数据:
+2021-10-19 16:27:41.467 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36
+2021-10-19 16:29:13.925 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 92489.2666ms
+2021-10-19 16:29:13.935 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-10-19 16:29:13.937 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-10-19 16:29:13.939 +08:00 [INF] post数据:
+2021-10-19 16:29:13.940 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36
+2021-10-19 16:29:13.966 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 30.4353ms
+2021-10-19 16:29:31.375 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 162
+2021-10-19 16:29:31.377 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/QueryItem
+2021-10-19 16:29:31.378 +08:00 [INF] post数据:{    "AuthCode": "0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",    "EmployeeID": "4255873149499886263",    "auther": "",    "hospital": ""}
+2021-10-19 16:29:31.379 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-10-19 16:29:31.418 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-10-19 16:29:31.451 +08:00 [INF] Route matched with {action = "QueryAuthItem", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] QueryAuthItem() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-10-19 16:29:31.489 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) - Validation state: "Valid"
+2021-10-19 16:29:38.146 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) in 6689.8129ms
+2021-10-19 16:29:38.167 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-10-19 16:29:38.190 +08:00 [ERR] ExecuteReader: CommandText property has not been initialized
+2021-10-19 16:29:44.990 +08:00 [INF] 服务消息:{"Result":"false","Description":"ExecuteReader: CommandText property has not been initialized","DataRows":{"DataRow":[]} }
+2021-10-19 16:29:44.993 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 162 - 200 - text/json 13617.5485ms
+2021-10-19 16:34:07.078 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 162
+2021-10-19 16:34:07.084 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/QueryItem
+2021-10-19 16:34:07.086 +08:00 [INF] post数据:{    "AuthCode": "0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==",    "EmployeeID": "4255873149499886263",    "auther": "",    "hospital": ""}
+2021-10-19 16:34:07.087 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-10-19 16:34:07.091 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-10-19 16:34:07.092 +08:00 [INF] Route matched with {action = "QueryAuthItem", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] QueryAuthItem() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-10-19 16:34:07.112 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) - Validation state: "Valid"
+2021-10-19 16:47:44.197 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-19 16:47:44.218 +08:00 [INF] Hosting environment: Development
+2021-10-19 16:47:44.220 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-10-19 16:47:44.218 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-10-19 16:47:44.245 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-10-19 16:47:44.246 +08:00 [INF] post数据:
+2021-10-19 16:47:44.247 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36
+2021-10-19 16:47:44.321 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 105.4976ms
+2021-10-19 16:47:44.337 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-10-19 16:47:44.340 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-10-19 16:47:44.345 +08:00 [INF] post数据:
+2021-10-19 16:47:44.346 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36
+2021-10-19 16:47:44.369 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 31.2982ms
+2021-10-19 16:47:54.181 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 120
+2021-10-19 16:47:54.183 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/QueryItem
+2021-10-19 16:47:54.184 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"4255873149499886263","queryType":5}
+2021-10-19 16:47:54.186 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-10-19 16:47:54.227 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-10-19 16:47:54.259 +08:00 [INF] Route matched with {action = "QueryAuthItem", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] QueryAuthItem() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-10-19 16:47:54.295 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) - Validation state: "Valid"
+2021-10-19 16:47:56.671 +08:00 [INF] Executed action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2369.9802ms.
+2021-10-19 16:47:56.677 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-10-19 16:47:56.768 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) in 2504.3148ms
+2021-10-19 16:47:56.770 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-10-19 16:47:56.790 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[{"name":"","id":"","pageindex":"1","pagetotal":"0"}]} }
+2021-10-19 16:47:56.793 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 120 - 200 112 text/json 2611.2370ms
+2021-10-19 16:48:00.539 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 120
+2021-10-19 16:48:00.541 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/QueryItem
+2021-10-19 16:48:00.541 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"4255873149499886263","queryType":5}
+2021-10-19 16:48:00.542 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-10-19 16:48:00.546 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-10-19 16:48:00.548 +08:00 [INF] Route matched with {action = "QueryAuthItem", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] QueryAuthItem() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-10-19 16:48:00.557 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) - Validation state: "Valid"
+2021-10-19 16:48:02.261 +08:00 [INF] Executed action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1702.8519ms.
+2021-10-19 16:48:02.263 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-10-19 16:48:02.270 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) in 1721.6636ms
+2021-10-19 16:48:02.271 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-10-19 16:48:02.273 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[{"name":"","id":"","pageindex":"1","pagetotal":"0"}]} }
+2021-10-19 16:48:02.274 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 120 - 200 112 text/json 1735.1716ms
+2021-10-19 16:48:34.871 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 120
+2021-10-19 16:48:34.876 +08:00 [INF] 请求地址:http://localhost:10294/api/Auth/QueryItem
+2021-10-19 16:48:34.877 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"4255873149499886263","queryType":6}
+2021-10-19 16:48:34.878 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-10-19 16:48:34.879 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-10-19 16:48:34.880 +08:00 [INF] Route matched with {action = "QueryAuthItem", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] QueryAuthItem() on controller YRBApp.Controllers.AuthController (YRBApp).
+2021-10-19 16:48:34.891 +08:00 [INF] Executing action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) - Validation state: "Valid"
+2021-10-19 16:48:37.882 +08:00 [INF] Executed action method YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2990.1209ms.
+2021-10-19 16:48:37.884 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-10-19 16:48:37.885 +08:00 [INF] Executed action YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp) in 3004.4627ms
+2021-10-19 16:48:37.887 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.AuthController.QueryAuthItem (YRBApp)'
+2021-10-19 16:48:37.888 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[{"name":"招商","id":"1000","pageindex":"1","pagetotal":"0"},{"name":"自营","id":"2000","pageindex":"1","pagetotal":"0"}]} }
+2021-10-19 16:48:37.894 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Auth/QueryItem application/json 120 - 200 200 text/json 3018.2157ms

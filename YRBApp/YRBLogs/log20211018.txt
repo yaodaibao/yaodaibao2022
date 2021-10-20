@@ -1,0 +1,58 @@
+2021-10-18 09:18:02.550 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-18 09:18:02.591 +08:00 [INF] Hosting environment: Development
+2021-10-18 09:18:02.593 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-10-18 09:18:02.600 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-10-18 09:18:08.650 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-10-18 09:18:08.652 +08:00 [INF] post数据:
+2021-10-18 09:18:08.653 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36
+2021-10-18 09:18:08.728 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 6129.0300ms
+2021-10-18 09:18:08.738 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-10-18 09:18:10.485 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-10-18 09:18:10.486 +08:00 [INF] post数据:
+2021-10-18 09:18:10.487 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36
+2021-10-18 09:18:10.518 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 1779.0752ms
+2021-10-18 09:22:45.522 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Compass/GetTotal application/json 106
+2021-10-18 09:22:45.525 +08:00 [INF] 请求地址:http://localhost:10294/api/Compass/GetTotal
+2021-10-18 09:22:45.525 +08:00 [INF] post数据:{"AuthCode":"0uyV7aK3cvAWcDRZowdyP3AMH27pvw0dmuvqfsJy5+XO/vl6Wdi9Cg==","EmployeeID":"4255873149499886263"}
+2021-10-18 09:22:45.526 +08:00 [INF] User-Agent:PostmanRuntime/7.28.4
+2021-10-18 09:22:45.728 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.CompassController.GetTotal (YRBApp)'
+2021-10-18 09:22:45.780 +08:00 [INF] Route matched with {action = "GetTotal", controller = "Compass"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] GetTotal() on controller YRBApp.Controllers.CompassController (YRBApp).
+2021-10-18 09:22:45.825 +08:00 [INF] Executing action method YRBApp.Controllers.CompassController.GetTotal (YRBApp) - Validation state: "Valid"
+2021-10-18 09:22:47.189 +08:00 [INF] Executed action method YRBApp.Controllers.CompassController.GetTotal (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1358.1249ms.
+2021-10-18 09:22:47.195 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-10-18 09:22:47.279 +08:00 [INF] Executed action YRBApp.Controllers.CompassController.GetTotal (YRBApp) in 1493.9159ms
+2021-10-18 09:22:47.280 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.CompassController.GetTotal (YRBApp)'
+2021-10-18 09:22:47.295 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[{ "count": 4506,"id":1,"name":"rhAFGF5*24","month":"202105","unit":"盒"  },{ "count":0,"id":1,"name":"奖金"  }]} }
+2021-10-18 09:22:47.297 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Compass/GetTotal application/json 106 - 200 182 text/json 1778.2091ms
+2021-10-18 16:36:04.806 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-18 16:36:04.858 +08:00 [INF] Hosting environment: Development
+2021-10-18 16:36:04.860 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-10-18 16:36:04.870 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-10-18 16:36:04.911 +08:00 [INF] 请求地址:http://localhost:10294/swagger
+2021-10-18 16:36:04.913 +08:00 [INF] post数据:
+2021-10-18 16:36:04.914 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36
+2021-10-18 16:36:05.031 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 200 - text/plain;+charset=utf-8 163.9274ms
+2021-10-18 16:36:05.061 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/favicon.ico - -
+2021-10-18 16:36:05.063 +08:00 [INF] 请求地址:http://localhost:10294/favicon.ico
+2021-10-18 16:36:05.064 +08:00 [INF] post数据:
+2021-10-18 16:36:05.065 +08:00 [INF] User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36
+2021-10-18 16:36:05.091 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/favicon.ico - - - 200 - text/plain;+charset=utf-8 29.8055ms
+2021-10-18 16:37:02.414 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-18 16:37:02.439 +08:00 [INF] Hosting environment: Development
+2021-10-18 16:37:02.441 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-10-18 16:37:02.444 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-10-18 16:37:16.978 +08:00 [ERR] Connection ID "18302628908719144966", Request ID "80000007-0005-fe00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YRBApp.Middleware.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in D:\Source\yaodaibao2022\YRBApp\Middleware\RequestResponseLoggingMiddleware.cs:line 71
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-10-18 16:37:17.158 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 500 - - 14721.6221ms
+2021-10-18 16:37:41.219 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/Compass/GetTotal application/json 106
+2021-10-18 16:37:41.243 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.CompassController.GetTotal (YRBApp)'
+2021-10-18 16:37:41.271 +08:00 [INF] Route matched with {action = "GetTotal", controller = "Compass"}. Executing controller action with signature System.Threading.Tasks.Task`1[ydb.Domain.ResponseModel] GetTotal() on controller YRBApp.Controllers.CompassController (YRBApp).
+2021-10-18 16:37:41.329 +08:00 [INF] Executing action method YRBApp.Controllers.CompassController.GetTotal (YRBApp) - Validation state: "Valid"
+2021-10-18 16:37:44.197 +08:00 [INF] Executed action method YRBApp.Controllers.CompassController.GetTotal (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2862.5588ms.
+2021-10-18 16:37:44.202 +08:00 [INF] Executing ObjectResult, writing value of type 'ydb.Domain.ResponseModel'.
+2021-10-18 16:37:44.236 +08:00 [INF] Executed action YRBApp.Controllers.CompassController.GetTotal (YRBApp) in 2960.524ms
+2021-10-18 16:37:44.238 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.CompassController.GetTotal (YRBApp)'
+2021-10-18 16:37:44.250 +08:00 [INF] 服务消息:{"Result":"true","Description":"","DataRows":{"DataRow":[{ "count": 4506,"id":1,"name":"rhAFGF5*24","month":"202105","unit":"盒"  },{ "count":0,"id":1,"name":"奖金"  }]} }
+2021-10-18 16:37:44.256 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/Compass/GetTotal application/json 106 - 200 182 text/json 3037.3595ms

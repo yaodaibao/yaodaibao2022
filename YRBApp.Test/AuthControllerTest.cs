@@ -22,7 +22,7 @@ namespace YRBApp.Test
         [Fact]
         public void GetAuthDataTest()
         {
-            var result = _authController.GetAuthData();
+            // var result = _authController.GetAuthData();
             Assert.Equal(1, 1);
         }
 

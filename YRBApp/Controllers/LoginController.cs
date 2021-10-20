@@ -25,12 +25,13 @@ namespace YRBApp.Controllers
         public ResponseModel Login([FromBody] Login login)
         {
             ResponseModel responseModel = _loginService.Login(login);
-            if (responseModel.Result)
-            {
-                //为了更安全使用jwt，为了兼容药瑞宝后台同时返回authcode
-                string token = _jwtService.GenerateToken(login.UserName, login.Password);
-                responseModel.Description = responseModel.Description + "|" + token;
-            }
+            //刪除token功能
+            //if (responseModel.Result)
+            //{
+            //    //为了更安全使用jwt，为了兼容药瑞宝后台同时返回authcode
+            //    string token = _jwtService.GenerateToken(login.UserName, login.Password);
+            //    responseModel.Description = responseModel.Description + "|" + token;
+            //}
             return responseModel;
         }
         [HttpPost]
