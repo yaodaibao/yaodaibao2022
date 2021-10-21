@@ -5,12 +5,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using ydb.Domain;
+using ydb.Domain.Extention;
 using ydb.Domain.Interface;
 using ydb.Domain.Models;
+using YRBApp.Filters;
+
 namespace YRBApp.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [MultiFormatFilter()]
     public class LoginController : ControllerBase
     {
         private readonly ILoginService _loginService;

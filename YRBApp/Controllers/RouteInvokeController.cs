@@ -11,6 +11,7 @@ using System.Text.Unicode;
 using System.Threading.Tasks;
 using ydb.BLL;
 using ydb.Domain;
+using ydb.Domain.Extention;
 using ydb.Domain.Interface;
 using ydb.Domain.Models;
 using YRB.Infrastructure.CustomValid;
@@ -21,6 +22,7 @@ using YRBApp.Middleware;
 namespace YRBApp.Controllers
 {
     [Route("api/[controller]")]
+    [MultiFormatFilter()]
     //[ApiController]
     public class RouteInvokeController : ControllerBase
     {

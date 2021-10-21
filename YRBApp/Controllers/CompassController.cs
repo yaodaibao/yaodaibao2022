@@ -10,10 +10,12 @@ using System.Text;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Microsoft.Extensions.Logging;
+using ydb.Domain.Extention;
 
 namespace YRBApp.Controllers
 {
     [Route("api/[controller]")]
+    [MultiFormatFilter()]
     //[ApiController]
 
     public class CompassController : ControllerBase

@@ -45,9 +45,10 @@ namespace YRBApp.Middleware
 
             //_producer = producer;
         }
+        /*
         public async Task Invoke(HttpContext context)
         {
-
+            var existingBody = context.Response.Body;
             using (var ms = new MemoryStream())
             {
                 bool auth = await FormatRequest(context.Request);
@@ -59,24 +60,86 @@ namespace YRBApp.Middleware
                 else
                 {
 
-                    var orgBodyStream = context.Response.Body;
+                    //var orgBodyStream = context.Response.Body;
+                    //context.Response.Body = ms;
+                    //await _next(context);
+                    //context.Response.Body.Seek(0, SeekOrigin.Begin);
+                    ////得到Action的返回值
+                    //var actionJsonResult = await new StreamReader(context.Response.Body, Encoding.UTF8).ReadToEndAsync();
+                    //context.Response.Body.Seek(0, SeekOrigin.Begin);
+                    //ResponseModel responseModel = JsonConvert.DeserializeObject<ResponseModel>(actionJsonResult);
+                    ////处理成统一的返回格式
+                    ////string responJson = $"{{\"Result\":\"{responseModel.Result.ToString().ToLower()}\",\"Description\":\"{responseModel.Description}\",\"DataRows\":{{\"DataRow\":[{responseModel.DataRow }]}}}}";
+                    //string responJson = $"{{\"Result\":\"{responseModel.Result.ToString().ToLower()}\",\"Description\":\"{responseModel.Description}\",\"DataRows12323413241324\"}}";
+                    ////必须把原始流给responsebody
+                    //context.Response.Body = orgBodyStream;
+                    //// context.Response.ContentType = "text/json";
+                    //_logger.LogInformation($"服务消息:{responJson}");
+                    ////await context.Response.WriteAsync("resdafdf", Encoding.UTF8);
+                    ////显示修改后的数据 
+                    //await context.Response.WriteAsync(responJson.ToString(), Encoding.UTF8);
+                    // We set the response body to our stream so we can read after the chain of middlewares have been called.
                     context.Response.Body = ms;
                     await _next(context);
-                    context.Response.Body.Seek(0, SeekOrigin.Begin);
-                    //得到Action的返回值
-                    var actionJsonResult = await new StreamReader(context.Response.Body, Encoding.UTF8).ReadToEndAsync();
-                    context.Response.Body.Seek(0, SeekOrigin.Begin);
-                    ResponseModel responseModel = JsonConvert.DeserializeObject<ResponseModel>(actionJsonResult);
-                    //处理成统一的返回格式
-                    string responJson = $"{{\"Result\":\"{responseModel.Result.ToString().ToLower()}\",\"Description\":\"{responseModel.Description}\",\"DataRows\":{{\"DataRow\":[{responseModel.DataRow }]}} }}";
-                    //必须把原始流给responsebody
-                    context.Response.Body = orgBodyStream;
-                    context.Response.ContentType = "text/json";
-                    _logger.LogInformation($"服务消息:{responJson}");
-                    //显示修改后的数据 
-                    await context.Response.WriteAsync(responJson, Encoding.UTF8);
+                    // Reset the body so nothing from the latter middlewares goes to the output.
+                    context.Response.Body = new MemoryStream();
+                    ms.Seek(0, SeekOrigin.Begin);
+                    context.Response.Body = existingBody;
+                    var newContent = await new StreamReader(ms).ReadToEndAsync();
+                    // newContent += "asdfffffffffffffffffffffffffffffffff";
+                    await context.Response.WriteAsync(newContent);
+
+                    //var orgBodyStream = context.Response.Body;
+                    //context.Response.Body = ms;
+                    //await _next(context);
+                    //context.Response.Body.Seek(0, SeekOrigin.Begin);
+                    ////得到Action的返回值
+                    //var actionJsonResult = await new StreamReader(context.Response.Body, Encoding.UTF8).ReadToEndAsync();
+                    //context.Response.Body.Seek(0, SeekOrigin.Begin);
+                    //ResponseModel responseModel = JsonConvert.DeserializeObject<ResponseModel>(actionJsonResult);
+                    ////处理成统一的返回格式
+                    ////string responJson = $"{{\"Result\":\"{responseModel.Result.ToString().ToLower()}\",\"Description\":\"{responseModel.Description}\",\"DataRows\":{{\"DataRow\":[{responseModel.DataRow }]}}}}";
+                    //string responJson = $"{{\"Result\":\"{responseModel.Result.ToString().ToLower()}\",\"Description\":\"{responseModel.Description}\",\"DataRows12323413241324\"}}";
+                    ////必须把原始流给responsebody
+                    //context.Response.Body = orgBodyStream;
+                    //// context.Response.ContentType = "text/json";
+                    //_logger.LogInformation($"服务消息:{responJson}");
+                    ////await context.Response.WriteAsync("resdafdf", Encoding.UTF8);
+                    ////显示修改后的数据 
+                    //await context.Response.WriteAsync(responJson.ToString(), Encoding.UTF8);
                 }
             }
+        }
+        */
+
+        public async Task Invoke(HttpContext context)
+        {
+            await _next.Invoke(context);
+            //using (var buffer = new MemoryStream())
+            //{
+            //    var stream = context.Response.Body;
+            //    context.Response.Body = buffer;
+            //    await _next.Invoke(context);
+            //    buffer.Seek(0, SeekOrigin.Begin);
+            //    var reader = new StreamReader(buffer);
+            //    using (var bufferReader = new StreamReader(buffer))
+            //    {
+            //        string body = await bufferReader.ReadToEndAsync();
+
+
+
+            //        // Commented below lines.
+            //        // byte[] bytess = Encoding.ASCII.GetBytes(jsonString);
+            //        // var data = new MemoryStream(bytess);
+            //        // context.Response.Body = data;
+
+            //        // Added new code
+            //        await context.Response.WriteAsync(" byte[] bytess = Encoding.ASCII.GetBytes(jsonString); byte[] bytess = Encoding.ASCII.GetBytes(jsonString); byte[] bytess = Encoding.ASCII.GetBytes(jsonString); byte[] bytess = Encoding.ASCII.GetBytes(jsonString);");
+            //        context.Response.Body.Seek(0, SeekOrigin.Begin);
+            //        await context.Response.Body.CopyToAsync(stream);
+            //        context.Response.Body = stream;
+            //    }
+            //}
         }
         private async Task<bool> FormatRequest(HttpRequest request)
         {

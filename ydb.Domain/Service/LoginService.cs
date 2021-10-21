@@ -116,7 +116,7 @@ namespace ydb.Domain.Service
                 }
             }
 
-            return new ResponseModel() { DataRow = status };
+            return new ResponseModel() { DataRow = $"{status }" };
         }
 
         public ResponseModel Login([FromBody] Login login)

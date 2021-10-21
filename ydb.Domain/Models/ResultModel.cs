@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 
 namespace ydb.Domain.Models
 {
- public   class ResultModel
+    public class ResultModel
     {
         public string Result { get; set; }
         public string Description { get; set; }
         public string DataRow { get; set; }
+        public string DataRows { get; set; }
     }
+
+
 }

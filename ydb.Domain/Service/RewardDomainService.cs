@@ -28,7 +28,7 @@ namespace ydb.Domain
                var nameList = Global.ConfigurationRoot.GetSection("RewardNames").AsEnumerable(true);
 
                string queryCondition = "";
- 
+
                string filterMonth = "";
                ResponseModel responseModel = new();
                List<string> bonusList = new List<string>();
@@ -55,16 +55,16 @@ namespace ydb.Domain
                }
                //查询奖金
                DataTable dt = sqlServer.ExecuteSql(@$"select t1.FMonth, {queryCondition} from yaodaibao.dbo.Reward t1 left join yaodaibao.dbo.RewardNames t2 on t1.FID = t2.FID left join yaodaibao.dbo.t_Items t3 on t1.FCode = t3.FNumber WHERE t3.FID ='{id}' {filterMonth} ");
-               
+
                //拼接返回格式
                foreach (DataRow row in dt.Rows)
                {
                    string monthValue = "";
-                   int monthCount=0;
+                   int monthCount = 0;
                    string rowValues = "";
                    foreach (DataColumn column in dt.Columns)
                    {
-                       if (column.ColumnName.ToString()=="FMonth")
+                       if (column.ColumnName.ToString() == "FMonth")
                        {
                            monthValue = $"\"month\":\"{row["FMonth"]}\"";
                        }
@@ -81,14 +81,14 @@ namespace ydb.Domain
                    }
                    for (int i = 0; i < bonusList.Count; i++)
                    {
-                       bonusList[i]=bonusList[i].Replace("MONTHCOUNT", $"{monthValue},\"count\":{monthCount}");
+                       bonusList[i] = bonusList[i].Replace("MONTHCOUNT", $"{monthValue},\"count\":{monthCount}");
                    }
                    //拼接返回的list数据
-                   listMonth.Add($"{{ \"list\" :[{string.Join(',',bonusList.ToArray())}]}}");
+                   listMonth.Add($"{{ \"list\" :[{string.Join(',', bonusList.ToArray())}]}}");
                    bonusList.Clear();
                }
 
-               if (listMonth.Count>0) 
+               if (listMonth.Count > 0)
                {
                    responseModel.DataRow = $"{string.Join(',', listMonth.ToArray())}";
                }
@@ -104,10 +104,11 @@ namespace ydb.Domain
         /// <param name="startMonth">开始月份</param>
         /// <param name="endMonth">结束月份</param>
         /// <returns></returns>
-        public async Task<ResponseModel> GetSaleProducts(string id,string startMonth="",string endMonth="",string product="")
+        public async Task<ResponseModel> GetSaleProducts(string id, string startMonth = "", string endMonth = "", string product = "")
         {
-            Task<ResponseModel> result = Task<ResponseModel>.Factory.StartNew(()=> {
-                return GetSaleResult(id,"product", startMonth, endMonth,product);
+            Task<ResponseModel> result = Task<ResponseModel>.Factory.StartNew(() =>
+            {
+                return GetSaleResult(id, "product", startMonth, endMonth, product);
             });
             return result.Result;
         }
@@ -120,10 +121,11 @@ namespace ydb.Domain
         /// <param name="startMonth">开始月份</param>
         /// <param name="endMonth">结束月份</param>
         /// <returns></returns>
-        public async Task<ResponseModel> GetSalesHospitals(string id,string productID,string startMonth,string endMonth)
+        public async Task<ResponseModel> GetSalesHospitals(string id, string productID, string startMonth, string endMonth)
         {
-            Task<ResponseModel> result = Task<ResponseModel>.Factory.StartNew(() => {
-              return   GetSaleResult(id,"hospital",startMonth,endMonth,productID);
+            Task<ResponseModel> result = Task<ResponseModel>.Factory.StartNew(() =>
+            {
+                return GetSaleResult(id, "hospital", startMonth, endMonth, productID);
             });
             return result.Result;
         }
@@ -136,7 +138,7 @@ namespace ydb.Domain
         /// <param name="endMonth">结束月份</param>
         /// <param name="productID">产品ID</param>
         /// <returns></returns>
-        public ResponseModel GetSaleResult(string id, string queryType, string startMonth="", string endMonth="",string productID= "")
+        public ResponseModel GetSaleResult(string id, string queryType, string startMonth = "", string endMonth = "", string productID = "")
         {
             ResponseModel responseModel = new();
             if (string.IsNullOrEmpty(startMonth))
@@ -152,14 +154,14 @@ namespace ydb.Domain
             endMonth = endMonth.Replace("-", "");
             SQLServerHelper serverHelper = new();
             //查询产品销量
-            if (queryType=="product")
+            if (queryType == "product")
             {
                 string productFilter = "";
                 if (!string.IsNullOrEmpty(productID))
                 {
                     productFilter = $" and Ffield0014=  '{productID}'";
                 }
-                
+
                 DataTable dt = serverHelper.ExecuteSql(@$"SELECT  SUM(CONVERT(DECIMAL,Ffield0020)) amount,  Ffield0003 productID,Ffield0005,Ffield0011 FMonth, Ffield0014  productName FROM   yaodaibao.dbo.formmain_8728  WHERE Ffield0008 ='{id}' and Ffield0018 ='人员' and  CONVERT(INT,Ffield0011) BETWEEN CONVERT(INT,'{startMonth}') AND CONVERT(INT,'{endMonth}') {productFilter} GROUP BY Ffield0006,Ffield0003,Ffield0011,Ffield0014,Ffield0005 ");
                 List<string> productList = new List<string>();
                 List<string> listMonth = new List<string>();
@@ -171,29 +173,29 @@ namespace ydb.Domain
                     productList.Add(rowValues);
                     //如果是同一个月份的产品放到同一个list里面
                     if (dt.Rows.IndexOf(row) == dt.Rows.Count - 1)
-                        {
+                    {
                         listMonth.Add($"{{ \"list\" :[{string.Join(',', productList.ToArray())}]}}");
                         productList.Clear();
+                    }
+                    else
+                    {
+                        if (row["FMonth"] == dt.Rows[dt.Rows.IndexOf(row) + 1]["FMonth"])
+                        {
+
+                            continue;
                         }
                         else
                         {
-                            if (row["FMonth"] == dt.Rows[dt.Rows.IndexOf(row) + 1]["FMonth"])
-                            {
-
-                                continue;
-                            }
-                            else
-                            {
-                                    listMonth.Add($"{{ \"list\" :[{string.Join(',', productList.ToArray())}]}}");
-                                    productList.Clear();
-                            }
+                            listMonth.Add($"{{ \"list\" :[{string.Join(',', productList.ToArray())}]}}");
+                            productList.Clear();
                         }
- 
+                    }
+
                 }
-                    responseModel.DataRow = $"{string.Join(',', listMonth.ToArray())}";
+                responseModel.DataRow = $"{string.Join(',', listMonth.ToArray())}";
             }
             //查询医院销量
-            else if (queryType=="hospital")
+            else if (queryType == "hospital")
             {
                 List<string> hospitalList = new List<string>();
                 DataTable dt = serverHelper.ExecuteSql(@$"SELECT  SUM(CONVERT(DECIMAL,Ffield0020)) amount,ti.FName,  Ffield0003,Ffield0014   productName FROM    yaodaibao.dbo.formmain_8728 t1 LEFT JOIN yaodaibao.dbo.t_Items ti ON t1.Ffield0002 = ti.FID   WHERE Ffield0008 ='{id}' and Ffield0003='{productID}' and Ffield0018 ='医院'  and  CONVERT(INT,Ffield0011) BETWEEN CONVERT(INT,'{startMonth}') AND CONVERT(INT,'{endMonth}')   GROUP BY Ffield0006,Ffield0003,Ffield0011,Ffield0014, Ffield0018,ti.FName ");
@@ -203,7 +205,7 @@ namespace ydb.Domain
                     string rowValues = $"{{\"sales\":\"{row["amount"]}\",\"hospital\":\"{row["FName"]}\"}}";
                     hospitalList.Add(rowValues);
                 }
-            responseModel.DataRow = $"{string.Join(',', hospitalList.ToArray())}";
+                responseModel.DataRow = $"{string.Join(',', hospitalList.ToArray())}";
             }
             return responseModel;
         }

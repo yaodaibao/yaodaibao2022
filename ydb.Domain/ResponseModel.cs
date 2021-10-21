@@ -8,5 +8,6 @@
         public bool Result { get; set; } = true;
         public string Description { get; set; } = "";
         public string DataRow { get; set; } = "";
+        public string DataRows { get; set; } = "";
     }
 }

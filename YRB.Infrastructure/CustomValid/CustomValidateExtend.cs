@@ -9,8 +9,9 @@ namespace YRB.Infrastructure.CustomValid
     /// <summary>
     /// 自定义必填属性，
     /// </summary>
-  public   static  class CustomValidateExtend
+    public static class CustomValidateExtend
     {
+        /*
         /// <summary>
         /// 校验含有必填属性的字段，
         /// </summary>
@@ -54,5 +55,6 @@ namespace YRB.Infrastructure.CustomValid
             }
             return true;
         }
+        */
     }
 }

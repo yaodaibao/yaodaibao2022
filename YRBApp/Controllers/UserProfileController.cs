@@ -1,11 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ydb.Domain;
+using ydb.Domain.Extention;
 using ydb.Domain.Interface;
 using ydb.Domain.Models;
 
 namespace YRBApp.Controllers
 {
     [Route("api/[controller]")]
+    [MultiFormatFilter()]
     // [ApiController]
     public class UserProfileController : ControllerBase
     {

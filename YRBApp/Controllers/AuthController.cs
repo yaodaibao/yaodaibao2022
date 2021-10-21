@@ -1,6 +1,7 @@
 ﻿using iTR.LibCore;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Filters;
 using Newtonsoft.Json.Linq;
 using StackExchange.Redis;
 using System;
@@ -13,6 +14,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ydb.Domain;
+using ydb.Domain.Extention;
 using ydb.Domain.Interface;
 using ydb.Domain.Models;
 
@@ -20,7 +22,9 @@ using ydb.Domain.Models;
 
 namespace YRBApp.Controllers
 {
+
     [Route("api/[controller]")]
+    [MultiFormatFilter()]
     //[ApiController]
     public class AuthController : ControllerBase
     {
