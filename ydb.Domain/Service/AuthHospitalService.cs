@@ -11,6 +11,7 @@ using System.IO;
 using ydb.BLL;
 using ydb.Domain.Interface;
 using ydb.Domain.Models;
+using System.Xml;
 
 namespace ydb.Domain.Service
 {
@@ -564,5 +565,79 @@ namespace ydb.Domain.Service
         }
 
 
+        /// <summary>
+        ///读取药瑞宝数据库中医院授权数据，转OA审批
+        /// </summary>
+        /// <returns>主子表一行数据返回，子表的数据以"|"分隔</returns>
+        /// 王天池，2021-10-12
+        public string GetYRBAuthData(string xmlString)
+        {
+            XmlDocument doc = new XmlDocument();
+            string sql = "", status = "0";
+            string result = "<GetYRBAuthData><DataRows>" +
+                            "<Result>False</Result>" +
+                            "<Description></Description>" +
+                             "</GetYRBAuthData>";
+
+
+            doc.LoadXml(xmlString);
+            XmlNode vNode = doc.SelectSingleNode("GetYRBAuthData/Status");
+            if (vNode != null && vNode.InnerText.Trim().Length > 0)
+            {
+                status = vNode.InnerText.Trim();
+            }
+
+            sql = @"Select field0001,field0002,formid from yaodaibao.dbo.formmain_8916 Where Isnull(FStatus,0) =" + status;
+
+            SQLServerHelper runner = new SQLServerHelper();
+            DataTable dt8916 = runner.ExecuteSql(sql);
+            if (dt8916.Rows.Count > 0)
+            {
+                doc.LoadXml(result);
+                doc.SelectSingleNode("GetYRBAuthData/Result").InnerText = "True";
+                XmlNode pNode = doc.SelectSingleNode("GetYRBAuthData/DataRows");
+
+                foreach (DataRow row8916 in dt8916.Rows)
+                {
+                    XmlNode cNode = doc.CreateElement("DataRow");
+                    pNode.AppendChild(cNode);
+                    vNode = null;
+                    vNode = doc.CreateElement("EmployeeID");
+                    vNode.InnerText = row8916["field0001"].ToString();
+
+
+                    vNode = doc.CreateElement("Date");
+                    vNode.InnerText = DateTime.Parse(row8916["field0002"].ToString()).ToString("yyyy-mm-dd");
+
+
+                    sql = "Select field0009,field0010,field0007,field0008 from yaodaibao.dbo.formson_8917 Where formid= '" + row8916["formid"].ToString() + "'";
+                    DataTable dt8917 = runner.ExecuteSql(sql);
+                    string hospitalIDList = "", OwnerIDList = "", productIDList = "", AutherIDList = "";
+                    foreach (DataRow row8917 in dt8917.Rows)
+                    {
+                        hospitalIDList = hospitalIDList + "|" + row8917["field0009"].ToString();
+                        OwnerIDList = OwnerIDList + "|" + row8917["field0010"].ToString();
+                        productIDList = productIDList + "|" + row8917["field0007"].ToString();
+                        hospitalIDList = AutherIDList + "|" + row8917["field0008"].ToString();
+                    }
+
+                    vNode = doc.CreateElement("HospitalList");
+                    vNode.InnerText = hospitalIDList;
+
+                    vNode = doc.CreateElement("OwnerList");
+                    vNode.InnerText = OwnerIDList;
+
+                    vNode = doc.CreateElement("ProductList");
+                    vNode.InnerText = productIDList;
+
+                    vNode = doc.CreateElement("AntherList");
+                    vNode.InnerText = AutherIDList;
+
+                    cNode.AppendChild(vNode);
+                }
+                result = doc.OuterXml;
+            }
+            return result;
+        }
     }
 }

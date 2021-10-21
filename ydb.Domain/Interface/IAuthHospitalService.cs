@@ -18,5 +18,7 @@ namespace ydb.Domain.Interface
 
         public ResponseModel SaveAuthMini(JObject jsonobj);
         public ResponseModel GetAuthDataMini(string employeeID, string queryID = "", string hospital = "", string auther = "");
+        //王天池,2021-10-21
+        public string GetYRBAuthData(string xmlString);
     }
 }
