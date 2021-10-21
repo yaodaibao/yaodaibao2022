@@ -11,6 +11,9 @@ using YRB.Infrastructure.CustomValid;
 
 namespace ydb.Domain.Extention
 {
+    /// <summary>
+    /// 把控制器的返回值做统一格式过滤器，可以自定义各种过滤器，根据前端需要
+    /// </summary>
     public class MultiFormatFilter : ActionFilterAttribute
     {
         public override void OnActionExecuted(ActionExecutedContext filterContext)
