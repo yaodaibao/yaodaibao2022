@@ -1,0 +1,27 @@
+2021-10-22 10:47:42.585 +08:00 [INF] Now listening on: http://localhost:5000
+2021-10-22 10:47:42.605 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-22 10:47:42.607 +08:00 [INF] Hosting environment: Development
+2021-10-22 10:47:42.608 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-10-22 10:47:44.138 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger - -
+2021-10-22 10:47:44.185 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger - - - 404 0 - 51.0555ms
+2021-10-22 11:15:42.989 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/OAHelperInvoke/GetYRBAuthData application/json 111
+2021-10-22 11:15:43.003 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.OAHelperInvokeController.GetYRBAuthData (YRBApp)'
+2021-10-22 11:15:43.040 +08:00 [INF] Route matched with {action = "GetYRBAuthData", controller = "OAHelperInvoke"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetYRBAuthData() on controller YRBApp.Controllers.OAHelperInvokeController (YRBApp).
+2021-10-22 11:16:30.264 +08:00 [INF] Now listening on: http://localhost:5000
+2021-10-22 11:16:30.285 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-22 11:16:30.287 +08:00 [INF] Hosting environment: Development
+2021-10-22 11:16:30.289 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-10-22 11:16:31.265 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger - -
+2021-10-22 11:16:31.322 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger - - - 404 0 - 61.7016ms
+2021-10-22 11:16:35.938 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/OAHelperInvoke/GetYRBAuthData application/json 111
+2021-10-22 11:16:35.946 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.OAHelperInvokeController.GetYRBAuthData (YRBApp)'
+2021-10-22 11:16:35.980 +08:00 [INF] Route matched with {action = "GetYRBAuthData", controller = "OAHelperInvoke"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetYRBAuthData() on controller YRBApp.Controllers.OAHelperInvokeController (YRBApp).
+2021-10-22 11:18:47.235 +08:00 [INF] Now listening on: http://localhost:5000
+2021-10-22 11:18:47.255 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-22 11:18:47.257 +08:00 [INF] Hosting environment: Development
+2021-10-22 11:18:47.258 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-10-22 11:18:48.221 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger - -
+2021-10-22 11:18:48.273 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger - - - 404 0 - 56.3127ms
+2021-10-22 11:18:50.339 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/OAHelperInvoke/GetYRBAuthData application/json 111
+2021-10-22 11:18:50.347 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.OAHelperInvokeController.GetYRBAuthData (YRBApp)'
+2021-10-22 11:18:50.375 +08:00 [INF] Route matched with {action = "GetYRBAuthData", controller = "OAHelperInvoke"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetYRBAuthData() on controller YRBApp.Controllers.OAHelperInvokeController (YRBApp).

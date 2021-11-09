@@ -1,0 +1,89 @@
+2021-11-04 16:40:46.175 +08:00 [INF] Now listening on: http://localhost:5000
+2021-11-04 16:40:46.194 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-04 16:40:46.196 +08:00 [INF] Hosting environment: Development
+2021-11-04 16:40:46.197 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-11-04 16:40:47.162 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger - -
+2021-11-04 16:40:47.222 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger - - - 404 0 - 61.7914ms
+2021-11-04 16:42:05.834 +08:00 [INF] Now listening on: http://localhost:5000
+2021-11-04 16:42:05.852 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-04 16:42:05.854 +08:00 [INF] Hosting environment: Development
+2021-11-04 16:42:05.855 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-11-04 16:42:06.733 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger - -
+2021-11-04 16:42:06.775 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger - - - 404 0 - 43.6433ms
+2021-11-04 16:42:38.196 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/RecordHospital/SaveReordHospital - -
+2021-11-04 16:42:38.210 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RecordHospitalController.GetReordHospital (YRBApp)'
+2021-11-04 16:42:38.239 +08:00 [INF] Route matched with {action = "GetReordHospital", controller = "RecordHospital"}. Executing controller action with signature System.String GetReordHospital(ydb.Domain.Models.FormMain_8926) on controller YRBApp.Controllers.RecordHospitalController (YRBApp).
+2021-11-04 16:42:38.260 +08:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 415
+2021-11-04 16:42:38.267 +08:00 [INF] Executed action YRBApp.Controllers.RecordHospitalController.GetReordHospital (YRBApp) in 22.2471ms
+2021-11-04 16:42:38.269 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RecordHospitalController.GetReordHospital (YRBApp)'
+2021-11-04 16:42:38.276 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/RecordHospital/SaveReordHospital - - - 415 0 - 79.1444ms
+2021-11-04 16:42:43.731 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/RecordHospital/SaveReordHospital - -
+2021-11-04 16:42:43.733 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/RecordHospital/SaveReordHospital - - - 404 0 - 2.8998ms
+2021-11-04 16:45:05.308 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/RecordHospital/SaveReordHospital application/json 2556
+2021-11-04 16:45:05.313 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RecordHospitalController.SaveReordHospital (YRBApp)'
+2021-11-04 16:45:05.315 +08:00 [INF] Route matched with {action = "SaveReordHospital", controller = "RecordHospital"}. Executing controller action with signature ydb.Domain.ResponseModel SaveReordHospital(ydb.Domain.Models.FormMain_8926) on controller YRBApp.Controllers.RecordHospitalController (YRBApp).
+2021-11-04 16:45:05.491 +08:00 [INF] Executing action method YRBApp.Controllers.RecordHospitalController.SaveReordHospital (YRBApp) - Validation state: "Valid"
+2021-11-04 16:45:05.504 +08:00 [INF] Executed action method YRBApp.Controllers.RecordHospitalController.SaveReordHospital (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 6.9354ms.
+2021-11-04 16:45:05.664 +08:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2021-11-04 16:45:05.668 +08:00 [INF] Executed action YRBApp.Controllers.RecordHospitalController.SaveReordHospital (YRBApp) in 350.3377ms
+2021-11-04 16:45:05.670 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RecordHospitalController.SaveReordHospital (YRBApp)'
+2021-11-04 16:45:05.671 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/RecordHospital/SaveReordHospital application/json 2556 - 200 61 application/json 363.6563ms
+2021-11-04 16:45:54.097 +08:00 [INF] Now listening on: http://localhost:5000
+2021-11-04 16:45:54.114 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-04 16:45:54.116 +08:00 [INF] Hosting environment: Development
+2021-11-04 16:45:54.118 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-11-04 16:45:54.871 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger - -
+2021-11-04 16:45:54.917 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger - - - 404 0 - 49.1366ms
+2021-11-04 16:46:14.588 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/RecordHospital/Hospital - -
+2021-11-04 16:46:14.597 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RecordHospitalController.GetRecordHospital (YRBApp)'
+2021-11-04 16:46:14.625 +08:00 [INF] Route matched with {action = "GetRecordHospital", controller = "RecordHospital"}. Executing controller action with signature System.String GetRecordHospital(ydb.Domain.Models.FormMain_8926) on controller YRBApp.Controllers.RecordHospitalController (YRBApp).
+2021-11-04 16:46:14.638 +08:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 415
+2021-11-04 16:46:14.645 +08:00 [INF] Executed action YRBApp.Controllers.RecordHospitalController.GetRecordHospital (YRBApp) in 13.8895ms
+2021-11-04 16:46:14.648 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RecordHospitalController.GetRecordHospital (YRBApp)'
+2021-11-04 16:46:14.650 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/RecordHospital/Hospital - - - 415 0 - 61.6205ms
+2021-11-04 16:46:28.642 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/RecordHospital/Hospital application/json 2556
+2021-11-04 16:46:28.646 +08:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2021-11-04 16:46:28.649 +08:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2021-11-04 16:46:28.651 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/RecordHospital/Hospital application/json 2556 - 405 0 - 9.0635ms
+2021-11-04 16:47:01.846 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/RecordHospital/Hospital - 0
+2021-11-04 16:47:01.848 +08:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2021-11-04 16:47:01.850 +08:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2021-11-04 16:47:01.852 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/RecordHospital/Hospital - 0 - 405 0 - 5.0000ms
+2021-11-04 16:47:11.326 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/RecordHospital/Hospital - -
+2021-11-04 16:47:11.328 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RecordHospitalController.GetRecordHospital (YRBApp)'
+2021-11-04 16:47:11.331 +08:00 [INF] Route matched with {action = "GetRecordHospital", controller = "RecordHospital"}. Executing controller action with signature System.String GetRecordHospital(ydb.Domain.Models.FormMain_8926) on controller YRBApp.Controllers.RecordHospitalController (YRBApp).
+2021-11-04 16:47:11.334 +08:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 415
+2021-11-04 16:47:11.337 +08:00 [INF] Executed action YRBApp.Controllers.RecordHospitalController.GetRecordHospital (YRBApp) in 3.9092ms
+2021-11-04 16:47:11.340 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RecordHospitalController.GetRecordHospital (YRBApp)'
+2021-11-04 16:47:11.344 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/RecordHospital/Hospital - - - 415 0 - 17.4590ms
+2021-11-04 16:57:32.876 +08:00 [INF] Now listening on: http://localhost:5000
+2021-11-04 16:57:32.895 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-04 16:57:32.896 +08:00 [INF] Hosting environment: Development
+2021-11-04 16:57:32.896 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-11-04 16:57:33.142 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger - -
+2021-11-04 16:57:33.171 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger - - - 404 0 - 30.9372ms
+2021-11-04 16:57:57.669 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/recordhospital/hospital - -
+2021-11-04 16:57:57.672 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RecordHospitalController.GetRecordHospital (YRBApp)'
+2021-11-04 16:57:57.695 +08:00 [INF] Route matched with {action = "GetRecordHospital", controller = "RecordHospital"}. Executing controller action with signature System.String GetRecordHospital(ydb.Domain.Models.FormMain_8926) on controller YRBApp.Controllers.RecordHospitalController (YRBApp).
+2021-11-04 16:57:57.725 +08:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 415
+2021-11-04 16:57:57.729 +08:00 [INF] Executed action YRBApp.Controllers.RecordHospitalController.GetRecordHospital (YRBApp) in 30.9262ms
+2021-11-04 16:57:57.729 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RecordHospitalController.GetRecordHospital (YRBApp)'
+2021-11-04 16:57:57.730 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/recordhospital/hospital - - - 415 0 - 60.6239ms
+2021-11-04 16:58:49.484 +08:00 [INF] Now listening on: http://localhost:5000
+2021-11-04 16:58:49.499 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-04 16:58:49.499 +08:00 [INF] Hosting environment: Development
+2021-11-04 16:58:49.499 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-11-04 16:58:56.542 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/recordhospital/hospital - -
+2021-11-04 16:58:56.568 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RecordHospitalController.GetRecordHospital (YRBApp)'
+2021-11-04 16:58:56.586 +08:00 [INF] Route matched with {action = "GetRecordHospital", controller = "RecordHospital"}. Executing controller action with signature System.String GetRecordHospital() on controller YRBApp.Controllers.RecordHospitalController (YRBApp).
+2021-11-04 16:58:56.595 +08:00 [INF] Executed action YRBApp.Controllers.RecordHospitalController.GetRecordHospital (YRBApp) in 6.5306ms
+2021-11-04 16:58:56.597 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RecordHospitalController.GetRecordHospital (YRBApp)'
+2021-11-04 16:58:56.597 +08:00 [ERR] Unable to cast object of type 'System.String' to type 'ydb.Domain.ResponseModel'.
+2021-11-04 16:58:56.603 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/recordhospital/hospital - - - 200 - text/json 61.9670ms
+2021-11-04 16:58:56.632 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - -
+2021-11-04 16:58:56.632 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - - - 404 0 - 0.3423ms
+2021-11-04 16:59:38.328 +08:00 [INF] Now listening on: http://localhost:5000
+2021-11-04 16:59:38.345 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-04 16:59:38.345 +08:00 [INF] Hosting environment: Development
+2021-11-04 16:59:38.345 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-11-04 17:00:48.483 +08:00 [INF] Application is shutting down...

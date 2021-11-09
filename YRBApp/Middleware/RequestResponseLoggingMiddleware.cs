@@ -17,6 +17,7 @@ using Newtonsoft.Json;
 using ydb.Domain;
 using System.Net.Http;
 using Newtonsoft.Json.Linq;
+using System.Xml;
 
 namespace YRBApp.Middleware
 {

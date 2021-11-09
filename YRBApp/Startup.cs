@@ -39,10 +39,10 @@ namespace YRBApp
             Global.ConfigurationRoot = (IConfigurationRoot)Configuration;
             services.AddControllers();
             //services.AddSingleton<IRedisClient>(_ => new RedisClient(Configuration));
-            //services.AddSwaggerGen(c =>
-            //{
-            //    c.SwaggerDoc("v1", new OpenApiInfo { Title = "YRBApp", Version = "v1" });
-            //});
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "YRBApp", Version = "v1" });
+            });
             services.AddScoped<IRewardDomainService, RewardDomainService>();
             services.AddScoped<IAuthHospitalService, AuthHospitalService>();
             services.AddScoped<IQueryItem, QueryItem>();
@@ -50,6 +50,7 @@ namespace YRBApp
             services.AddScoped<ILoginService, LoginService>();
             services.AddScoped<IJwtService, JwtService>();
             services.AddScoped<IUserProfileService, UserProfileService>();
+            services.AddScoped<IRecordHospitalService, RecordHospitalService>();
             services.AddSingleton(HtmlEncoder.Create(UnicodeRanges.All));
             services.AddControllers()
         //全局配置Json序列化处理

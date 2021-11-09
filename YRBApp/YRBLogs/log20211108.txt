@@ -1,0 +1,88 @@
+2021-11-08 00:25:34.447 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-08 00:25:34.476 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-11-08 00:25:34.478 +08:00 [INF] Hosting environment: Development
+2021-11-08 00:25:34.480 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-11-08 00:25:34.537 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 404 - - 62.7259ms
+2021-11-08 00:25:53.347 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/RecordHospital/GetDevelopingHospitalDetail application/json 2556
+2021-11-08 00:25:53.362 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp)'
+2021-11-08 00:25:53.391 +08:00 [INF] Route matched with {action = "CheckRecord", controller = "RecordHospital"}. Executing controller action with signature ydb.Domain.ResponseModel CheckRecord() on controller YRBApp.Controllers.RecordHospitalController (YRBApp).
+2021-11-08 00:25:53.461 +08:00 [INF] Executing action method YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp) - Validation state: "Valid"
+2021-11-08 00:27:19.750 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-08 00:27:19.798 +08:00 [INF] Hosting environment: Development
+2021-11-08 00:27:19.802 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-11-08 00:27:19.806 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-11-08 00:27:19.868 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 404 - - 72.1032ms
+2021-11-08 00:27:43.976 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/RecordHospital/GetDevelopingHospitalDetail application/json 2556
+2021-11-08 00:27:44.007 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp)'
+2021-11-08 00:27:44.034 +08:00 [INF] Route matched with {action = "CheckRecord", controller = "RecordHospital"}. Executing controller action with signature ydb.Domain.ResponseModel CheckRecord() on controller YRBApp.Controllers.RecordHospitalController (YRBApp).
+2021-11-08 00:27:44.096 +08:00 [INF] Executing action method YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp) - Validation state: "Valid"
+2021-11-08 00:28:19.555 +08:00 [INF] Executed action YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp) in 35516.9489ms
+2021-11-08 00:28:31.886 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-08 00:28:31.907 +08:00 [INF] Hosting environment: Development
+2021-11-08 00:28:31.909 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-11-08 00:28:31.907 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-11-08 00:28:31.953 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 404 - - 48.4641ms
+2021-11-08 00:28:51.232 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/RecordHospital/GetDevelopingHospitalDetail application/json 2556
+2021-11-08 00:28:51.244 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp)'
+2021-11-08 00:28:51.270 +08:00 [INF] Route matched with {action = "CheckRecord", controller = "RecordHospital"}. Executing controller action with signature ydb.Domain.ResponseModel CheckRecord() on controller YRBApp.Controllers.RecordHospitalController (YRBApp).
+2021-11-08 00:28:51.311 +08:00 [INF] Executing action method YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp) - Validation state: "Valid"
+2021-11-08 00:29:51.241 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-08 00:29:51.266 +08:00 [INF] Hosting environment: Development
+2021-11-08 00:29:51.268 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-11-08 00:29:51.266 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-11-08 00:29:51.319 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 404 - - 56.6181ms
+2021-11-08 00:30:04.059 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/RecordHospital/GetDevelopingHospitalDetail application/json 2556
+2021-11-08 00:30:04.074 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp)'
+2021-11-08 00:30:04.100 +08:00 [INF] Route matched with {action = "CheckRecord", controller = "RecordHospital"}. Executing controller action with signature ydb.Domain.ResponseModel CheckRecord() on controller YRBApp.Controllers.RecordHospitalController (YRBApp).
+2021-11-08 00:30:04.168 +08:00 [INF] Executing action method YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp) - Validation state: "Valid"
+2021-11-08 00:30:08.480 +08:00 [INF] Executed action method YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4304.1175ms.
+2021-11-08 00:30:08.602 +08:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2021-11-08 00:30:08.612 +08:00 [INF] Executed action YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp) in 4506.8404ms
+2021-11-08 00:30:08.613 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp)'
+2021-11-08 00:30:08.616 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/RecordHospital/GetDevelopingHospitalDetail application/json 2556 - 200 61 application/json 4557.3819ms
+2021-11-08 00:30:53.341 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/RecordHospital/GetDevelopingHospitalDetail application/json 2556
+2021-11-08 00:30:53.370 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp)'
+2021-11-08 00:30:53.371 +08:00 [INF] Route matched with {action = "CheckRecord", controller = "RecordHospital"}. Executing controller action with signature ydb.Domain.ResponseModel CheckRecord() on controller YRBApp.Controllers.RecordHospitalController (YRBApp).
+2021-11-08 00:30:53.387 +08:00 [INF] Executing action method YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp) - Validation state: "Valid"
+2021-11-08 00:30:58.966 +08:00 [INF] Executed action method YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5578.1682ms.
+2021-11-08 00:30:58.968 +08:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2021-11-08 00:30:58.975 +08:00 [INF] Executed action YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp) in 5602.0881ms
+2021-11-08 00:30:58.980 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp)'
+2021-11-08 00:30:59.003 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/RecordHospital/GetDevelopingHospitalDetail application/json 2556 - 200 93 application/json 5663.0353ms
+2021-11-08 00:34:01.038 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-08 00:34:01.066 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-11-08 00:34:01.066 +08:00 [INF] Hosting environment: Development
+2021-11-08 00:34:01.069 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-11-08 00:34:01.134 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 404 - - 71.1322ms
+2021-11-08 00:34:05.440 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/RecordHospital/GetDevelopingHospitalDetail application/json 2556
+2021-11-08 00:34:05.458 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp)'
+2021-11-08 00:34:05.484 +08:00 [INF] Route matched with {action = "CheckRecord", controller = "RecordHospital"}. Executing controller action with signature ydb.Domain.ResponseModel CheckRecord() on controller YRBApp.Controllers.RecordHospitalController (YRBApp).
+2021-11-08 00:34:05.547 +08:00 [INF] Executing action method YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp) - Validation state: "Valid"
+2021-11-08 00:34:08.077 +08:00 [INF] Executed action method YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2523.7245ms.
+2021-11-08 00:34:08.189 +08:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2021-11-08 00:34:08.202 +08:00 [INF] Executed action YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp) in 2713.897ms
+2021-11-08 00:34:08.204 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp)'
+2021-11-08 00:34:08.207 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/RecordHospital/GetDevelopingHospitalDetail application/json 2556 - 200 527 application/json 2767.2062ms
+2021-11-08 00:36:04.760 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/RecordHospital/GetDevelopingHospitalDetail application/json 2556
+2021-11-08 00:36:04.771 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp)'
+2021-11-08 00:36:04.773 +08:00 [INF] Route matched with {action = "CheckRecord", controller = "RecordHospital"}. Executing controller action with signature ydb.Domain.ResponseModel CheckRecord() on controller YRBApp.Controllers.RecordHospitalController (YRBApp).
+2021-11-08 00:36:04.795 +08:00 [INF] Executing action method YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp) - Validation state: "Valid"
+2021-11-08 00:36:08.800 +08:00 [INF] Executed action method YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4003.7642ms.
+2021-11-08 00:36:08.801 +08:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2021-11-08 00:36:08.809 +08:00 [INF] Executed action YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp) in 4034.5331ms
+2021-11-08 00:36:08.810 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp)'
+2021-11-08 00:36:08.812 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/RecordHospital/GetDevelopingHospitalDetail application/json 2556 - 200 966 application/json 4052.6714ms
+2021-11-08 09:51:57.470 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-08 09:51:57.505 +08:00 [INF] Hosting environment: Development
+2021-11-08 09:51:57.507 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-11-08 09:51:57.512 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-11-08 09:51:57.577 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 404 - - 67.4669ms
+2021-11-08 09:52:08.753 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/RecordHospital/GetDevelopingHospitalDetail application/json 2556
+2021-11-08 09:52:08.784 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp)'
+2021-11-08 09:52:08.822 +08:00 [INF] Route matched with {action = "CheckRecord", controller = "RecordHospital"}. Executing controller action with signature ydb.Domain.ResponseModel CheckRecord() on controller YRBApp.Controllers.RecordHospitalController (YRBApp).
+2021-11-08 09:52:08.928 +08:00 [INF] Executing action method YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp) - Validation state: "Valid"
+2021-11-08 09:52:09.520 +08:00 [INF] Executed action method YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 586.0279ms.
+2021-11-08 09:52:09.645 +08:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2021-11-08 09:52:09.653 +08:00 [INF] Executed action YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp) in 826.3698ms
+2021-11-08 09:52:09.655 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp)'
+2021-11-08 09:52:09.658 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/RecordHospital/GetDevelopingHospitalDetail application/json 2556 - 200 966 application/json 904.8503ms

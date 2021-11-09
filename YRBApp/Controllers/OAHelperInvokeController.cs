@@ -10,13 +10,15 @@ using ydb.Domain.Interface;
 using Microsoft.Extensions.Logging;
 using System.IO;
 using System.Text;
+using ydb.Domain.Extention;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace YRBApp.Controllers
 {
     [Route("api/[controller]")]
-    [ApiController]
+    [AuthCheck()]
+    // [ApiController]
     public class OAHelperInvokeController : ControllerBase
     {
         public readonly IAuthHospitalService _authDataDomainService;
