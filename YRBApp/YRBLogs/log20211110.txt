@@ -1,0 +1,12 @@
+2021-11-10 15:59:43.078 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-10 15:59:43.102 +08:00 [INF] Hosting environment: Development
+2021-11-10 15:59:43.105 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-11-10 15:59:43.111 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-11-10 15:59:43.440 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 404 - - 331.6938ms
+2021-11-10 16:00:07.426 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/RecordHospital/EditRecordHospital application/json 29
+2021-11-10 16:00:07.445 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RecordHospitalController.EditRecordHospital (YRBApp)'
+2021-11-10 16:00:07.481 +08:00 [INF] Route matched with {action = "EditRecordHospital", controller = "RecordHospital"}. Executing controller action with signature ydb.Domain.ResponseModel EditRecordHospital(ydb.Domain.Models.QueryRecordModel) on controller YRBApp.Controllers.RecordHospitalController (YRBApp).
+2021-11-10 16:00:07.740 +08:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2021-11-10 16:00:07.746 +08:00 [INF] Executed action YRBApp.Controllers.RecordHospitalController.EditRecordHospital (YRBApp) in 260.0785ms
+2021-11-10 16:00:07.749 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RecordHospitalController.EditRecordHospital (YRBApp)'
+2021-11-10 16:00:07.750 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/RecordHospital/EditRecordHospital application/json 29 - 200 357 application/json 324.3915ms

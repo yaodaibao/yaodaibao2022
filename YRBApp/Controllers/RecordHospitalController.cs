@@ -27,19 +27,19 @@ namespace YRBApp.Controllers
         /// <returns></returns>
         [HttpPost]
         [Route("SaveRecordHospital")]
-        public ResponseModel SaveRecordHospital()
+        public ResponseModel SaveRecordHospital([FromBody]SaveRecordHospital saveRecordHospital)
         {
-            return _recordHospitalService.SaveRecordHospital();
+            return _recordHospitalService.SaveRecordHospital(saveRecordHospital);
         }
         /// <summary>
         /// 获取开发中备案医院
         /// </summary>
         /// <returns></returns>
-        [HttpGet]
+        [HttpPost]
         [Route("GetMyRecordingHospital")]
-        public ResponseModel GetRecordingHospital()
+        public ResponseModel GetRecordingHospital([FromBody] QueryRecordModel queryRecordModel)
         {
-            return _recordHospitalService.GetMyRecordingHospital();
+            return _recordHospitalService.GetMyRecordingHospital(queryRecordModel);
         }
 
         /// <summary>
@@ -48,9 +48,9 @@ namespace YRBApp.Controllers
         /// <returns></returns>
         [HttpPost]
         [Route("GetDevelopingHospitalDetail")]
-        public ResponseModel CheckRecord()
+        public ResponseModel CheckRecord([FromBody] QueryRecordModel queryRecordModel)
         {
-            return _recordHospitalService.CheckRecord();
+            return _recordHospitalService.CheckRecord(queryRecordModel);
         }
         /// <summary>
         ///查询备案医院
@@ -58,10 +58,22 @@ namespace YRBApp.Controllers
         /// <returns></returns>
         [HttpPost]
         [Route("QueryRecordHospital")]
-        public ResponseModel QueryRecordHospital()
+        public ResponseModel QueryRecordHospital([FromBody] QueryRecordModel queryRecordModel)
         {
-            return _recordHospitalService.QueryRecordHospital();
+            return _recordHospitalService.QueryRecordHospital(queryRecordModel);
         }
+        
 
+        /// <summary>
+        /// 编辑备案医院
+        /// </summary>
+        /// <param name="queryRecordModel"></param>
+        /// <returns></returns>
+        [HttpPost]
+        [Route("EditRecordHospital")]
+        public ResponseModel EditRecordHospital([FromBody] QueryRecordModel queryRecordModel)
+        {
+            return _recordHospitalService.EditRecordHospital(queryRecordModel);
+        }
     }
 }

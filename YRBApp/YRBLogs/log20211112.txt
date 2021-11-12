@@ -1,0 +1,153 @@
+2021-11-12 00:17:48.101 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-12 00:17:48.132 +08:00 [INF] Hosting environment: Development
+2021-11-12 00:17:48.134 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-11-12 00:17:48.139 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-11-12 00:17:48.217 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 404 - - 79.5785ms
+2021-11-12 00:18:40.246 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/RecordHospital/GetDevelopingHospitalDetail application/json 535
+2021-11-12 00:18:40.258 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp)'
+2021-11-12 00:18:40.308 +08:00 [INF] Route matched with {action = "CheckRecord", controller = "RecordHospital"}. Executing controller action with signature ydb.Domain.ResponseModel CheckRecord(ydb.Domain.Models.QueryRecordModel) on controller YRBApp.Controllers.RecordHospitalController (YRBApp).
+2021-11-12 00:18:40.917 +08:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2021-11-12 00:18:40.925 +08:00 [INF] Executed action YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp) in 611.0003ms
+2021-11-12 00:18:40.928 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp)'
+2021-11-12 00:18:40.930 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/RecordHospital/GetDevelopingHospitalDetail application/json 535 - 200 266 application/json 684.1368ms
+2021-11-12 00:19:30.325 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/RecordHospital/GetDevelopingHospitalDetail application/json 509
+2021-11-12 00:19:30.331 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp)'
+2021-11-12 00:19:30.333 +08:00 [INF] Route matched with {action = "CheckRecord", controller = "RecordHospital"}. Executing controller action with signature ydb.Domain.ResponseModel CheckRecord(ydb.Domain.Models.QueryRecordModel) on controller YRBApp.Controllers.RecordHospitalController (YRBApp).
+2021-11-12 00:19:30.370 +08:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2021-11-12 00:19:30.372 +08:00 [INF] Executed action YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp) in 37.8036ms
+2021-11-12 00:19:30.374 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp)'
+2021-11-12 00:19:30.375 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/RecordHospital/GetDevelopingHospitalDetail application/json 509 - 200 1352 application/json 50.7260ms
+2021-11-12 00:25:34.734 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/RecordHospital/EditRecordHospital application/json 559
+2021-11-12 00:25:34.737 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RecordHospitalController.EditRecordHospital (YRBApp)'
+2021-11-12 00:25:34.739 +08:00 [INF] Route matched with {action = "EditRecordHospital", controller = "RecordHospital"}. Executing controller action with signature ydb.Domain.ResponseModel EditRecordHospital(ydb.Domain.Models.QueryRecordModel) on controller YRBApp.Controllers.RecordHospitalController (YRBApp).
+2021-11-12 00:26:42.926 +08:00 [INF] Executed action YRBApp.Controllers.RecordHospitalController.EditRecordHospital (YRBApp) in 68186.0586ms
+2021-11-12 00:26:42.929 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RecordHospitalController.EditRecordHospital (YRBApp)'
+2021-11-12 00:26:44.433 +08:00 [ERR] Object reference not set to an instance of an object.
+2021-11-12 00:26:44.437 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/RecordHospital/EditRecordHospital application/json 559 - 200 - text/json 69703.0250ms
+2021-11-12 00:26:50.331 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/RecordHospital/EditRecordHospital application/json 559
+2021-11-12 00:26:50.333 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RecordHospitalController.EditRecordHospital (YRBApp)'
+2021-11-12 00:26:50.334 +08:00 [INF] Route matched with {action = "EditRecordHospital", controller = "RecordHospital"}. Executing controller action with signature ydb.Domain.ResponseModel EditRecordHospital(ydb.Domain.Models.QueryRecordModel) on controller YRBApp.Controllers.RecordHospitalController (YRBApp).
+2021-11-12 00:27:38.750 +08:00 [INF] Executed action YRBApp.Controllers.RecordHospitalController.EditRecordHospital (YRBApp) in 48414.2877ms
+2021-11-12 00:27:38.752 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RecordHospitalController.EditRecordHospital (YRBApp)'
+2021-11-12 00:27:39.972 +08:00 [ERR] Object reference not set to an instance of an object.
+2021-11-12 00:27:39.974 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/RecordHospital/EditRecordHospital application/json 559 - 200 - text/json 49643.2375ms
+2021-11-12 00:28:26.421 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/RecordHospital/GetDevelopingHospitalDetail application/json 559
+2021-11-12 00:28:26.425 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp)'
+2021-11-12 00:28:26.426 +08:00 [INF] Route matched with {action = "CheckRecord", controller = "RecordHospital"}. Executing controller action with signature ydb.Domain.ResponseModel CheckRecord(ydb.Domain.Models.QueryRecordModel) on controller YRBApp.Controllers.RecordHospitalController (YRBApp).
+2021-11-12 00:28:47.872 +08:00 [INF] Executed action YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp) in 21444.7419ms
+2021-11-12 00:28:47.874 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp)'
+2021-11-12 00:28:48.537 +08:00 [ERR] Object reference not set to an instance of an object.
+2021-11-12 00:28:48.543 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/RecordHospital/GetDevelopingHospitalDetail application/json 559 - 200 - text/json 22122.1791ms
+2021-11-12 00:28:58.826 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/RecordHospital/GetDevelopingHospitalDetail application/json 511
+2021-11-12 00:28:58.827 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp)'
+2021-11-12 00:28:58.829 +08:00 [INF] Route matched with {action = "CheckRecord", controller = "RecordHospital"}. Executing controller action with signature ydb.Domain.ResponseModel CheckRecord(ydb.Domain.Models.QueryRecordModel) on controller YRBApp.Controllers.RecordHospitalController (YRBApp).
+2021-11-12 00:28:58.843 +08:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2021-11-12 00:28:58.845 +08:00 [INF] Executed action YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp) in 15.3698ms
+2021-11-12 00:28:58.846 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp)'
+2021-11-12 00:28:58.849 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/RecordHospital/GetDevelopingHospitalDetail application/json 511 - 200 1352 application/json 22.2752ms
+2021-11-12 00:29:45.295 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/RecordHospital/GetDevelopingHospitalDetail application/json 511
+2021-11-12 00:29:45.296 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp)'
+2021-11-12 00:29:45.297 +08:00 [INF] Route matched with {action = "CheckRecord", controller = "RecordHospital"}. Executing controller action with signature ydb.Domain.ResponseModel CheckRecord(ydb.Domain.Models.QueryRecordModel) on controller YRBApp.Controllers.RecordHospitalController (YRBApp).
+2021-11-12 00:29:52.383 +08:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2021-11-12 00:29:52.385 +08:00 [INF] Executed action YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp) in 7087.0475ms
+2021-11-12 00:29:52.388 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp)'
+2021-11-12 00:29:52.391 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/RecordHospital/GetDevelopingHospitalDetail application/json 511 - 200 1352 application/json 7096.0629ms
+2021-11-12 00:30:10.850 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/RecordHospital/GetDevelopingHospitalDetail application/json 524
+2021-11-12 00:30:10.852 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp)'
+2021-11-12 00:30:10.853 +08:00 [INF] Route matched with {action = "CheckRecord", controller = "RecordHospital"}. Executing controller action with signature ydb.Domain.ResponseModel CheckRecord(ydb.Domain.Models.QueryRecordModel) on controller YRBApp.Controllers.RecordHospitalController (YRBApp).
+2021-11-12 00:30:19.351 +08:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2021-11-12 00:30:19.353 +08:00 [INF] Executed action YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp) in 8498.222ms
+2021-11-12 00:30:19.354 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp)'
+2021-11-12 00:30:19.358 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/RecordHospital/GetDevelopingHospitalDetail application/json 524 - 200 1352 application/json 8507.0412ms
+2021-11-12 00:30:38.224 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/RecordHospital/GetDevelopingHospitalDetail application/json 555
+2021-11-12 00:30:38.226 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp)'
+2021-11-12 00:30:38.226 +08:00 [INF] Route matched with {action = "CheckRecord", controller = "RecordHospital"}. Executing controller action with signature ydb.Domain.ResponseModel CheckRecord(ydb.Domain.Models.QueryRecordModel) on controller YRBApp.Controllers.RecordHospitalController (YRBApp).
+2021-11-12 00:30:50.964 +08:00 [INF] Executed action YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp) in 12736.3049ms
+2021-11-12 00:30:50.965 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp)'
+2021-11-12 00:30:52.391 +08:00 [ERR] Object reference not set to an instance of an object.
+2021-11-12 00:30:52.393 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/RecordHospital/GetDevelopingHospitalDetail application/json 555 - 200 - text/json 14168.3267ms
+2021-11-12 00:31:03.312 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/RecordHospital/GetDevelopingHospitalDetail application/json 552
+2021-11-12 00:31:03.313 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp)'
+2021-11-12 00:31:03.314 +08:00 [INF] Route matched with {action = "CheckRecord", controller = "RecordHospital"}. Executing controller action with signature ydb.Domain.ResponseModel CheckRecord(ydb.Domain.Models.QueryRecordModel) on controller YRBApp.Controllers.RecordHospitalController (YRBApp).
+2021-11-12 00:31:23.413 +08:00 [INF] Executed action YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp) in 20098.2913ms
+2021-11-12 00:31:23.415 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp)'
+2021-11-12 00:31:24.724 +08:00 [ERR] Object reference not set to an instance of an object.
+2021-11-12 00:31:24.727 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/RecordHospital/GetDevelopingHospitalDetail application/json 552 - 200 - text/json 21415.4133ms
+2021-11-12 00:31:27.965 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/RecordHospital/GetDevelopingHospitalDetail application/json 551
+2021-11-12 00:31:27.966 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp)'
+2021-11-12 00:31:27.967 +08:00 [INF] Route matched with {action = "CheckRecord", controller = "RecordHospital"}. Executing controller action with signature ydb.Domain.ResponseModel CheckRecord(ydb.Domain.Models.QueryRecordModel) on controller YRBApp.Controllers.RecordHospitalController (YRBApp).
+2021-11-12 00:31:34.932 +08:00 [INF] Executed action YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp) in 6964.069ms
+2021-11-12 00:31:34.934 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RecordHospitalController.CheckRecord (YRBApp)'
+2021-11-12 00:31:36.255 +08:00 [ERR] Object reference not set to an instance of an object.
+2021-11-12 00:31:36.257 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/RecordHospital/GetDevelopingHospitalDetail application/json 551 - 200 - text/json 8292.0920ms
+2021-11-12 00:34:22.259 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-11-12 00:34:22.240 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-12 00:34:22.266 +08:00 [INF] Hosting environment: Development
+2021-11-12 00:34:22.267 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-11-12 00:34:22.343 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 404 - - 85.6370ms
+2021-11-12 00:34:54.261 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/RecordHospital/EditRecordHospital application/json 559
+2021-11-12 00:34:54.278 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RecordHospitalController.EditRecordHospital (YRBApp)'
+2021-11-12 00:34:54.305 +08:00 [INF] Route matched with {action = "EditRecordHospital", controller = "RecordHospital"}. Executing controller action with signature ydb.Domain.ResponseModel EditRecordHospital(ydb.Domain.Models.QueryRecordModel) on controller YRBApp.Controllers.RecordHospitalController (YRBApp).
+2021-11-12 00:35:08.637 +08:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2021-11-12 00:35:08.646 +08:00 [INF] Executed action YRBApp.Controllers.RecordHospitalController.EditRecordHospital (YRBApp) in 14336.9803ms
+2021-11-12 00:35:08.650 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RecordHospitalController.EditRecordHospital (YRBApp)'
+2021-11-12 00:35:08.652 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/RecordHospital/EditRecordHospital application/json 559 - 200 383 application/json 14390.8406ms
+2021-11-12 13:47:01.097 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-12 13:47:01.129 +08:00 [INF] Hosting environment: Development
+2021-11-12 13:47:01.131 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-11-12 13:47:01.137 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-11-12 13:47:01.219 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 404 - - 84.5140ms
+2021-11-12 13:47:09.618 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/RecordHospital/EditRecordHospital application/json 559
+2021-11-12 13:47:09.626 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RecordHospitalController.EditRecordHospital (YRBApp)'
+2021-11-12 13:47:09.667 +08:00 [INF] Route matched with {action = "EditRecordHospital", controller = "RecordHospital"}. Executing controller action with signature ydb.Domain.ResponseModel EditRecordHospital(ydb.Domain.Models.QueryRecordModel) on controller YRBApp.Controllers.RecordHospitalController (YRBApp).
+2021-11-12 13:48:14.974 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-12 13:48:14.988 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-11-12 13:48:14.991 +08:00 [INF] Hosting environment: Development
+2021-11-12 13:48:14.993 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-11-12 13:48:15.050 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 404 - - 63.5491ms
+2021-11-12 13:48:17.058 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/RecordHospital/EditRecordHospital application/json 559
+2021-11-12 13:48:17.072 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RecordHospitalController.EditRecordHospital (YRBApp)'
+2021-11-12 13:48:17.104 +08:00 [INF] Route matched with {action = "EditRecordHospital", controller = "RecordHospital"}. Executing controller action with signature ydb.Domain.ResponseModel EditRecordHospital(ydb.Domain.Models.QueryRecordModel) on controller YRBApp.Controllers.RecordHospitalController (YRBApp).
+2021-11-12 13:48:19.389 +08:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2021-11-12 13:48:19.399 +08:00 [INF] Executed action YRBApp.Controllers.RecordHospitalController.EditRecordHospital (YRBApp) in 2290.6261ms
+2021-11-12 13:48:19.402 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RecordHospitalController.EditRecordHospital (YRBApp)'
+2021-11-12 13:48:19.403 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/RecordHospital/EditRecordHospital application/json 559 - 200 430 application/json 2345.0307ms
+2021-11-12 13:55:59.317 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-12 13:55:59.334 +08:00 [INF] Hosting environment: Development
+2021-11-12 13:55:59.332 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-11-12 13:55:59.337 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-11-12 13:55:59.396 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 404 - - 65.6855ms
+2021-11-12 13:57:34.356 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/RecordHospital/GetMyRecordingHospital application/json 110
+2021-11-12 13:57:34.370 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RecordHospitalController.GetRecordingHospital (YRBApp)'
+2021-11-12 13:57:34.398 +08:00 [INF] Route matched with {action = "GetRecordingHospital", controller = "RecordHospital"}. Executing controller action with signature ydb.Domain.ResponseModel GetRecordingHospital(ydb.Domain.Models.QueryRecordModel) on controller YRBApp.Controllers.RecordHospitalController (YRBApp).
+2021-11-12 13:57:54.898 +08:00 [INF] Executed action YRBApp.Controllers.RecordHospitalController.GetRecordingHospital (YRBApp) in 20495.5449ms
+2021-11-12 13:57:54.902 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RecordHospitalController.GetRecordingHospital (YRBApp)'
+2021-11-12 13:57:55.825 +08:00 [ERR] Object reference not set to an instance of an object.
+2021-11-12 13:57:55.834 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/RecordHospital/GetMyRecordingHospital application/json 110 - 200 - text/json 21477.8771ms
+2021-11-12 13:57:58.613 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/RecordHospital/GetMyRecordingHospital application/json 110
+2021-11-12 13:57:58.618 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RecordHospitalController.GetRecordingHospital (YRBApp)'
+2021-11-12 13:57:58.620 +08:00 [INF] Route matched with {action = "GetRecordingHospital", controller = "RecordHospital"}. Executing controller action with signature ydb.Domain.ResponseModel GetRecordingHospital(ydb.Domain.Models.QueryRecordModel) on controller YRBApp.Controllers.RecordHospitalController (YRBApp).
+2021-11-12 13:58:09.884 +08:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2021-11-12 13:58:09.889 +08:00 [INF] Executed action YRBApp.Controllers.RecordHospitalController.GetRecordingHospital (YRBApp) in 11268.7901ms
+2021-11-12 13:58:09.891 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RecordHospitalController.GetRecordingHospital (YRBApp)'
+2021-11-12 13:58:09.892 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/RecordHospital/GetMyRecordingHospital application/json 110 - 200 61 application/json 11279.0853ms
+2021-11-12 15:23:08.527 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-12 15:23:08.540 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-11-12 15:23:08.545 +08:00 [INF] Hosting environment: Development
+2021-11-12 15:23:08.546 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-11-12 15:23:08.631 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 404 - - 92.3042ms
+2021-11-12 15:25:33.678 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/RecordHospital/SaveRecordHospital application/json 979
+2021-11-12 15:25:33.688 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RecordHospitalController.SaveRecordHospital (YRBApp)'
+2021-11-12 15:25:33.715 +08:00 [INF] Route matched with {action = "SaveRecordHospital", controller = "RecordHospital"}. Executing controller action with signature ydb.Domain.ResponseModel SaveRecordHospital(ydb.Domain.Models.SaveRecordHospital) on controller YRBApp.Controllers.RecordHospitalController (YRBApp).
+2021-11-12 15:37:22.957 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-12 15:37:22.974 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-11-12 15:37:22.976 +08:00 [INF] Hosting environment: Development
+2021-11-12 15:37:22.979 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-11-12 15:37:23.041 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 404 - - 69.6918ms
+2021-11-12 15:40:26.078 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/RecordHospital/SaveRecordHospital application/json 979
+2021-11-12 15:40:26.089 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RecordHospitalController.SaveRecordHospital (YRBApp)'
+2021-11-12 15:40:26.115 +08:00 [INF] Route matched with {action = "SaveRecordHospital", controller = "RecordHospital"}. Executing controller action with signature ydb.Domain.ResponseModel SaveRecordHospital(ydb.Domain.Models.SaveRecordHospital) on controller YRBApp.Controllers.RecordHospitalController (YRBApp).
+2021-11-12 16:06:46.184 +08:00 [INF] Executed action YRBApp.Controllers.RecordHospitalController.SaveRecordHospital (YRBApp) in 1580063.9726ms
+2021-11-12 16:06:46.188 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RecordHospitalController.SaveRecordHospital (YRBApp)'
+2021-11-12 16:06:47.147 +08:00 [ERR] Object reference not set to an instance of an object.
+2021-11-12 16:06:47.154 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/RecordHospital/SaveRecordHospital application/json 979 - 200 - text/json 1581075.8709ms

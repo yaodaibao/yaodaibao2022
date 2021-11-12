@@ -10,10 +10,12 @@ namespace ydb.Domain.Interface
 {
     public interface IRecordHospitalService
     {
-        public ResponseModel SaveRecordHospital();
-        public ResponseModel CheckRecord();
-        public ResponseModel QueryRecordHospital();
-        public ResponseModel GetMyRecordingHospital();
+        public ResponseModel SaveRecordHospital(SaveRecordHospital saveRecordHospital);
+        public ResponseModel CheckRecord(QueryRecordModel recordModel);
+        public ResponseModel QueryRecordHospital(QueryRecordModel recordModel);
+        public ResponseModel GetMyRecordingHospital(QueryRecordModel recordModel);
+
+        public ResponseModel EditRecordHospital(QueryRecordModel recordModel);
 
     }
 }

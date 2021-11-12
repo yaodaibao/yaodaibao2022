@@ -1,0 +1,68 @@
+2021-11-11 13:56:03.992 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-11 13:56:04.024 +08:00 [INF] Hosting environment: Development
+2021-11-11 13:56:04.026 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-11-11 13:56:04.032 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-11-11 13:56:04.108 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 404 - - 77.8075ms
+2021-11-11 13:58:30.067 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/RecordHospital/SaveRecordHospital application/json 506
+2021-11-11 13:58:30.080 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RecordHospitalController.SaveRecordHospital (YRBApp)'
+2021-11-11 13:58:30.119 +08:00 [INF] Route matched with {action = "SaveRecordHospital", controller = "RecordHospital"}. Executing controller action with signature ydb.Domain.ResponseModel SaveRecordHospital(ydb.Domain.Models.SaveRecordHospital) on controller YRBApp.Controllers.RecordHospitalController (YRBApp).
+2021-11-11 13:58:40.351 +08:00 [INF] Executed action YRBApp.Controllers.RecordHospitalController.SaveRecordHospital (YRBApp) in 10227.224ms
+2021-11-11 13:58:40.355 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RecordHospitalController.SaveRecordHospital (YRBApp)'
+2021-11-11 13:58:41.318 +08:00 [ERR] Object reference not set to an instance of an object.
+2021-11-11 13:58:41.328 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/RecordHospital/SaveRecordHospital application/json 506 - 200 - text/json 11261.8180ms
+2021-11-11 13:59:11.484 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/RecordHospital/SaveRecordHospital application/json 525
+2021-11-11 13:59:11.492 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RecordHospitalController.SaveRecordHospital (YRBApp)'
+2021-11-11 13:59:11.494 +08:00 [INF] Route matched with {action = "SaveRecordHospital", controller = "RecordHospital"}. Executing controller action with signature ydb.Domain.ResponseModel SaveRecordHospital(ydb.Domain.Models.SaveRecordHospital) on controller YRBApp.Controllers.RecordHospitalController (YRBApp).
+2021-11-11 13:59:15.212 +08:00 [INF] Executed action YRBApp.Controllers.RecordHospitalController.SaveRecordHospital (YRBApp) in 3716.0929ms
+2021-11-11 13:59:15.213 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RecordHospitalController.SaveRecordHospital (YRBApp)'
+2021-11-11 13:59:16.597 +08:00 [ERR] Object reference not set to an instance of an object.
+2021-11-11 13:59:16.622 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/RecordHospital/SaveRecordHospital application/json 525 - 200 - text/json 5138.1817ms
+2021-11-11 13:59:28.533 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/RecordHospital/SaveRecordHospital application/json 525
+2021-11-11 13:59:28.535 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RecordHospitalController.SaveRecordHospital (YRBApp)'
+2021-11-11 13:59:28.536 +08:00 [INF] Route matched with {action = "SaveRecordHospital", controller = "RecordHospital"}. Executing controller action with signature ydb.Domain.ResponseModel SaveRecordHospital(ydb.Domain.Models.SaveRecordHospital) on controller YRBApp.Controllers.RecordHospitalController (YRBApp).
+2021-11-11 14:00:15.562 +08:00 [INF] Executed action YRBApp.Controllers.RecordHospitalController.SaveRecordHospital (YRBApp) in 47025.3896ms
+2021-11-11 14:00:15.564 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RecordHospitalController.SaveRecordHospital (YRBApp)'
+2021-11-11 14:00:16.647 +08:00 [ERR] Object reference not set to an instance of an object.
+2021-11-11 14:00:16.651 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/RecordHospital/SaveRecordHospital application/json 525 - 200 - text/json 48117.8821ms
+2021-11-11 14:00:19.255 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/RecordHospital/SaveRecordHospital application/json 525
+2021-11-11 14:00:19.257 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RecordHospitalController.SaveRecordHospital (YRBApp)'
+2021-11-11 14:00:19.258 +08:00 [INF] Route matched with {action = "SaveRecordHospital", controller = "RecordHospital"}. Executing controller action with signature ydb.Domain.ResponseModel SaveRecordHospital(ydb.Domain.Models.SaveRecordHospital) on controller YRBApp.Controllers.RecordHospitalController (YRBApp).
+2021-11-11 14:06:07.038 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-11 14:06:07.055 +08:00 [INF] Hosting environment: Development
+2021-11-11 14:06:07.055 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-11-11 14:06:07.058 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-11-11 14:06:07.118 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 404 - - 66.0531ms
+2021-11-11 14:06:10.820 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/RecordHospital/SaveRecordHospital application/json 525
+2021-11-11 14:06:10.829 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RecordHospitalController.SaveRecordHospital (YRBApp)'
+2021-11-11 14:06:10.856 +08:00 [INF] Route matched with {action = "SaveRecordHospital", controller = "RecordHospital"}. Executing controller action with signature ydb.Domain.ResponseModel SaveRecordHospital(ydb.Domain.Models.SaveRecordHospital) on controller YRBApp.Controllers.RecordHospitalController (YRBApp).
+2021-11-11 14:08:34.526 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-11 14:08:34.543 +08:00 [INF] Hosting environment: Development
+2021-11-11 14:08:34.543 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-11-11 14:08:34.545 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-11-11 14:08:34.607 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 404 - - 67.3403ms
+2021-11-11 14:08:40.031 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/RecordHospital/SaveRecordHospital application/json 525
+2021-11-11 14:08:40.041 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RecordHospitalController.SaveRecordHospital (YRBApp)'
+2021-11-11 14:08:40.066 +08:00 [INF] Route matched with {action = "SaveRecordHospital", controller = "RecordHospital"}. Executing controller action with signature ydb.Domain.ResponseModel SaveRecordHospital(ydb.Domain.Models.SaveRecordHospital) on controller YRBApp.Controllers.RecordHospitalController (YRBApp).
+2021-11-11 14:10:21.837 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-11 14:10:21.854 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-11-11 14:10:21.855 +08:00 [INF] Hosting environment: Development
+2021-11-11 14:10:21.858 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-11-11 14:10:21.916 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 404 - - 64.6954ms
+2021-11-11 14:10:29.159 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/RecordHospital/SaveRecordHospital application/json 525
+2021-11-11 14:10:29.170 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RecordHospitalController.SaveRecordHospital (YRBApp)'
+2021-11-11 14:10:29.202 +08:00 [INF] Route matched with {action = "SaveRecordHospital", controller = "RecordHospital"}. Executing controller action with signature ydb.Domain.ResponseModel SaveRecordHospital(ydb.Domain.Models.SaveRecordHospital) on controller YRBApp.Controllers.RecordHospitalController (YRBApp).
+2021-11-11 14:32:08.202 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-11 14:32:08.217 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:10294/swagger - -
+2021-11-11 14:32:08.219 +08:00 [INF] Hosting environment: Development
+2021-11-11 14:32:08.221 +08:00 [INF] Content root path: D:\Source\yaodaibao2022\YRBApp
+2021-11-11 14:32:08.282 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:10294/swagger - - - 404 - - 66.4766ms
+2021-11-11 14:32:11.546 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/RecordHospital/SaveRecordHospital application/json 535
+2021-11-11 14:32:11.557 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RecordHospitalController.SaveRecordHospital (YRBApp)'
+2021-11-11 14:32:11.595 +08:00 [INF] Route matched with {action = "SaveRecordHospital", controller = "RecordHospital"}. Executing controller action with signature ydb.Domain.ResponseModel SaveRecordHospital(ydb.Domain.Models.SaveRecordHospital) on controller YRBApp.Controllers.RecordHospitalController (YRBApp).
+2021-11-11 14:32:25.830 +08:00 [INF] Executed action YRBApp.Controllers.RecordHospitalController.SaveRecordHospital (YRBApp) in 14229.952ms
+2021-11-11 14:32:25.833 +08:00 [INF] Executed endpoint 'YRBApp.Controllers.RecordHospitalController.SaveRecordHospital (YRBApp)'
+2021-11-11 14:32:26.704 +08:00 [ERR] Object reference not set to an instance of an object.
+2021-11-11 14:32:26.710 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:10294/api/RecordHospital/SaveRecordHospital application/json 535 - 200 - text/json 15164.0191ms
+2021-11-11 14:32:32.820 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:10294/api/RecordHospital/SaveRecordHospital application/json 535
+2021-11-11 14:32:32.825 +08:00 [INF] Executing endpoint 'YRBApp.Controllers.RecordHospitalController.SaveRecordHospital (YRBApp)'
+2021-11-11 14:32:32.827 +08:00 [INF] Route matched with {action = "SaveRecordHospital", controller = "RecordHospital"}. Executing controller action with signature ydb.Domain.ResponseModel SaveRecordHospital(ydb.Domain.Models.SaveRecordHospital) on controller YRBApp.Controllers.RecordHospitalController (YRBApp).
